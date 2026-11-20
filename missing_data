@@ -1,0 +1,45 @@
+import pandas as pd
+import requests
+
+# 1. Configuration: Define your list of target dates (YYYY-MM-DD format)
+target_dates = ["2020-7-20","2020-11-1","2020-11-2","2020-11-3","2020-11-8","2020-11-9","2020-11-11","2020-11-12","2020-11-14","2020-11-16","2020-11-17","2020-11-18","2020-11-19","2020-11-21","2020-11-24","2020-11-26","2020-11-28","2020-11-29","2020-11-30","2021-2-16","2021-2-17","2021-2-18","2021-2-20","2021-2-24","2021-2-25","2021-2-26","2021-2-27","2021-3-10","2021-3-11"]
+
+api_url = "https://api.bmrs.elexon.co.uk/balancing/pricing/market-index"
+all_records = []
+
+# 2. Loop through the list of dates and fetch data
+print("Fetching Market Index Data from Elexon...")
+for target_date in target_dates:
+  # Construct full-day RFC 3339 / ISO 8601 parameters for each date
+  params = {
+      "from": f"{target_date}T00:00Z",
+      "to": f"{target_date}T23:59Z",
+      # Optional: Add data provider filter if needed (e.g., 'dataProvider': 'N2EXMIDP')
+  }
+
+  try:
+    response = requests.get(api_url, params=params)
+    response.raise_for_status()
+
+    data_json = response.json()
+    records = data_json.get("data", [])
+
+    if records:
+      all_records.extend(records)
+      print(f"  -> Fetched {len(records)} records for {target_date}")
+    else:
+      print(f"  -> No records returned for {target_date}")
+
+  except requests.exceptions.RequestException as e:
+    print(f"  -> Error fetching data for {target_date}: {e}")
+
+# 3. Load all aggregated records into a single pandas DataFrame
+if all_records:
+  df = pd.DataFrame(all_records)
+  print(f"\nSuccess! Final DataFrame contains {len(df)} rows.")
+
+  # Optional: Display the first few rows
+  print(df.head())
+else:
+  print("\nNo data was retrieved for the provided dates.")
+  df = pd.DataFrame()
