@@ -1,6 +1,7 @@
 import xpress as xp
 import pandas as pd
 import numpy as np
+from ExportSolutions import export_to_excel
 
 # ==========================================
 # 1. IMPORT DATA
@@ -14,6 +15,7 @@ raw_data_df = pd.read_excel(
 
 number_days = pd.to_datetime(raw_data_df["date"]).dt.date.nunique()
 number_scenarios=raw_data_df["Scenario"].nunique()
+scenario_probabilities=1/number_scenarios
 
 # IMPORTANT:
 # Assumption: generation and demand are daily energy (MWh).
@@ -22,7 +24,7 @@ number_scenarios=raw_data_df["Scenario"].nunique()
 generation = (24*raw_data_df.pivot(index="Scenario",columns="date",values="total_MW").to_numpy(dtype=float))
 demand = (24*raw_data_df.pivot(index="Scenario",columns="date",values="demand").to_numpy(dtype=float))
 
-market_price = (24*raw_data_df.pivot(index="Scenario",columns="date",values="avg_price_£_per_MWh_after_imputation").to_numpy(dtype=float))
+market_price = (raw_data_df.pivot(index="Scenario",columns="date",values="avg_price_£_per_MWh_after_imputation").to_numpy(dtype=float))
 
 surplus = np.maximum(generation - demand, 0)
 deficit = np.maximum(demand - generation, 0)
@@ -35,7 +37,7 @@ battery_cost = 240374.88     # GBP/MWh, assumed
 hydrogen_cost = 20000000 / 20 # GBP/MW #AI gave us the cost for an electrolyzer and we divide it by 20 to get the price per MW
 
 hydrogen_price = 9.5         # GBP/kg
-purchase_price = [abs(market_price[t])*2 for t in range(number_days)]          # GBP/MWh
+#purchase_price = [abs(market_price[t])*2 for t in range(number_days)]          # GBP/MWh
 hydrogen_yield = 55.9        # kWh/kg
 
 battery_duration = 2         # hours
@@ -61,8 +63,7 @@ battery_installation = prob.addVariable(
 
 hydrogen_installation = prob.addVariable(
     name="hydrogen_installation_MW",
-    lb=0,
-    ub=max_hydrogen_MW
+    lb=0
 )
 
 # ==========================================
@@ -112,7 +113,7 @@ electricity_demand_ub=[[
 
 global_balance = [[
     generation[s][t] + battery_discharge[s][t]==
-    hydrogen_electricity[s][t]+battery_charge[s][t]+electricity_sold[s][t]
+    hydrogen_electricity[s][t]+battery_charge[s][t]+electricity_sold[s][t]+curtailment[s][t]
     for t in range(number_days)
 ]for s in range(number_scenarios)]
 demand_balance=[[
@@ -226,26 +227,32 @@ hydrogen_capex = (
 total_capex = battery_capex + hydrogen_capex
 
 # Hydrogen revenue
+hydrogen_revenue = [
+    xp.Sum(
+        hydrogen_electricity[s][t]
+        * 1000 / hydrogen_yield
+        * hydrogen_price
+        for t in range(number_days)
+    )
+    for s in range(number_scenarios)
+]
 
-hydrogen_revenue = xp.Sum(
-    hydrogen_electricity[t] #This only works if we assume that the decision variables and the daily data provided are daily averages of the power produced (therefore, it is valid to multiply by 24 to convert to energy)
-    * 1000 / hydrogen_yield
-    * hydrogen_price
-    for t in range(number_days)
-)
+# Electricity profits
+electricity_profits = [
+    xp.Sum(
+        electricity_sold[s][t] * market_price[s][t]
+        for t in range(number_days)
+    )
+    for s in range(number_scenarios)
+]
 
-# Savings relative to baseline grid purchases
-
-electricity_profits = xp.Sum(
-    electricity_sold[t]*market_price[t]
-    for t in range(number_days)
-)
-
-# Incremental net benefit of investment
-
+# Expected net investment benefit
 net_investment_benefit = (
-    hydrogen_revenue
-    + electricity_profits
+    xp.Sum(
+        scenario_probabilities *
+        (hydrogen_revenue[s] + electricity_profits[s])
+        for s in range(number_scenarios)
+    )
     - total_capex
 )
 
@@ -281,9 +288,9 @@ prob.addConstraint(
 # ==========================================
 # 11. SOLVE
 # ==========================================
-prob.writeProb ("vanilla","lp")
+prob.writeProb ("tier2B","lp")
 prob.solve()
-
+print("Solve done")
 # ==========================================
 # TIER 1 - COMPLETE EXCEL RESULTS EXPORT
 # ==========================================
@@ -321,48 +328,27 @@ else:
         ))
     )
 
-    daily = pd.DataFrame({
-        "Date": dates,
-        "Generation_MWh": generation,
-        "Demand_MWh": demand,
-        "Market_Price_GBP_MWh": market_price,
-        "Initial_Surplus_MWh": surplus,
-        "Initial_Deficit_MWh": deficit,
-
-        "Electricity_sold":[
-            prob.getSolution(electricity_sold[t])
-            for t in range(number_days)
-        ],
-        "Battery_Charge_MWh": [
-            prob.getSolution(battery_charge[t])
-            for t in range(number_days)
-        ],
-
-        "Battery_Discharge_MWh": [
-            prob.getSolution(battery_discharge[t])
-            for t in range(number_days)
-        ],
-
-        "Battery_Stored_MWh": [
-            prob.getSolution(battery_stored[t])
-            for t in range(number_days)
-        ],
-
-        "Hydrogen_Electricity_MWh": [
-            prob.getSolution(hydrogen_electricity[t])
-            for t in range(number_days)
-        ],
-
-        "Electricity_Purchased_MWh": [
-            prob.getSolution(electricity_purchase[t])
-            for t in range(number_days)
-        ],
-
-        "Electricity_Curtailed_MWh": [
-            prob.getSolution(curtailment[t])
-            for t in range(number_days)
-        ]
-    })
+    records=[
+        {
+            "Scenario":s,
+            "Date":t,
+            "Generation_MWh":generation[s][t],
+            "Demand_Mwh":demand[s][t],
+            "Market_Price_GBP_MWh": market_price[s][t],
+            "Initial_Surplus_MWh": surplus[s][t],
+            "Initial_Deficit_MWh": deficit[s][t],
+            "Electricity_sold":prob.getSolution(electricity_sold[s][t]),
+            "Battery_Charge_MWh":prob.getSolution(battery_charge[s][t]),
+            "Battery_Discharge_MWh":prob.getSolution(battery_discharge[s][t]),
+            "Battery_Stored_MWh":prob.getSolution(battery_stored[s][t]),
+            "Hydrogen_Electricity_MWh":prob.getSolution(hydrogen_electricity[s][t]),
+            "Electricity_Purchased_MWh":prob.getSolution(electricity_purchase[s][t]),
+            "Electricity_Curtailed_MWh":prob.getSolution(curtailment[s][t])
+        }
+        for t in range(number_days)
+        for s in range(number_scenarios)
+    ]
+    daily = pd.DataFrame(records)
 
     # --------------------------------------
     # 3. HYDROGEN PRODUCTION AND SALES
@@ -376,37 +362,23 @@ else:
     # Assumption: all hydrogen produced is sold.
     # No hydrogen storage or unsold inventory.
 
-    daily["Hydrogen_Sold_kg"] = (
+    daily["Hydrogen_Revenue_GBP"] = (
         daily["Hydrogen_Produced_kg"]
+        * hydrogen_price
     )
 
-    daily["Hydrogen_Revenue_GBP"] = (
-        daily["Hydrogen_Sold_kg"]
-        * hydrogen_price
+    daily["Electricity_Revenue_GBP"]=(
+        daily["Electricity_sold"]*daily["Market_Price_GBP_MWh"]
     )
 
     # --------------------------------------
     # 4. BATTERY AND ELECTRICITY FINANCIALS
     # --------------------------------------
 
-    daily["Electricity_Purchase_Cost_GBP"] = (
-        daily["Electricity_Purchased_MWh"]
-        * purchase_price
-    )
-
-    daily["Baseline_Purchase_Cost_GBP"] = (
-        daily["Initial_Deficit_MWh"]
-        * purchase_price
-    )
-
-    daily["Battery_Savings_GBP"] = (
-        daily["Baseline_Purchase_Cost_GBP"]
-        - daily["Electricity_Purchase_Cost_GBP"]
-    )
 
     daily["Incremental_Cashflow_GBP"] = (
         daily["Hydrogen_Revenue_GBP"]
-        + daily["Battery_Savings_GBP"]
+        + daily["Electricity_Revenue_GBP"]
     )
 
     # --------------------------------------
@@ -430,7 +402,7 @@ else:
     ].sum()
 
     total_hydrogen_sold = daily[
-        "Hydrogen_Sold_kg"
+        "Hydrogen_Produced_kg"
     ].sum()
 
     total_electricity_purchased = daily[
@@ -443,10 +415,6 @@ else:
 
     total_hydrogen_revenue = daily[
         "Hydrogen_Revenue_GBP"
-    ].sum()
-
-    total_battery_savings = daily[
-        "Battery_Savings_GBP"
     ].sum()
 
     total_incremental_cashflow = daily[
@@ -481,13 +449,13 @@ else:
         ("Maximum Battery Stored", max_battery_stored, "MWh"),
 
         ("Electricity Used for Hydrogen",
-         total_hydrogen_electricity, "MWh"),
+        total_hydrogen_electricity, "MWh"),
 
         ("Total Hydrogen Produced", total_hydrogen_produced, "kg"),
         ("Total Hydrogen Sold", total_hydrogen_sold, "kg"),
 
         ("Total Electricity Purchased",
-         total_electricity_purchased, "MWh"),
+        total_electricity_purchased, "MWh"),
 
         ("Total Electricity Curtailed", total_curtailed, "MWh"),
         ("Surplus Captured", captured_surplus, "MWh"),
@@ -498,9 +466,8 @@ else:
         ("Total CAPEX", total_capex_value, "GBP"),
 
         ("Hydrogen Sales Revenue", total_hydrogen_revenue, "GBP"),
-        ("Battery Cost Savings", total_battery_savings, "GBP"),
         ("Total Incremental Cash Flow",
-         total_incremental_cashflow, "GBP"),
+        total_incremental_cashflow, "GBP"),
 
         ("Net Investment Profit", net_profit, "GBP"),
         ("Xpress Objective Value", prob.attributes.objval, "GBP")
@@ -511,100 +478,10 @@ else:
     )
 
     # --------------------------------------
-    # 7. ANNUAL OPERATIONS
+    # 7. EXPORT AND FORMAT EXCEL
     # --------------------------------------
 
-    daily["Year"] = daily["Date"].dt.year
-
-    annual_operations = daily.groupby(
-        "Year", as_index=False
-    ).agg(
-        Initial_Surplus_MWh=("Initial_Surplus_MWh", "sum"),
-        Initial_Deficit_MWh=("Initial_Deficit_MWh", "sum"),
-        Battery_Charge_MWh=("Battery_Charge_MWh", "sum"),
-        Battery_Discharge_MWh=("Battery_Discharge_MWh", "sum"),
-        Maximum_Battery_Stored_MWh=("Battery_Stored_MWh", "max"),
-        Hydrogen_Electricity_MWh=("Hydrogen_Electricity_MWh", "sum"),
-        Hydrogen_Produced_kg=("Hydrogen_Produced_kg", "sum"),
-        Hydrogen_Sold_kg=("Hydrogen_Sold_kg", "sum"),
-        Electricity_Purchased_MWh=("Electricity_Purchased_MWh", "sum"),
-        Electricity_Curtailed_MWh=("Electricity_Curtailed_MWh", "sum")
-    )
-
-    # --------------------------------------
-    # 8. ANNUAL FINANCIALS
-    # --------------------------------------
-
-    annual_financials = daily.groupby(
-        "Year", as_index=False
-    ).agg(
-        Hydrogen_Revenue_GBP=("Hydrogen_Revenue_GBP", "sum"),
-        Battery_Savings_GBP=("Battery_Savings_GBP", "sum"),
-        Electricity_Purchase_Cost_GBP=(
-            "Electricity_Purchase_Cost_GBP", "sum"
-        ),
-        Incremental_Cashflow_GBP=(
-            "Incremental_Cashflow_GBP", "sum"
-        )
-    )
-
-    annual_financials["Cumulative_Cashflow_GBP"] = (
-        annual_financials["Incremental_Cashflow_GBP"].cumsum()
-    )
-
-    annual_financials["Cumulative_Net_Cashflow_GBP"] = (
-        annual_financials["Cumulative_Cashflow_GBP"]
-        - total_capex_value
-    )
-
-    # --------------------------------------
-    # 9. ROI AND BREAK-EVEN
-    # --------------------------------------
-
-    if total_capex_value > 0:
-
-        roi = net_profit / total_capex_value * 100
-
-        reached = annual_financials[
-            annual_financials["Cumulative_Net_Cashflow_GBP"] >= 0
-        ]
-
-        break_even_year = (
-            int(reached.iloc[0]["Year"])
-            if not reached.empty
-            else "Not reached"
-        )
-
-    else:
-        roi = np.nan
-        break_even_year = "No investment"
-
-    bep_roi = pd.DataFrame({
-        "Metric": [
-            "Total Investment CAPEX",
-            "Hydrogen Revenue",
-            "Battery Savings",
-            "Total Incremental Cash Flow",
-            "Net Investment Profit",
-            "ROI (%)",
-            "Break-Even Year"
-        ],
-        "Value": [
-            total_capex_value,
-            total_hydrogen_revenue,
-            total_battery_savings,
-            total_incremental_cashflow,
-            net_profit,
-            roi,
-            break_even_year
-        ]
-    })
-
-    # --------------------------------------
-    # 10. EXPORT AND FORMAT EXCEL
-    # --------------------------------------
-
-    output_file = "Tier1_Investment_ROI_BEP_Analysis.xlsx"
+    output_file = "Tier2_Results.xlsx"
 
     with pd.ExcelWriter(
         output_file, engine="openpyxl"
@@ -613,9 +490,6 @@ else:
         sheets = {
             "Investment Summary": investment_summary,
             "Daily Operations": daily,
-            "Annual Operations": annual_operations,
-            "Annual Financials": annual_financials,
-            "BEP ROI Analysis": bep_roi
         }
 
         for sheet_name, dataframe in sheets.items():
@@ -660,30 +534,6 @@ else:
     # 11. PRINT KEY RESULTS
     # --------------------------------------
 
-    print("\n========== TIER 1 RESULTS ==========")
-
-    print(f"Battery Installation: {battery_MW:,.2f} MW")
-    print(f"Battery Storage Capacity: {battery_MWh:,.2f} MWh")
-    print(f"Hydrogen Installation: {hydrogen_MW:,.2f} MW")
-
-    print(f"\nBattery Charged: {total_battery_charge:,.2f} MWh")
-    print(f"Battery Discharged: {total_battery_discharge:,.2f} MWh")
-    print(f"Maximum Battery Stored: {max_battery_stored:,.2f} MWh")
-
-    print(f"\nHydrogen Produced: {total_hydrogen_produced:,.2f} kg")
-    print(f"Hydrogen Sold: {total_hydrogen_sold:,.2f} kg")
-
-    print(f"\nSurplus Captured: {captured_surplus:,.2f} MWh")
-    print(f"Surplus Capture Rate: {capture_rate:,.2f}%")
-    print(f"Electricity Curtailed: {total_curtailed:,.2f} MWh")
-    print(f"Electricity Purchased: {total_electricity_purchased:,.2f} MWh")
-
-    print(f"\nTotal CAPEX: £{total_capex_value:,.2f}")
-    print(f"Hydrogen Revenue: £{total_hydrogen_revenue:,.2f}")
-    print(f"Battery Savings: £{total_battery_savings:,.2f}")
-    print(f"Net Investment Profit: £{net_profit:,.2f}")
-    print(f"ROI: {roi:,.2f}%")
-    print(f"Break-Even Year: {break_even_year}")
 
     print(f"\nExcel exported: {output_file}")
 
@@ -717,33 +567,6 @@ if prob.attributes.solstatus == 1:
         "Net Investment Benefit: "
         f"£{prob.attributes.objval:,.2f}"
     )
-
-    print("\n===== OPERATIONS =====")
-
-    total_hydrogen_MWh = sum(
-        prob.getSolution(hydrogen_electricity[t])
-        for t in range(number_days)
-    )
-
-    total_purchase_MWh = sum(
-        prob.getSolution(electricity_purchase[t])
-        for t in range(number_days)
-    )
-
-    total_charge_MWh = sum(
-        prob.getSolution(battery_charge[t])
-        for t in range(number_days)
-    )
-
-    total_discharge_MWh = sum(
-        prob.getSolution(battery_discharge[t])
-        for t in range(number_days)
-    )
-
-    print(f"Hydrogen Electricity: {total_hydrogen_MWh:,.2f} MWh")
-    print(f"Electricity Purchased: {total_purchase_MWh:,.2f} MWh")
-    print(f"Battery Charging: {total_charge_MWh:,.2f} MWh")
-    print(f"Battery Discharging: {total_discharge_MWh:,.2f} MWh")
 
 else:
     print("No optimal solution available.")

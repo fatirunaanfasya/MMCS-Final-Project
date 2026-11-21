@@ -62,8 +62,7 @@ battery_installation = prob.addVariable(
 
 hydrogen_installation = prob.addVariable(
     name="hydrogen_installation_MW",
-    lb=0,
-    ub=max_hydrogen_MW
+    lb=0
 )
 
 # ==========================================
@@ -112,7 +111,7 @@ electricity_demand_ub=[
 
 global_balance = [
     generation[t] + battery_discharge[t]==
-    hydrogen_electricity[t]+battery_charge[t]+electricity_sold[t]
+    hydrogen_electricity[t]+battery_charge[t]+electricity_sold[t]+curtailment[t]
     for t in range(number_days)
 ]
 demand_balance=[

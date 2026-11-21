@@ -1,6 +1,6 @@
 \Written from user model (presolvestate=0x680061)
 \Problem name: Tier1                                                            
-\FICO Xpress v9.9.0, Hyper, written 14:51:07, Nov 18, 2026
+\FICO Xpress v9.9.0, Hyper, written 19:59:50, Nov 20, 2026
 
 Maximize
 __OBJ___: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
@@ -4043,816 +4043,7 @@ __OBJ___: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
  + 87.48427083333333 electricity_sold_2445 + 55.0903125 electricity_sold_2446
  + 97.635625 electricity_sold_2447 + 93.08903225806452 electricity_sold_2448
  + 83.14 electricity_sold_2449 + 77.47020833333333 electricity_sold_2450
- + 61.325 electricity_sold_2451 + 0 curtailment_1 + 0 curtailment_2
- + 0 curtailment_3 + 0 curtailment_4 + 0 curtailment_5 + 0 curtailment_6
- + 0 curtailment_7 + 0 curtailment_8 + 0 curtailment_9 + 0 curtailment_10
- + 0 curtailment_11 + 0 curtailment_12 + 0 curtailment_13 + 0 curtailment_14
- + 0 curtailment_15 + 0 curtailment_16 + 0 curtailment_17 + 0 curtailment_18
- + 0 curtailment_19 + 0 curtailment_20 + 0 curtailment_21 + 0 curtailment_22
- + 0 curtailment_23 + 0 curtailment_24 + 0 curtailment_25 + 0 curtailment_26
- + 0 curtailment_27 + 0 curtailment_28 + 0 curtailment_29 + 0 curtailment_30
- + 0 curtailment_31 + 0 curtailment_32 + 0 curtailment_33 + 0 curtailment_34
- + 0 curtailment_35 + 0 curtailment_36 + 0 curtailment_37 + 0 curtailment_38
- + 0 curtailment_39 + 0 curtailment_40 + 0 curtailment_41 + 0 curtailment_42
- + 0 curtailment_43 + 0 curtailment_44 + 0 curtailment_45 + 0 curtailment_46
- + 0 curtailment_47 + 0 curtailment_48 + 0 curtailment_49 + 0 curtailment_50
- + 0 curtailment_51 + 0 curtailment_52 + 0 curtailment_53 + 0 curtailment_54
- + 0 curtailment_55 + 0 curtailment_56 + 0 curtailment_57 + 0 curtailment_58
- + 0 curtailment_59 + 0 curtailment_60 + 0 curtailment_61 + 0 curtailment_62
- + 0 curtailment_63 + 0 curtailment_64 + 0 curtailment_65 + 0 curtailment_66
- + 0 curtailment_67 + 0 curtailment_68 + 0 curtailment_69 + 0 curtailment_70
- + 0 curtailment_71 + 0 curtailment_72 + 0 curtailment_73 + 0 curtailment_74
- + 0 curtailment_75 + 0 curtailment_76 + 0 curtailment_77 + 0 curtailment_78
- + 0 curtailment_79 + 0 curtailment_80 + 0 curtailment_81 + 0 curtailment_82
- + 0 curtailment_83 + 0 curtailment_84 + 0 curtailment_85 + 0 curtailment_86
- + 0 curtailment_87 + 0 curtailment_88 + 0 curtailment_89 + 0 curtailment_90
- + 0 curtailment_91 + 0 curtailment_92 + 0 curtailment_93 + 0 curtailment_94
- + 0 curtailment_95 + 0 curtailment_96 + 0 curtailment_97 + 0 curtailment_98
- + 0 curtailment_99 + 0 curtailment_100 + 0 curtailment_101
- + 0 curtailment_102 + 0 curtailment_103 + 0 curtailment_104
- + 0 curtailment_105 + 0 curtailment_106 + 0 curtailment_107
- + 0 curtailment_108 + 0 curtailment_109 + 0 curtailment_110
- + 0 curtailment_111 + 0 curtailment_112 + 0 curtailment_113
- + 0 curtailment_114 + 0 curtailment_115 + 0 curtailment_116
- + 0 curtailment_117 + 0 curtailment_118 + 0 curtailment_119
- + 0 curtailment_120 + 0 curtailment_121 + 0 curtailment_122
- + 0 curtailment_123 + 0 curtailment_124 + 0 curtailment_125
- + 0 curtailment_126 + 0 curtailment_127 + 0 curtailment_128
- + 0 curtailment_129 + 0 curtailment_130 + 0 curtailment_131
- + 0 curtailment_132 + 0 curtailment_133 + 0 curtailment_134
- + 0 curtailment_135 + 0 curtailment_136 + 0 curtailment_137
- + 0 curtailment_138 + 0 curtailment_139 + 0 curtailment_140
- + 0 curtailment_141 + 0 curtailment_142 + 0 curtailment_143
- + 0 curtailment_144 + 0 curtailment_145 + 0 curtailment_146
- + 0 curtailment_147 + 0 curtailment_148 + 0 curtailment_149
- + 0 curtailment_150 + 0 curtailment_151 + 0 curtailment_152
- + 0 curtailment_153 + 0 curtailment_154 + 0 curtailment_155
- + 0 curtailment_156 + 0 curtailment_157 + 0 curtailment_158
- + 0 curtailment_159 + 0 curtailment_160 + 0 curtailment_161
- + 0 curtailment_162 + 0 curtailment_163 + 0 curtailment_164
- + 0 curtailment_165 + 0 curtailment_166 + 0 curtailment_167
- + 0 curtailment_168 + 0 curtailment_169 + 0 curtailment_170
- + 0 curtailment_171 + 0 curtailment_172 + 0 curtailment_173
- + 0 curtailment_174 + 0 curtailment_175 + 0 curtailment_176
- + 0 curtailment_177 + 0 curtailment_178 + 0 curtailment_179
- + 0 curtailment_180 + 0 curtailment_181 + 0 curtailment_182
- + 0 curtailment_183 + 0 curtailment_184 + 0 curtailment_185
- + 0 curtailment_186 + 0 curtailment_187 + 0 curtailment_188
- + 0 curtailment_189 + 0 curtailment_190 + 0 curtailment_191
- + 0 curtailment_192 + 0 curtailment_193 + 0 curtailment_194
- + 0 curtailment_195 + 0 curtailment_196 + 0 curtailment_197
- + 0 curtailment_198 + 0 curtailment_199 + 0 curtailment_200
- + 0 curtailment_201 + 0 curtailment_202 + 0 curtailment_203
- + 0 curtailment_204 + 0 curtailment_205 + 0 curtailment_206
- + 0 curtailment_207 + 0 curtailment_208 + 0 curtailment_209
- + 0 curtailment_210 + 0 curtailment_211 + 0 curtailment_212
- + 0 curtailment_213 + 0 curtailment_214 + 0 curtailment_215
- + 0 curtailment_216 + 0 curtailment_217 + 0 curtailment_218
- + 0 curtailment_219 + 0 curtailment_220 + 0 curtailment_221
- + 0 curtailment_222 + 0 curtailment_223 + 0 curtailment_224
- + 0 curtailment_225 + 0 curtailment_226 + 0 curtailment_227
- + 0 curtailment_228 + 0 curtailment_229 + 0 curtailment_230
- + 0 curtailment_231 + 0 curtailment_232 + 0 curtailment_233
- + 0 curtailment_234 + 0 curtailment_235 + 0 curtailment_236
- + 0 curtailment_237 + 0 curtailment_238 + 0 curtailment_239
- + 0 curtailment_240 + 0 curtailment_241 + 0 curtailment_242
- + 0 curtailment_243 + 0 curtailment_244 + 0 curtailment_245
- + 0 curtailment_246 + 0 curtailment_247 + 0 curtailment_248
- + 0 curtailment_249 + 0 curtailment_250 + 0 curtailment_251
- + 0 curtailment_252 + 0 curtailment_253 + 0 curtailment_254
- + 0 curtailment_255 + 0 curtailment_256 + 0 curtailment_257
- + 0 curtailment_258 + 0 curtailment_259 + 0 curtailment_260
- + 0 curtailment_261 + 0 curtailment_262 + 0 curtailment_263
- + 0 curtailment_264 + 0 curtailment_265 + 0 curtailment_266
- + 0 curtailment_267 + 0 curtailment_268 + 0 curtailment_269
- + 0 curtailment_270 + 0 curtailment_271 + 0 curtailment_272
- + 0 curtailment_273 + 0 curtailment_274 + 0 curtailment_275
- + 0 curtailment_276 + 0 curtailment_277 + 0 curtailment_278
- + 0 curtailment_279 + 0 curtailment_280 + 0 curtailment_281
- + 0 curtailment_282 + 0 curtailment_283 + 0 curtailment_284
- + 0 curtailment_285 + 0 curtailment_286 + 0 curtailment_287
- + 0 curtailment_288 + 0 curtailment_289 + 0 curtailment_290
- + 0 curtailment_291 + 0 curtailment_292 + 0 curtailment_293
- + 0 curtailment_294 + 0 curtailment_295 + 0 curtailment_296
- + 0 curtailment_297 + 0 curtailment_298 + 0 curtailment_299
- + 0 curtailment_300 + 0 curtailment_301 + 0 curtailment_302
- + 0 curtailment_303 + 0 curtailment_304 + 0 curtailment_305
- + 0 curtailment_306 + 0 curtailment_307 + 0 curtailment_308
- + 0 curtailment_309 + 0 curtailment_310 + 0 curtailment_311
- + 0 curtailment_312 + 0 curtailment_313 + 0 curtailment_314
- + 0 curtailment_315 + 0 curtailment_316 + 0 curtailment_317
- + 0 curtailment_318 + 0 curtailment_319 + 0 curtailment_320
- + 0 curtailment_321 + 0 curtailment_322 + 0 curtailment_323
- + 0 curtailment_324 + 0 curtailment_325 + 0 curtailment_326
- + 0 curtailment_327 + 0 curtailment_328 + 0 curtailment_329
- + 0 curtailment_330 + 0 curtailment_331 + 0 curtailment_332
- + 0 curtailment_333 + 0 curtailment_334 + 0 curtailment_335
- + 0 curtailment_336 + 0 curtailment_337 + 0 curtailment_338
- + 0 curtailment_339 + 0 curtailment_340 + 0 curtailment_341
- + 0 curtailment_342 + 0 curtailment_343 + 0 curtailment_344
- + 0 curtailment_345 + 0 curtailment_346 + 0 curtailment_347
- + 0 curtailment_348 + 0 curtailment_349 + 0 curtailment_350
- + 0 curtailment_351 + 0 curtailment_352 + 0 curtailment_353
- + 0 curtailment_354 + 0 curtailment_355 + 0 curtailment_356
- + 0 curtailment_357 + 0 curtailment_358 + 0 curtailment_359
- + 0 curtailment_360 + 0 curtailment_361 + 0 curtailment_362
- + 0 curtailment_363 + 0 curtailment_364 + 0 curtailment_365
- + 0 curtailment_366 + 0 curtailment_367 + 0 curtailment_368
- + 0 curtailment_369 + 0 curtailment_370 + 0 curtailment_371
- + 0 curtailment_372 + 0 curtailment_373 + 0 curtailment_374
- + 0 curtailment_375 + 0 curtailment_376 + 0 curtailment_377
- + 0 curtailment_378 + 0 curtailment_379 + 0 curtailment_380
- + 0 curtailment_381 + 0 curtailment_382 + 0 curtailment_383
- + 0 curtailment_384 + 0 curtailment_385 + 0 curtailment_386
- + 0 curtailment_387 + 0 curtailment_388 + 0 curtailment_389
- + 0 curtailment_390 + 0 curtailment_391 + 0 curtailment_392
- + 0 curtailment_393 + 0 curtailment_394 + 0 curtailment_395
- + 0 curtailment_396 + 0 curtailment_397 + 0 curtailment_398
- + 0 curtailment_399 + 0 curtailment_400 + 0 curtailment_401
- + 0 curtailment_402 + 0 curtailment_403 + 0 curtailment_404
- + 0 curtailment_405 + 0 curtailment_406 + 0 curtailment_407
- + 0 curtailment_408 + 0 curtailment_409 + 0 curtailment_410
- + 0 curtailment_411 + 0 curtailment_412 + 0 curtailment_413
- + 0 curtailment_414 + 0 curtailment_415 + 0 curtailment_416
- + 0 curtailment_417 + 0 curtailment_418 + 0 curtailment_419
- + 0 curtailment_420 + 0 curtailment_421 + 0 curtailment_422
- + 0 curtailment_423 + 0 curtailment_424 + 0 curtailment_425
- + 0 curtailment_426 + 0 curtailment_427 + 0 curtailment_428
- + 0 curtailment_429 + 0 curtailment_430 + 0 curtailment_431
- + 0 curtailment_432 + 0 curtailment_433 + 0 curtailment_434
- + 0 curtailment_435 + 0 curtailment_436 + 0 curtailment_437
- + 0 curtailment_438 + 0 curtailment_439 + 0 curtailment_440
- + 0 curtailment_441 + 0 curtailment_442 + 0 curtailment_443
- + 0 curtailment_444 + 0 curtailment_445 + 0 curtailment_446
- + 0 curtailment_447 + 0 curtailment_448 + 0 curtailment_449
- + 0 curtailment_450 + 0 curtailment_451 + 0 curtailment_452
- + 0 curtailment_453 + 0 curtailment_454 + 0 curtailment_455
- + 0 curtailment_456 + 0 curtailment_457 + 0 curtailment_458
- + 0 curtailment_459 + 0 curtailment_460 + 0 curtailment_461
- + 0 curtailment_462 + 0 curtailment_463 + 0 curtailment_464
- + 0 curtailment_465 + 0 curtailment_466 + 0 curtailment_467
- + 0 curtailment_468 + 0 curtailment_469 + 0 curtailment_470
- + 0 curtailment_471 + 0 curtailment_472 + 0 curtailment_473
- + 0 curtailment_474 + 0 curtailment_475 + 0 curtailment_476
- + 0 curtailment_477 + 0 curtailment_478 + 0 curtailment_479
- + 0 curtailment_480 + 0 curtailment_481 + 0 curtailment_482
- + 0 curtailment_483 + 0 curtailment_484 + 0 curtailment_485
- + 0 curtailment_486 + 0 curtailment_487 + 0 curtailment_488
- + 0 curtailment_489 + 0 curtailment_490 + 0 curtailment_491
- + 0 curtailment_492 + 0 curtailment_493 + 0 curtailment_494
- + 0 curtailment_495 + 0 curtailment_496 + 0 curtailment_497
- + 0 curtailment_498 + 0 curtailment_499 + 0 curtailment_500
- + 0 curtailment_501 + 0 curtailment_502 + 0 curtailment_503
- + 0 curtailment_504 + 0 curtailment_505 + 0 curtailment_506
- + 0 curtailment_507 + 0 curtailment_508 + 0 curtailment_509
- + 0 curtailment_510 + 0 curtailment_511 + 0 curtailment_512
- + 0 curtailment_513 + 0 curtailment_514 + 0 curtailment_515
- + 0 curtailment_516 + 0 curtailment_517 + 0 curtailment_518
- + 0 curtailment_519 + 0 curtailment_520 + 0 curtailment_521
- + 0 curtailment_522 + 0 curtailment_523 + 0 curtailment_524
- + 0 curtailment_525 + 0 curtailment_526 + 0 curtailment_527
- + 0 curtailment_528 + 0 curtailment_529 + 0 curtailment_530
- + 0 curtailment_531 + 0 curtailment_532 + 0 curtailment_533
- + 0 curtailment_534 + 0 curtailment_535 + 0 curtailment_536
- + 0 curtailment_537 + 0 curtailment_538 + 0 curtailment_539
- + 0 curtailment_540 + 0 curtailment_541 + 0 curtailment_542
- + 0 curtailment_543 + 0 curtailment_544 + 0 curtailment_545
- + 0 curtailment_546 + 0 curtailment_547 + 0 curtailment_548
- + 0 curtailment_549 + 0 curtailment_550 + 0 curtailment_551
- + 0 curtailment_552 + 0 curtailment_553 + 0 curtailment_554
- + 0 curtailment_555 + 0 curtailment_556 + 0 curtailment_557
- + 0 curtailment_558 + 0 curtailment_559 + 0 curtailment_560
- + 0 curtailment_561 + 0 curtailment_562 + 0 curtailment_563
- + 0 curtailment_564 + 0 curtailment_565 + 0 curtailment_566
- + 0 curtailment_567 + 0 curtailment_568 + 0 curtailment_569
- + 0 curtailment_570 + 0 curtailment_571 + 0 curtailment_572
- + 0 curtailment_573 + 0 curtailment_574 + 0 curtailment_575
- + 0 curtailment_576 + 0 curtailment_577 + 0 curtailment_578
- + 0 curtailment_579 + 0 curtailment_580 + 0 curtailment_581
- + 0 curtailment_582 + 0 curtailment_583 + 0 curtailment_584
- + 0 curtailment_585 + 0 curtailment_586 + 0 curtailment_587
- + 0 curtailment_588 + 0 curtailment_589 + 0 curtailment_590
- + 0 curtailment_591 + 0 curtailment_592 + 0 curtailment_593
- + 0 curtailment_594 + 0 curtailment_595 + 0 curtailment_596
- + 0 curtailment_597 + 0 curtailment_598 + 0 curtailment_599
- + 0 curtailment_600 + 0 curtailment_601 + 0 curtailment_602
- + 0 curtailment_603 + 0 curtailment_604 + 0 curtailment_605
- + 0 curtailment_606 + 0 curtailment_607 + 0 curtailment_608
- + 0 curtailment_609 + 0 curtailment_610 + 0 curtailment_611
- + 0 curtailment_612 + 0 curtailment_613 + 0 curtailment_614
- + 0 curtailment_615 + 0 curtailment_616 + 0 curtailment_617
- + 0 curtailment_618 + 0 curtailment_619 + 0 curtailment_620
- + 0 curtailment_621 + 0 curtailment_622 + 0 curtailment_623
- + 0 curtailment_624 + 0 curtailment_625 + 0 curtailment_626
- + 0 curtailment_627 + 0 curtailment_628 + 0 curtailment_629
- + 0 curtailment_630 + 0 curtailment_631 + 0 curtailment_632
- + 0 curtailment_633 + 0 curtailment_634 + 0 curtailment_635
- + 0 curtailment_636 + 0 curtailment_637 + 0 curtailment_638
- + 0 curtailment_639 + 0 curtailment_640 + 0 curtailment_641
- + 0 curtailment_642 + 0 curtailment_643 + 0 curtailment_644
- + 0 curtailment_645 + 0 curtailment_646 + 0 curtailment_647
- + 0 curtailment_648 + 0 curtailment_649 + 0 curtailment_650
- + 0 curtailment_651 + 0 curtailment_652 + 0 curtailment_653
- + 0 curtailment_654 + 0 curtailment_655 + 0 curtailment_656
- + 0 curtailment_657 + 0 curtailment_658 + 0 curtailment_659
- + 0 curtailment_660 + 0 curtailment_661 + 0 curtailment_662
- + 0 curtailment_663 + 0 curtailment_664 + 0 curtailment_665
- + 0 curtailment_666 + 0 curtailment_667 + 0 curtailment_668
- + 0 curtailment_669 + 0 curtailment_670 + 0 curtailment_671
- + 0 curtailment_672 + 0 curtailment_673 + 0 curtailment_674
- + 0 curtailment_675 + 0 curtailment_676 + 0 curtailment_677
- + 0 curtailment_678 + 0 curtailment_679 + 0 curtailment_680
- + 0 curtailment_681 + 0 curtailment_682 + 0 curtailment_683
- + 0 curtailment_684 + 0 curtailment_685 + 0 curtailment_686
- + 0 curtailment_687 + 0 curtailment_688 + 0 curtailment_689
- + 0 curtailment_690 + 0 curtailment_691 + 0 curtailment_692
- + 0 curtailment_693 + 0 curtailment_694 + 0 curtailment_695
- + 0 curtailment_696 + 0 curtailment_697 + 0 curtailment_698
- + 0 curtailment_699 + 0 curtailment_700 + 0 curtailment_701
- + 0 curtailment_702 + 0 curtailment_703 + 0 curtailment_704
- + 0 curtailment_705 + 0 curtailment_706 + 0 curtailment_707
- + 0 curtailment_708 + 0 curtailment_709 + 0 curtailment_710
- + 0 curtailment_711 + 0 curtailment_712 + 0 curtailment_713
- + 0 curtailment_714 + 0 curtailment_715 + 0 curtailment_716
- + 0 curtailment_717 + 0 curtailment_718 + 0 curtailment_719
- + 0 curtailment_720 + 0 curtailment_721 + 0 curtailment_722
- + 0 curtailment_723 + 0 curtailment_724 + 0 curtailment_725
- + 0 curtailment_726 + 0 curtailment_727 + 0 curtailment_728
- + 0 curtailment_729 + 0 curtailment_730 + 0 curtailment_731
- + 0 curtailment_732 + 0 curtailment_733 + 0 curtailment_734
- + 0 curtailment_735 + 0 curtailment_736 + 0 curtailment_737
- + 0 curtailment_738 + 0 curtailment_739 + 0 curtailment_740
- + 0 curtailment_741 + 0 curtailment_742 + 0 curtailment_743
- + 0 curtailment_744 + 0 curtailment_745 + 0 curtailment_746
- + 0 curtailment_747 + 0 curtailment_748 + 0 curtailment_749
- + 0 curtailment_750 + 0 curtailment_751 + 0 curtailment_752
- + 0 curtailment_753 + 0 curtailment_754 + 0 curtailment_755
- + 0 curtailment_756 + 0 curtailment_757 + 0 curtailment_758
- + 0 curtailment_759 + 0 curtailment_760 + 0 curtailment_761
- + 0 curtailment_762 + 0 curtailment_763 + 0 curtailment_764
- + 0 curtailment_765 + 0 curtailment_766 + 0 curtailment_767
- + 0 curtailment_768 + 0 curtailment_769 + 0 curtailment_770
- + 0 curtailment_771 + 0 curtailment_772 + 0 curtailment_773
- + 0 curtailment_774 + 0 curtailment_775 + 0 curtailment_776
- + 0 curtailment_777 + 0 curtailment_778 + 0 curtailment_779
- + 0 curtailment_780 + 0 curtailment_781 + 0 curtailment_782
- + 0 curtailment_783 + 0 curtailment_784 + 0 curtailment_785
- + 0 curtailment_786 + 0 curtailment_787 + 0 curtailment_788
- + 0 curtailment_789 + 0 curtailment_790 + 0 curtailment_791
- + 0 curtailment_792 + 0 curtailment_793 + 0 curtailment_794
- + 0 curtailment_795 + 0 curtailment_796 + 0 curtailment_797
- + 0 curtailment_798 + 0 curtailment_799 + 0 curtailment_800
- + 0 curtailment_801 + 0 curtailment_802 + 0 curtailment_803
- + 0 curtailment_804 + 0 curtailment_805 + 0 curtailment_806
- + 0 curtailment_807 + 0 curtailment_808 + 0 curtailment_809
- + 0 curtailment_810 + 0 curtailment_811 + 0 curtailment_812
- + 0 curtailment_813 + 0 curtailment_814 + 0 curtailment_815
- + 0 curtailment_816 + 0 curtailment_817 + 0 curtailment_818
- + 0 curtailment_819 + 0 curtailment_820 + 0 curtailment_821
- + 0 curtailment_822 + 0 curtailment_823 + 0 curtailment_824
- + 0 curtailment_825 + 0 curtailment_826 + 0 curtailment_827
- + 0 curtailment_828 + 0 curtailment_829 + 0 curtailment_830
- + 0 curtailment_831 + 0 curtailment_832 + 0 curtailment_833
- + 0 curtailment_834 + 0 curtailment_835 + 0 curtailment_836
- + 0 curtailment_837 + 0 curtailment_838 + 0 curtailment_839
- + 0 curtailment_840 + 0 curtailment_841 + 0 curtailment_842
- + 0 curtailment_843 + 0 curtailment_844 + 0 curtailment_845
- + 0 curtailment_846 + 0 curtailment_847 + 0 curtailment_848
- + 0 curtailment_849 + 0 curtailment_850 + 0 curtailment_851
- + 0 curtailment_852 + 0 curtailment_853 + 0 curtailment_854
- + 0 curtailment_855 + 0 curtailment_856 + 0 curtailment_857
- + 0 curtailment_858 + 0 curtailment_859 + 0 curtailment_860
- + 0 curtailment_861 + 0 curtailment_862 + 0 curtailment_863
- + 0 curtailment_864 + 0 curtailment_865 + 0 curtailment_866
- + 0 curtailment_867 + 0 curtailment_868 + 0 curtailment_869
- + 0 curtailment_870 + 0 curtailment_871 + 0 curtailment_872
- + 0 curtailment_873 + 0 curtailment_874 + 0 curtailment_875
- + 0 curtailment_876 + 0 curtailment_877 + 0 curtailment_878
- + 0 curtailment_879 + 0 curtailment_880 + 0 curtailment_881
- + 0 curtailment_882 + 0 curtailment_883 + 0 curtailment_884
- + 0 curtailment_885 + 0 curtailment_886 + 0 curtailment_887
- + 0 curtailment_888 + 0 curtailment_889 + 0 curtailment_890
- + 0 curtailment_891 + 0 curtailment_892 + 0 curtailment_893
- + 0 curtailment_894 + 0 curtailment_895 + 0 curtailment_896
- + 0 curtailment_897 + 0 curtailment_898 + 0 curtailment_899
- + 0 curtailment_900 + 0 curtailment_901 + 0 curtailment_902
- + 0 curtailment_903 + 0 curtailment_904 + 0 curtailment_905
- + 0 curtailment_906 + 0 curtailment_907 + 0 curtailment_908
- + 0 curtailment_909 + 0 curtailment_910 + 0 curtailment_911
- + 0 curtailment_912 + 0 curtailment_913 + 0 curtailment_914
- + 0 curtailment_915 + 0 curtailment_916 + 0 curtailment_917
- + 0 curtailment_918 + 0 curtailment_919 + 0 curtailment_920
- + 0 curtailment_921 + 0 curtailment_922 + 0 curtailment_923
- + 0 curtailment_924 + 0 curtailment_925 + 0 curtailment_926
- + 0 curtailment_927 + 0 curtailment_928 + 0 curtailment_929
- + 0 curtailment_930 + 0 curtailment_931 + 0 curtailment_932
- + 0 curtailment_933 + 0 curtailment_934 + 0 curtailment_935
- + 0 curtailment_936 + 0 curtailment_937 + 0 curtailment_938
- + 0 curtailment_939 + 0 curtailment_940 + 0 curtailment_941
- + 0 curtailment_942 + 0 curtailment_943 + 0 curtailment_944
- + 0 curtailment_945 + 0 curtailment_946 + 0 curtailment_947
- + 0 curtailment_948 + 0 curtailment_949 + 0 curtailment_950
- + 0 curtailment_951 + 0 curtailment_952 + 0 curtailment_953
- + 0 curtailment_954 + 0 curtailment_955 + 0 curtailment_956
- + 0 curtailment_957 + 0 curtailment_958 + 0 curtailment_959
- + 0 curtailment_960 + 0 curtailment_961 + 0 curtailment_962
- + 0 curtailment_963 + 0 curtailment_964 + 0 curtailment_965
- + 0 curtailment_966 + 0 curtailment_967 + 0 curtailment_968
- + 0 curtailment_969 + 0 curtailment_970 + 0 curtailment_971
- + 0 curtailment_972 + 0 curtailment_973 + 0 curtailment_974
- + 0 curtailment_975 + 0 curtailment_976 + 0 curtailment_977
- + 0 curtailment_978 + 0 curtailment_979 + 0 curtailment_980
- + 0 curtailment_981 + 0 curtailment_982 + 0 curtailment_983
- + 0 curtailment_984 + 0 curtailment_985 + 0 curtailment_986
- + 0 curtailment_987 + 0 curtailment_988 + 0 curtailment_989
- + 0 curtailment_990 + 0 curtailment_991 + 0 curtailment_992
- + 0 curtailment_993 + 0 curtailment_994 + 0 curtailment_995
- + 0 curtailment_996 + 0 curtailment_997 + 0 curtailment_998
- + 0 curtailment_999 + 0 curtailment_1000 + 0 curtailment_1001
- + 0 curtailment_1002 + 0 curtailment_1003 + 0 curtailment_1004
- + 0 curtailment_1005 + 0 curtailment_1006 + 0 curtailment_1007
- + 0 curtailment_1008 + 0 curtailment_1009 + 0 curtailment_1010
- + 0 curtailment_1011 + 0 curtailment_1012 + 0 curtailment_1013
- + 0 curtailment_1014 + 0 curtailment_1015 + 0 curtailment_1016
- + 0 curtailment_1017 + 0 curtailment_1018 + 0 curtailment_1019
- + 0 curtailment_1020 + 0 curtailment_1021 + 0 curtailment_1022
- + 0 curtailment_1023 + 0 curtailment_1024 + 0 curtailment_1025
- + 0 curtailment_1026 + 0 curtailment_1027 + 0 curtailment_1028
- + 0 curtailment_1029 + 0 curtailment_1030 + 0 curtailment_1031
- + 0 curtailment_1032 + 0 curtailment_1033 + 0 curtailment_1034
- + 0 curtailment_1035 + 0 curtailment_1036 + 0 curtailment_1037
- + 0 curtailment_1038 + 0 curtailment_1039 + 0 curtailment_1040
- + 0 curtailment_1041 + 0 curtailment_1042 + 0 curtailment_1043
- + 0 curtailment_1044 + 0 curtailment_1045 + 0 curtailment_1046
- + 0 curtailment_1047 + 0 curtailment_1048 + 0 curtailment_1049
- + 0 curtailment_1050 + 0 curtailment_1051 + 0 curtailment_1052
- + 0 curtailment_1053 + 0 curtailment_1054 + 0 curtailment_1055
- + 0 curtailment_1056 + 0 curtailment_1057 + 0 curtailment_1058
- + 0 curtailment_1059 + 0 curtailment_1060 + 0 curtailment_1061
- + 0 curtailment_1062 + 0 curtailment_1063 + 0 curtailment_1064
- + 0 curtailment_1065 + 0 curtailment_1066 + 0 curtailment_1067
- + 0 curtailment_1068 + 0 curtailment_1069 + 0 curtailment_1070
- + 0 curtailment_1071 + 0 curtailment_1072 + 0 curtailment_1073
- + 0 curtailment_1074 + 0 curtailment_1075 + 0 curtailment_1076
- + 0 curtailment_1077 + 0 curtailment_1078 + 0 curtailment_1079
- + 0 curtailment_1080 + 0 curtailment_1081 + 0 curtailment_1082
- + 0 curtailment_1083 + 0 curtailment_1084 + 0 curtailment_1085
- + 0 curtailment_1086 + 0 curtailment_1087 + 0 curtailment_1088
- + 0 curtailment_1089 + 0 curtailment_1090 + 0 curtailment_1091
- + 0 curtailment_1092 + 0 curtailment_1093 + 0 curtailment_1094
- + 0 curtailment_1095 + 0 curtailment_1096 + 0 curtailment_1097
- + 0 curtailment_1098 + 0 curtailment_1099 + 0 curtailment_1100
- + 0 curtailment_1101 + 0 curtailment_1102 + 0 curtailment_1103
- + 0 curtailment_1104 + 0 curtailment_1105 + 0 curtailment_1106
- + 0 curtailment_1107 + 0 curtailment_1108 + 0 curtailment_1109
- + 0 curtailment_1110 + 0 curtailment_1111 + 0 curtailment_1112
- + 0 curtailment_1113 + 0 curtailment_1114 + 0 curtailment_1115
- + 0 curtailment_1116 + 0 curtailment_1117 + 0 curtailment_1118
- + 0 curtailment_1119 + 0 curtailment_1120 + 0 curtailment_1121
- + 0 curtailment_1122 + 0 curtailment_1123 + 0 curtailment_1124
- + 0 curtailment_1125 + 0 curtailment_1126 + 0 curtailment_1127
- + 0 curtailment_1128 + 0 curtailment_1129 + 0 curtailment_1130
- + 0 curtailment_1131 + 0 curtailment_1132 + 0 curtailment_1133
- + 0 curtailment_1134 + 0 curtailment_1135 + 0 curtailment_1136
- + 0 curtailment_1137 + 0 curtailment_1138 + 0 curtailment_1139
- + 0 curtailment_1140 + 0 curtailment_1141 + 0 curtailment_1142
- + 0 curtailment_1143 + 0 curtailment_1144 + 0 curtailment_1145
- + 0 curtailment_1146 + 0 curtailment_1147 + 0 curtailment_1148
- + 0 curtailment_1149 + 0 curtailment_1150 + 0 curtailment_1151
- + 0 curtailment_1152 + 0 curtailment_1153 + 0 curtailment_1154
- + 0 curtailment_1155 + 0 curtailment_1156 + 0 curtailment_1157
- + 0 curtailment_1158 + 0 curtailment_1159 + 0 curtailment_1160
- + 0 curtailment_1161 + 0 curtailment_1162 + 0 curtailment_1163
- + 0 curtailment_1164 + 0 curtailment_1165 + 0 curtailment_1166
- + 0 curtailment_1167 + 0 curtailment_1168 + 0 curtailment_1169
- + 0 curtailment_1170 + 0 curtailment_1171 + 0 curtailment_1172
- + 0 curtailment_1173 + 0 curtailment_1174 + 0 curtailment_1175
- + 0 curtailment_1176 + 0 curtailment_1177 + 0 curtailment_1178
- + 0 curtailment_1179 + 0 curtailment_1180 + 0 curtailment_1181
- + 0 curtailment_1182 + 0 curtailment_1183 + 0 curtailment_1184
- + 0 curtailment_1185 + 0 curtailment_1186 + 0 curtailment_1187
- + 0 curtailment_1188 + 0 curtailment_1189 + 0 curtailment_1190
- + 0 curtailment_1191 + 0 curtailment_1192 + 0 curtailment_1193
- + 0 curtailment_1194 + 0 curtailment_1195 + 0 curtailment_1196
- + 0 curtailment_1197 + 0 curtailment_1198 + 0 curtailment_1199
- + 0 curtailment_1200 + 0 curtailment_1201 + 0 curtailment_1202
- + 0 curtailment_1203 + 0 curtailment_1204 + 0 curtailment_1205
- + 0 curtailment_1206 + 0 curtailment_1207 + 0 curtailment_1208
- + 0 curtailment_1209 + 0 curtailment_1210 + 0 curtailment_1211
- + 0 curtailment_1212 + 0 curtailment_1213 + 0 curtailment_1214
- + 0 curtailment_1215 + 0 curtailment_1216 + 0 curtailment_1217
- + 0 curtailment_1218 + 0 curtailment_1219 + 0 curtailment_1220
- + 0 curtailment_1221 + 0 curtailment_1222 + 0 curtailment_1223
- + 0 curtailment_1224 + 0 curtailment_1225 + 0 curtailment_1226
- + 0 curtailment_1227 + 0 curtailment_1228 + 0 curtailment_1229
- + 0 curtailment_1230 + 0 curtailment_1231 + 0 curtailment_1232
- + 0 curtailment_1233 + 0 curtailment_1234 + 0 curtailment_1235
- + 0 curtailment_1236 + 0 curtailment_1237 + 0 curtailment_1238
- + 0 curtailment_1239 + 0 curtailment_1240 + 0 curtailment_1241
- + 0 curtailment_1242 + 0 curtailment_1243 + 0 curtailment_1244
- + 0 curtailment_1245 + 0 curtailment_1246 + 0 curtailment_1247
- + 0 curtailment_1248 + 0 curtailment_1249 + 0 curtailment_1250
- + 0 curtailment_1251 + 0 curtailment_1252 + 0 curtailment_1253
- + 0 curtailment_1254 + 0 curtailment_1255 + 0 curtailment_1256
- + 0 curtailment_1257 + 0 curtailment_1258 + 0 curtailment_1259
- + 0 curtailment_1260 + 0 curtailment_1261 + 0 curtailment_1262
- + 0 curtailment_1263 + 0 curtailment_1264 + 0 curtailment_1265
- + 0 curtailment_1266 + 0 curtailment_1267 + 0 curtailment_1268
- + 0 curtailment_1269 + 0 curtailment_1270 + 0 curtailment_1271
- + 0 curtailment_1272 + 0 curtailment_1273 + 0 curtailment_1274
- + 0 curtailment_1275 + 0 curtailment_1276 + 0 curtailment_1277
- + 0 curtailment_1278 + 0 curtailment_1279 + 0 curtailment_1280
- + 0 curtailment_1281 + 0 curtailment_1282 + 0 curtailment_1283
- + 0 curtailment_1284 + 0 curtailment_1285 + 0 curtailment_1286
- + 0 curtailment_1287 + 0 curtailment_1288 + 0 curtailment_1289
- + 0 curtailment_1290 + 0 curtailment_1291 + 0 curtailment_1292
- + 0 curtailment_1293 + 0 curtailment_1294 + 0 curtailment_1295
- + 0 curtailment_1296 + 0 curtailment_1297 + 0 curtailment_1298
- + 0 curtailment_1299 + 0 curtailment_1300 + 0 curtailment_1301
- + 0 curtailment_1302 + 0 curtailment_1303 + 0 curtailment_1304
- + 0 curtailment_1305 + 0 curtailment_1306 + 0 curtailment_1307
- + 0 curtailment_1308 + 0 curtailment_1309 + 0 curtailment_1310
- + 0 curtailment_1311 + 0 curtailment_1312 + 0 curtailment_1313
- + 0 curtailment_1314 + 0 curtailment_1315 + 0 curtailment_1316
- + 0 curtailment_1317 + 0 curtailment_1318 + 0 curtailment_1319
- + 0 curtailment_1320 + 0 curtailment_1321 + 0 curtailment_1322
- + 0 curtailment_1323 + 0 curtailment_1324 + 0 curtailment_1325
- + 0 curtailment_1326 + 0 curtailment_1327 + 0 curtailment_1328
- + 0 curtailment_1329 + 0 curtailment_1330 + 0 curtailment_1331
- + 0 curtailment_1332 + 0 curtailment_1333 + 0 curtailment_1334
- + 0 curtailment_1335 + 0 curtailment_1336 + 0 curtailment_1337
- + 0 curtailment_1338 + 0 curtailment_1339 + 0 curtailment_1340
- + 0 curtailment_1341 + 0 curtailment_1342 + 0 curtailment_1343
- + 0 curtailment_1344 + 0 curtailment_1345 + 0 curtailment_1346
- + 0 curtailment_1347 + 0 curtailment_1348 + 0 curtailment_1349
- + 0 curtailment_1350 + 0 curtailment_1351 + 0 curtailment_1352
- + 0 curtailment_1353 + 0 curtailment_1354 + 0 curtailment_1355
- + 0 curtailment_1356 + 0 curtailment_1357 + 0 curtailment_1358
- + 0 curtailment_1359 + 0 curtailment_1360 + 0 curtailment_1361
- + 0 curtailment_1362 + 0 curtailment_1363 + 0 curtailment_1364
- + 0 curtailment_1365 + 0 curtailment_1366 + 0 curtailment_1367
- + 0 curtailment_1368 + 0 curtailment_1369 + 0 curtailment_1370
- + 0 curtailment_1371 + 0 curtailment_1372 + 0 curtailment_1373
- + 0 curtailment_1374 + 0 curtailment_1375 + 0 curtailment_1376
- + 0 curtailment_1377 + 0 curtailment_1378 + 0 curtailment_1379
- + 0 curtailment_1380 + 0 curtailment_1381 + 0 curtailment_1382
- + 0 curtailment_1383 + 0 curtailment_1384 + 0 curtailment_1385
- + 0 curtailment_1386 + 0 curtailment_1387 + 0 curtailment_1388
- + 0 curtailment_1389 + 0 curtailment_1390 + 0 curtailment_1391
- + 0 curtailment_1392 + 0 curtailment_1393 + 0 curtailment_1394
- + 0 curtailment_1395 + 0 curtailment_1396 + 0 curtailment_1397
- + 0 curtailment_1398 + 0 curtailment_1399 + 0 curtailment_1400
- + 0 curtailment_1401 + 0 curtailment_1402 + 0 curtailment_1403
- + 0 curtailment_1404 + 0 curtailment_1405 + 0 curtailment_1406
- + 0 curtailment_1407 + 0 curtailment_1408 + 0 curtailment_1409
- + 0 curtailment_1410 + 0 curtailment_1411 + 0 curtailment_1412
- + 0 curtailment_1413 + 0 curtailment_1414 + 0 curtailment_1415
- + 0 curtailment_1416 + 0 curtailment_1417 + 0 curtailment_1418
- + 0 curtailment_1419 + 0 curtailment_1420 + 0 curtailment_1421
- + 0 curtailment_1422 + 0 curtailment_1423 + 0 curtailment_1424
- + 0 curtailment_1425 + 0 curtailment_1426 + 0 curtailment_1427
- + 0 curtailment_1428 + 0 curtailment_1429 + 0 curtailment_1430
- + 0 curtailment_1431 + 0 curtailment_1432 + 0 curtailment_1433
- + 0 curtailment_1434 + 0 curtailment_1435 + 0 curtailment_1436
- + 0 curtailment_1437 + 0 curtailment_1438 + 0 curtailment_1439
- + 0 curtailment_1440 + 0 curtailment_1441 + 0 curtailment_1442
- + 0 curtailment_1443 + 0 curtailment_1444 + 0 curtailment_1445
- + 0 curtailment_1446 + 0 curtailment_1447 + 0 curtailment_1448
- + 0 curtailment_1449 + 0 curtailment_1450 + 0 curtailment_1451
- + 0 curtailment_1452 + 0 curtailment_1453 + 0 curtailment_1454
- + 0 curtailment_1455 + 0 curtailment_1456 + 0 curtailment_1457
- + 0 curtailment_1458 + 0 curtailment_1459 + 0 curtailment_1460
- + 0 curtailment_1461 + 0 curtailment_1462 + 0 curtailment_1463
- + 0 curtailment_1464 + 0 curtailment_1465 + 0 curtailment_1466
- + 0 curtailment_1467 + 0 curtailment_1468 + 0 curtailment_1469
- + 0 curtailment_1470 + 0 curtailment_1471 + 0 curtailment_1472
- + 0 curtailment_1473 + 0 curtailment_1474 + 0 curtailment_1475
- + 0 curtailment_1476 + 0 curtailment_1477 + 0 curtailment_1478
- + 0 curtailment_1479 + 0 curtailment_1480 + 0 curtailment_1481
- + 0 curtailment_1482 + 0 curtailment_1483 + 0 curtailment_1484
- + 0 curtailment_1485 + 0 curtailment_1486 + 0 curtailment_1487
- + 0 curtailment_1488 + 0 curtailment_1489 + 0 curtailment_1490
- + 0 curtailment_1491 + 0 curtailment_1492 + 0 curtailment_1493
- + 0 curtailment_1494 + 0 curtailment_1495 + 0 curtailment_1496
- + 0 curtailment_1497 + 0 curtailment_1498 + 0 curtailment_1499
- + 0 curtailment_1500 + 0 curtailment_1501 + 0 curtailment_1502
- + 0 curtailment_1503 + 0 curtailment_1504 + 0 curtailment_1505
- + 0 curtailment_1506 + 0 curtailment_1507 + 0 curtailment_1508
- + 0 curtailment_1509 + 0 curtailment_1510 + 0 curtailment_1511
- + 0 curtailment_1512 + 0 curtailment_1513 + 0 curtailment_1514
- + 0 curtailment_1515 + 0 curtailment_1516 + 0 curtailment_1517
- + 0 curtailment_1518 + 0 curtailment_1519 + 0 curtailment_1520
- + 0 curtailment_1521 + 0 curtailment_1522 + 0 curtailment_1523
- + 0 curtailment_1524 + 0 curtailment_1525 + 0 curtailment_1526
- + 0 curtailment_1527 + 0 curtailment_1528 + 0 curtailment_1529
- + 0 curtailment_1530 + 0 curtailment_1531 + 0 curtailment_1532
- + 0 curtailment_1533 + 0 curtailment_1534 + 0 curtailment_1535
- + 0 curtailment_1536 + 0 curtailment_1537 + 0 curtailment_1538
- + 0 curtailment_1539 + 0 curtailment_1540 + 0 curtailment_1541
- + 0 curtailment_1542 + 0 curtailment_1543 + 0 curtailment_1544
- + 0 curtailment_1545 + 0 curtailment_1546 + 0 curtailment_1547
- + 0 curtailment_1548 + 0 curtailment_1549 + 0 curtailment_1550
- + 0 curtailment_1551 + 0 curtailment_1552 + 0 curtailment_1553
- + 0 curtailment_1554 + 0 curtailment_1555 + 0 curtailment_1556
- + 0 curtailment_1557 + 0 curtailment_1558 + 0 curtailment_1559
- + 0 curtailment_1560 + 0 curtailment_1561 + 0 curtailment_1562
- + 0 curtailment_1563 + 0 curtailment_1564 + 0 curtailment_1565
- + 0 curtailment_1566 + 0 curtailment_1567 + 0 curtailment_1568
- + 0 curtailment_1569 + 0 curtailment_1570 + 0 curtailment_1571
- + 0 curtailment_1572 + 0 curtailment_1573 + 0 curtailment_1574
- + 0 curtailment_1575 + 0 curtailment_1576 + 0 curtailment_1577
- + 0 curtailment_1578 + 0 curtailment_1579 + 0 curtailment_1580
- + 0 curtailment_1581 + 0 curtailment_1582 + 0 curtailment_1583
- + 0 curtailment_1584 + 0 curtailment_1585 + 0 curtailment_1586
- + 0 curtailment_1587 + 0 curtailment_1588 + 0 curtailment_1589
- + 0 curtailment_1590 + 0 curtailment_1591 + 0 curtailment_1592
- + 0 curtailment_1593 + 0 curtailment_1594 + 0 curtailment_1595
- + 0 curtailment_1596 + 0 curtailment_1597 + 0 curtailment_1598
- + 0 curtailment_1599 + 0 curtailment_1600 + 0 curtailment_1601
- + 0 curtailment_1602 + 0 curtailment_1603 + 0 curtailment_1604
- + 0 curtailment_1605 + 0 curtailment_1606 + 0 curtailment_1607
- + 0 curtailment_1608 + 0 curtailment_1609 + 0 curtailment_1610
- + 0 curtailment_1611 + 0 curtailment_1612 + 0 curtailment_1613
- + 0 curtailment_1614 + 0 curtailment_1615 + 0 curtailment_1616
- + 0 curtailment_1617 + 0 curtailment_1618 + 0 curtailment_1619
- + 0 curtailment_1620 + 0 curtailment_1621 + 0 curtailment_1622
- + 0 curtailment_1623 + 0 curtailment_1624 + 0 curtailment_1625
- + 0 curtailment_1626 + 0 curtailment_1627 + 0 curtailment_1628
- + 0 curtailment_1629 + 0 curtailment_1630 + 0 curtailment_1631
- + 0 curtailment_1632 + 0 curtailment_1633 + 0 curtailment_1634
- + 0 curtailment_1635 + 0 curtailment_1636 + 0 curtailment_1637
- + 0 curtailment_1638 + 0 curtailment_1639 + 0 curtailment_1640
- + 0 curtailment_1641 + 0 curtailment_1642 + 0 curtailment_1643
- + 0 curtailment_1644 + 0 curtailment_1645 + 0 curtailment_1646
- + 0 curtailment_1647 + 0 curtailment_1648 + 0 curtailment_1649
- + 0 curtailment_1650 + 0 curtailment_1651 + 0 curtailment_1652
- + 0 curtailment_1653 + 0 curtailment_1654 + 0 curtailment_1655
- + 0 curtailment_1656 + 0 curtailment_1657 + 0 curtailment_1658
- + 0 curtailment_1659 + 0 curtailment_1660 + 0 curtailment_1661
- + 0 curtailment_1662 + 0 curtailment_1663 + 0 curtailment_1664
- + 0 curtailment_1665 + 0 curtailment_1666 + 0 curtailment_1667
- + 0 curtailment_1668 + 0 curtailment_1669 + 0 curtailment_1670
- + 0 curtailment_1671 + 0 curtailment_1672 + 0 curtailment_1673
- + 0 curtailment_1674 + 0 curtailment_1675 + 0 curtailment_1676
- + 0 curtailment_1677 + 0 curtailment_1678 + 0 curtailment_1679
- + 0 curtailment_1680 + 0 curtailment_1681 + 0 curtailment_1682
- + 0 curtailment_1683 + 0 curtailment_1684 + 0 curtailment_1685
- + 0 curtailment_1686 + 0 curtailment_1687 + 0 curtailment_1688
- + 0 curtailment_1689 + 0 curtailment_1690 + 0 curtailment_1691
- + 0 curtailment_1692 + 0 curtailment_1693 + 0 curtailment_1694
- + 0 curtailment_1695 + 0 curtailment_1696 + 0 curtailment_1697
- + 0 curtailment_1698 + 0 curtailment_1699 + 0 curtailment_1700
- + 0 curtailment_1701 + 0 curtailment_1702 + 0 curtailment_1703
- + 0 curtailment_1704 + 0 curtailment_1705 + 0 curtailment_1706
- + 0 curtailment_1707 + 0 curtailment_1708 + 0 curtailment_1709
- + 0 curtailment_1710 + 0 curtailment_1711 + 0 curtailment_1712
- + 0 curtailment_1713 + 0 curtailment_1714 + 0 curtailment_1715
- + 0 curtailment_1716 + 0 curtailment_1717 + 0 curtailment_1718
- + 0 curtailment_1719 + 0 curtailment_1720 + 0 curtailment_1721
- + 0 curtailment_1722 + 0 curtailment_1723 + 0 curtailment_1724
- + 0 curtailment_1725 + 0 curtailment_1726 + 0 curtailment_1727
- + 0 curtailment_1728 + 0 curtailment_1729 + 0 curtailment_1730
- + 0 curtailment_1731 + 0 curtailment_1732 + 0 curtailment_1733
- + 0 curtailment_1734 + 0 curtailment_1735 + 0 curtailment_1736
- + 0 curtailment_1737 + 0 curtailment_1738 + 0 curtailment_1739
- + 0 curtailment_1740 + 0 curtailment_1741 + 0 curtailment_1742
- + 0 curtailment_1743 + 0 curtailment_1744 + 0 curtailment_1745
- + 0 curtailment_1746 + 0 curtailment_1747 + 0 curtailment_1748
- + 0 curtailment_1749 + 0 curtailment_1750 + 0 curtailment_1751
- + 0 curtailment_1752 + 0 curtailment_1753 + 0 curtailment_1754
- + 0 curtailment_1755 + 0 curtailment_1756 + 0 curtailment_1757
- + 0 curtailment_1758 + 0 curtailment_1759 + 0 curtailment_1760
- + 0 curtailment_1761 + 0 curtailment_1762 + 0 curtailment_1763
- + 0 curtailment_1764 + 0 curtailment_1765 + 0 curtailment_1766
- + 0 curtailment_1767 + 0 curtailment_1768 + 0 curtailment_1769
- + 0 curtailment_1770 + 0 curtailment_1771 + 0 curtailment_1772
- + 0 curtailment_1773 + 0 curtailment_1774 + 0 curtailment_1775
- + 0 curtailment_1776 + 0 curtailment_1777 + 0 curtailment_1778
- + 0 curtailment_1779 + 0 curtailment_1780 + 0 curtailment_1781
- + 0 curtailment_1782 + 0 curtailment_1783 + 0 curtailment_1784
- + 0 curtailment_1785 + 0 curtailment_1786 + 0 curtailment_1787
- + 0 curtailment_1788 + 0 curtailment_1789 + 0 curtailment_1790
- + 0 curtailment_1791 + 0 curtailment_1792 + 0 curtailment_1793
- + 0 curtailment_1794 + 0 curtailment_1795 + 0 curtailment_1796
- + 0 curtailment_1797 + 0 curtailment_1798 + 0 curtailment_1799
- + 0 curtailment_1800 + 0 curtailment_1801 + 0 curtailment_1802
- + 0 curtailment_1803 + 0 curtailment_1804 + 0 curtailment_1805
- + 0 curtailment_1806 + 0 curtailment_1807 + 0 curtailment_1808
- + 0 curtailment_1809 + 0 curtailment_1810 + 0 curtailment_1811
- + 0 curtailment_1812 + 0 curtailment_1813 + 0 curtailment_1814
- + 0 curtailment_1815 + 0 curtailment_1816 + 0 curtailment_1817
- + 0 curtailment_1818 + 0 curtailment_1819 + 0 curtailment_1820
- + 0 curtailment_1821 + 0 curtailment_1822 + 0 curtailment_1823
- + 0 curtailment_1824 + 0 curtailment_1825 + 0 curtailment_1826
- + 0 curtailment_1827 + 0 curtailment_1828 + 0 curtailment_1829
- + 0 curtailment_1830 + 0 curtailment_1831 + 0 curtailment_1832
- + 0 curtailment_1833 + 0 curtailment_1834 + 0 curtailment_1835
- + 0 curtailment_1836 + 0 curtailment_1837 + 0 curtailment_1838
- + 0 curtailment_1839 + 0 curtailment_1840 + 0 curtailment_1841
- + 0 curtailment_1842 + 0 curtailment_1843 + 0 curtailment_1844
- + 0 curtailment_1845 + 0 curtailment_1846 + 0 curtailment_1847
- + 0 curtailment_1848 + 0 curtailment_1849 + 0 curtailment_1850
- + 0 curtailment_1851 + 0 curtailment_1852 + 0 curtailment_1853
- + 0 curtailment_1854 + 0 curtailment_1855 + 0 curtailment_1856
- + 0 curtailment_1857 + 0 curtailment_1858 + 0 curtailment_1859
- + 0 curtailment_1860 + 0 curtailment_1861 + 0 curtailment_1862
- + 0 curtailment_1863 + 0 curtailment_1864 + 0 curtailment_1865
- + 0 curtailment_1866 + 0 curtailment_1867 + 0 curtailment_1868
- + 0 curtailment_1869 + 0 curtailment_1870 + 0 curtailment_1871
- + 0 curtailment_1872 + 0 curtailment_1873 + 0 curtailment_1874
- + 0 curtailment_1875 + 0 curtailment_1876 + 0 curtailment_1877
- + 0 curtailment_1878 + 0 curtailment_1879 + 0 curtailment_1880
- + 0 curtailment_1881 + 0 curtailment_1882 + 0 curtailment_1883
- + 0 curtailment_1884 + 0 curtailment_1885 + 0 curtailment_1886
- + 0 curtailment_1887 + 0 curtailment_1888 + 0 curtailment_1889
- + 0 curtailment_1890 + 0 curtailment_1891 + 0 curtailment_1892
- + 0 curtailment_1893 + 0 curtailment_1894 + 0 curtailment_1895
- + 0 curtailment_1896 + 0 curtailment_1897 + 0 curtailment_1898
- + 0 curtailment_1899 + 0 curtailment_1900 + 0 curtailment_1901
- + 0 curtailment_1902 + 0 curtailment_1903 + 0 curtailment_1904
- + 0 curtailment_1905 + 0 curtailment_1906 + 0 curtailment_1907
- + 0 curtailment_1908 + 0 curtailment_1909 + 0 curtailment_1910
- + 0 curtailment_1911 + 0 curtailment_1912 + 0 curtailment_1913
- + 0 curtailment_1914 + 0 curtailment_1915 + 0 curtailment_1916
- + 0 curtailment_1917 + 0 curtailment_1918 + 0 curtailment_1919
- + 0 curtailment_1920 + 0 curtailment_1921 + 0 curtailment_1922
- + 0 curtailment_1923 + 0 curtailment_1924 + 0 curtailment_1925
- + 0 curtailment_1926 + 0 curtailment_1927 + 0 curtailment_1928
- + 0 curtailment_1929 + 0 curtailment_1930 + 0 curtailment_1931
- + 0 curtailment_1932 + 0 curtailment_1933 + 0 curtailment_1934
- + 0 curtailment_1935 + 0 curtailment_1936 + 0 curtailment_1937
- + 0 curtailment_1938 + 0 curtailment_1939 + 0 curtailment_1940
- + 0 curtailment_1941 + 0 curtailment_1942 + 0 curtailment_1943
- + 0 curtailment_1944 + 0 curtailment_1945 + 0 curtailment_1946
- + 0 curtailment_1947 + 0 curtailment_1948 + 0 curtailment_1949
- + 0 curtailment_1950 + 0 curtailment_1951 + 0 curtailment_1952
- + 0 curtailment_1953 + 0 curtailment_1954 + 0 curtailment_1955
- + 0 curtailment_1956 + 0 curtailment_1957 + 0 curtailment_1958
- + 0 curtailment_1959 + 0 curtailment_1960 + 0 curtailment_1961
- + 0 curtailment_1962 + 0 curtailment_1963 + 0 curtailment_1964
- + 0 curtailment_1965 + 0 curtailment_1966 + 0 curtailment_1967
- + 0 curtailment_1968 + 0 curtailment_1969 + 0 curtailment_1970
- + 0 curtailment_1971 + 0 curtailment_1972 + 0 curtailment_1973
- + 0 curtailment_1974 + 0 curtailment_1975 + 0 curtailment_1976
- + 0 curtailment_1977 + 0 curtailment_1978 + 0 curtailment_1979
- + 0 curtailment_1980 + 0 curtailment_1981 + 0 curtailment_1982
- + 0 curtailment_1983 + 0 curtailment_1984 + 0 curtailment_1985
- + 0 curtailment_1986 + 0 curtailment_1987 + 0 curtailment_1988
- + 0 curtailment_1989 + 0 curtailment_1990 + 0 curtailment_1991
- + 0 curtailment_1992 + 0 curtailment_1993 + 0 curtailment_1994
- + 0 curtailment_1995 + 0 curtailment_1996 + 0 curtailment_1997
- + 0 curtailment_1998 + 0 curtailment_1999 + 0 curtailment_2000
- + 0 curtailment_2001 + 0 curtailment_2002 + 0 curtailment_2003
- + 0 curtailment_2004 + 0 curtailment_2005 + 0 curtailment_2006
- + 0 curtailment_2007 + 0 curtailment_2008 + 0 curtailment_2009
- + 0 curtailment_2010 + 0 curtailment_2011 + 0 curtailment_2012
- + 0 curtailment_2013 + 0 curtailment_2014 + 0 curtailment_2015
- + 0 curtailment_2016 + 0 curtailment_2017 + 0 curtailment_2018
- + 0 curtailment_2019 + 0 curtailment_2020 + 0 curtailment_2021
- + 0 curtailment_2022 + 0 curtailment_2023 + 0 curtailment_2024
- + 0 curtailment_2025 + 0 curtailment_2026 + 0 curtailment_2027
- + 0 curtailment_2028 + 0 curtailment_2029 + 0 curtailment_2030
- + 0 curtailment_2031 + 0 curtailment_2032 + 0 curtailment_2033
- + 0 curtailment_2034 + 0 curtailment_2035 + 0 curtailment_2036
- + 0 curtailment_2037 + 0 curtailment_2038 + 0 curtailment_2039
- + 0 curtailment_2040 + 0 curtailment_2041 + 0 curtailment_2042
- + 0 curtailment_2043 + 0 curtailment_2044 + 0 curtailment_2045
- + 0 curtailment_2046 + 0 curtailment_2047 + 0 curtailment_2048
- + 0 curtailment_2049 + 0 curtailment_2050 + 0 curtailment_2051
- + 0 curtailment_2052 + 0 curtailment_2053 + 0 curtailment_2054
- + 0 curtailment_2055 + 0 curtailment_2056 + 0 curtailment_2057
- + 0 curtailment_2058 + 0 curtailment_2059 + 0 curtailment_2060
- + 0 curtailment_2061 + 0 curtailment_2062 + 0 curtailment_2063
- + 0 curtailment_2064 + 0 curtailment_2065 + 0 curtailment_2066
- + 0 curtailment_2067 + 0 curtailment_2068 + 0 curtailment_2069
- + 0 curtailment_2070 + 0 curtailment_2071 + 0 curtailment_2072
- + 0 curtailment_2073 + 0 curtailment_2074 + 0 curtailment_2075
- + 0 curtailment_2076 + 0 curtailment_2077 + 0 curtailment_2078
- + 0 curtailment_2079 + 0 curtailment_2080 + 0 curtailment_2081
- + 0 curtailment_2082 + 0 curtailment_2083 + 0 curtailment_2084
- + 0 curtailment_2085 + 0 curtailment_2086 + 0 curtailment_2087
- + 0 curtailment_2088 + 0 curtailment_2089 + 0 curtailment_2090
- + 0 curtailment_2091 + 0 curtailment_2092 + 0 curtailment_2093
- + 0 curtailment_2094 + 0 curtailment_2095 + 0 curtailment_2096
- + 0 curtailment_2097 + 0 curtailment_2098 + 0 curtailment_2099
- + 0 curtailment_2100 + 0 curtailment_2101 + 0 curtailment_2102
- + 0 curtailment_2103 + 0 curtailment_2104 + 0 curtailment_2105
- + 0 curtailment_2106 + 0 curtailment_2107 + 0 curtailment_2108
- + 0 curtailment_2109 + 0 curtailment_2110 + 0 curtailment_2111
- + 0 curtailment_2112 + 0 curtailment_2113 + 0 curtailment_2114
- + 0 curtailment_2115 + 0 curtailment_2116 + 0 curtailment_2117
- + 0 curtailment_2118 + 0 curtailment_2119 + 0 curtailment_2120
- + 0 curtailment_2121 + 0 curtailment_2122 + 0 curtailment_2123
- + 0 curtailment_2124 + 0 curtailment_2125 + 0 curtailment_2126
- + 0 curtailment_2127 + 0 curtailment_2128 + 0 curtailment_2129
- + 0 curtailment_2130 + 0 curtailment_2131 + 0 curtailment_2132
- + 0 curtailment_2133 + 0 curtailment_2134 + 0 curtailment_2135
- + 0 curtailment_2136 + 0 curtailment_2137 + 0 curtailment_2138
- + 0 curtailment_2139 + 0 curtailment_2140 + 0 curtailment_2141
- + 0 curtailment_2142 + 0 curtailment_2143 + 0 curtailment_2144
- + 0 curtailment_2145 + 0 curtailment_2146 + 0 curtailment_2147
- + 0 curtailment_2148 + 0 curtailment_2149 + 0 curtailment_2150
- + 0 curtailment_2151 + 0 curtailment_2152 + 0 curtailment_2153
- + 0 curtailment_2154 + 0 curtailment_2155 + 0 curtailment_2156
- + 0 curtailment_2157 + 0 curtailment_2158 + 0 curtailment_2159
- + 0 curtailment_2160 + 0 curtailment_2161 + 0 curtailment_2162
- + 0 curtailment_2163 + 0 curtailment_2164 + 0 curtailment_2165
- + 0 curtailment_2166 + 0 curtailment_2167 + 0 curtailment_2168
- + 0 curtailment_2169 + 0 curtailment_2170 + 0 curtailment_2171
- + 0 curtailment_2172 + 0 curtailment_2173 + 0 curtailment_2174
- + 0 curtailment_2175 + 0 curtailment_2176 + 0 curtailment_2177
- + 0 curtailment_2178 + 0 curtailment_2179 + 0 curtailment_2180
- + 0 curtailment_2181 + 0 curtailment_2182 + 0 curtailment_2183
- + 0 curtailment_2184 + 0 curtailment_2185 + 0 curtailment_2186
- + 0 curtailment_2187 + 0 curtailment_2188 + 0 curtailment_2189
- + 0 curtailment_2190 + 0 curtailment_2191 + 0 curtailment_2192
- + 0 curtailment_2193 + 0 curtailment_2194 + 0 curtailment_2195
- + 0 curtailment_2196 + 0 curtailment_2197 + 0 curtailment_2198
- + 0 curtailment_2199 + 0 curtailment_2200 + 0 curtailment_2201
- + 0 curtailment_2202 + 0 curtailment_2203 + 0 curtailment_2204
- + 0 curtailment_2205 + 0 curtailment_2206 + 0 curtailment_2207
- + 0 curtailment_2208 + 0 curtailment_2209 + 0 curtailment_2210
- + 0 curtailment_2211 + 0 curtailment_2212 + 0 curtailment_2213
- + 0 curtailment_2214 + 0 curtailment_2215 + 0 curtailment_2216
- + 0 curtailment_2217 + 0 curtailment_2218 + 0 curtailment_2219
- + 0 curtailment_2220 + 0 curtailment_2221 + 0 curtailment_2222
- + 0 curtailment_2223 + 0 curtailment_2224 + 0 curtailment_2225
- + 0 curtailment_2226 + 0 curtailment_2227 + 0 curtailment_2228
- + 0 curtailment_2229 + 0 curtailment_2230 + 0 curtailment_2231
- + 0 curtailment_2232 + 0 curtailment_2233 + 0 curtailment_2234
- + 0 curtailment_2235 + 0 curtailment_2236 + 0 curtailment_2237
- + 0 curtailment_2238 + 0 curtailment_2239 + 0 curtailment_2240
- + 0 curtailment_2241 + 0 curtailment_2242 + 0 curtailment_2243
- + 0 curtailment_2244 + 0 curtailment_2245 + 0 curtailment_2246
- + 0 curtailment_2247 + 0 curtailment_2248 + 0 curtailment_2249
- + 0 curtailment_2250 + 0 curtailment_2251 + 0 curtailment_2252
- + 0 curtailment_2253 + 0 curtailment_2254 + 0 curtailment_2255
- + 0 curtailment_2256 + 0 curtailment_2257 + 0 curtailment_2258
- + 0 curtailment_2259 + 0 curtailment_2260 + 0 curtailment_2261
- + 0 curtailment_2262 + 0 curtailment_2263 + 0 curtailment_2264
- + 0 curtailment_2265 + 0 curtailment_2266 + 0 curtailment_2267
- + 0 curtailment_2268 + 0 curtailment_2269 + 0 curtailment_2270
- + 0 curtailment_2271 + 0 curtailment_2272 + 0 curtailment_2273
- + 0 curtailment_2274 + 0 curtailment_2275 + 0 curtailment_2276
- + 0 curtailment_2277 + 0 curtailment_2278 + 0 curtailment_2279
- + 0 curtailment_2280 + 0 curtailment_2281 + 0 curtailment_2282
- + 0 curtailment_2283 + 0 curtailment_2284 + 0 curtailment_2285
- + 0 curtailment_2286 + 0 curtailment_2287 + 0 curtailment_2288
- + 0 curtailment_2289 + 0 curtailment_2290 + 0 curtailment_2291
- + 0 curtailment_2292 + 0 curtailment_2293 + 0 curtailment_2294
- + 0 curtailment_2295 + 0 curtailment_2296 + 0 curtailment_2297
- + 0 curtailment_2298 + 0 curtailment_2299 + 0 curtailment_2300
- + 0 curtailment_2301 + 0 curtailment_2302 + 0 curtailment_2303
- + 0 curtailment_2304 + 0 curtailment_2305 + 0 curtailment_2306
- + 0 curtailment_2307 + 0 curtailment_2308 + 0 curtailment_2309
- + 0 curtailment_2310 + 0 curtailment_2311 + 0 curtailment_2312
- + 0 curtailment_2313 + 0 curtailment_2314 + 0 curtailment_2315
- + 0 curtailment_2316 + 0 curtailment_2317 + 0 curtailment_2318
- + 0 curtailment_2319 + 0 curtailment_2320 + 0 curtailment_2321
- + 0 curtailment_2322 + 0 curtailment_2323 + 0 curtailment_2324
- + 0 curtailment_2325 + 0 curtailment_2326 + 0 curtailment_2327
- + 0 curtailment_2328 + 0 curtailment_2329 + 0 curtailment_2330
- + 0 curtailment_2331 + 0 curtailment_2332 + 0 curtailment_2333
- + 0 curtailment_2334 + 0 curtailment_2335 + 0 curtailment_2336
- + 0 curtailment_2337 + 0 curtailment_2338 + 0 curtailment_2339
- + 0 curtailment_2340 + 0 curtailment_2341 + 0 curtailment_2342
- + 0 curtailment_2343 + 0 curtailment_2344 + 0 curtailment_2345
- + 0 curtailment_2346 + 0 curtailment_2347 + 0 curtailment_2348
- + 0 curtailment_2349 + 0 curtailment_2350 + 0 curtailment_2351
- + 0 curtailment_2352 + 0 curtailment_2353 + 0 curtailment_2354
- + 0 curtailment_2355 + 0 curtailment_2356 + 0 curtailment_2357
- + 0 curtailment_2358 + 0 curtailment_2359 + 0 curtailment_2360
- + 0 curtailment_2361 + 0 curtailment_2362 + 0 curtailment_2363
- + 0 curtailment_2364 + 0 curtailment_2365 + 0 curtailment_2366
- + 0 curtailment_2367 + 0 curtailment_2368 + 0 curtailment_2369
- + 0 curtailment_2370 + 0 curtailment_2371 + 0 curtailment_2372
- + 0 curtailment_2373 + 0 curtailment_2374 + 0 curtailment_2375
- + 0 curtailment_2376 + 0 curtailment_2377 + 0 curtailment_2378
- + 0 curtailment_2379 + 0 curtailment_2380 + 0 curtailment_2381
- + 0 curtailment_2382 + 0 curtailment_2383 + 0 curtailment_2384
- + 0 curtailment_2385 + 0 curtailment_2386 + 0 curtailment_2387
- + 0 curtailment_2388 + 0 curtailment_2389 + 0 curtailment_2390
- + 0 curtailment_2391 + 0 curtailment_2392 + 0 curtailment_2393
- + 0 curtailment_2394 + 0 curtailment_2395 + 0 curtailment_2396
- + 0 curtailment_2397 + 0 curtailment_2398 + 0 curtailment_2399
- + 0 curtailment_2400 + 0 curtailment_2401 + 0 curtailment_2402
- + 0 curtailment_2403 + 0 curtailment_2404 + 0 curtailment_2405
- + 0 curtailment_2406 + 0 curtailment_2407 + 0 curtailment_2408
- + 0 curtailment_2409 + 0 curtailment_2410 + 0 curtailment_2411
- + 0 curtailment_2412 + 0 curtailment_2413 + 0 curtailment_2414
- + 0 curtailment_2415 + 0 curtailment_2416 + 0 curtailment_2417
- + 0 curtailment_2418 + 0 curtailment_2419 + 0 curtailment_2420
- + 0 curtailment_2421 + 0 curtailment_2422 + 0 curtailment_2423
- + 0 curtailment_2424 + 0 curtailment_2425 + 0 curtailment_2426
- + 0 curtailment_2427 + 0 curtailment_2428 + 0 curtailment_2429
- + 0 curtailment_2430 + 0 curtailment_2431 + 0 curtailment_2432
- + 0 curtailment_2433 + 0 curtailment_2434 + 0 curtailment_2435
- + 0 curtailment_2436 + 0 curtailment_2437 + 0 curtailment_2438
- + 0 curtailment_2439 + 0 curtailment_2440 + 0 curtailment_2441
- + 0 curtailment_2442 + 0 curtailment_2443 + 0 curtailment_2444
- + 0 curtailment_2445 + 0 curtailment_2446 + 0 curtailment_2447
- + 0 curtailment_2448 + 0 curtailment_2449 + 0 curtailment_2450
- + 0 curtailment_2451 + 0 produce_hydrogen_1 + 0 produce_hydrogen_2
+ + 61.325 electricity_sold_2451 + 0 produce_hydrogen_1 + 0 produce_hydrogen_2
  + 0 produce_hydrogen_3 + 0 produce_hydrogen_4 + 0 produce_hydrogen_5
  + 0 produce_hydrogen_6 + 0 produce_hydrogen_7 + 0 produce_hydrogen_8
  + 0 produce_hydrogen_9 + 0 produce_hydrogen_10 + 0 produce_hydrogen_11
@@ -10575,4907 +9766,6359 @@ R4900: electricity_sold_2449 <= 582168
 R4901: electricity_sold_2450 <= 635880 
 R4902: electricity_sold_2451 <= 575616 
 R4903: - battery_charge_1 + battery_discharge_1 - hydrogen_electricity_1
-          - electricity_sold_1 = -647592 
+          - electricity_sold_1 - curtailment_1 = -647592 
 R4904: - battery_charge_2 + battery_discharge_2 - hydrogen_electricity_2
-          - electricity_sold_2 = -736704 
+          - electricity_sold_2 - curtailment_2 = -736704 
 R4905: - battery_charge_3 + battery_discharge_3 - hydrogen_electricity_3
-          - electricity_sold_3 = -713736 
+          - electricity_sold_3 - curtailment_3 = -713736 
 R4906: - battery_charge_4 + battery_discharge_4 - hydrogen_electricity_4
-          - electricity_sold_4 = -672528 
+          - electricity_sold_4 - curtailment_4 = -672528 
 R4907: - battery_charge_5 + battery_discharge_5 - hydrogen_electricity_5
-          - electricity_sold_5 = -652392 
+          - electricity_sold_5 - curtailment_5 = -652392 
 R4908: - battery_charge_6 + battery_discharge_6 - hydrogen_electricity_6
-          - electricity_sold_6 = -773760 
+          - electricity_sold_6 - curtailment_6 = -773760 
 R4909: - battery_charge_7 + battery_discharge_7 - hydrogen_electricity_7
-          - electricity_sold_7 = -772872 
+          - electricity_sold_7 - curtailment_7 = -772872 
 R4910: - battery_charge_8 + battery_discharge_8 - hydrogen_electricity_8
-          - electricity_sold_8 = -822912 
+          - electricity_sold_8 - curtailment_8 = -822912 
 R4911: - battery_charge_9 + battery_discharge_9 - hydrogen_electricity_9
-          - electricity_sold_9 = -809208 
+          - electricity_sold_9 - curtailment_9 = -809208 
 R4912: - battery_charge_10 + battery_discharge_10 - hydrogen_electricity_10
-          - electricity_sold_10 = -850152 
+          - electricity_sold_10 - curtailment_10 = -850152 
 R4913: - battery_charge_11 + battery_discharge_11 - hydrogen_electricity_11
-          - electricity_sold_11 = -651168 
+          - electricity_sold_11 - curtailment_11 = -651168 
 R4914: - battery_charge_12 + battery_discharge_12 - hydrogen_electricity_12
-          - electricity_sold_12 = -657720 
+          - electricity_sold_12 - curtailment_12 = -657720 
 R4915: - battery_charge_13 + battery_discharge_13 - hydrogen_electricity_13
-          - electricity_sold_13 = -755592 
+          - electricity_sold_13 - curtailment_13 = -755592 
 R4916: - battery_charge_14 + battery_discharge_14 - hydrogen_electricity_14
-          - electricity_sold_14 = -768288 
+          - electricity_sold_14 - curtailment_14 = -768288 
 R4917: - battery_charge_15 + battery_discharge_15 - hydrogen_electricity_15
-          - electricity_sold_15 = -731712 
+          - electricity_sold_15 - curtailment_15 = -731712 
 R4918: - battery_charge_16 + battery_discharge_16 - hydrogen_electricity_16
-          - electricity_sold_16 = -763944 
+          - electricity_sold_16 - curtailment_16 = -763944 
 R4919: - battery_charge_17 + battery_discharge_17 - hydrogen_electricity_17
-          - electricity_sold_17 = -774672 
+          - electricity_sold_17 - curtailment_17 = -774672 
 R4920: - battery_charge_18 + battery_discharge_18 - hydrogen_electricity_18
-          - electricity_sold_18 = -746544 
+          - electricity_sold_18 - curtailment_18 = -746544 
 R4921: - battery_charge_19 + battery_discharge_19 - hydrogen_electricity_19
-          - electricity_sold_19 = -737832 
+          - electricity_sold_19 - curtailment_19 = -737832 
 R4922: - battery_charge_20 + battery_discharge_20 - hydrogen_electricity_20
-          - electricity_sold_20 = -902664 
+          - electricity_sold_20 - curtailment_20 = -902664 
 R4923: - battery_charge_21 + battery_discharge_21 - hydrogen_electricity_21
-          - electricity_sold_21 = -907968 
+          - electricity_sold_21 - curtailment_21 = -907968 
 R4924: - battery_charge_22 + battery_discharge_22 - hydrogen_electricity_22
-          - electricity_sold_22 = -902880 
+          - electricity_sold_22 - curtailment_22 = -902880 
 R4925: - battery_charge_23 + battery_discharge_23 - hydrogen_electricity_23
-          - electricity_sold_23 = -939768 
+          - electricity_sold_23 - curtailment_23 = -939768 
 R4926: - battery_charge_24 + battery_discharge_24 - hydrogen_electricity_24
-          - electricity_sold_24 = -895896 
+          - electricity_sold_24 - curtailment_24 = -895896 
 R4927: - battery_charge_25 + battery_discharge_25 - hydrogen_electricity_25
-          - electricity_sold_25 = -717912 
+          - electricity_sold_25 - curtailment_25 = -717912 
 R4928: - battery_charge_26 + battery_discharge_26 - hydrogen_electricity_26
-          - electricity_sold_26 = -689232 
+          - electricity_sold_26 - curtailment_26 = -689232 
 R4929: - battery_charge_27 + battery_discharge_27 - hydrogen_electricity_27
-          - electricity_sold_27 = -791880 
+          - electricity_sold_27 - curtailment_27 = -791880 
 R4930: - battery_charge_28 + battery_discharge_28 - hydrogen_electricity_28
-          - electricity_sold_28 = -753984 
+          - electricity_sold_28 - curtailment_28 = -753984 
 R4931: - battery_charge_29 + battery_discharge_29 - hydrogen_electricity_29
-          - electricity_sold_29 = -779856 
+          - electricity_sold_29 - curtailment_29 = -779856 
 R4932: - battery_charge_30 + battery_discharge_30 - hydrogen_electricity_30
-          - electricity_sold_30 = -743280 
+          - electricity_sold_30 - curtailment_30 = -743280 
 R4933: - battery_charge_31 + battery_discharge_31 - hydrogen_electricity_31
-          - electricity_sold_31 = -691560 
+          - electricity_sold_31 - curtailment_31 = -691560 
 R4934: - battery_charge_32 + battery_discharge_32 - hydrogen_electricity_32
-          - electricity_sold_32 = -650880 
+          - electricity_sold_32 - curtailment_32 = -650880 
 R4935: - battery_charge_33 + battery_discharge_33 - hydrogen_electricity_33
-          - electricity_sold_33 = -624864 
+          - electricity_sold_33 - curtailment_33 = -624864 
 R4936: - battery_charge_34 + battery_discharge_34 - hydrogen_electricity_34
-          - electricity_sold_34 = -728208 
+          - electricity_sold_34 - curtailment_34 = -728208 
 R4937: - battery_charge_35 + battery_discharge_35 - hydrogen_electricity_35
-          - electricity_sold_35 = -765384 
+          - electricity_sold_35 - curtailment_35 = -765384 
 R4938: - battery_charge_36 + battery_discharge_36 - hydrogen_electricity_36
-          - electricity_sold_36 = -833904 
+          - electricity_sold_36 - curtailment_36 = -833904 
 R4939: - battery_charge_37 + battery_discharge_37 - hydrogen_electricity_37
-          - electricity_sold_37 = -821472 
+          - electricity_sold_37 - curtailment_37 = -821472 
 R4940: - battery_charge_38 + battery_discharge_38 - hydrogen_electricity_38
-          - electricity_sold_38 = -734472 
+          - electricity_sold_38 - curtailment_38 = -734472 
 R4941: - battery_charge_39 + battery_discharge_39 - hydrogen_electricity_39
-          - electricity_sold_39 = -607440 
+          - electricity_sold_39 - curtailment_39 = -607440 
 R4942: - battery_charge_40 + battery_discharge_40 - hydrogen_electricity_40
-          - electricity_sold_40 = -618960 
+          - electricity_sold_40 - curtailment_40 = -618960 
 R4943: - battery_charge_41 + battery_discharge_41 - hydrogen_electricity_41
-          - electricity_sold_41 = -719784 
+          - electricity_sold_41 - curtailment_41 = -719784 
 R4944: - battery_charge_42 + battery_discharge_42 - hydrogen_electricity_42
-          - electricity_sold_42 = -737352 
+          - electricity_sold_42 - curtailment_42 = -737352 
 R4945: - battery_charge_43 + battery_discharge_43 - hydrogen_electricity_43
-          - electricity_sold_43 = -789480 
+          - electricity_sold_43 - curtailment_43 = -789480 
 R4946: - battery_charge_44 + battery_discharge_44 - hydrogen_electricity_44
-          - electricity_sold_44 = -725112 
+          - electricity_sold_44 - curtailment_44 = -725112 
 R4947: - battery_charge_45 + battery_discharge_45 - hydrogen_electricity_45
-          - electricity_sold_45 = -777504 
+          - electricity_sold_45 - curtailment_45 = -777504 
 R4948: - battery_charge_46 + battery_discharge_46 - hydrogen_electricity_46
-          - electricity_sold_46 = -639312 
+          - electricity_sold_46 - curtailment_46 = -639312 
 R4949: - battery_charge_47 + battery_discharge_47 - hydrogen_electricity_47
-          - electricity_sold_47 = -638808 
+          - electricity_sold_47 - curtailment_47 = -638808 
 R4950: - battery_charge_48 + battery_discharge_48 - hydrogen_electricity_48
-          - electricity_sold_48 = -722376 
+          - electricity_sold_48 - curtailment_48 = -722376 
 R4951: - battery_charge_49 + battery_discharge_49 - hydrogen_electricity_49
-          - electricity_sold_49 = -740832 
+          - electricity_sold_49 - curtailment_49 = -740832 
 R4952: - battery_charge_50 + battery_discharge_50 - hydrogen_electricity_50
-          - electricity_sold_50 = -749136 
+          - electricity_sold_50 - curtailment_50 = -749136 
 R4953: - battery_charge_51 + battery_discharge_51 - hydrogen_electricity_51
-          - electricity_sold_51 = -727368 
+          - electricity_sold_51 - curtailment_51 = -727368 
 R4954: - battery_charge_52 + battery_discharge_52 - hydrogen_electricity_52
-          - electricity_sold_52 = -725832 
+          - electricity_sold_52 - curtailment_52 = -725832 
 R4955: - battery_charge_53 + battery_discharge_53 - hydrogen_electricity_53
-          - electricity_sold_53 = -633552 
+          - electricity_sold_53 - curtailment_53 = -633552 
 R4956: - battery_charge_54 + battery_discharge_54 - hydrogen_electricity_54
-          - electricity_sold_54 = -648240 
+          - electricity_sold_54 - curtailment_54 = -648240 
 R4957: - battery_charge_55 + battery_discharge_55 - hydrogen_electricity_55
-          - electricity_sold_55 = -721680 
+          - electricity_sold_55 - curtailment_55 = -721680 
 R4958: - battery_charge_56 + battery_discharge_56 - hydrogen_electricity_56
-          - electricity_sold_56 = -741192 
+          - electricity_sold_56 - curtailment_56 = -741192 
 R4959: - battery_charge_57 + battery_discharge_57 - hydrogen_electricity_57
-          - electricity_sold_57 = -773160 
+          - electricity_sold_57 - curtailment_57 = -773160 
 R4960: - battery_charge_58 + battery_discharge_58 - hydrogen_electricity_58
-          - electricity_sold_58 = -819576 
+          - electricity_sold_58 - curtailment_58 = -819576 
 R4961: - battery_charge_59 + battery_discharge_59 - hydrogen_electricity_59
-          - electricity_sold_59 = -753024 
+          - electricity_sold_59 - curtailment_59 = -753024 
 R4962: - battery_charge_60 + battery_discharge_60 - hydrogen_electricity_60
-          - electricity_sold_60 = -656376 
+          - electricity_sold_60 - curtailment_60 = -656376 
 R4963: - battery_charge_61 + battery_discharge_61 - hydrogen_electricity_61
-          - electricity_sold_61 = -653640 
+          - electricity_sold_61 - curtailment_61 = -653640 
 R4964: - battery_charge_62 + battery_discharge_62 - hydrogen_electricity_62
-          - electricity_sold_62 = -764808 
+          - electricity_sold_62 - curtailment_62 = -764808 
 R4965: - battery_charge_63 + battery_discharge_63 - hydrogen_electricity_63
-          - electricity_sold_63 = -807864 
+          - electricity_sold_63 - curtailment_63 = -807864 
 R4966: - battery_charge_64 + battery_discharge_64 - hydrogen_electricity_64
-          - electricity_sold_64 = -837672 
+          - electricity_sold_64 - curtailment_64 = -837672 
 R4967: - battery_charge_65 + battery_discharge_65 - hydrogen_electricity_65
-          - electricity_sold_65 = -843504 
+          - electricity_sold_65 - curtailment_65 = -843504 
 R4968: - battery_charge_66 + battery_discharge_66 - hydrogen_electricity_66
-          - electricity_sold_66 = -793728 
+          - electricity_sold_66 - curtailment_66 = -793728 
 R4969: - battery_charge_67 + battery_discharge_67 - hydrogen_electricity_67
-          - electricity_sold_67 = -644208 
+          - electricity_sold_67 - curtailment_67 = -644208 
 R4970: - battery_charge_68 + battery_discharge_68 - hydrogen_electricity_68
-          - electricity_sold_68 = -621024 
+          - electricity_sold_68 - curtailment_68 = -621024 
 R4971: - battery_charge_69 + battery_discharge_69 - hydrogen_electricity_69
-          - electricity_sold_69 = -727416 
+          - electricity_sold_69 - curtailment_69 = -727416 
 R4972: - battery_charge_70 + battery_discharge_70 - hydrogen_electricity_70
-          - electricity_sold_70 = -697344 
+          - electricity_sold_70 - curtailment_70 = -697344 
 R4973: - battery_charge_71 + battery_discharge_71 - hydrogen_electricity_71
-          - electricity_sold_71 = -646536 
+          - electricity_sold_71 - curtailment_71 = -646536 
 R4974: - battery_charge_72 + battery_discharge_72 - hydrogen_electricity_72
-          - electricity_sold_72 = -690264 
+          - electricity_sold_72 - curtailment_72 = -690264 
 R4975: - battery_charge_73 + battery_discharge_73 - hydrogen_electricity_73
-          - electricity_sold_73 = -752976 
+          - electricity_sold_73 - curtailment_73 = -752976 
 R4976: - battery_charge_74 + battery_discharge_74 - hydrogen_electricity_74
-          - electricity_sold_74 = -624816 
+          - electricity_sold_74 - curtailment_74 = -624816 
 R4977: - battery_charge_75 + battery_discharge_75 - hydrogen_electricity_75
-          - electricity_sold_75 = -629688 
+          - electricity_sold_75 - curtailment_75 = -629688 
 R4978: - battery_charge_76 + battery_discharge_76 - hydrogen_electricity_76
-          - electricity_sold_76 = -737064 
+          - electricity_sold_76 - curtailment_76 = -737064 
 R4979: - battery_charge_77 + battery_discharge_77 - hydrogen_electricity_77
-          - electricity_sold_77 = -691368 
+          - electricity_sold_77 - curtailment_77 = -691368 
 R4980: - battery_charge_78 + battery_discharge_78 - hydrogen_electricity_78
-          - electricity_sold_78 = -743280 
+          - electricity_sold_78 - curtailment_78 = -743280 
 R4981: - battery_charge_79 + battery_discharge_79 - hydrogen_electricity_79
-          - electricity_sold_79 = -757776 
+          - electricity_sold_79 - curtailment_79 = -757776 
 R4982: - battery_charge_80 + battery_discharge_80 - hydrogen_electricity_80
-          - electricity_sold_80 = -703200 
+          - electricity_sold_80 - curtailment_80 = -703200 
 R4983: - battery_charge_81 + battery_discharge_81 - hydrogen_electricity_81
-          - electricity_sold_81 = -611424 
+          - electricity_sold_81 - curtailment_81 = -611424 
 R4984: - battery_charge_82 + battery_discharge_82 - hydrogen_electricity_82
-          - electricity_sold_82 = -620688 
+          - electricity_sold_82 - curtailment_82 = -620688 
 R4985: - battery_charge_83 + battery_discharge_83 - hydrogen_electricity_83
-          - electricity_sold_83 = -657360 
+          - electricity_sold_83 - curtailment_83 = -657360 
 R4986: - battery_charge_84 + battery_discharge_84 - hydrogen_electricity_84
-          - electricity_sold_84 = -638160 
+          - electricity_sold_84 - curtailment_84 = -638160 
 R4987: - battery_charge_85 + battery_discharge_85 - hydrogen_electricity_85
-          - electricity_sold_85 = -661752 
+          - electricity_sold_85 - curtailment_85 = -661752 
 R4988: - battery_charge_86 + battery_discharge_86 - hydrogen_electricity_86
-          - electricity_sold_86 = -667728 
+          - electricity_sold_86 - curtailment_86 = -667728 
 R4989: - battery_charge_87 + battery_discharge_87 - hydrogen_electricity_87
-          - electricity_sold_87 = -620592 
+          - electricity_sold_87 - curtailment_87 = -620592 
 R4990: - battery_charge_88 + battery_discharge_88 - hydrogen_electricity_88
-          - electricity_sold_88 = -584064 
+          - electricity_sold_88 - curtailment_88 = -584064 
 R4991: - battery_charge_89 + battery_discharge_89 - hydrogen_electricity_89
-          - electricity_sold_89 = -571584 
+          - electricity_sold_89 - curtailment_89 = -571584 
 R4992: - battery_charge_90 + battery_discharge_90 - hydrogen_electricity_90
-          - electricity_sold_90 = -619944 
+          - electricity_sold_90 - curtailment_90 = -619944 
 R4993: - battery_charge_91 + battery_discharge_91 - hydrogen_electricity_91
-          - electricity_sold_91 = -664368 
+          - electricity_sold_91 - curtailment_91 = -664368 
 R4994: - battery_charge_92 + battery_discharge_92 - hydrogen_electricity_92
-          - electricity_sold_92 = -648552 
+          - electricity_sold_92 - curtailment_92 = -648552 
 R4995: - battery_charge_93 + battery_discharge_93 - hydrogen_electricity_93
-          - electricity_sold_93 = -589200 
+          - electricity_sold_93 - curtailment_93 = -589200 
 R4996: - battery_charge_94 + battery_discharge_94 - hydrogen_electricity_94
-          - electricity_sold_94 = -605400 
+          - electricity_sold_94 - curtailment_94 = -605400 
 R4997: - battery_charge_95 + battery_discharge_95 - hydrogen_electricity_95
-          - electricity_sold_95 = -538368 
+          - electricity_sold_95 - curtailment_95 = -538368 
 R4998: - battery_charge_96 + battery_discharge_96 - hydrogen_electricity_96
-          - electricity_sold_96 = -554424 
+          - electricity_sold_96 - curtailment_96 = -554424 
 R4999: - battery_charge_97 + battery_discharge_97 - hydrogen_electricity_97
-          - electricity_sold_97 = -566256 
+          - electricity_sold_97 - curtailment_97 = -566256 
 R5000: - battery_charge_98 + battery_discharge_98 - hydrogen_electricity_98
-          - electricity_sold_98 = -612096 
+          - electricity_sold_98 - curtailment_98 = -612096 
 R5001: - battery_charge_99 + battery_discharge_99 - hydrogen_electricity_99
-          - electricity_sold_99 = -604440 
+          - electricity_sold_99 - curtailment_99 = -604440 
 R5002: - battery_charge_100 + battery_discharge_100 - hydrogen_electricity_100
-          - electricity_sold_100 = -564984 
+          - electricity_sold_100 - curtailment_100 = -564984 
 R5003: - battery_charge_101 + battery_discharge_101 - hydrogen_electricity_101
-          - electricity_sold_101 = -531720 
+          - electricity_sold_101 - curtailment_101 = -531720 
 R5004: - battery_charge_102 + battery_discharge_102 - hydrogen_electricity_102
-          - electricity_sold_102 = -516768 
+          - electricity_sold_102 - curtailment_102 = -516768 
 R5005: - battery_charge_103 + battery_discharge_103 - hydrogen_electricity_103
-          - electricity_sold_103 = -485568 
+          - electricity_sold_103 - curtailment_103 = -485568 
 R5006: - battery_charge_104 + battery_discharge_104 - hydrogen_electricity_104
-          - electricity_sold_104 = -527544 
+          - electricity_sold_104 - curtailment_104 = -527544 
 R5007: - battery_charge_105 + battery_discharge_105 - hydrogen_electricity_105
-          - electricity_sold_105 = -583896 
+          - electricity_sold_105 - curtailment_105 = -583896 
 R5008: - battery_charge_106 + battery_discharge_106 - hydrogen_electricity_106
-          - electricity_sold_106 = -574056 
+          - electricity_sold_106 - curtailment_106 = -574056 
 R5009: - battery_charge_107 + battery_discharge_107 - hydrogen_electricity_107
-          - electricity_sold_107 = -552192 
+          - electricity_sold_107 - curtailment_107 = -552192 
 R5010: - battery_charge_108 + battery_discharge_108 - hydrogen_electricity_108
-          - electricity_sold_108 = -541944 
+          - electricity_sold_108 - curtailment_108 = -541944 
 R5011: - battery_charge_109 + battery_discharge_109 - hydrogen_electricity_109
-          - electricity_sold_109 = -540936 
+          - electricity_sold_109 - curtailment_109 = -540936 
 R5012: - battery_charge_110 + battery_discharge_110 - hydrogen_electricity_110
-          - electricity_sold_110 = -537000 
+          - electricity_sold_110 - curtailment_110 = -537000 
 R5013: - battery_charge_111 + battery_discharge_111 - hydrogen_electricity_111
-          - electricity_sold_111 = -586848 
+          - electricity_sold_111 - curtailment_111 = -586848 
 R5014: - battery_charge_112 + battery_discharge_112 - hydrogen_electricity_112
-          - electricity_sold_112 = -587136 
+          - electricity_sold_112 - curtailment_112 = -587136 
 R5015: - battery_charge_113 + battery_discharge_113 - hydrogen_electricity_113
-          - electricity_sold_113 = -578136 
+          - electricity_sold_113 - curtailment_113 = -578136 
 R5016: - battery_charge_114 + battery_discharge_114 - hydrogen_electricity_114
-          - electricity_sold_114 = -569232 
+          - electricity_sold_114 - curtailment_114 = -569232 
 R5017: - battery_charge_115 + battery_discharge_115 - hydrogen_electricity_115
-          - electricity_sold_115 = -557352 
+          - electricity_sold_115 - curtailment_115 = -557352 
 R5018: - battery_charge_116 + battery_discharge_116 - hydrogen_electricity_116
-          - electricity_sold_116 = -518568 
+          - electricity_sold_116 - curtailment_116 = -518568 
 R5019: - battery_charge_117 + battery_discharge_117 - hydrogen_electricity_117
-          - electricity_sold_117 = -521712 
+          - electricity_sold_117 - curtailment_117 = -521712 
 R5020: - battery_charge_118 + battery_discharge_118 - hydrogen_electricity_118
-          - electricity_sold_118 = -568464 
+          - electricity_sold_118 - curtailment_118 = -568464 
 R5021: - battery_charge_119 + battery_discharge_119 - hydrogen_electricity_119
-          - electricity_sold_119 = -596736 
+          - electricity_sold_119 - curtailment_119 = -596736 
 R5022: - battery_charge_120 + battery_discharge_120 - hydrogen_electricity_120
-          - electricity_sold_120 = -568632 
+          - electricity_sold_120 - curtailment_120 = -568632 
 R5023: - battery_charge_121 + battery_discharge_121 - hydrogen_electricity_121
-          - electricity_sold_121 = -495552 
+          - electricity_sold_121 - curtailment_121 = -495552 
 R5024: - battery_charge_122 + battery_discharge_122 - hydrogen_electricity_122
-          - electricity_sold_122 = -548952 
+          - electricity_sold_122 - curtailment_122 = -548952 
 R5025: - battery_charge_123 + battery_discharge_123 - hydrogen_electricity_123
-          - electricity_sold_123 = -542496 
+          - electricity_sold_123 - curtailment_123 = -542496 
 R5026: - battery_charge_124 + battery_discharge_124 - hydrogen_electricity_124
-          - electricity_sold_124 = -536256 
+          - electricity_sold_124 - curtailment_124 = -536256 
 R5027: - battery_charge_125 + battery_discharge_125 - hydrogen_electricity_125
-          - electricity_sold_125 = -542976 
+          - electricity_sold_125 - curtailment_125 = -542976 
 R5028: - battery_charge_126 + battery_discharge_126 - hydrogen_electricity_126
-          - electricity_sold_126 = -532248 
+          - electricity_sold_126 - curtailment_126 = -532248 
 R5029: - battery_charge_127 + battery_discharge_127 - hydrogen_electricity_127
-          - electricity_sold_127 = -537576 
+          - electricity_sold_127 - curtailment_127 = -537576 
 R5030: - battery_charge_128 + battery_discharge_128 - hydrogen_electricity_128
-          - electricity_sold_128 = -551208 
+          - electricity_sold_128 - curtailment_128 = -551208 
 R5031: - battery_charge_129 + battery_discharge_129 - hydrogen_electricity_129
-          - electricity_sold_129 = -509496 
+          - electricity_sold_129 - curtailment_129 = -509496 
 R5032: - battery_charge_130 + battery_discharge_130 - hydrogen_electricity_130
-          - electricity_sold_130 = -488328 
+          - electricity_sold_130 - curtailment_130 = -488328 
 R5033: - battery_charge_131 + battery_discharge_131 - hydrogen_electricity_131
-          - electricity_sold_131 = -517920 
+          - electricity_sold_131 - curtailment_131 = -517920 
 R5034: - battery_charge_132 + battery_discharge_132 - hydrogen_electricity_132
-          - electricity_sold_132 = -511200 
+          - electricity_sold_132 - curtailment_132 = -511200 
 R5035: - battery_charge_133 + battery_discharge_133 - hydrogen_electricity_133
-          - electricity_sold_133 = -535200 
+          - electricity_sold_133 - curtailment_133 = -535200 
 R5036: - battery_charge_134 + battery_discharge_134 - hydrogen_electricity_134
-          - electricity_sold_134 = -540600 
+          - electricity_sold_134 - curtailment_134 = -540600 
 R5037: - battery_charge_135 + battery_discharge_135 - hydrogen_electricity_135
-          - electricity_sold_135 = -541176 
+          - electricity_sold_135 - curtailment_135 = -541176 
 R5038: - battery_charge_136 + battery_discharge_136 - hydrogen_electricity_136
-          - electricity_sold_136 = -537120 
+          - electricity_sold_136 - curtailment_136 = -537120 
 R5039: - battery_charge_137 + battery_discharge_137 - hydrogen_electricity_137
-          - electricity_sold_137 = -517224 
+          - electricity_sold_137 - curtailment_137 = -517224 
 R5040: - battery_charge_138 + battery_discharge_138 - hydrogen_electricity_138
-          - electricity_sold_138 = -486096 
+          - electricity_sold_138 - curtailment_138 = -486096 
 R5041: - battery_charge_139 + battery_discharge_139 - hydrogen_electricity_139
-          - electricity_sold_139 = -518976 
+          - electricity_sold_139 - curtailment_139 = -518976 
 R5042: - battery_charge_140 + battery_discharge_140 - hydrogen_electricity_140
-          - electricity_sold_140 = -532920 
+          - electricity_sold_140 - curtailment_140 = -532920 
 R5043: - battery_charge_141 + battery_discharge_141 - hydrogen_electricity_141
-          - electricity_sold_141 = -560856 
+          - electricity_sold_141 - curtailment_141 = -560856 
 R5044: - battery_charge_142 + battery_discharge_142 - hydrogen_electricity_142
-          - electricity_sold_142 = -559680 
+          - electricity_sold_142 - curtailment_142 = -559680 
 R5045: - battery_charge_143 + battery_discharge_143 - hydrogen_electricity_143
-          - electricity_sold_143 = -580008 
+          - electricity_sold_143 - curtailment_143 = -580008 
 R5046: - battery_charge_144 + battery_discharge_144 - hydrogen_electricity_144
-          - electricity_sold_144 = -579096 
+          - electricity_sold_144 - curtailment_144 = -579096 
 R5047: - battery_charge_145 + battery_discharge_145 - hydrogen_electricity_145
-          - electricity_sold_145 = -529536 
+          - electricity_sold_145 - curtailment_145 = -529536 
 R5048: - battery_charge_146 + battery_discharge_146 - hydrogen_electricity_146
-          - electricity_sold_146 = -529776 
+          - electricity_sold_146 - curtailment_146 = -529776 
 R5049: - battery_charge_147 + battery_discharge_147 - hydrogen_electricity_147
-          - electricity_sold_147 = -548352 
+          - electricity_sold_147 - curtailment_147 = -548352 
 R5050: - battery_charge_148 + battery_discharge_148 - hydrogen_electricity_148
-          - electricity_sold_148 = -557256 
+          - electricity_sold_148 - curtailment_148 = -557256 
 R5051: - battery_charge_149 + battery_discharge_149 - hydrogen_electricity_149
-          - electricity_sold_149 = -534192 
+          - electricity_sold_149 - curtailment_149 = -534192 
 R5052: - battery_charge_150 + battery_discharge_150 - hydrogen_electricity_150
-          - electricity_sold_150 = -509832 
+          - electricity_sold_150 - curtailment_150 = -509832 
 R5053: - battery_charge_151 + battery_discharge_151 - hydrogen_electricity_151
-          - electricity_sold_151 = -495720 
+          - electricity_sold_151 - curtailment_151 = -495720 
 R5054: - battery_charge_152 + battery_discharge_152 - hydrogen_electricity_152
-          - electricity_sold_152 = -486192 
+          - electricity_sold_152 - curtailment_152 = -486192 
 R5055: - battery_charge_153 + battery_discharge_153 - hydrogen_electricity_153
-          - electricity_sold_153 = -544056 
+          - electricity_sold_153 - curtailment_153 = -544056 
 R5056: - battery_charge_154 + battery_discharge_154 - hydrogen_electricity_154
-          - electricity_sold_154 = -572448 
+          - electricity_sold_154 - curtailment_154 = -572448 
 R5057: - battery_charge_155 + battery_discharge_155 - hydrogen_electricity_155
-          - electricity_sold_155 = -557016 
+          - electricity_sold_155 - curtailment_155 = -557016 
 R5058: - battery_charge_156 + battery_discharge_156 - hydrogen_electricity_156
-          - electricity_sold_156 = -559032 
+          - electricity_sold_156 - curtailment_156 = -559032 
 R5059: - battery_charge_157 + battery_discharge_157 - hydrogen_electricity_157
-          - electricity_sold_157 = -535392 
+          - electricity_sold_157 - curtailment_157 = -535392 
 R5060: - battery_charge_158 + battery_discharge_158 - hydrogen_electricity_158
-          - electricity_sold_158 = -524136 
+          - electricity_sold_158 - curtailment_158 = -524136 
 R5061: - battery_charge_159 + battery_discharge_159 - hydrogen_electricity_159
-          - electricity_sold_159 = -518448 
+          - electricity_sold_159 - curtailment_159 = -518448 
 R5062: - battery_charge_160 + battery_discharge_160 - hydrogen_electricity_160
-          - electricity_sold_160 = -599136 
+          - electricity_sold_160 - curtailment_160 = -599136 
 R5063: - battery_charge_161 + battery_discharge_161 - hydrogen_electricity_161
-          - electricity_sold_161 = -635928 
+          - electricity_sold_161 - curtailment_161 = -635928 
 R5064: - battery_charge_162 + battery_discharge_162 - hydrogen_electricity_162
-          - electricity_sold_162 = -602232 
+          - electricity_sold_162 - curtailment_162 = -602232 
 R5065: - battery_charge_163 + battery_discharge_163 - hydrogen_electricity_163
-          - electricity_sold_163 = -493056 
+          - electricity_sold_163 - curtailment_163 = -493056 
 R5066: - battery_charge_164 + battery_discharge_164 - hydrogen_electricity_164
-          - electricity_sold_164 = -514344 
+          - electricity_sold_164 - curtailment_164 = -514344 
 R5067: - battery_charge_165 + battery_discharge_165 - hydrogen_electricity_165
-          - electricity_sold_165 = -513672 
+          - electricity_sold_165 - curtailment_165 = -513672 
 R5068: - battery_charge_166 + battery_discharge_166 - hydrogen_electricity_166
-          - electricity_sold_166 = -499608 
+          - electricity_sold_166 - curtailment_166 = -499608 
 R5069: - battery_charge_167 + battery_discharge_167 - hydrogen_electricity_167
-          - electricity_sold_167 = -589056 
+          - electricity_sold_167 - curtailment_167 = -589056 
 R5070: - battery_charge_168 + battery_discharge_168 - hydrogen_electricity_168
-          - electricity_sold_168 = -675504 
+          - electricity_sold_168 - curtailment_168 = -675504 
 R5071: - battery_charge_169 + battery_discharge_169 - hydrogen_electricity_169
-          - electricity_sold_169 = -662880 
+          - electricity_sold_169 - curtailment_169 = -662880 
 R5072: - battery_charge_170 + battery_discharge_170 - hydrogen_electricity_170
-          - electricity_sold_170 = -629400 
+          - electricity_sold_170 - curtailment_170 = -629400 
 R5073: - battery_charge_171 + battery_discharge_171 - hydrogen_electricity_171
-          - electricity_sold_171 = -554592 
+          - electricity_sold_171 - curtailment_171 = -554592 
 R5074: - battery_charge_172 + battery_discharge_172 - hydrogen_electricity_172
-          - electricity_sold_172 = -489624 
+          - electricity_sold_172 - curtailment_172 = -489624 
 R5075: - battery_charge_173 + battery_discharge_173 - hydrogen_electricity_173
-          - electricity_sold_173 = -510312 
+          - electricity_sold_173 - curtailment_173 = -510312 
 R5076: - battery_charge_174 + battery_discharge_174 - hydrogen_electricity_174
-          - electricity_sold_174 = -548016 
+          - electricity_sold_174 - curtailment_174 = -548016 
 R5077: - battery_charge_175 + battery_discharge_175 - hydrogen_electricity_175
-          - electricity_sold_175 = -633024 
+          - electricity_sold_175 - curtailment_175 = -633024 
 R5078: - battery_charge_176 + battery_discharge_176 - hydrogen_electricity_176
-          - electricity_sold_176 = -684456 
+          - electricity_sold_176 - curtailment_176 = -684456 
 R5079: - battery_charge_177 + battery_discharge_177 - hydrogen_electricity_177
-          - electricity_sold_177 = -684144 
+          - electricity_sold_177 - curtailment_177 = -684144 
 R5080: - battery_charge_178 + battery_discharge_178 - hydrogen_electricity_178
-          - electricity_sold_178 = -668760 
+          - electricity_sold_178 - curtailment_178 = -668760 
 R5081: - battery_charge_179 + battery_discharge_179 - hydrogen_electricity_179
-          - electricity_sold_179 = -489960 
+          - electricity_sold_179 - curtailment_179 = -489960 
 R5082: - battery_charge_180 + battery_discharge_180 - hydrogen_electricity_180
-          - electricity_sold_180 = -522792 
+          - electricity_sold_180 - curtailment_180 = -522792 
 R5083: - battery_charge_181 + battery_discharge_181 - hydrogen_electricity_181
-          - electricity_sold_181 = -547560 
+          - electricity_sold_181 - curtailment_181 = -547560 
 R5084: - battery_charge_182 + battery_discharge_182 - hydrogen_electricity_182
-          - electricity_sold_182 = -637104 
+          - electricity_sold_182 - curtailment_182 = -637104 
 R5085: - battery_charge_183 + battery_discharge_183 - hydrogen_electricity_183
-          - electricity_sold_183 = -667272 
+          - electricity_sold_183 - curtailment_183 = -667272 
 R5086: - battery_charge_184 + battery_discharge_184 - hydrogen_electricity_184
-          - electricity_sold_184 = -700176 
+          - electricity_sold_184 - curtailment_184 = -700176 
 R5087: - battery_charge_185 + battery_discharge_185 - hydrogen_electricity_185
-          - electricity_sold_185 = -563640 
+          - electricity_sold_185 - curtailment_185 = -563640 
 R5088: - battery_charge_186 + battery_discharge_186 - hydrogen_electricity_186
-          - electricity_sold_186 = -507384 
+          - electricity_sold_186 - curtailment_186 = -507384 
 R5089: - battery_charge_187 + battery_discharge_187 - hydrogen_electricity_187
-          - electricity_sold_187 = -568128 
+          - electricity_sold_187 - curtailment_187 = -568128 
 R5090: - battery_charge_188 + battery_discharge_188 - hydrogen_electricity_188
-          - electricity_sold_188 = -582504 
+          - electricity_sold_188 - curtailment_188 = -582504 
 R5091: - battery_charge_189 + battery_discharge_189 - hydrogen_electricity_189
-          - electricity_sold_189 = -700128 
+          - electricity_sold_189 - curtailment_189 = -700128 
 R5092: - battery_charge_190 + battery_discharge_190 - hydrogen_electricity_190
-          - electricity_sold_190 = -695856 
+          - electricity_sold_190 - curtailment_190 = -695856 
 R5093: - battery_charge_191 + battery_discharge_191 - hydrogen_electricity_191
-          - electricity_sold_191 = -637848 
+          - electricity_sold_191 - curtailment_191 = -637848 
 R5094: - battery_charge_192 + battery_discharge_192 - hydrogen_electricity_192
-          - electricity_sold_192 = -523608 
+          - electricity_sold_192 - curtailment_192 = -523608 
 R5095: - battery_charge_193 + battery_discharge_193 - hydrogen_electricity_193
-          - electricity_sold_193 = -501792 
+          - electricity_sold_193 - curtailment_193 = -501792 
 R5096: - battery_charge_194 + battery_discharge_194 - hydrogen_electricity_194
-          - electricity_sold_194 = -643152 
+          - electricity_sold_194 - curtailment_194 = -643152 
 R5097: - battery_charge_195 + battery_discharge_195 - hydrogen_electricity_195
-          - electricity_sold_195 = -672552 
+          - electricity_sold_195 - curtailment_195 = -672552 
 R5098: - battery_charge_196 + battery_discharge_196 - hydrogen_electricity_196
-          - electricity_sold_196 = -682944 
+          - electricity_sold_196 - curtailment_196 = -682944 
 R5099: - battery_charge_197 + battery_discharge_197 - hydrogen_electricity_197
-          - electricity_sold_197 = -682272 
+          - electricity_sold_197 - curtailment_197 = -682272 
 R5100: - battery_charge_198 + battery_discharge_198 - hydrogen_electricity_198
-          - electricity_sold_198 = -636648 
+          - electricity_sold_198 - curtailment_198 = -636648 
 R5101: - battery_charge_199 + battery_discharge_199 - hydrogen_electricity_199
-          - electricity_sold_199 = -512616 
+          - electricity_sold_199 - curtailment_199 = -512616 
 R5102: - battery_charge_200 + battery_discharge_200 - hydrogen_electricity_200
-          - electricity_sold_200 = -518808 
+          - electricity_sold_200 - curtailment_200 = -518808 
 R5103: - battery_charge_201 + battery_discharge_201 - hydrogen_electricity_201
-          - electricity_sold_201 = -520752 
+          - electricity_sold_201 - curtailment_201 = -520752 
 R5104: - battery_charge_202 + battery_discharge_202 - hydrogen_electricity_202
-          - electricity_sold_202 = -671976 
+          - electricity_sold_202 - curtailment_202 = -671976 
 R5105: - battery_charge_203 + battery_discharge_203 - hydrogen_electricity_203
-          - electricity_sold_203 = -638928 
+          - electricity_sold_203 - curtailment_203 = -638928 
 R5106: - battery_charge_204 + battery_discharge_204 - hydrogen_electricity_204
-          - electricity_sold_204 = -641640 
+          - electricity_sold_204 - curtailment_204 = -641640 
 R5107: - battery_charge_205 + battery_discharge_205 - hydrogen_electricity_205
-          - electricity_sold_205 = -615360 
+          - electricity_sold_205 - curtailment_205 = -615360 
 R5108: - battery_charge_206 + battery_discharge_206 - hydrogen_electricity_206
-          - electricity_sold_206 = -505680 
+          - electricity_sold_206 - curtailment_206 = -505680 
 R5109: - battery_charge_207 + battery_discharge_207 - hydrogen_electricity_207
-          - electricity_sold_207 = -505128 
+          - electricity_sold_207 - curtailment_207 = -505128 
 R5110: - battery_charge_208 + battery_discharge_208 - hydrogen_electricity_208
-          - electricity_sold_208 = -593472 
+          - electricity_sold_208 - curtailment_208 = -593472 
 R5111: - battery_charge_209 + battery_discharge_209 - hydrogen_electricity_209
-          - electricity_sold_209 = -598440 
+          - electricity_sold_209 - curtailment_209 = -598440 
 R5112: - battery_charge_210 + battery_discharge_210 - hydrogen_electricity_210
-          - electricity_sold_210 = -616464 
+          - electricity_sold_210 - curtailment_210 = -616464 
 R5113: - battery_charge_211 + battery_discharge_211 - hydrogen_electricity_211
-          - electricity_sold_211 = -647424 
+          - electricity_sold_211 - curtailment_211 = -647424 
 R5114: - battery_charge_212 + battery_discharge_212 - hydrogen_electricity_212
-          - electricity_sold_212 = -632472 
+          - electricity_sold_212 - curtailment_212 = -632472 
 R5115: - battery_charge_213 + battery_discharge_213 - hydrogen_electricity_213
-          - electricity_sold_213 = -538272 
+          - electricity_sold_213 - curtailment_213 = -538272 
 R5116: - battery_charge_214 + battery_discharge_214 - hydrogen_electricity_214
-          - electricity_sold_214 = -526704 
+          - electricity_sold_214 - curtailment_214 = -526704 
 R5117: - battery_charge_215 + battery_discharge_215 - hydrogen_electricity_215
-          - electricity_sold_215 = -619728 
+          - electricity_sold_215 - curtailment_215 = -619728 
 R5118: - battery_charge_216 + battery_discharge_216 - hydrogen_electricity_216
-          - electricity_sold_216 = -586176 
+          - electricity_sold_216 - curtailment_216 = -586176 
 R5119: - battery_charge_217 + battery_discharge_217 - hydrogen_electricity_217
-          - electricity_sold_217 = -595464 
+          - electricity_sold_217 - curtailment_217 = -595464 
 R5120: - battery_charge_218 + battery_discharge_218 - hydrogen_electricity_218
-          - electricity_sold_218 = -579816 
+          - electricity_sold_218 - curtailment_218 = -579816 
 R5121: - battery_charge_219 + battery_discharge_219 - hydrogen_electricity_219
-          - electricity_sold_219 = -657888 
+          - electricity_sold_219 - curtailment_219 = -657888 
 R5122: - battery_charge_220 + battery_discharge_220 - hydrogen_electricity_220
-          - electricity_sold_220 = -534048 
+          - electricity_sold_220 - curtailment_220 = -534048 
 R5123: - battery_charge_221 + battery_discharge_221 - hydrogen_electricity_221
-          - electricity_sold_221 = -535632 
+          - electricity_sold_221 - curtailment_221 = -535632 
 R5124: - battery_charge_222 + battery_discharge_222 - hydrogen_electricity_222
-          - electricity_sold_222 = -645960 
+          - electricity_sold_222 - curtailment_222 = -645960 
 R5125: - battery_charge_223 + battery_discharge_223 - hydrogen_electricity_223
-          - electricity_sold_223 = -685752 
+          - electricity_sold_223 - curtailment_223 = -685752 
 R5126: - battery_charge_224 + battery_discharge_224 - hydrogen_electricity_224
-          - electricity_sold_224 = -665976 
+          - electricity_sold_224 - curtailment_224 = -665976 
 R5127: - battery_charge_225 + battery_discharge_225 - hydrogen_electricity_225
-          - electricity_sold_225 = -666120 
+          - electricity_sold_225 - curtailment_225 = -666120 
 R5128: - battery_charge_226 + battery_discharge_226 - hydrogen_electricity_226
-          - electricity_sold_226 = -634584 
+          - electricity_sold_226 - curtailment_226 = -634584 
 R5129: - battery_charge_227 + battery_discharge_227 - hydrogen_electricity_227
-          - electricity_sold_227 = -553920 
+          - electricity_sold_227 - curtailment_227 = -553920 
 R5130: - battery_charge_228 + battery_discharge_228 - hydrogen_electricity_228
-          - electricity_sold_228 = -534600 
+          - electricity_sold_228 - curtailment_228 = -534600 
 R5131: - battery_charge_229 + battery_discharge_229 - hydrogen_electricity_229
-          - electricity_sold_229 = -622992 
+          - electricity_sold_229 - curtailment_229 = -622992 
 R5132: - battery_charge_230 + battery_discharge_230 - hydrogen_electricity_230
-          - electricity_sold_230 = -641712 
+          - electricity_sold_230 - curtailment_230 = -641712 
 R5133: - battery_charge_231 + battery_discharge_231 - hydrogen_electricity_231
-          - electricity_sold_231 = -602520 
+          - electricity_sold_231 - curtailment_231 = -602520 
 R5134: - battery_charge_232 + battery_discharge_232 - hydrogen_electricity_232
-          - electricity_sold_232 = -578280 
+          - electricity_sold_232 - curtailment_232 = -578280 
 R5135: - battery_charge_233 + battery_discharge_233 - hydrogen_electricity_233
-          - electricity_sold_233 = -523560 
+          - electricity_sold_233 - curtailment_233 = -523560 
 R5136: - battery_charge_234 + battery_discharge_234 - hydrogen_electricity_234
-          - electricity_sold_234 = -524256 
+          - electricity_sold_234 - curtailment_234 = -524256 
 R5137: - battery_charge_235 + battery_discharge_235 - hydrogen_electricity_235
-          - electricity_sold_235 = -522672 
+          - electricity_sold_235 - curtailment_235 = -522672 
 R5138: - battery_charge_236 + battery_discharge_236 - hydrogen_electricity_236
-          - electricity_sold_236 = -620784 
+          - electricity_sold_236 - curtailment_236 = -620784 
 R5139: - battery_charge_237 + battery_discharge_237 - hydrogen_electricity_237
-          - electricity_sold_237 = -600960 
+          - electricity_sold_237 - curtailment_237 = -600960 
 R5140: - battery_charge_238 + battery_discharge_238 - hydrogen_electricity_238
-          - electricity_sold_238 = -633624 
+          - electricity_sold_238 - curtailment_238 = -633624 
 R5141: - battery_charge_239 + battery_discharge_239 - hydrogen_electricity_239
-          - electricity_sold_239 = -640896 
+          - electricity_sold_239 - curtailment_239 = -640896 
 R5142: - battery_charge_240 + battery_discharge_240 - hydrogen_electricity_240
-          - electricity_sold_240 = -583632 
+          - electricity_sold_240 - curtailment_240 = -583632 
 R5143: - battery_charge_241 + battery_discharge_241 - hydrogen_electricity_241
-          - electricity_sold_241 = -532320 
+          - electricity_sold_241 - curtailment_241 = -532320 
 R5144: - battery_charge_242 + battery_discharge_242 - hydrogen_electricity_242
-          - electricity_sold_242 = -530928 
+          - electricity_sold_242 - curtailment_242 = -530928 
 R5145: - battery_charge_243 + battery_discharge_243 - hydrogen_electricity_243
-          - electricity_sold_243 = -612192 
+          - electricity_sold_243 - curtailment_243 = -612192 
 R5146: - battery_charge_244 + battery_discharge_244 - hydrogen_electricity_244
-          - electricity_sold_244 = -677184 
+          - electricity_sold_244 - curtailment_244 = -677184 
 R5147: - battery_charge_245 + battery_discharge_245 - hydrogen_electricity_245
-          - electricity_sold_245 = -639360 
+          - electricity_sold_245 - curtailment_245 = -639360 
 R5148: - battery_charge_246 + battery_discharge_246 - hydrogen_electricity_246
-          - electricity_sold_246 = -618792 
+          - electricity_sold_246 - curtailment_246 = -618792 
 R5149: - battery_charge_247 + battery_discharge_247 - hydrogen_electricity_247
-          - electricity_sold_247 = -605544 
+          - electricity_sold_247 - curtailment_247 = -605544 
 R5150: - battery_charge_248 + battery_discharge_248 - hydrogen_electricity_248
-          - electricity_sold_248 = -555768 
+          - electricity_sold_248 - curtailment_248 = -555768 
 R5151: - battery_charge_249 + battery_discharge_249 - hydrogen_electricity_249
-          - electricity_sold_249 = -546048 
+          - electricity_sold_249 - curtailment_249 = -546048 
 R5152: - battery_charge_250 + battery_discharge_250 - hydrogen_electricity_250
-          - electricity_sold_250 = -628584 
+          - electricity_sold_250 - curtailment_250 = -628584 
 R5153: - battery_charge_251 + battery_discharge_251 - hydrogen_electricity_251
-          - electricity_sold_251 = -646752 
+          - electricity_sold_251 - curtailment_251 = -646752 
 R5154: - battery_charge_252 + battery_discharge_252 - hydrogen_electricity_252
-          - electricity_sold_252 = -682896 
+          - electricity_sold_252 - curtailment_252 = -682896 
 R5155: - battery_charge_253 + battery_discharge_253 - hydrogen_electricity_253
-          - electricity_sold_253 = -698688 
+          - electricity_sold_253 - curtailment_253 = -698688 
 R5156: - battery_charge_254 + battery_discharge_254 - hydrogen_electricity_254
-          - electricity_sold_254 = -669840 
+          - electricity_sold_254 - curtailment_254 = -669840 
 R5157: - battery_charge_255 + battery_discharge_255 - hydrogen_electricity_255
-          - electricity_sold_255 = -556608 
+          - electricity_sold_255 - curtailment_255 = -556608 
 R5158: - battery_charge_256 + battery_discharge_256 - hydrogen_electricity_256
-          - electricity_sold_256 = -550464 
+          - electricity_sold_256 - curtailment_256 = -550464 
 R5159: - battery_charge_257 + battery_discharge_257 - hydrogen_electricity_257
-          - electricity_sold_257 = -685032 
+          - electricity_sold_257 - curtailment_257 = -685032 
 R5160: - battery_charge_258 + battery_discharge_258 - hydrogen_electricity_258
-          - electricity_sold_258 = -727752 
+          - electricity_sold_258 - curtailment_258 = -727752 
 R5161: - battery_charge_259 + battery_discharge_259 - hydrogen_electricity_259
-          - electricity_sold_259 = -720696 
+          - electricity_sold_259 - curtailment_259 = -720696 
 R5162: - battery_charge_260 + battery_discharge_260 - hydrogen_electricity_260
-          - electricity_sold_260 = -679488 
+          - electricity_sold_260 - curtailment_260 = -679488 
 R5163: - battery_charge_261 + battery_discharge_261 - hydrogen_electricity_261
-          - electricity_sold_261 = -625896 
+          - electricity_sold_261 - curtailment_261 = -625896 
 R5164: - battery_charge_262 + battery_discharge_262 - hydrogen_electricity_262
-          - electricity_sold_262 = -533400 
+          - electricity_sold_262 - curtailment_262 = -533400 
 R5165: - battery_charge_263 + battery_discharge_263 - hydrogen_electricity_263
-          - electricity_sold_263 = -560496 
+          - electricity_sold_263 - curtailment_263 = -560496 
 R5166: - battery_charge_264 + battery_discharge_264 - hydrogen_electricity_264
-          - electricity_sold_264 = -728904 
+          - electricity_sold_264 - curtailment_264 = -728904 
 R5167: - battery_charge_265 + battery_discharge_265 - hydrogen_electricity_265
-          - electricity_sold_265 = -703824 
+          - electricity_sold_265 - curtailment_265 = -703824 
 R5168: - battery_charge_266 + battery_discharge_266 - hydrogen_electricity_266
-          - electricity_sold_266 = -684624 
+          - electricity_sold_266 - curtailment_266 = -684624 
 R5169: - battery_charge_267 + battery_discharge_267 - hydrogen_electricity_267
-          - electricity_sold_267 = -625224 
+          - electricity_sold_267 - curtailment_267 = -625224 
 R5170: - battery_charge_268 + battery_discharge_268 - hydrogen_electricity_268
-          - electricity_sold_268 = -618816 
+          - electricity_sold_268 - curtailment_268 = -618816 
 R5171: - battery_charge_269 + battery_discharge_269 - hydrogen_electricity_269
-          - electricity_sold_269 = -599496 
+          - electricity_sold_269 - curtailment_269 = -599496 
 R5172: - battery_charge_270 + battery_discharge_270 - hydrogen_electricity_270
-          - electricity_sold_270 = -588936 
+          - electricity_sold_270 - curtailment_270 = -588936 
 R5173: - battery_charge_271 + battery_discharge_271 - hydrogen_electricity_271
-          - electricity_sold_271 = -708504 
+          - electricity_sold_271 - curtailment_271 = -708504 
 R5174: - battery_charge_272 + battery_discharge_272 - hydrogen_electricity_272
-          - electricity_sold_272 = -674760 
+          - electricity_sold_272 - curtailment_272 = -674760 
 R5175: - battery_charge_273 + battery_discharge_273 - hydrogen_electricity_273
-          - electricity_sold_273 = -696576 
+          - electricity_sold_273 - curtailment_273 = -696576 
 R5176: - battery_charge_274 + battery_discharge_274 - hydrogen_electricity_274
-          - electricity_sold_274 = -701208 
+          - electricity_sold_274 - curtailment_274 = -701208 
 R5177: - battery_charge_275 + battery_discharge_275 - hydrogen_electricity_275
-          - electricity_sold_275 = -658464 
+          - electricity_sold_275 - curtailment_275 = -658464 
 R5178: - battery_charge_276 + battery_discharge_276 - hydrogen_electricity_276
-          - electricity_sold_276 = -590592 
+          - electricity_sold_276 - curtailment_276 = -590592 
 R5179: - battery_charge_277 + battery_discharge_277 - hydrogen_electricity_277
-          - electricity_sold_277 = -591528 
+          - electricity_sold_277 - curtailment_277 = -591528 
 R5180: - battery_charge_278 + battery_discharge_278 - hydrogen_electricity_278
-          - electricity_sold_278 = -670968 
+          - electricity_sold_278 - curtailment_278 = -670968 
 R5181: - battery_charge_279 + battery_discharge_279 - hydrogen_electricity_279
-          - electricity_sold_279 = -655440 
+          - electricity_sold_279 - curtailment_279 = -655440 
 R5182: - battery_charge_280 + battery_discharge_280 - hydrogen_electricity_280
-          - electricity_sold_280 = -695088 
+          - electricity_sold_280 - curtailment_280 = -695088 
 R5183: - battery_charge_281 + battery_discharge_281 - hydrogen_electricity_281
-          - electricity_sold_281 = -678816 
+          - electricity_sold_281 - curtailment_281 = -678816 
 R5184: - battery_charge_282 + battery_discharge_282 - hydrogen_electricity_282
-          - electricity_sold_282 = -657024 
+          - electricity_sold_282 - curtailment_282 = -657024 
 R5185: - battery_charge_283 + battery_discharge_283 - hydrogen_electricity_283
-          - electricity_sold_283 = -604296 
+          - electricity_sold_283 - curtailment_283 = -604296 
 R5186: - battery_charge_284 + battery_discharge_284 - hydrogen_electricity_284
-          - electricity_sold_284 = -638952 
+          - electricity_sold_284 - curtailment_284 = -638952 
 R5187: - battery_charge_285 + battery_discharge_285 - hydrogen_electricity_285
-          - electricity_sold_285 = -710304 
+          - electricity_sold_285 - curtailment_285 = -710304 
 R5188: - battery_charge_286 + battery_discharge_286 - hydrogen_electricity_286
-          - electricity_sold_286 = -693312 
+          - electricity_sold_286 - curtailment_286 = -693312 
 R5189: - battery_charge_287 + battery_discharge_287 - hydrogen_electricity_287
-          - electricity_sold_287 = -724584 
+          - electricity_sold_287 - curtailment_287 = -724584 
 R5190: - battery_charge_288 + battery_discharge_288 - hydrogen_electricity_288
-          - electricity_sold_288 = -752808 
+          - electricity_sold_288 - curtailment_288 = -752808 
 R5191: - battery_charge_289 + battery_discharge_289 - hydrogen_electricity_289
-          - electricity_sold_289 = -731664 
+          - electricity_sold_289 - curtailment_289 = -731664 
 R5192: - battery_charge_290 + battery_discharge_290 - hydrogen_electricity_290
-          - electricity_sold_290 = -626544 
+          - electricity_sold_290 - curtailment_290 = -626544 
 R5193: - battery_charge_291 + battery_discharge_291 - hydrogen_electricity_291
-          - electricity_sold_291 = -626448 
+          - electricity_sold_291 - curtailment_291 = -626448 
 R5194: - battery_charge_292 + battery_discharge_292 - hydrogen_electricity_292
-          - electricity_sold_292 = -644640 
+          - electricity_sold_292 - curtailment_292 = -644640 
 R5195: - battery_charge_293 + battery_discharge_293 - hydrogen_electricity_293
-          - electricity_sold_293 = -633240 
+          - electricity_sold_293 - curtailment_293 = -633240 
 R5196: - battery_charge_294 + battery_discharge_294 - hydrogen_electricity_294
-          - electricity_sold_294 = -668736 
+          - electricity_sold_294 - curtailment_294 = -668736 
 R5197: - battery_charge_295 + battery_discharge_295 - hydrogen_electricity_295
-          - electricity_sold_295 = -682536 
+          - electricity_sold_295 - curtailment_295 = -682536 
 R5198: - battery_charge_296 + battery_discharge_296 - hydrogen_electricity_296
-          - electricity_sold_296 = -653160 
+          - electricity_sold_296 - curtailment_296 = -653160 
 R5199: - battery_charge_297 + battery_discharge_297 - hydrogen_electricity_297
-          - electricity_sold_297 = -609528 
+          - electricity_sold_297 - curtailment_297 = -609528 
 R5200: - battery_charge_298 + battery_discharge_298 - hydrogen_electricity_298
-          - electricity_sold_298 = -584544 
+          - electricity_sold_298 - curtailment_298 = -584544 
 R5201: - battery_charge_299 + battery_discharge_299 - hydrogen_electricity_299
-          - electricity_sold_299 = -651864 
+          - electricity_sold_299 - curtailment_299 = -651864 
 R5202: - battery_charge_300 + battery_discharge_300 - hydrogen_electricity_300
-          - electricity_sold_300 = -636168 
+          - electricity_sold_300 - curtailment_300 = -636168 
 R5203: - battery_charge_301 + battery_discharge_301 - hydrogen_electricity_301
-          - electricity_sold_301 = -660936 
+          - electricity_sold_301 - curtailment_301 = -660936 
 R5204: - battery_charge_302 + battery_discharge_302 - hydrogen_electricity_302
-          - electricity_sold_302 = -659376 
+          - electricity_sold_302 - curtailment_302 = -659376 
 R5205: - battery_charge_303 + battery_discharge_303 - hydrogen_electricity_303
-          - electricity_sold_303 = -686256 
+          - electricity_sold_303 - curtailment_303 = -686256 
 R5206: - battery_charge_304 + battery_discharge_304 - hydrogen_electricity_304
-          - electricity_sold_304 = -601392 
+          - electricity_sold_304 - curtailment_304 = -601392 
 R5207: - battery_charge_305 + battery_discharge_305 - hydrogen_electricity_305
-          - electricity_sold_305 = -629992.0000000001 
+          - electricity_sold_305 - curtailment_305 = -629992.0000000001 
 R5208: - battery_charge_306 + battery_discharge_306 - hydrogen_electricity_306
-          - electricity_sold_306 = -658591.9999999999 
+          - electricity_sold_306 - curtailment_306 = -658591.9999999999 
 R5209: - battery_charge_307 + battery_discharge_307 - hydrogen_electricity_307
-          - electricity_sold_307 = -687192 
+          - electricity_sold_307 - curtailment_307 = -687192 
 R5210: - battery_charge_308 + battery_discharge_308 - hydrogen_electricity_308
-          - electricity_sold_308 = -753456 
+          - electricity_sold_308 - curtailment_308 = -753456 
 R5211: - battery_charge_309 + battery_discharge_309 - hydrogen_electricity_309
-          - electricity_sold_309 = -752568 
+          - electricity_sold_309 - curtailment_309 = -752568 
 R5212: - battery_charge_310 + battery_discharge_310 - hydrogen_electricity_310
-          - electricity_sold_310 = -703320 
+          - electricity_sold_310 - curtailment_310 = -703320 
 R5213: - battery_charge_311 + battery_discharge_311 - hydrogen_electricity_311
-          - electricity_sold_311 = -631368 
+          - electricity_sold_311 - curtailment_311 = -631368 
 R5214: - battery_charge_312 + battery_discharge_312 - hydrogen_electricity_312
-          - electricity_sold_312 = -592884 
+          - electricity_sold_312 - curtailment_312 = -592884 
 R5215: - battery_charge_313 + battery_discharge_313 - hydrogen_electricity_313
-          - electricity_sold_313 = -554400 
+          - electricity_sold_313 - curtailment_313 = -554400 
 R5216: - battery_charge_314 + battery_discharge_314 - hydrogen_electricity_314
-          - electricity_sold_314 = -707640 
+          - electricity_sold_314 - curtailment_314 = -707640 
 R5217: - battery_charge_315 + battery_discharge_315 - hydrogen_electricity_315
-          - electricity_sold_315 = -638520 
+          - electricity_sold_315 - curtailment_315 = -638520 
 R5218: - battery_charge_316 + battery_discharge_316 - hydrogen_electricity_316
-          - electricity_sold_316 = -569400 
+          - electricity_sold_316 - curtailment_316 = -569400 
 R5219: - battery_charge_317 + battery_discharge_317 - hydrogen_electricity_317
-          - electricity_sold_317 = -653040 
+          - electricity_sold_317 - curtailment_317 = -653040 
 R5220: - battery_charge_318 + battery_discharge_318 - hydrogen_electricity_318
-          - electricity_sold_318 = -561504 
+          - electricity_sold_318 - curtailment_318 = -561504 
 R5221: - battery_charge_319 + battery_discharge_319 - hydrogen_electricity_319
-          - electricity_sold_319 = -601824 
+          - electricity_sold_319 - curtailment_319 = -601824 
 R5222: - battery_charge_320 + battery_discharge_320 - hydrogen_electricity_320
-          - electricity_sold_320 = -595434 
+          - electricity_sold_320 - curtailment_320 = -595434 
 R5223: - battery_charge_321 + battery_discharge_321 - hydrogen_electricity_321
-          - electricity_sold_321 = -589044 
+          - electricity_sold_321 - curtailment_321 = -589044 
 R5224: - battery_charge_322 + battery_discharge_322 - hydrogen_electricity_322
-          - electricity_sold_322 = -582654 
+          - electricity_sold_322 - curtailment_322 = -582654 
 R5225: - battery_charge_323 + battery_discharge_323 - hydrogen_electricity_323
-          - electricity_sold_323 = -576264 
+          - electricity_sold_323 - curtailment_323 = -576264 
 R5226: - battery_charge_324 + battery_discharge_324 - hydrogen_electricity_324
-          - electricity_sold_324 = -725568 
+          - electricity_sold_324 - curtailment_324 = -725568 
 R5227: - battery_charge_325 + battery_discharge_325 - hydrogen_electricity_325
-          - electricity_sold_325 = -555576 
+          - electricity_sold_325 - curtailment_325 = -555576 
 R5228: - battery_charge_326 + battery_discharge_326 - hydrogen_electricity_326
-          - electricity_sold_326 = -649800 
+          - electricity_sold_326 - curtailment_326 = -649800 
 R5229: - battery_charge_327 + battery_discharge_327 - hydrogen_electricity_327
-          - electricity_sold_327 = -740376 
+          - electricity_sold_327 - curtailment_327 = -740376 
 R5230: - battery_charge_328 + battery_discharge_328 - hydrogen_electricity_328
-          - electricity_sold_328 = -573216 
+          - electricity_sold_328 - curtailment_328 = -573216 
 R5231: - battery_charge_329 + battery_discharge_329 - hydrogen_electricity_329
-          - electricity_sold_329 = -777984 
+          - electricity_sold_329 - curtailment_329 = -777984 
 R5232: - battery_charge_330 + battery_discharge_330 - hydrogen_electricity_330
-          - electricity_sold_330 = -669720 
+          - electricity_sold_330 - curtailment_330 = -669720 
 R5233: - battery_charge_331 + battery_discharge_331 - hydrogen_electricity_331
-          - electricity_sold_331 = -808800 
+          - electricity_sold_331 - curtailment_331 = -808800 
 R5234: - battery_charge_332 + battery_discharge_332 - hydrogen_electricity_332
-          - electricity_sold_332 = -742344 
+          - electricity_sold_332 - curtailment_332 = -742344 
 R5235: - battery_charge_333 + battery_discharge_333 - hydrogen_electricity_333
-          - electricity_sold_333 = -675888 
+          - electricity_sold_333 - curtailment_333 = -675888 
 R5236: - battery_charge_334 + battery_discharge_334 - hydrogen_electricity_334
-          - electricity_sold_334 = -609432 
+          - electricity_sold_334 - curtailment_334 = -609432 
 R5237: - battery_charge_335 + battery_discharge_335 - hydrogen_electricity_335
-          - electricity_sold_335 = -808968 
+          - electricity_sold_335 - curtailment_335 = -808968 
 R5238: - battery_charge_336 + battery_discharge_336 - hydrogen_electricity_336
-          - electricity_sold_336 = -843912 
+          - electricity_sold_336 - curtailment_336 = -843912 
 R5239: - battery_charge_337 + battery_discharge_337 - hydrogen_electricity_337
-          - electricity_sold_337 = -812328 
+          - electricity_sold_337 - curtailment_337 = -812328 
 R5240: - battery_charge_338 + battery_discharge_338 - hydrogen_electricity_338
-          - electricity_sold_338 = -794664 
+          - electricity_sold_338 - curtailment_338 = -794664 
 R5241: - battery_charge_339 + battery_discharge_339 - hydrogen_electricity_339
-          - electricity_sold_339 = -726192 
+          - electricity_sold_339 - curtailment_339 = -726192 
 R5242: - battery_charge_340 + battery_discharge_340 - hydrogen_electricity_340
-          - electricity_sold_340 = -760560 
+          - electricity_sold_340 - curtailment_340 = -760560 
 R5243: - battery_charge_341 + battery_discharge_341 - hydrogen_electricity_341
-          - electricity_sold_341 = -876288 
+          - electricity_sold_341 - curtailment_341 = -876288 
 R5244: - battery_charge_342 + battery_discharge_342 - hydrogen_electricity_342
-          - electricity_sold_342 = -865872 
+          - electricity_sold_342 - curtailment_342 = -865872 
 R5245: - battery_charge_343 + battery_discharge_343 - hydrogen_electricity_343
-          - electricity_sold_343 = -858264 
+          - electricity_sold_343 - curtailment_343 = -858264 
 R5246: - battery_charge_344 + battery_discharge_344 - hydrogen_electricity_344
-          - electricity_sold_344 = -870888 
+          - electricity_sold_344 - curtailment_344 = -870888 
 R5247: - battery_charge_345 + battery_discharge_345 - hydrogen_electricity_345
-          - electricity_sold_345 = -826752 
+          - electricity_sold_345 - curtailment_345 = -826752 
 R5248: - battery_charge_346 + battery_discharge_346 - hydrogen_electricity_346
-          - electricity_sold_346 = -730536 
+          - electricity_sold_346 - curtailment_346 = -730536 
 R5249: - battery_charge_347 + battery_discharge_347 - hydrogen_electricity_347
-          - electricity_sold_347 = -674568 
+          - electricity_sold_347 - curtailment_347 = -674568 
 R5250: - battery_charge_348 + battery_discharge_348 - hydrogen_electricity_348
-          - electricity_sold_348 = -759912 
+          - electricity_sold_348 - curtailment_348 = -759912 
 R5251: - battery_charge_349 + battery_discharge_349 - hydrogen_electricity_349
-          - electricity_sold_349 = -763704 
+          - electricity_sold_349 - curtailment_349 = -763704 
 R5252: - battery_charge_350 + battery_discharge_350 - hydrogen_electricity_350
-          - electricity_sold_350 = -764208 
+          - electricity_sold_350 - curtailment_350 = -764208 
 R5253: - battery_charge_351 + battery_discharge_351 - hydrogen_electricity_351
-          - electricity_sold_351 = -780048 
+          - electricity_sold_351 - curtailment_351 = -780048 
 R5254: - battery_charge_352 + battery_discharge_352 - hydrogen_electricity_352
-          - electricity_sold_352 = -685752 
+          - electricity_sold_352 - curtailment_352 = -685752 
 R5255: - battery_charge_353 + battery_discharge_353 - hydrogen_electricity_353
-          - electricity_sold_353 = -608784 
+          - electricity_sold_353 - curtailment_353 = -608784 
 R5256: - battery_charge_354 + battery_discharge_354 - hydrogen_electricity_354
-          - electricity_sold_354 = -630240 
+          - electricity_sold_354 - curtailment_354 = -630240 
 R5257: - battery_charge_355 + battery_discharge_355 - hydrogen_electricity_355
-          - electricity_sold_355 = -714240 
+          - electricity_sold_355 - curtailment_355 = -714240 
 R5258: - battery_charge_356 + battery_discharge_356 - hydrogen_electricity_356
-          - electricity_sold_356 = -766464 
+          - electricity_sold_356 - curtailment_356 = -766464 
 R5259: - battery_charge_357 + battery_discharge_357 - hydrogen_electricity_357
-          - electricity_sold_357 = -673056 
+          - electricity_sold_357 - curtailment_357 = -673056 
 R5260: - battery_charge_358 + battery_discharge_358 - hydrogen_electricity_358
-          - electricity_sold_358 = -654576 
+          - electricity_sold_358 - curtailment_358 = -654576 
 R5261: - battery_charge_359 + battery_discharge_359 - hydrogen_electricity_359
-          - electricity_sold_359 = -643008 
+          - electricity_sold_359 - curtailment_359 = -643008 
 R5262: - battery_charge_360 + battery_discharge_360 - hydrogen_electricity_360
-          - electricity_sold_360 = -608304 
+          - electricity_sold_360 - curtailment_360 = -608304 
 R5263: - battery_charge_361 + battery_discharge_361 - hydrogen_electricity_361
-          - electricity_sold_361 = -641160 
+          - electricity_sold_361 - curtailment_361 = -641160 
 R5264: - battery_charge_362 + battery_discharge_362 - hydrogen_electricity_362
-          - electricity_sold_362 = -690504 
+          - electricity_sold_362 - curtailment_362 = -690504 
 R5265: - battery_charge_363 + battery_discharge_363 - hydrogen_electricity_363
-          - electricity_sold_363 = -717864 
+          - electricity_sold_363 - curtailment_363 = -717864 
 R5266: - battery_charge_364 + battery_discharge_364 - hydrogen_electricity_364
-          - electricity_sold_364 = -763560 
+          - electricity_sold_364 - curtailment_364 = -763560 
 R5267: - battery_charge_365 + battery_discharge_365 - hydrogen_electricity_365
-          - electricity_sold_365 = -746232 
+          - electricity_sold_365 - curtailment_365 = -746232 
 R5268: - battery_charge_366 + battery_discharge_366 - hydrogen_electricity_366
-          - electricity_sold_366 = -615456 
+          - electricity_sold_366 - curtailment_366 = -615456 
 R5269: - battery_charge_367 + battery_discharge_367 - hydrogen_electricity_367
-          - electricity_sold_367 = -713400 
+          - electricity_sold_367 - curtailment_367 = -713400 
 R5270: - battery_charge_368 + battery_discharge_368 - hydrogen_electricity_368
-          - electricity_sold_368 = -709824 
+          - electricity_sold_368 - curtailment_368 = -709824 
 R5271: - battery_charge_369 + battery_discharge_369 - hydrogen_electricity_369
-          - electricity_sold_369 = -809904 
+          - electricity_sold_369 - curtailment_369 = -809904 
 R5272: - battery_charge_370 + battery_discharge_370 - hydrogen_electricity_370
-          - electricity_sold_370 = -840048 
+          - electricity_sold_370 - curtailment_370 = -840048 
 R5273: - battery_charge_371 + battery_discharge_371 - hydrogen_electricity_371
-          - electricity_sold_371 = -864120 
+          - electricity_sold_371 - curtailment_371 = -864120 
 R5274: - battery_charge_372 + battery_discharge_372 - hydrogen_electricity_372
-          - electricity_sold_372 = -890928 
+          - electricity_sold_372 - curtailment_372 = -890928 
 R5275: - battery_charge_373 + battery_discharge_373 - hydrogen_electricity_373
-          - electricity_sold_373 = -866184 
+          - electricity_sold_373 - curtailment_373 = -866184 
 R5276: - battery_charge_374 + battery_discharge_374 - hydrogen_electricity_374
-          - electricity_sold_374 = -794856 
+          - electricity_sold_374 - curtailment_374 = -794856 
 R5277: - battery_charge_375 + battery_discharge_375 - hydrogen_electricity_375
-          - electricity_sold_375 = -749856 
+          - electricity_sold_375 - curtailment_375 = -749856 
 R5278: - battery_charge_376 + battery_discharge_376 - hydrogen_electricity_376
-          - electricity_sold_376 = -812256 
+          - electricity_sold_376 - curtailment_376 = -812256 
 R5279: - battery_charge_377 + battery_discharge_377 - hydrogen_electricity_377
-          - electricity_sold_377 = -807168 
+          - electricity_sold_377 - curtailment_377 = -807168 
 R5280: - battery_charge_378 + battery_discharge_378 - hydrogen_electricity_378
-          - electricity_sold_378 = -811248 
+          - electricity_sold_378 - curtailment_378 = -811248 
 R5281: - battery_charge_379 + battery_discharge_379 - hydrogen_electricity_379
-          - electricity_sold_379 = -771024 
+          - electricity_sold_379 - curtailment_379 = -771024 
 R5282: - battery_charge_380 + battery_discharge_380 - hydrogen_electricity_380
-          - electricity_sold_380 = -808392 
+          - electricity_sold_380 - curtailment_380 = -808392 
 R5283: - battery_charge_381 + battery_discharge_381 - hydrogen_electricity_381
-          - electricity_sold_381 = -706104 
+          - electricity_sold_381 - curtailment_381 = -706104 
 R5284: - battery_charge_382 + battery_discharge_382 - hydrogen_electricity_382
-          - electricity_sold_382 = -692472 
+          - electricity_sold_382 - curtailment_382 = -692472 
 R5285: - battery_charge_383 + battery_discharge_383 - hydrogen_electricity_383
-          - electricity_sold_383 = -798120 
+          - electricity_sold_383 - curtailment_383 = -798120 
 R5286: - battery_charge_384 + battery_discharge_384 - hydrogen_electricity_384
-          - electricity_sold_384 = -734112 
+          - electricity_sold_384 - curtailment_384 = -734112 
 R5287: - battery_charge_385 + battery_discharge_385 - hydrogen_electricity_385
-          - electricity_sold_385 = -744960 
+          - electricity_sold_385 - curtailment_385 = -744960 
 R5288: - battery_charge_386 + battery_discharge_386 - hydrogen_electricity_386
-          - electricity_sold_386 = -755544 
+          - electricity_sold_386 - curtailment_386 = -755544 
 R5289: - battery_charge_387 + battery_discharge_387 - hydrogen_electricity_387
-          - electricity_sold_387 = -755856 
+          - electricity_sold_387 - curtailment_387 = -755856 
 R5290: - battery_charge_388 + battery_discharge_388 - hydrogen_electricity_388
-          - electricity_sold_388 = -739776 
+          - electricity_sold_388 - curtailment_388 = -739776 
 R5291: - battery_charge_389 + battery_discharge_389 - hydrogen_electricity_389
-          - electricity_sold_389 = -752304 
+          - electricity_sold_389 - curtailment_389 = -752304 
 R5292: - battery_charge_390 + battery_discharge_390 - hydrogen_electricity_390
-          - electricity_sold_390 = -842856 
+          - electricity_sold_390 - curtailment_390 = -842856 
 R5293: - battery_charge_391 + battery_discharge_391 - hydrogen_electricity_391
-          - electricity_sold_391 = -812112 
+          - electricity_sold_391 - curtailment_391 = -812112 
 R5294: - battery_charge_392 + battery_discharge_392 - hydrogen_electricity_392
-          - electricity_sold_392 = -786456 
+          - electricity_sold_392 - curtailment_392 = -786456 
 R5295: - battery_charge_393 + battery_discharge_393 - hydrogen_electricity_393
-          - electricity_sold_393 = -723624 
+          - electricity_sold_393 - curtailment_393 = -723624 
 R5296: - battery_charge_394 + battery_discharge_394 - hydrogen_electricity_394
-          - electricity_sold_394 = -719088 
+          - electricity_sold_394 - curtailment_394 = -719088 
 R5297: - battery_charge_395 + battery_discharge_395 - hydrogen_electricity_395
-          - electricity_sold_395 = -652272 
+          - electricity_sold_395 - curtailment_395 = -652272 
 R5298: - battery_charge_396 + battery_discharge_396 - hydrogen_electricity_396
-          - electricity_sold_396 = -691536 
+          - electricity_sold_396 - curtailment_396 = -691536 
 R5299: - battery_charge_397 + battery_discharge_397 - hydrogen_electricity_397
-          - electricity_sold_397 = -780384 
+          - electricity_sold_397 - curtailment_397 = -780384 
 R5300: - battery_charge_398 + battery_discharge_398 - hydrogen_electricity_398
-          - electricity_sold_398 = -738240 
+          - electricity_sold_398 - curtailment_398 = -738240 
 R5301: - battery_charge_399 + battery_discharge_399 - hydrogen_electricity_399
-          - electricity_sold_399 = -762456 
+          - electricity_sold_399 - curtailment_399 = -762456 
 R5302: - battery_charge_400 + battery_discharge_400 - hydrogen_electricity_400
-          - electricity_sold_400 = -761208 
+          - electricity_sold_400 - curtailment_400 = -761208 
 R5303: - battery_charge_401 + battery_discharge_401 - hydrogen_electricity_401
-          - electricity_sold_401 = -753264 
+          - electricity_sold_401 - curtailment_401 = -753264 
 R5304: - battery_charge_402 + battery_discharge_402 - hydrogen_electricity_402
-          - electricity_sold_402 = -669144 
+          - electricity_sold_402 - curtailment_402 = -669144 
 R5305: - battery_charge_403 + battery_discharge_403 - hydrogen_electricity_403
-          - electricity_sold_403 = -657744 
+          - electricity_sold_403 - curtailment_403 = -657744 
 R5306: - battery_charge_404 + battery_discharge_404 - hydrogen_electricity_404
-          - electricity_sold_404 = -780120 
+          - electricity_sold_404 - curtailment_404 = -780120 
 R5307: - battery_charge_405 + battery_discharge_405 - hydrogen_electricity_405
-          - electricity_sold_405 = -824616 
+          - electricity_sold_405 - curtailment_405 = -824616 
 R5308: - battery_charge_406 + battery_discharge_406 - hydrogen_electricity_406
-          - electricity_sold_406 = -849600 
+          - electricity_sold_406 - curtailment_406 = -849600 
 R5309: - battery_charge_407 + battery_discharge_407 - hydrogen_electricity_407
-          - electricity_sold_407 = -836712 
+          - electricity_sold_407 - curtailment_407 = -836712 
 R5310: - battery_charge_408 + battery_discharge_408 - hydrogen_electricity_408
-          - electricity_sold_408 = -834024 
+          - electricity_sold_408 - curtailment_408 = -834024 
 R5311: - battery_charge_409 + battery_discharge_409 - hydrogen_electricity_409
-          - electricity_sold_409 = -744168 
+          - electricity_sold_409 - curtailment_409 = -744168 
 R5312: - battery_charge_410 + battery_discharge_410 - hydrogen_electricity_410
-          - electricity_sold_410 = -707832 
+          - electricity_sold_410 - curtailment_410 = -707832 
 R5313: - battery_charge_411 + battery_discharge_411 - hydrogen_electricity_411
-          - electricity_sold_411 = -728232 
+          - electricity_sold_411 - curtailment_411 = -728232 
 R5314: - battery_charge_412 + battery_discharge_412 - hydrogen_electricity_412
-          - electricity_sold_412 = -674680.0000000001 
+          - electricity_sold_412 - curtailment_412 = -674680.0000000001 
 R5315: - battery_charge_413 + battery_discharge_413 - hydrogen_electricity_413
-          - electricity_sold_413 = -621127.9999999999 
+          - electricity_sold_413 - curtailment_413 = -621127.9999999999 
 R5316: - battery_charge_414 + battery_discharge_414 - hydrogen_electricity_414
-          - electricity_sold_414 = -567576 
+          - electricity_sold_414 - curtailment_414 = -567576 
 R5317: - battery_charge_415 + battery_discharge_415 - hydrogen_electricity_415
-          - electricity_sold_415 = -661824 
+          - electricity_sold_415 - curtailment_415 = -661824 
 R5318: - battery_charge_416 + battery_discharge_416 - hydrogen_electricity_416
-          - electricity_sold_416 = -438312 
+          - electricity_sold_416 - curtailment_416 = -438312 
 R5319: - battery_charge_417 + battery_discharge_417 - hydrogen_electricity_417
-          - electricity_sold_417 = -614520 
+          - electricity_sold_417 - curtailment_417 = -614520 
 R5320: - battery_charge_418 + battery_discharge_418 - hydrogen_electricity_418
-          - electricity_sold_418 = -676848 
+          - electricity_sold_418 - curtailment_418 = -676848 
 R5321: - battery_charge_419 + battery_discharge_419 - hydrogen_electricity_419
-          - electricity_sold_419 = -640896 
+          - electricity_sold_419 - curtailment_419 = -640896 
 R5322: - battery_charge_420 + battery_discharge_420 - hydrogen_electricity_420
-          - electricity_sold_420 = -620214 
+          - electricity_sold_420 - curtailment_420 = -620214 
 R5323: - battery_charge_421 + battery_discharge_421 - hydrogen_electricity_421
-          - electricity_sold_421 = -599532 
+          - electricity_sold_421 - curtailment_421 = -599532 
 R5324: - battery_charge_422 + battery_discharge_422 - hydrogen_electricity_422
-          - electricity_sold_422 = -578850 
+          - electricity_sold_422 - curtailment_422 = -578850 
 R5325: - battery_charge_423 + battery_discharge_423 - hydrogen_electricity_423
-          - electricity_sold_423 = -558168 
+          - electricity_sold_423 - curtailment_423 = -558168 
 R5326: - battery_charge_424 + battery_discharge_424 - hydrogen_electricity_424
-          - electricity_sold_424 = -637056 
+          - electricity_sold_424 - curtailment_424 = -637056 
 R5327: - battery_charge_425 + battery_discharge_425 - hydrogen_electricity_425
-          - electricity_sold_425 = -739368 
+          - electricity_sold_425 - curtailment_425 = -739368 
 R5328: - battery_charge_426 + battery_discharge_426 - hydrogen_electricity_426
-          - electricity_sold_426 = -746256 
+          - electricity_sold_426 - curtailment_426 = -746256 
 R5329: - battery_charge_427 + battery_discharge_427 - hydrogen_electricity_427
-          - electricity_sold_427 = -762384 
+          - electricity_sold_427 - curtailment_427 = -762384 
 R5330: - battery_charge_428 + battery_discharge_428 - hydrogen_electricity_428
-          - electricity_sold_428 = -764592 
+          - electricity_sold_428 - curtailment_428 = -764592 
 R5331: - battery_charge_429 + battery_discharge_429 - hydrogen_electricity_429
-          - electricity_sold_429 = -754656 
+          - electricity_sold_429 - curtailment_429 = -754656 
 R5332: - battery_charge_430 + battery_discharge_430 - hydrogen_electricity_430
-          - electricity_sold_430 = -688752 
+          - electricity_sold_430 - curtailment_430 = -688752 
 R5333: - battery_charge_431 + battery_discharge_431 - hydrogen_electricity_431
-          - electricity_sold_431 = -681168 
+          - electricity_sold_431 - curtailment_431 = -681168 
 R5334: - battery_charge_432 + battery_discharge_432 - hydrogen_electricity_432
-          - electricity_sold_432 = -733296 
+          - electricity_sold_432 - curtailment_432 = -733296 
 R5335: - battery_charge_433 + battery_discharge_433 - hydrogen_electricity_433
-          - electricity_sold_433 = -736344 
+          - electricity_sold_433 - curtailment_433 = -736344 
 R5336: - battery_charge_434 + battery_discharge_434 - hydrogen_electricity_434
-          - electricity_sold_434 = -546432 
+          - electricity_sold_434 - curtailment_434 = -546432 
 R5337: - battery_charge_435 + battery_discharge_435 - hydrogen_electricity_435
-          - electricity_sold_435 = -595968 
+          - electricity_sold_435 - curtailment_435 = -595968 
 R5338: - battery_charge_436 + battery_discharge_436 - hydrogen_electricity_436
-          - electricity_sold_436 = -664728 
+          - electricity_sold_436 - curtailment_436 = -664728 
 R5339: - battery_charge_437 + battery_discharge_437 - hydrogen_electricity_437
-          - electricity_sold_437 = -613992 
+          - electricity_sold_437 - curtailment_437 = -613992 
 R5340: - battery_charge_438 + battery_discharge_438 - hydrogen_electricity_438
-          - electricity_sold_438 = -625800 
+          - electricity_sold_438 - curtailment_438 = -625800 
 R5341: - battery_charge_439 + battery_discharge_439 - hydrogen_electricity_439
-          - electricity_sold_439 = -720864 
+          - electricity_sold_439 - curtailment_439 = -720864 
 R5342: - battery_charge_440 + battery_discharge_440 - hydrogen_electricity_440
-          - electricity_sold_440 = -719520 
+          - electricity_sold_440 - curtailment_440 = -719520 
 R5343: - battery_charge_441 + battery_discharge_441 - hydrogen_electricity_441
-          - electricity_sold_441 = -725328 
+          - electricity_sold_441 - curtailment_441 = -725328 
 R5344: - battery_charge_442 + battery_discharge_442 - hydrogen_electricity_442
-          - electricity_sold_442 = -746400 
+          - electricity_sold_442 - curtailment_442 = -746400 
 R5345: - battery_charge_443 + battery_discharge_443 - hydrogen_electricity_443
-          - electricity_sold_443 = -716376 
+          - electricity_sold_443 - curtailment_443 = -716376 
 R5346: - battery_charge_444 + battery_discharge_444 - hydrogen_electricity_444
-          - electricity_sold_444 = -647928 
+          - electricity_sold_444 - curtailment_444 = -647928 
 R5347: - battery_charge_445 + battery_discharge_445 - hydrogen_electricity_445
-          - electricity_sold_445 = -632280 
+          - electricity_sold_445 - curtailment_445 = -632280 
 R5348: - battery_charge_446 + battery_discharge_446 - hydrogen_electricity_446
-          - electricity_sold_446 = -725304 
+          - electricity_sold_446 - curtailment_446 = -725304 
 R5349: - battery_charge_447 + battery_discharge_447 - hydrogen_electricity_447
-          - electricity_sold_447 = -696624 
+          - electricity_sold_447 - curtailment_447 = -696624 
 R5350: - battery_charge_448 + battery_discharge_448 - hydrogen_electricity_448
-          - electricity_sold_448 = -722208 
+          - electricity_sold_448 - curtailment_448 = -722208 
 R5351: - battery_charge_449 + battery_discharge_449 - hydrogen_electricity_449
-          - electricity_sold_449 = -673512 
+          - electricity_sold_449 - curtailment_449 = -673512 
 R5352: - battery_charge_450 + battery_discharge_450 - hydrogen_electricity_450
-          - electricity_sold_450 = -678048 
+          - electricity_sold_450 - curtailment_450 = -678048 
 R5353: - battery_charge_451 + battery_discharge_451 - hydrogen_electricity_451
-          - electricity_sold_451 = -638520 
+          - electricity_sold_451 - curtailment_451 = -638520 
 R5354: - battery_charge_452 + battery_discharge_452 - hydrogen_electricity_452
-          - electricity_sold_452 = -651864 
+          - electricity_sold_452 - curtailment_452 = -651864 
 R5355: - battery_charge_453 + battery_discharge_453 - hydrogen_electricity_453
-          - electricity_sold_453 = -685128 
+          - electricity_sold_453 - curtailment_453 = -685128 
 R5356: - battery_charge_454 + battery_discharge_454 - hydrogen_electricity_454
-          - electricity_sold_454 = -630864 
+          - electricity_sold_454 - curtailment_454 = -630864 
 R5357: - battery_charge_455 + battery_discharge_455 - hydrogen_electricity_455
-          - electricity_sold_455 = -652632 
+          - electricity_sold_455 - curtailment_455 = -652632 
 R5358: - battery_charge_456 + battery_discharge_456 - hydrogen_electricity_456
-          - electricity_sold_456 = -634200 
+          - electricity_sold_456 - curtailment_456 = -634200 
 R5359: - battery_charge_457 + battery_discharge_457 - hydrogen_electricity_457
-          - electricity_sold_457 = -608784 
+          - electricity_sold_457 - curtailment_457 = -608784 
 R5360: - battery_charge_458 + battery_discharge_458 - hydrogen_electricity_458
-          - electricity_sold_458 = -604728 
+          - electricity_sold_458 - curtailment_458 = -604728 
 R5361: - battery_charge_459 + battery_discharge_459 - hydrogen_electricity_459
-          - electricity_sold_459 = -595488 
+          - electricity_sold_459 - curtailment_459 = -595488 
 R5362: - battery_charge_460 + battery_discharge_460 - hydrogen_electricity_460
-          - electricity_sold_460 = -644688 
+          - electricity_sold_460 - curtailment_460 = -644688 
 R5363: - battery_charge_461 + battery_discharge_461 - hydrogen_electricity_461
-          - electricity_sold_461 = -717408 
+          - electricity_sold_461 - curtailment_461 = -717408 
 R5364: - battery_charge_462 + battery_discharge_462 - hydrogen_electricity_462
-          - electricity_sold_462 = -769560 
+          - electricity_sold_462 - curtailment_462 = -769560 
 R5365: - battery_charge_463 + battery_discharge_463 - hydrogen_electricity_463
-          - electricity_sold_463 = -797064 
+          - electricity_sold_463 - curtailment_463 = -797064 
 R5366: - battery_charge_464 + battery_discharge_464 - hydrogen_electricity_464
-          - electricity_sold_464 = -716712 
+          - electricity_sold_464 - curtailment_464 = -716712 
 R5367: - battery_charge_465 + battery_discharge_465 - hydrogen_electricity_465
-          - electricity_sold_465 = -647256 
+          - electricity_sold_465 - curtailment_465 = -647256 
 R5368: - battery_charge_466 + battery_discharge_466 - hydrogen_electricity_466
-          - electricity_sold_466 = -647808 
+          - electricity_sold_466 - curtailment_466 = -647808 
 R5369: - battery_charge_467 + battery_discharge_467 - hydrogen_electricity_467
-          - electricity_sold_467 = -771936 
+          - electricity_sold_467 - curtailment_467 = -771936 
 R5370: - battery_charge_468 + battery_discharge_468 - hydrogen_electricity_468
-          - electricity_sold_468 = -770232 
+          - electricity_sold_468 - curtailment_468 = -770232 
 R5371: - battery_charge_469 + battery_discharge_469 - hydrogen_electricity_469
-          - electricity_sold_469 = -766512 
+          - electricity_sold_469 - curtailment_469 = -766512 
 R5372: - battery_charge_470 + battery_discharge_470 - hydrogen_electricity_470
-          - electricity_sold_470 = -772968 
+          - electricity_sold_470 - curtailment_470 = -772968 
 R5373: - battery_charge_471 + battery_discharge_471 - hydrogen_electricity_471
-          - electricity_sold_471 = -724152 
+          - electricity_sold_471 - curtailment_471 = -724152 
 R5374: - battery_charge_472 + battery_discharge_472 - hydrogen_electricity_472
-          - electricity_sold_472 = -641208 
+          - electricity_sold_472 - curtailment_472 = -641208 
 R5375: - battery_charge_473 + battery_discharge_473 - hydrogen_electricity_473
-          - electricity_sold_473 = -641832 
+          - electricity_sold_473 - curtailment_473 = -641832 
 R5376: - battery_charge_474 + battery_discharge_474 - hydrogen_electricity_474
-          - electricity_sold_474 = -759744 
+          - electricity_sold_474 - curtailment_474 = -759744 
 R5377: - battery_charge_475 + battery_discharge_475 - hydrogen_electricity_475
-          - electricity_sold_475 = -750960 
+          - electricity_sold_475 - curtailment_475 = -750960 
 R5378: - battery_charge_476 + battery_discharge_476 - hydrogen_electricity_476
-          - electricity_sold_476 = -729792 
+          - electricity_sold_476 - curtailment_476 = -729792 
 R5379: - battery_charge_477 + battery_discharge_477 - hydrogen_electricity_477
-          - electricity_sold_477 = -706656 
+          - electricity_sold_477 - curtailment_477 = -706656 
 R5380: - battery_charge_478 + battery_discharge_478 - hydrogen_electricity_478
-          - electricity_sold_478 = -661728 
+          - electricity_sold_478 - curtailment_478 = -661728 
 R5381: - battery_charge_479 + battery_discharge_479 - hydrogen_electricity_479
-          - electricity_sold_479 = -583368 
+          - electricity_sold_479 - curtailment_479 = -583368 
 R5382: - battery_charge_480 + battery_discharge_480 - hydrogen_electricity_480
-          - electricity_sold_480 = -595272 
+          - electricity_sold_480 - curtailment_480 = -595272 
 R5383: - battery_charge_481 + battery_discharge_481 - hydrogen_electricity_481
-          - electricity_sold_481 = -711096 
+          - electricity_sold_481 - curtailment_481 = -711096 
 R5384: - battery_charge_482 + battery_discharge_482 - hydrogen_electricity_482
-          - electricity_sold_482 = -776040 
+          - electricity_sold_482 - curtailment_482 = -776040 
 R5385: - battery_charge_483 + battery_discharge_483 - hydrogen_electricity_483
-          - electricity_sold_483 = -567816 
+          - electricity_sold_483 - curtailment_483 = -567816 
 R5386: - battery_charge_484 + battery_discharge_484 - hydrogen_electricity_484
-          - electricity_sold_484 = -735840 
+          - electricity_sold_484 - curtailment_484 = -735840 
 R5387: - battery_charge_485 + battery_discharge_485 - hydrogen_electricity_485
-          - electricity_sold_485 = -723168 
+          - electricity_sold_485 - curtailment_485 = -723168 
 R5388: - battery_charge_486 + battery_discharge_486 - hydrogen_electricity_486
-          - electricity_sold_486 = -653064 
+          - electricity_sold_486 - curtailment_486 = -653064 
 R5389: - battery_charge_487 + battery_discharge_487 - hydrogen_electricity_487
-          - electricity_sold_487 = -622752 
+          - electricity_sold_487 - curtailment_487 = -622752 
 R5390: - battery_charge_488 + battery_discharge_488 - hydrogen_electricity_488
-          - electricity_sold_488 = -619440 
+          - electricity_sold_488 - curtailment_488 = -619440 
 R5391: - battery_charge_489 + battery_discharge_489 - hydrogen_electricity_489
-          - electricity_sold_489 = -710784 
+          - electricity_sold_489 - curtailment_489 = -710784 
 R5392: - battery_charge_490 + battery_discharge_490 - hydrogen_electricity_490
-          - electricity_sold_490 = -722112 
+          - electricity_sold_490 - curtailment_490 = -722112 
 R5393: - battery_charge_491 + battery_discharge_491 - hydrogen_electricity_491
-          - electricity_sold_491 = -729840 
+          - electricity_sold_491 - curtailment_491 = -729840 
 R5394: - battery_charge_492 + battery_discharge_492 - hydrogen_electricity_492
-          - electricity_sold_492 = -683232 
+          - electricity_sold_492 - curtailment_492 = -683232 
 R5395: - battery_charge_493 + battery_discharge_493 - hydrogen_electricity_493
-          - electricity_sold_493 = -571632 
+          - electricity_sold_493 - curtailment_493 = -571632 
 R5396: - battery_charge_494 + battery_discharge_494 - hydrogen_electricity_494
-          - electricity_sold_494 = -552672 
+          - electricity_sold_494 - curtailment_494 = -552672 
 R5397: - battery_charge_495 + battery_discharge_495 - hydrogen_electricity_495
-          - electricity_sold_495 = -616224 
+          - electricity_sold_495 - curtailment_495 = -616224 
 R5398: - battery_charge_496 + battery_discharge_496 - hydrogen_electricity_496
-          - electricity_sold_496 = -657048 
+          - electricity_sold_496 - curtailment_496 = -657048 
 R5399: - battery_charge_497 + battery_discharge_497 - hydrogen_electricity_497
-          - electricity_sold_497 = -670584 
+          - electricity_sold_497 - curtailment_497 = -670584 
 R5400: - battery_charge_498 + battery_discharge_498 - hydrogen_electricity_498
-          - electricity_sold_498 = -668400 
+          - electricity_sold_498 - curtailment_498 = -668400 
 R5401: - battery_charge_499 + battery_discharge_499 - hydrogen_electricity_499
-          - electricity_sold_499 = -658008 
+          - electricity_sold_499 - curtailment_499 = -658008 
 R5402: - battery_charge_500 + battery_discharge_500 - hydrogen_electricity_500
-          - electricity_sold_500 = -591792 
+          - electricity_sold_500 - curtailment_500 = -591792 
 R5403: - battery_charge_501 + battery_discharge_501 - hydrogen_electricity_501
-          - electricity_sold_501 = -584496 
+          - electricity_sold_501 - curtailment_501 = -584496 
 R5404: - battery_charge_502 + battery_discharge_502 - hydrogen_electricity_502
-          - electricity_sold_502 = -667704 
+          - electricity_sold_502 - curtailment_502 = -667704 
 R5405: - battery_charge_503 + battery_discharge_503 - hydrogen_electricity_503
-          - electricity_sold_503 = -676968 
+          - electricity_sold_503 - curtailment_503 = -676968 
 R5406: - battery_charge_504 + battery_discharge_504 - hydrogen_electricity_504
-          - electricity_sold_504 = -677184 
+          - electricity_sold_504 - curtailment_504 = -677184 
 R5407: - battery_charge_505 + battery_discharge_505 - hydrogen_electricity_505
-          - electricity_sold_505 = -633048 
+          - electricity_sold_505 - curtailment_505 = -633048 
 R5408: - battery_charge_506 + battery_discharge_506 - hydrogen_electricity_506
-          - electricity_sold_506 = -664296 
+          - electricity_sold_506 - curtailment_506 = -664296 
 R5409: - battery_charge_507 + battery_discharge_507 - hydrogen_electricity_507
-          - electricity_sold_507 = -618624 
+          - electricity_sold_507 - curtailment_507 = -618624 
 R5410: - battery_charge_508 + battery_discharge_508 - hydrogen_electricity_508
-          - electricity_sold_508 = -576312 
+          - electricity_sold_508 - curtailment_508 = -576312 
 R5411: - battery_charge_509 + battery_discharge_509 - hydrogen_electricity_509
-          - electricity_sold_509 = -652224 
+          - electricity_sold_509 - curtailment_509 = -652224 
 R5412: - battery_charge_510 + battery_discharge_510 - hydrogen_electricity_510
-          - electricity_sold_510 = -645168 
+          - electricity_sold_510 - curtailment_510 = -645168 
 R5413: - battery_charge_511 + battery_discharge_511 - hydrogen_electricity_511
-          - electricity_sold_511 = -676320 
+          - electricity_sold_511 - curtailment_511 = -676320 
 R5414: - battery_charge_512 + battery_discharge_512 - hydrogen_electricity_512
-          - electricity_sold_512 = -651480 
+          - electricity_sold_512 - curtailment_512 = -651480 
 R5415: - battery_charge_513 + battery_discharge_513 - hydrogen_electricity_513
-          - electricity_sold_513 = -646296 
+          - electricity_sold_513 - curtailment_513 = -646296 
 R5416: - battery_charge_514 + battery_discharge_514 - hydrogen_electricity_514
-          - electricity_sold_514 = -575448 
+          - electricity_sold_514 - curtailment_514 = -575448 
 R5417: - battery_charge_515 + battery_discharge_515 - hydrogen_electricity_515
-          - electricity_sold_515 = -540216 
+          - electricity_sold_515 - curtailment_515 = -540216 
 R5418: - battery_charge_516 + battery_discharge_516 - hydrogen_electricity_516
-          - electricity_sold_516 = -551568 
+          - electricity_sold_516 - curtailment_516 = -551568 
 R5419: - battery_charge_517 + battery_discharge_517 - hydrogen_electricity_517
-          - electricity_sold_517 = -622776 
+          - electricity_sold_517 - curtailment_517 = -622776 
 R5420: - battery_charge_518 + battery_discharge_518 - hydrogen_electricity_518
-          - electricity_sold_518 = -622992 
+          - electricity_sold_518 - curtailment_518 = -622992 
 R5421: - battery_charge_519 + battery_discharge_519 - hydrogen_electricity_519
-          - electricity_sold_519 = -618096 
+          - electricity_sold_519 - curtailment_519 = -618096 
 R5422: - battery_charge_520 + battery_discharge_520 - hydrogen_electricity_520
-          - electricity_sold_520 = -610752 
+          - electricity_sold_520 - curtailment_520 = -610752 
 R5423: - battery_charge_521 + battery_discharge_521 - hydrogen_electricity_521
-          - electricity_sold_521 = -558648 
+          - electricity_sold_521 - curtailment_521 = -558648 
 R5424: - battery_charge_522 + battery_discharge_522 - hydrogen_electricity_522
-          - electricity_sold_522 = -544584 
+          - electricity_sold_522 - curtailment_522 = -544584 
 R5425: - battery_charge_523 + battery_discharge_523 - hydrogen_electricity_523
-          - electricity_sold_523 = -613464 
+          - electricity_sold_523 - curtailment_523 = -613464 
 R5426: - battery_charge_524 + battery_discharge_524 - hydrogen_electricity_524
-          - electricity_sold_524 = -597672 
+          - electricity_sold_524 - curtailment_524 = -597672 
 R5427: - battery_charge_525 + battery_discharge_525 - hydrogen_electricity_525
-          - electricity_sold_525 = -602592 
+          - electricity_sold_525 - curtailment_525 = -602592 
 R5428: - battery_charge_526 + battery_discharge_526 - hydrogen_electricity_526
-          - electricity_sold_526 = -591960 
+          - electricity_sold_526 - curtailment_526 = -591960 
 R5429: - battery_charge_527 + battery_discharge_527 - hydrogen_electricity_527
-          - electricity_sold_527 = -594936 
+          - electricity_sold_527 - curtailment_527 = -594936 
 R5430: - battery_charge_528 + battery_discharge_528 - hydrogen_electricity_528
-          - electricity_sold_528 = -555792 
+          - electricity_sold_528 - curtailment_528 = -555792 
 R5431: - battery_charge_529 + battery_discharge_529 - hydrogen_electricity_529
-          - electricity_sold_529 = -553584 
+          - electricity_sold_529 - curtailment_529 = -553584 
 R5432: - battery_charge_530 + battery_discharge_530 - hydrogen_electricity_530
-          - electricity_sold_530 = -519576 
+          - electricity_sold_530 - curtailment_530 = -519576 
 R5433: - battery_charge_531 + battery_discharge_531 - hydrogen_electricity_531
-          - electricity_sold_531 = -485568 
+          - electricity_sold_531 - curtailment_531 = -485568 
 R5434: - battery_charge_532 + battery_discharge_532 - hydrogen_electricity_532
-          - electricity_sold_532 = -634896 
+          - electricity_sold_532 - curtailment_532 = -634896 
 R5435: - battery_charge_533 + battery_discharge_533 - hydrogen_electricity_533
-          - electricity_sold_533 = -634656 
+          - electricity_sold_533 - curtailment_533 = -634656 
 R5436: - battery_charge_534 + battery_discharge_534 - hydrogen_electricity_534
-          - electricity_sold_534 = -624336 
+          - electricity_sold_534 - curtailment_534 = -624336 
 R5437: - battery_charge_535 + battery_discharge_535 - hydrogen_electricity_535
-          - electricity_sold_535 = -542736 
+          - electricity_sold_535 - curtailment_535 = -542736 
 R5438: - battery_charge_536 + battery_discharge_536 - hydrogen_electricity_536
-          - electricity_sold_536 = -528072 
+          - electricity_sold_536 - curtailment_536 = -528072 
 R5439: - battery_charge_537 + battery_discharge_537 - hydrogen_electricity_537
-          - electricity_sold_537 = -590568 
+          - electricity_sold_537 - curtailment_537 = -590568 
 R5440: - battery_charge_538 + battery_discharge_538 - hydrogen_electricity_538
-          - electricity_sold_538 = -620784 
+          - electricity_sold_538 - curtailment_538 = -620784 
 R5441: - battery_charge_539 + battery_discharge_539 - hydrogen_electricity_539
-          - electricity_sold_539 = -618744 
+          - electricity_sold_539 - curtailment_539 = -618744 
 R5442: - battery_charge_540 + battery_discharge_540 - hydrogen_electricity_540
-          - electricity_sold_540 = -614088 
+          - electricity_sold_540 - curtailment_540 = -614088 
 R5443: - battery_charge_541 + battery_discharge_541 - hydrogen_electricity_541
-          - electricity_sold_541 = -574224 
+          - electricity_sold_541 - curtailment_541 = -574224 
 R5444: - battery_charge_542 + battery_discharge_542 - hydrogen_electricity_542
-          - electricity_sold_542 = -526320 
+          - electricity_sold_542 - curtailment_542 = -526320 
 R5445: - battery_charge_543 + battery_discharge_543 - hydrogen_electricity_543
-          - electricity_sold_543 = -529440 
+          - electricity_sold_543 - curtailment_543 = -529440 
 R5446: - battery_charge_544 + battery_discharge_544 - hydrogen_electricity_544
-          - electricity_sold_544 = -607416 
+          - electricity_sold_544 - curtailment_544 = -607416 
 R5447: - battery_charge_545 + battery_discharge_545 - hydrogen_electricity_545
-          - electricity_sold_545 = -628176 
+          - electricity_sold_545 - curtailment_545 = -628176 
 R5448: - battery_charge_546 + battery_discharge_546 - hydrogen_electricity_546
-          - electricity_sold_546 = -623880 
+          - electricity_sold_546 - curtailment_546 = -623880 
 R5449: - battery_charge_547 + battery_discharge_547 - hydrogen_electricity_547
-          - electricity_sold_547 = -611520 
+          - electricity_sold_547 - curtailment_547 = -611520 
 R5450: - battery_charge_548 + battery_discharge_548 - hydrogen_electricity_548
-          - electricity_sold_548 = -599784 
+          - electricity_sold_548 - curtailment_548 = -599784 
 R5451: - battery_charge_549 + battery_discharge_549 - hydrogen_electricity_549
-          - electricity_sold_549 = -542448 
+          - electricity_sold_549 - curtailment_549 = -542448 
 R5452: - battery_charge_550 + battery_discharge_550 - hydrogen_electricity_550
-          - electricity_sold_550 = -530448 
+          - electricity_sold_550 - curtailment_550 = -530448 
 R5453: - battery_charge_551 + battery_discharge_551 - hydrogen_electricity_551
-          - electricity_sold_551 = -601512 
+          - electricity_sold_551 - curtailment_551 = -601512 
 R5454: - battery_charge_552 + battery_discharge_552 - hydrogen_electricity_552
-          - electricity_sold_552 = -591840 
+          - electricity_sold_552 - curtailment_552 = -591840 
 R5455: - battery_charge_553 + battery_discharge_553 - hydrogen_electricity_553
-          - electricity_sold_553 = -611688 
+          - electricity_sold_553 - curtailment_553 = -611688 
 R5456: - battery_charge_554 + battery_discharge_554 - hydrogen_electricity_554
-          - electricity_sold_554 = -533232 
+          - electricity_sold_554 - curtailment_554 = -533232 
 R5457: - battery_charge_555 + battery_discharge_555 - hydrogen_electricity_555
-          - electricity_sold_555 = -617736 
+          - electricity_sold_555 - curtailment_555 = -617736 
 R5458: - battery_charge_556 + battery_discharge_556 - hydrogen_electricity_556
-          - electricity_sold_556 = -559824 
+          - electricity_sold_556 - curtailment_556 = -559824 
 R5459: - battery_charge_557 + battery_discharge_557 - hydrogen_electricity_557
-          - electricity_sold_557 = -539880 
+          - electricity_sold_557 - curtailment_557 = -539880 
 R5460: - battery_charge_558 + battery_discharge_558 - hydrogen_electricity_558
-          - electricity_sold_558 = -604320 
+          - electricity_sold_558 - curtailment_558 = -604320 
 R5461: - battery_charge_559 + battery_discharge_559 - hydrogen_electricity_559
-          - electricity_sold_559 = -612096 
+          - electricity_sold_559 - curtailment_559 = -612096 
 R5462: - battery_charge_560 + battery_discharge_560 - hydrogen_electricity_560
-          - electricity_sold_560 = -609600 
+          - electricity_sold_560 - curtailment_560 = -609600 
 R5463: - battery_charge_561 + battery_discharge_561 - hydrogen_electricity_561
-          - electricity_sold_561 = -606720 
+          - electricity_sold_561 - curtailment_561 = -606720 
 R5464: - battery_charge_562 + battery_discharge_562 - hydrogen_electricity_562
-          - electricity_sold_562 = -600336 
+          - electricity_sold_562 - curtailment_562 = -600336 
 R5465: - battery_charge_563 + battery_discharge_563 - hydrogen_electricity_563
-          - electricity_sold_563 = -563688 
+          - electricity_sold_563 - curtailment_563 = -563688 
 R5466: - battery_charge_564 + battery_discharge_564 - hydrogen_electricity_564
-          - electricity_sold_564 = -543360 
+          - electricity_sold_564 - curtailment_564 = -543360 
 R5467: - battery_charge_565 + battery_discharge_565 - hydrogen_electricity_565
-          - electricity_sold_565 = -636192 
+          - electricity_sold_565 - curtailment_565 = -636192 
 R5468: - battery_charge_566 + battery_discharge_566 - hydrogen_electricity_566
-          - electricity_sold_566 = -654600 
+          - electricity_sold_566 - curtailment_566 = -654600 
 R5469: - battery_charge_567 + battery_discharge_567 - hydrogen_electricity_567
-          - electricity_sold_567 = -652968 
+          - electricity_sold_567 - curtailment_567 = -652968 
 R5470: - battery_charge_568 + battery_discharge_568 - hydrogen_electricity_568
-          - electricity_sold_568 = -641376 
+          - electricity_sold_568 - curtailment_568 = -641376 
 R5471: - battery_charge_569 + battery_discharge_569 - hydrogen_electricity_569
-          - electricity_sold_569 = -610776 
+          - electricity_sold_569 - curtailment_569 = -610776 
 R5472: - battery_charge_570 + battery_discharge_570 - hydrogen_electricity_570
-          - electricity_sold_570 = -541920 
+          - electricity_sold_570 - curtailment_570 = -541920 
 R5473: - battery_charge_571 + battery_discharge_571 - hydrogen_electricity_571
-          - electricity_sold_571 = -537696 
+          - electricity_sold_571 - curtailment_571 = -537696 
 R5474: - battery_charge_572 + battery_discharge_572 - hydrogen_electricity_572
-          - electricity_sold_572 = -602664 
+          - electricity_sold_572 - curtailment_572 = -602664 
 R5475: - battery_charge_573 + battery_discharge_573 - hydrogen_electricity_573
-          - electricity_sold_573 = -604872 
+          - electricity_sold_573 - curtailment_573 = -604872 
 R5476: - battery_charge_574 + battery_discharge_574 - hydrogen_electricity_574
-          - electricity_sold_574 = -561312 
+          - electricity_sold_574 - curtailment_574 = -561312 
 R5477: - battery_charge_575 + battery_discharge_575 - hydrogen_electricity_575
-          - electricity_sold_575 = -559632 
+          - electricity_sold_575 - curtailment_575 = -559632 
 R5478: - battery_charge_576 + battery_discharge_576 - hydrogen_electricity_576
-          - electricity_sold_576 = -582096 
+          - electricity_sold_576 - curtailment_576 = -582096 
 R5479: - battery_charge_577 + battery_discharge_577 - hydrogen_electricity_577
-          - electricity_sold_577 = -516000 
+          - electricity_sold_577 - curtailment_577 = -516000 
 R5480: - battery_charge_578 + battery_discharge_578 - hydrogen_electricity_578
-          - electricity_sold_578 = -518040 
+          - electricity_sold_578 - curtailment_578 = -518040 
 R5481: - battery_charge_579 + battery_discharge_579 - hydrogen_electricity_579
-          - electricity_sold_579 = -580176 
+          - electricity_sold_579 - curtailment_579 = -580176 
 R5482: - battery_charge_580 + battery_discharge_580 - hydrogen_electricity_580
-          - electricity_sold_580 = -597072 
+          - electricity_sold_580 - curtailment_580 = -597072 
 R5483: - battery_charge_581 + battery_discharge_581 - hydrogen_electricity_581
-          - electricity_sold_581 = -588336 
+          - electricity_sold_581 - curtailment_581 = -588336 
 R5484: - battery_charge_582 + battery_discharge_582 - hydrogen_electricity_582
-          - electricity_sold_582 = -556224 
+          - electricity_sold_582 - curtailment_582 = -556224 
 R5485: - battery_charge_583 + battery_discharge_583 - hydrogen_electricity_583
-          - electricity_sold_583 = -542136 
+          - electricity_sold_583 - curtailment_583 = -542136 
 R5486: - battery_charge_584 + battery_discharge_584 - hydrogen_electricity_584
-          - electricity_sold_584 = -509112 
+          - electricity_sold_584 - curtailment_584 = -509112 
 R5487: - battery_charge_585 + battery_discharge_585 - hydrogen_electricity_585
-          - electricity_sold_585 = -490512 
+          - electricity_sold_585 - curtailment_585 = -490512 
 R5488: - battery_charge_586 + battery_discharge_586 - hydrogen_electricity_586
-          - electricity_sold_586 = -561288 
+          - electricity_sold_586 - curtailment_586 = -561288 
 R5489: - battery_charge_587 + battery_discharge_587 - hydrogen_electricity_587
-          - electricity_sold_587 = -596016 
+          - electricity_sold_587 - curtailment_587 = -596016 
 R5490: - battery_charge_588 + battery_discharge_588 - hydrogen_electricity_588
-          - electricity_sold_588 = -565392 
+          - electricity_sold_588 - curtailment_588 = -565392 
 R5491: - battery_charge_589 + battery_discharge_589 - hydrogen_electricity_589
-          - electricity_sold_589 = -552768 
+          - electricity_sold_589 - curtailment_589 = -552768 
 R5492: - battery_charge_590 + battery_discharge_590 - hydrogen_electricity_590
-          - electricity_sold_590 = -534600 
+          - electricity_sold_590 - curtailment_590 = -534600 
 R5493: - battery_charge_591 + battery_discharge_591 - hydrogen_electricity_591
-          - electricity_sold_591 = -536376 
+          - electricity_sold_591 - curtailment_591 = -536376 
 R5494: - battery_charge_592 + battery_discharge_592 - hydrogen_electricity_592
-          - electricity_sold_592 = -496440 
+          - electricity_sold_592 - curtailment_592 = -496440 
 R5495: - battery_charge_593 + battery_discharge_593 - hydrogen_electricity_593
-          - electricity_sold_593 = -565248 
+          - electricity_sold_593 - curtailment_593 = -565248 
 R5496: - battery_charge_594 + battery_discharge_594 - hydrogen_electricity_594
-          - electricity_sold_594 = -551304 
+          - electricity_sold_594 - curtailment_594 = -551304 
 R5497: - battery_charge_595 + battery_discharge_595 - hydrogen_electricity_595
-          - electricity_sold_595 = -597696 
+          - electricity_sold_595 - curtailment_595 = -597696 
 R5498: - battery_charge_596 + battery_discharge_596 - hydrogen_electricity_596
-          - electricity_sold_596 = -599664 
+          - electricity_sold_596 - curtailment_596 = -599664 
 R5499: - battery_charge_597 + battery_discharge_597 - hydrogen_electricity_597
-          - electricity_sold_597 = -583128 
+          - electricity_sold_597 - curtailment_597 = -583128 
 R5500: - battery_charge_598 + battery_discharge_598 - hydrogen_electricity_598
-          - electricity_sold_598 = -533112 
+          - electricity_sold_598 - curtailment_598 = -533112 
 R5501: - battery_charge_599 + battery_discharge_599 - hydrogen_electricity_599
-          - electricity_sold_599 = -534672 
+          - electricity_sold_599 - curtailment_599 = -534672 
 R5502: - battery_charge_600 + battery_discharge_600 - hydrogen_electricity_600
-          - electricity_sold_600 = -598800 
+          - electricity_sold_600 - curtailment_600 = -598800 
 R5503: - battery_charge_601 + battery_discharge_601 - hydrogen_electricity_601
-          - electricity_sold_601 = -599568 
+          - electricity_sold_601 - curtailment_601 = -599568 
 R5504: - battery_charge_602 + battery_discharge_602 - hydrogen_electricity_602
-          - electricity_sold_602 = -601056 
+          - electricity_sold_602 - curtailment_602 = -601056 
 R5505: - battery_charge_603 + battery_discharge_603 - hydrogen_electricity_603
-          - electricity_sold_603 = -587112 
+          - electricity_sold_603 - curtailment_603 = -587112 
 R5506: - battery_charge_604 + battery_discharge_604 - hydrogen_electricity_604
-          - electricity_sold_604 = -578976 
+          - electricity_sold_604 - curtailment_604 = -578976 
 R5507: - battery_charge_605 + battery_discharge_605 - hydrogen_electricity_605
-          - electricity_sold_605 = -523344 
+          - electricity_sold_605 - curtailment_605 = -523344 
 R5508: - battery_charge_606 + battery_discharge_606 - hydrogen_electricity_606
-          - electricity_sold_606 = -508416 
+          - electricity_sold_606 - curtailment_606 = -508416 
 R5509: - battery_charge_607 + battery_discharge_607 - hydrogen_electricity_607
-          - electricity_sold_607 = -529536 
+          - electricity_sold_607 - curtailment_607 = -529536 
 R5510: - battery_charge_608 + battery_discharge_608 - hydrogen_electricity_608
-          - electricity_sold_608 = -585816 
+          - electricity_sold_608 - curtailment_608 = -585816 
 R5511: - battery_charge_609 + battery_discharge_609 - hydrogen_electricity_609
-          - electricity_sold_609 = -615960 
+          - electricity_sold_609 - curtailment_609 = -615960 
 R5512: - battery_charge_610 + battery_discharge_610 - hydrogen_electricity_610
-          - electricity_sold_610 = -618936 
+          - electricity_sold_610 - curtailment_610 = -618936 
 R5513: - battery_charge_611 + battery_discharge_611 - hydrogen_electricity_611
-          - electricity_sold_611 = -604656 
+          - electricity_sold_611 - curtailment_611 = -604656 
 R5514: - battery_charge_612 + battery_discharge_612 - hydrogen_electricity_612
-          - electricity_sold_612 = -541248 
+          - electricity_sold_612 - curtailment_612 = -541248 
 R5515: - battery_charge_613 + battery_discharge_613 - hydrogen_electricity_613
-          - electricity_sold_613 = -540744 
+          - electricity_sold_613 - curtailment_613 = -540744 
 R5516: - battery_charge_614 + battery_discharge_614 - hydrogen_electricity_614
-          - electricity_sold_614 = -626400 
+          - electricity_sold_614 - curtailment_614 = -626400 
 R5517: - battery_charge_615 + battery_discharge_615 - hydrogen_electricity_615
-          - electricity_sold_615 = -650040 
+          - electricity_sold_615 - curtailment_615 = -650040 
 R5518: - battery_charge_616 + battery_discharge_616 - hydrogen_electricity_616
-          - electricity_sold_616 = -634368 
+          - electricity_sold_616 - curtailment_616 = -634368 
 R5519: - battery_charge_617 + battery_discharge_617 - hydrogen_electricity_617
-          - electricity_sold_617 = -617952 
+          - electricity_sold_617 - curtailment_617 = -617952 
 R5520: - battery_charge_618 + battery_discharge_618 - hydrogen_electricity_618
-          - electricity_sold_618 = -619896 
+          - electricity_sold_618 - curtailment_618 = -619896 
 R5521: - battery_charge_619 + battery_discharge_619 - hydrogen_electricity_619
-          - electricity_sold_619 = -574992 
+          - electricity_sold_619 - curtailment_619 = -574992 
 R5522: - battery_charge_620 + battery_discharge_620 - hydrogen_electricity_620
-          - electricity_sold_620 = -558096 
+          - electricity_sold_620 - curtailment_620 = -558096 
 R5523: - battery_charge_621 + battery_discharge_621 - hydrogen_electricity_621
-          - electricity_sold_621 = -624240 
+          - electricity_sold_621 - curtailment_621 = -624240 
 R5524: - battery_charge_622 + battery_discharge_622 - hydrogen_electricity_622
-          - electricity_sold_622 = -630624 
+          - electricity_sold_622 - curtailment_622 = -630624 
 R5525: - battery_charge_623 + battery_discharge_623 - hydrogen_electricity_623
-          - electricity_sold_623 = -661176 
+          - electricity_sold_623 - curtailment_623 = -661176 
 R5526: - battery_charge_624 + battery_discharge_624 - hydrogen_electricity_624
-          - electricity_sold_624 = -644616 
+          - electricity_sold_624 - curtailment_624 = -644616 
 R5527: - battery_charge_625 + battery_discharge_625 - hydrogen_electricity_625
-          - electricity_sold_625 = -642528 
+          - electricity_sold_625 - curtailment_625 = -642528 
 R5528: - battery_charge_626 + battery_discharge_626 - hydrogen_electricity_626
-          - electricity_sold_626 = -576696 
+          - electricity_sold_626 - curtailment_626 = -576696 
 R5529: - battery_charge_627 + battery_discharge_627 - hydrogen_electricity_627
-          - electricity_sold_627 = -571152 
+          - electricity_sold_627 - curtailment_627 = -571152 
 R5530: - battery_charge_628 + battery_discharge_628 - hydrogen_electricity_628
-          - electricity_sold_628 = -650328 
+          - electricity_sold_628 - curtailment_628 = -650328 
 R5531: - battery_charge_629 + battery_discharge_629 - hydrogen_electricity_629
-          - electricity_sold_629 = -665856 
+          - electricity_sold_629 - curtailment_629 = -665856 
 R5532: - battery_charge_630 + battery_discharge_630 - hydrogen_electricity_630
-          - electricity_sold_630 = -633624 
+          - electricity_sold_630 - curtailment_630 = -633624 
 R5533: - battery_charge_631 + battery_discharge_631 - hydrogen_electricity_631
-          - electricity_sold_631 = -645048 
+          - electricity_sold_631 - curtailment_631 = -645048 
 R5534: - battery_charge_632 + battery_discharge_632 - hydrogen_electricity_632
-          - electricity_sold_632 = -627120 
+          - electricity_sold_632 - curtailment_632 = -627120 
 R5535: - battery_charge_633 + battery_discharge_633 - hydrogen_electricity_633
-          - electricity_sold_633 = -584592 
+          - electricity_sold_633 - curtailment_633 = -584592 
 R5536: - battery_charge_634 + battery_discharge_634 - hydrogen_electricity_634
-          - electricity_sold_634 = -557016 
+          - electricity_sold_634 - curtailment_634 = -557016 
 R5537: - battery_charge_635 + battery_discharge_635 - hydrogen_electricity_635
-          - electricity_sold_635 = -618792 
+          - electricity_sold_635 - curtailment_635 = -618792 
 R5538: - battery_charge_636 + battery_discharge_636 - hydrogen_electricity_636
-          - electricity_sold_636 = -638088 
+          - electricity_sold_636 - curtailment_636 = -638088 
 R5539: - battery_charge_637 + battery_discharge_637 - hydrogen_electricity_637
-          - electricity_sold_637 = -637296 
+          - electricity_sold_637 - curtailment_637 = -637296 
 R5540: - battery_charge_638 + battery_discharge_638 - hydrogen_electricity_638
-          - electricity_sold_638 = -625080 
+          - electricity_sold_638 - curtailment_638 = -625080 
 R5541: - battery_charge_639 + battery_discharge_639 - hydrogen_electricity_639
-          - electricity_sold_639 = -608448 
+          - electricity_sold_639 - curtailment_639 = -608448 
 R5542: - battery_charge_640 + battery_discharge_640 - hydrogen_electricity_640
-          - electricity_sold_640 = -580656 
+          - electricity_sold_640 - curtailment_640 = -580656 
 R5543: - battery_charge_641 + battery_discharge_641 - hydrogen_electricity_641
-          - electricity_sold_641 = -569352 
+          - electricity_sold_641 - curtailment_641 = -569352 
 R5544: - battery_charge_642 + battery_discharge_642 - hydrogen_electricity_642
-          - electricity_sold_642 = -635640 
+          - electricity_sold_642 - curtailment_642 = -635640 
 R5545: - battery_charge_643 + battery_discharge_643 - hydrogen_electricity_643
-          - electricity_sold_643 = -636984 
+          - electricity_sold_643 - curtailment_643 = -636984 
 R5546: - battery_charge_644 + battery_discharge_644 - hydrogen_electricity_644
-          - electricity_sold_644 = -669912 
+          - electricity_sold_644 - curtailment_644 = -669912 
 R5547: - battery_charge_645 + battery_discharge_645 - hydrogen_electricity_645
-          - electricity_sold_645 = -649656 
+          - electricity_sold_645 - curtailment_645 = -649656 
 R5548: - battery_charge_646 + battery_discharge_646 - hydrogen_electricity_646
-          - electricity_sold_646 = -650352 
+          - electricity_sold_646 - curtailment_646 = -650352 
 R5549: - battery_charge_647 + battery_discharge_647 - hydrogen_electricity_647
-          - electricity_sold_647 = -581520 
+          - electricity_sold_647 - curtailment_647 = -581520 
 R5550: - battery_charge_648 + battery_discharge_648 - hydrogen_electricity_648
-          - electricity_sold_648 = -573432 
+          - electricity_sold_648 - curtailment_648 = -573432 
 R5551: - battery_charge_649 + battery_discharge_649 - hydrogen_electricity_649
-          - electricity_sold_649 = -665040 
+          - electricity_sold_649 - curtailment_649 = -665040 
 R5552: - battery_charge_650 + battery_discharge_650 - hydrogen_electricity_650
-          - electricity_sold_650 = -674016 
+          - electricity_sold_650 - curtailment_650 = -674016 
 R5553: - battery_charge_651 + battery_discharge_651 - hydrogen_electricity_651
-          - electricity_sold_651 = -683496 
+          - electricity_sold_651 - curtailment_651 = -683496 
 R5554: - battery_charge_652 + battery_discharge_652 - hydrogen_electricity_652
-          - electricity_sold_652 = -648888 
+          - electricity_sold_652 - curtailment_652 = -648888 
 R5555: - battery_charge_653 + battery_discharge_653 - hydrogen_electricity_653
-          - electricity_sold_653 = -670512 
+          - electricity_sold_653 - curtailment_653 = -670512 
 R5556: - battery_charge_654 + battery_discharge_654 - hydrogen_electricity_654
-          - electricity_sold_654 = -599448 
+          - electricity_sold_654 - curtailment_654 = -599448 
 R5557: - battery_charge_655 + battery_discharge_655 - hydrogen_electricity_655
-          - electricity_sold_655 = -558792 
+          - electricity_sold_655 - curtailment_655 = -558792 
 R5558: - battery_charge_656 + battery_discharge_656 - hydrogen_electricity_656
-          - electricity_sold_656 = -645000 
+          - electricity_sold_656 - curtailment_656 = -645000 
 R5559: - battery_charge_657 + battery_discharge_657 - hydrogen_electricity_657
-          - electricity_sold_657 = -607440 
+          - electricity_sold_657 - curtailment_657 = -607440 
 R5560: - battery_charge_658 + battery_discharge_658 - hydrogen_electricity_658
-          - electricity_sold_658 = -656472 
+          - electricity_sold_658 - curtailment_658 = -656472 
 R5561: - battery_charge_659 + battery_discharge_659 - hydrogen_electricity_659
-          - electricity_sold_659 = -679968 
+          - electricity_sold_659 - curtailment_659 = -679968 
 R5562: - battery_charge_660 + battery_discharge_660 - hydrogen_electricity_660
-          - electricity_sold_660 = -693456 
+          - electricity_sold_660 - curtailment_660 = -693456 
 R5563: - battery_charge_661 + battery_discharge_661 - hydrogen_electricity_661
-          - electricity_sold_661 = -606360 
+          - electricity_sold_661 - curtailment_661 = -606360 
 R5564: - battery_charge_662 + battery_discharge_662 - hydrogen_electricity_662
-          - electricity_sold_662 = -571296 
+          - electricity_sold_662 - curtailment_662 = -571296 
 R5565: - battery_charge_663 + battery_discharge_663 - hydrogen_electricity_663
-          - electricity_sold_663 = -672432 
+          - electricity_sold_663 - curtailment_663 = -672432 
 R5566: - battery_charge_664 + battery_discharge_664 - hydrogen_electricity_664
-          - electricity_sold_664 = -670272 
+          - electricity_sold_664 - curtailment_664 = -670272 
 R5567: - battery_charge_665 + battery_discharge_665 - hydrogen_electricity_665
-          - electricity_sold_665 = -679728 
+          - electricity_sold_665 - curtailment_665 = -679728 
 R5568: - battery_charge_666 + battery_discharge_666 - hydrogen_electricity_666
-          - electricity_sold_666 = -635976 
+          - electricity_sold_666 - curtailment_666 = -635976 
 R5569: - battery_charge_667 + battery_discharge_667 - hydrogen_electricity_667
-          - electricity_sold_667 = -625824 
+          - electricity_sold_667 - curtailment_667 = -625824 
 R5570: - battery_charge_668 + battery_discharge_668 - hydrogen_electricity_668
-          - electricity_sold_668 = -594576 
+          - electricity_sold_668 - curtailment_668 = -594576 
 R5571: - battery_charge_669 + battery_discharge_669 - hydrogen_electricity_669
-          - electricity_sold_669 = -594144 
+          - electricity_sold_669 - curtailment_669 = -594144 
 R5572: - battery_charge_670 + battery_discharge_670 - hydrogen_electricity_670
-          - electricity_sold_670 = -669984 
+          - electricity_sold_670 - curtailment_670 = -669984 
 R5573: - battery_charge_671 + battery_discharge_671 - hydrogen_electricity_671
-          - electricity_sold_671 = -744192 
+          - electricity_sold_671 - curtailment_671 = -744192 
 R5574: - battery_charge_672 + battery_discharge_672 - hydrogen_electricity_672
-          - electricity_sold_672 = -801984 
+          - electricity_sold_672 - curtailment_672 = -801984 
 R5575: - battery_charge_673 + battery_discharge_673 - hydrogen_electricity_673
-          - electricity_sold_673 = -740376 
+          - electricity_sold_673 - curtailment_673 = -740376 
 R5576: - battery_charge_674 + battery_discharge_674 - hydrogen_electricity_674
-          - electricity_sold_674 = -737256 
+          - electricity_sold_674 - curtailment_674 = -737256 
 R5577: - battery_charge_675 + battery_discharge_675 - hydrogen_electricity_675
-          - electricity_sold_675 = -597024 
+          - electricity_sold_675 - curtailment_675 = -597024 
 R5578: - battery_charge_676 + battery_discharge_676 - hydrogen_electricity_676
-          - electricity_sold_676 = -640080 
+          - electricity_sold_676 - curtailment_676 = -640080 
 R5579: - battery_charge_677 + battery_discharge_677 - hydrogen_electricity_677
-          - electricity_sold_677 = -774216 
+          - electricity_sold_677 - curtailment_677 = -774216 
 R5580: - battery_charge_678 + battery_discharge_678 - hydrogen_electricity_678
-          - electricity_sold_678 = -754440 
+          - electricity_sold_678 - curtailment_678 = -754440 
 R5581: - battery_charge_679 + battery_discharge_679 - hydrogen_electricity_679
-          - electricity_sold_679 = -787392 
+          - electricity_sold_679 - curtailment_679 = -787392 
 R5582: - battery_charge_680 + battery_discharge_680 - hydrogen_electricity_680
-          - electricity_sold_680 = -763368 
+          - electricity_sold_680 - curtailment_680 = -763368 
 R5583: - battery_charge_681 + battery_discharge_681 - hydrogen_electricity_681
-          - electricity_sold_681 = -696432 
+          - electricity_sold_681 - curtailment_681 = -696432 
 R5584: - battery_charge_682 + battery_discharge_682 - hydrogen_electricity_682
-          - electricity_sold_682 = -636984 
+          - electricity_sold_682 - curtailment_682 = -636984 
 R5585: - battery_charge_683 + battery_discharge_683 - hydrogen_electricity_683
-          - electricity_sold_683 = -643560 
+          - electricity_sold_683 - curtailment_683 = -643560 
 R5586: - battery_charge_684 + battery_discharge_684 - hydrogen_electricity_684
-          - electricity_sold_684 = -748056 
+          - electricity_sold_684 - curtailment_684 = -748056 
 R5587: - battery_charge_685 + battery_discharge_685 - hydrogen_electricity_685
-          - electricity_sold_685 = -791496 
+          - electricity_sold_685 - curtailment_685 = -791496 
 R5588: - battery_charge_686 + battery_discharge_686 - hydrogen_electricity_686
-          - electricity_sold_686 = -716232 
+          - electricity_sold_686 - curtailment_686 = -716232 
 R5589: - battery_charge_687 + battery_discharge_687 - hydrogen_electricity_687
-          - electricity_sold_687 = -714024 
+          - electricity_sold_687 - curtailment_687 = -714024 
 R5590: - battery_charge_688 + battery_discharge_688 - hydrogen_electricity_688
-          - electricity_sold_688 = -721656 
+          - electricity_sold_688 - curtailment_688 = -721656 
 R5591: - battery_charge_689 + battery_discharge_689 - hydrogen_electricity_689
-          - electricity_sold_689 = -654528 
+          - electricity_sold_689 - curtailment_689 = -654528 
 R5592: - battery_charge_690 + battery_discharge_690 - hydrogen_electricity_690
-          - electricity_sold_690 = -643944 
+          - electricity_sold_690 - curtailment_690 = -643944 
 R5593: - battery_charge_691 + battery_discharge_691 - hydrogen_electricity_691
-          - electricity_sold_691 = -804888 
+          - electricity_sold_691 - curtailment_691 = -804888 
 R5594: - battery_charge_692 + battery_discharge_692 - hydrogen_electricity_692
-          - electricity_sold_692 = -696720 
+          - electricity_sold_692 - curtailment_692 = -696720 
 R5595: - battery_charge_693 + battery_discharge_693 - hydrogen_electricity_693
-          - electricity_sold_693 = -837768 
+          - electricity_sold_693 - curtailment_693 = -837768 
 R5596: - battery_charge_694 + battery_discharge_694 - hydrogen_electricity_694
-          - electricity_sold_694 = -817224 
+          - electricity_sold_694 - curtailment_694 = -817224 
 R5597: - battery_charge_695 + battery_discharge_695 - hydrogen_electricity_695
-          - electricity_sold_695 = -772776 
+          - electricity_sold_695 - curtailment_695 = -772776 
 R5598: - battery_charge_696 + battery_discharge_696 - hydrogen_electricity_696
-          - electricity_sold_696 = -727248 
+          - electricity_sold_696 - curtailment_696 = -727248 
 R5599: - battery_charge_697 + battery_discharge_697 - hydrogen_electricity_697
-          - electricity_sold_697 = -720744 
+          - electricity_sold_697 - curtailment_697 = -720744 
 R5600: - battery_charge_698 + battery_discharge_698 - hydrogen_electricity_698
-          - electricity_sold_698 = -866688 
+          - electricity_sold_698 - curtailment_698 = -866688 
 R5601: - battery_charge_699 + battery_discharge_699 - hydrogen_electricity_699
-          - electricity_sold_699 = -773880 
+          - electricity_sold_699 - curtailment_699 = -773880 
 R5602: - battery_charge_700 + battery_discharge_700 - hydrogen_electricity_700
-          - electricity_sold_700 = -788784 
+          - electricity_sold_700 - curtailment_700 = -788784 
 R5603: - battery_charge_701 + battery_discharge_701 - hydrogen_electricity_701
-          - electricity_sold_701 = -831480 
+          - electricity_sold_701 - curtailment_701 = -831480 
 R5604: - battery_charge_702 + battery_discharge_702 - hydrogen_electricity_702
-          - electricity_sold_702 = -821760 
+          - electricity_sold_702 - curtailment_702 = -821760 
 R5605: - battery_charge_703 + battery_discharge_703 - hydrogen_electricity_703
-          - electricity_sold_703 = -677760 
+          - electricity_sold_703 - curtailment_703 = -677760 
 R5606: - battery_charge_704 + battery_discharge_704 - hydrogen_electricity_704
-          - electricity_sold_704 = -714624 
+          - electricity_sold_704 - curtailment_704 = -714624 
 R5607: - battery_charge_705 + battery_discharge_705 - hydrogen_electricity_705
-          - electricity_sold_705 = -867432 
+          - electricity_sold_705 - curtailment_705 = -867432 
 R5608: - battery_charge_706 + battery_discharge_706 - hydrogen_electricity_706
-          - electricity_sold_706 = -860592 
+          - electricity_sold_706 - curtailment_706 = -860592 
 R5609: - battery_charge_707 + battery_discharge_707 - hydrogen_electricity_707
-          - electricity_sold_707 = -824232 
+          - electricity_sold_707 - curtailment_707 = -824232 
 R5610: - battery_charge_708 + battery_discharge_708 - hydrogen_electricity_708
-          - electricity_sold_708 = -843888 
+          - electricity_sold_708 - curtailment_708 = -843888 
 R5611: - battery_charge_709 + battery_discharge_709 - hydrogen_electricity_709
-          - electricity_sold_709 = -823224 
+          - electricity_sold_709 - curtailment_709 = -823224 
 R5612: - battery_charge_710 + battery_discharge_710 - hydrogen_electricity_710
-          - electricity_sold_710 = -698064 
+          - electricity_sold_710 - curtailment_710 = -698064 
 R5613: - battery_charge_711 + battery_discharge_711 - hydrogen_electricity_711
-          - electricity_sold_711 = -628008 
+          - electricity_sold_711 - curtailment_711 = -628008 
 R5614: - battery_charge_712 + battery_discharge_712 - hydrogen_electricity_712
-          - electricity_sold_712 = -801192 
+          - electricity_sold_712 - curtailment_712 = -801192 
 R5615: - battery_charge_713 + battery_discharge_713 - hydrogen_electricity_713
-          - electricity_sold_713 = -782784 
+          - electricity_sold_713 - curtailment_713 = -782784 
 R5616: - battery_charge_714 + battery_discharge_714 - hydrogen_electricity_714
-          - electricity_sold_714 = -765432 
+          - electricity_sold_714 - curtailment_714 = -765432 
 R5617: - battery_charge_715 + battery_discharge_715 - hydrogen_electricity_715
-          - electricity_sold_715 = -786168 
+          - electricity_sold_715 - curtailment_715 = -786168 
 R5618: - battery_charge_716 + battery_discharge_716 - hydrogen_electricity_716
-          - electricity_sold_716 = -774312 
+          - electricity_sold_716 - curtailment_716 = -774312 
 R5619: - battery_charge_717 + battery_discharge_717 - hydrogen_electricity_717
-          - electricity_sold_717 = -696288 
+          - electricity_sold_717 - curtailment_717 = -696288 
 R5620: - battery_charge_718 + battery_discharge_718 - hydrogen_electricity_718
-          - electricity_sold_718 = -736728 
+          - electricity_sold_718 - curtailment_718 = -736728 
 R5621: - battery_charge_719 + battery_discharge_719 - hydrogen_electricity_719
-          - electricity_sold_719 = -819168 
+          - electricity_sold_719 - curtailment_719 = -819168 
 R5622: - battery_charge_720 + battery_discharge_720 - hydrogen_electricity_720
-          - electricity_sold_720 = -836952 
+          - electricity_sold_720 - curtailment_720 = -836952 
 R5623: - battery_charge_721 + battery_discharge_721 - hydrogen_electricity_721
-          - electricity_sold_721 = -838080 
+          - electricity_sold_721 - curtailment_721 = -838080 
 R5624: - battery_charge_722 + battery_discharge_722 - hydrogen_electricity_722
-          - electricity_sold_722 = -764544 
+          - electricity_sold_722 - curtailment_722 = -764544 
 R5625: - battery_charge_723 + battery_discharge_723 - hydrogen_electricity_723
-          - electricity_sold_723 = -692664 
+          - electricity_sold_723 - curtailment_723 = -692664 
 R5626: - battery_charge_724 + battery_discharge_724 - hydrogen_electricity_724
-          - electricity_sold_724 = -632712 
+          - electricity_sold_724 - curtailment_724 = -632712 
 R5627: - battery_charge_725 + battery_discharge_725 - hydrogen_electricity_725
-          - electricity_sold_725 = -635352 
+          - electricity_sold_725 - curtailment_725 = -635352 
 R5628: - battery_charge_726 + battery_discharge_726 - hydrogen_electricity_726
-          - electricity_sold_726 = -630792 
+          - electricity_sold_726 - curtailment_726 = -630792 
 R5629: - battery_charge_727 + battery_discharge_727 - hydrogen_electricity_727
-          - electricity_sold_727 = -618720 
+          - electricity_sold_727 - curtailment_727 = -618720 
 R5630: - battery_charge_728 + battery_discharge_728 - hydrogen_electricity_728
-          - electricity_sold_728 = -628992 
+          - electricity_sold_728 - curtailment_728 = -628992 
 R5631: - battery_charge_729 + battery_discharge_729 - hydrogen_electricity_729
-          - electricity_sold_729 = -627840 
+          - electricity_sold_729 - curtailment_729 = -627840 
 R5632: - battery_charge_730 + battery_discharge_730 - hydrogen_electricity_730
-          - electricity_sold_730 = -579624 
+          - electricity_sold_730 - curtailment_730 = -579624 
 R5633: - battery_charge_731 + battery_discharge_731 - hydrogen_electricity_731
-          - electricity_sold_731 = -594744 
+          - electricity_sold_731 - curtailment_731 = -594744 
 R5634: - battery_charge_732 + battery_discharge_732 - hydrogen_electricity_732
-          - electricity_sold_732 = -617400 
+          - electricity_sold_732 - curtailment_732 = -617400 
 R5635: - battery_charge_733 + battery_discharge_733 - hydrogen_electricity_733
-          - electricity_sold_733 = -593112 
+          - electricity_sold_733 - curtailment_733 = -593112 
 R5636: - battery_charge_734 + battery_discharge_734 - hydrogen_electricity_734
-          - electricity_sold_734 = -613464 
+          - electricity_sold_734 - curtailment_734 = -613464 
 R5637: - battery_charge_735 + battery_discharge_735 - hydrogen_electricity_735
-          - electricity_sold_735 = -633816 
+          - electricity_sold_735 - curtailment_735 = -633816 
 R5638: - battery_charge_736 + battery_discharge_736 - hydrogen_electricity_736
-          - electricity_sold_736 = -779952 
+          - electricity_sold_736 - curtailment_736 = -779952 
 R5639: - battery_charge_737 + battery_discharge_737 - hydrogen_electricity_737
-          - electricity_sold_737 = -743520 
+          - electricity_sold_737 - curtailment_737 = -743520 
 R5640: - battery_charge_738 + battery_discharge_738 - hydrogen_electricity_738
-          - electricity_sold_738 = -664728 
+          - electricity_sold_738 - curtailment_738 = -664728 
 R5641: - battery_charge_739 + battery_discharge_739 - hydrogen_electricity_739
-          - electricity_sold_739 = -691164 
+          - electricity_sold_739 - curtailment_739 = -691164 
 R5642: - battery_charge_740 + battery_discharge_740 - hydrogen_electricity_740
-          - electricity_sold_740 = -717600 
+          - electricity_sold_740 - curtailment_740 = -717600 
 R5643: - battery_charge_741 + battery_discharge_741 - hydrogen_electricity_741
-          - electricity_sold_741 = -855000 
+          - electricity_sold_741 - curtailment_741 = -855000 
 R5644: - battery_charge_742 + battery_discharge_742 - hydrogen_electricity_742
-          - electricity_sold_742 = -905760 
+          - electricity_sold_742 - curtailment_742 = -905760 
 R5645: - battery_charge_743 + battery_discharge_743 - hydrogen_electricity_743
-          - electricity_sold_743 = -878928 
+          - electricity_sold_743 - curtailment_743 = -878928 
 R5646: - battery_charge_744 + battery_discharge_744 - hydrogen_electricity_744
-          - electricity_sold_744 = -657480 
+          - electricity_sold_744 - curtailment_744 = -657480 
 R5647: - battery_charge_745 + battery_discharge_745 - hydrogen_electricity_745
-          - electricity_sold_745 = -745584 
+          - electricity_sold_745 - curtailment_745 = -745584 
 R5648: - battery_charge_746 + battery_discharge_746 - hydrogen_electricity_746
-          - electricity_sold_746 = -701088 
+          - electricity_sold_746 - curtailment_746 = -701088 
 R5649: - battery_charge_747 + battery_discharge_747 - hydrogen_electricity_747
-          - electricity_sold_747 = -829488 
+          - electricity_sold_747 - curtailment_747 = -829488 
 R5650: - battery_charge_748 + battery_discharge_748 - hydrogen_electricity_748
-          - electricity_sold_748 = -744696 
+          - electricity_sold_748 - curtailment_748 = -744696 
 R5651: - battery_charge_749 + battery_discharge_749 - hydrogen_electricity_749
-          - electricity_sold_749 = -659904 
+          - electricity_sold_749 - curtailment_749 = -659904 
 R5652: - battery_charge_750 + battery_discharge_750 - hydrogen_electricity_750
-          - electricity_sold_750 = -834336 
+          - electricity_sold_750 - curtailment_750 = -834336 
 R5653: - battery_charge_751 + battery_discharge_751 - hydrogen_electricity_751
-          - electricity_sold_751 = -847584 
+          - electricity_sold_751 - curtailment_751 = -847584 
 R5654: - battery_charge_752 + battery_discharge_752 - hydrogen_electricity_752
-          - electricity_sold_752 = -725592 
+          - electricity_sold_752 - curtailment_752 = -725592 
 R5655: - battery_charge_753 + battery_discharge_753 - hydrogen_electricity_753
-          - electricity_sold_753 = -679200 
+          - electricity_sold_753 - curtailment_753 = -679200 
 R5656: - battery_charge_754 + battery_discharge_754 - hydrogen_electricity_754
-          - electricity_sold_754 = -833520 
+          - electricity_sold_754 - curtailment_754 = -833520 
 R5657: - battery_charge_755 + battery_discharge_755 - hydrogen_electricity_755
-          - electricity_sold_755 = -872328 
+          - electricity_sold_755 - curtailment_755 = -872328 
 R5658: - battery_charge_756 + battery_discharge_756 - hydrogen_electricity_756
-          - electricity_sold_756 = -875424 
+          - electricity_sold_756 - curtailment_756 = -875424 
 R5659: - battery_charge_757 + battery_discharge_757 - hydrogen_electricity_757
-          - electricity_sold_757 = -805500 
+          - electricity_sold_757 - curtailment_757 = -805500 
 R5660: - battery_charge_758 + battery_discharge_758 - hydrogen_electricity_758
-          - electricity_sold_758 = -735576 
+          - electricity_sold_758 - curtailment_758 = -735576 
 R5661: - battery_charge_759 + battery_discharge_759 - hydrogen_electricity_759
-          - electricity_sold_759 = -665652 
+          - electricity_sold_759 - curtailment_759 = -665652 
 R5662: - battery_charge_760 + battery_discharge_760 - hydrogen_electricity_760
-          - electricity_sold_760 = -595728 
+          - electricity_sold_760 - curtailment_760 = -595728 
 R5663: - battery_charge_761 + battery_discharge_761 - hydrogen_electricity_761
-          - electricity_sold_761 = -759336 
+          - electricity_sold_761 - curtailment_761 = -759336 
 R5664: - battery_charge_762 + battery_discharge_762 - hydrogen_electricity_762
-          - electricity_sold_762 = -730080 
+          - electricity_sold_762 - curtailment_762 = -730080 
 R5665: - battery_charge_763 + battery_discharge_763 - hydrogen_electricity_763
-          - electricity_sold_763 = -747192 
+          - electricity_sold_763 - curtailment_763 = -747192 
 R5666: - battery_charge_764 + battery_discharge_764 - hydrogen_electricity_764
-          - electricity_sold_764 = -782400 
+          - electricity_sold_764 - curtailment_764 = -782400 
 R5667: - battery_charge_765 + battery_discharge_765 - hydrogen_electricity_765
-          - electricity_sold_765 = -737928 
+          - electricity_sold_765 - curtailment_765 = -737928 
 R5668: - battery_charge_766 + battery_discharge_766 - hydrogen_electricity_766
-          - electricity_sold_766 = -654552 
+          - electricity_sold_766 - curtailment_766 = -654552 
 R5669: - battery_charge_767 + battery_discharge_767 - hydrogen_electricity_767
-          - electricity_sold_767 = -650592 
+          - electricity_sold_767 - curtailment_767 = -650592 
 R5670: - battery_charge_768 + battery_discharge_768 - hydrogen_electricity_768
-          - electricity_sold_768 = -759744 
+          - electricity_sold_768 - curtailment_768 = -759744 
 R5671: - battery_charge_769 + battery_discharge_769 - hydrogen_electricity_769
-          - electricity_sold_769 = -751128 
+          - electricity_sold_769 - curtailment_769 = -751128 
 R5672: - battery_charge_770 + battery_discharge_770 - hydrogen_electricity_770
-          - electricity_sold_770 = -743232 
+          - electricity_sold_770 - curtailment_770 = -743232 
 R5673: - battery_charge_771 + battery_discharge_771 - hydrogen_electricity_771
-          - electricity_sold_771 = -784944 
+          - electricity_sold_771 - curtailment_771 = -784944 
 R5674: - battery_charge_772 + battery_discharge_772 - hydrogen_electricity_772
-          - electricity_sold_772 = -801024 
+          - electricity_sold_772 - curtailment_772 = -801024 
 R5675: - battery_charge_773 + battery_discharge_773 - hydrogen_electricity_773
-          - electricity_sold_773 = -658656 
+          - electricity_sold_773 - curtailment_773 = -658656 
 R5676: - battery_charge_774 + battery_discharge_774 - hydrogen_electricity_774
-          - electricity_sold_774 = -628464 
+          - electricity_sold_774 - curtailment_774 = -628464 
 R5677: - battery_charge_775 + battery_discharge_775 - hydrogen_electricity_775
-          - electricity_sold_775 = -687816 
+          - electricity_sold_775 - curtailment_775 = -687816 
 R5678: - battery_charge_776 + battery_discharge_776 - hydrogen_electricity_776
-          - electricity_sold_776 = -721128 
+          - electricity_sold_776 - curtailment_776 = -721128 
 R5679: - battery_charge_777 + battery_discharge_777 - hydrogen_electricity_777
-          - electricity_sold_777 = -651960 
+          - electricity_sold_777 - curtailment_777 = -651960 
 R5680: - battery_charge_778 + battery_discharge_778 - hydrogen_electricity_778
-          - electricity_sold_778 = -699192 
+          - electricity_sold_778 - curtailment_778 = -699192 
 R5681: - battery_charge_779 + battery_discharge_779 - hydrogen_electricity_779
-          - electricity_sold_779 = -681240 
+          - electricity_sold_779 - curtailment_779 = -681240 
 R5682: - battery_charge_780 + battery_discharge_780 - hydrogen_electricity_780
-          - electricity_sold_780 = -637488 
+          - electricity_sold_780 - curtailment_780 = -637488 
 R5683: - battery_charge_781 + battery_discharge_781 - hydrogen_electricity_781
-          - electricity_sold_781 = -619536 
+          - electricity_sold_781 - curtailment_781 = -619536 
 R5684: - battery_charge_782 + battery_discharge_782 - hydrogen_electricity_782
-          - electricity_sold_782 = -728232 
+          - electricity_sold_782 - curtailment_782 = -728232 
 R5685: - battery_charge_783 + battery_discharge_783 - hydrogen_electricity_783
-          - electricity_sold_783 = -705768 
+          - electricity_sold_783 - curtailment_783 = -705768 
 R5686: - battery_charge_784 + battery_discharge_784 - hydrogen_electricity_784
-          - electricity_sold_784 = -701016 
+          - electricity_sold_784 - curtailment_784 = -701016 
 R5687: - battery_charge_785 + battery_discharge_785 - hydrogen_electricity_785
-          - electricity_sold_785 = -709800 
+          - electricity_sold_785 - curtailment_785 = -709800 
 R5688: - battery_charge_786 + battery_discharge_786 - hydrogen_electricity_786
-          - electricity_sold_786 = -733296 
+          - electricity_sold_786 - curtailment_786 = -733296 
 R5689: - battery_charge_787 + battery_discharge_787 - hydrogen_electricity_787
-          - electricity_sold_787 = -636648 
+          - electricity_sold_787 - curtailment_787 = -636648 
 R5690: - battery_charge_788 + battery_discharge_788 - hydrogen_electricity_788
-          - electricity_sold_788 = -625008 
+          - electricity_sold_788 - curtailment_788 = -625008 
 R5691: - battery_charge_789 + battery_discharge_789 - hydrogen_electricity_789
-          - electricity_sold_789 = -752424 
+          - electricity_sold_789 - curtailment_789 = -752424 
 R5692: - battery_charge_790 + battery_discharge_790 - hydrogen_electricity_790
-          - electricity_sold_790 = -767736 
+          - electricity_sold_790 - curtailment_790 = -767736 
 R5693: - battery_charge_791 + battery_discharge_791 - hydrogen_electricity_791
-          - electricity_sold_791 = -782784 
+          - electricity_sold_791 - curtailment_791 = -782784 
 R5694: - battery_charge_792 + battery_discharge_792 - hydrogen_electricity_792
-          - electricity_sold_792 = -754344 
+          - electricity_sold_792 - curtailment_792 = -754344 
 R5695: - battery_charge_793 + battery_discharge_793 - hydrogen_electricity_793
-          - electricity_sold_793 = -746448 
+          - electricity_sold_793 - curtailment_793 = -746448 
 R5696: - battery_charge_794 + battery_discharge_794 - hydrogen_electricity_794
-          - electricity_sold_794 = -638736 
+          - electricity_sold_794 - curtailment_794 = -638736 
 R5697: - battery_charge_795 + battery_discharge_795 - hydrogen_electricity_795
-          - electricity_sold_795 = -645600 
+          - electricity_sold_795 - curtailment_795 = -645600 
 R5698: - battery_charge_796 + battery_discharge_796 - hydrogen_electricity_796
-          - electricity_sold_796 = -734208 
+          - electricity_sold_796 - curtailment_796 = -734208 
 R5699: - battery_charge_797 + battery_discharge_797 - hydrogen_electricity_797
-          - electricity_sold_797 = -707952 
+          - electricity_sold_797 - curtailment_797 = -707952 
 R5700: - battery_charge_798 + battery_discharge_798 - hydrogen_electricity_798
-          - electricity_sold_798 = -710904 
+          - electricity_sold_798 - curtailment_798 = -710904 
 R5701: - battery_charge_799 + battery_discharge_799 - hydrogen_electricity_799
-          - electricity_sold_799 = -689232 
+          - electricity_sold_799 - curtailment_799 = -689232 
 R5702: - battery_charge_800 + battery_discharge_800 - hydrogen_electricity_800
-          - electricity_sold_800 = -658824 
+          - electricity_sold_800 - curtailment_800 = -658824 
 R5703: - battery_charge_801 + battery_discharge_801 - hydrogen_electricity_801
-          - electricity_sold_801 = -593808 
+          - electricity_sold_801 - curtailment_801 = -593808 
 R5704: - battery_charge_802 + battery_discharge_802 - hydrogen_electricity_802
-          - electricity_sold_802 = -625488 
+          - electricity_sold_802 - curtailment_802 = -625488 
 R5705: - battery_charge_803 + battery_discharge_803 - hydrogen_electricity_803
-          - electricity_sold_803 = -723456 
+          - electricity_sold_803 - curtailment_803 = -723456 
 R5706: - battery_charge_804 + battery_discharge_804 - hydrogen_electricity_804
-          - electricity_sold_804 = -761520 
+          - electricity_sold_804 - curtailment_804 = -761520 
 R5707: - battery_charge_805 + battery_discharge_805 - hydrogen_electricity_805
-          - electricity_sold_805 = -746184 
+          - electricity_sold_805 - curtailment_805 = -746184 
 R5708: - battery_charge_806 + battery_discharge_806 - hydrogen_electricity_806
-          - electricity_sold_806 = -660480 
+          - electricity_sold_806 - curtailment_806 = -660480 
 R5709: - battery_charge_807 + battery_discharge_807 - hydrogen_electricity_807
-          - electricity_sold_807 = -679656 
+          - electricity_sold_807 - curtailment_807 = -679656 
 R5710: - battery_charge_808 + battery_discharge_808 - hydrogen_electricity_808
-          - electricity_sold_808 = -580848 
+          - electricity_sold_808 - curtailment_808 = -580848 
 R5711: - battery_charge_809 + battery_discharge_809 - hydrogen_electricity_809
-          - electricity_sold_809 = -625080 
+          - electricity_sold_809 - curtailment_809 = -625080 
 R5712: - battery_charge_810 + battery_discharge_810 - hydrogen_electricity_810
-          - electricity_sold_810 = -713040 
+          - electricity_sold_810 - curtailment_810 = -713040 
 R5713: - battery_charge_811 + battery_discharge_811 - hydrogen_electricity_811
-          - electricity_sold_811 = -708192 
+          - electricity_sold_811 - curtailment_811 = -708192 
 R5714: - battery_charge_812 + battery_discharge_812 - hydrogen_electricity_812
-          - electricity_sold_812 = -726624 
+          - electricity_sold_812 - curtailment_812 = -726624 
 R5715: - battery_charge_813 + battery_discharge_813 - hydrogen_electricity_813
-          - electricity_sold_813 = -706128 
+          - electricity_sold_813 - curtailment_813 = -706128 
 R5716: - battery_charge_814 + battery_discharge_814 - hydrogen_electricity_814
-          - electricity_sold_814 = -664320 
+          - electricity_sold_814 - curtailment_814 = -664320 
 R5717: - battery_charge_815 + battery_discharge_815 - hydrogen_electricity_815
-          - electricity_sold_815 = -582528 
+          - electricity_sold_815 - curtailment_815 = -582528 
 R5718: - battery_charge_816 + battery_discharge_816 - hydrogen_electricity_816
-          - electricity_sold_816 = -570984 
+          - electricity_sold_816 - curtailment_816 = -570984 
 R5719: - battery_charge_817 + battery_discharge_817 - hydrogen_electricity_817
-          - electricity_sold_817 = -713568 
+          - electricity_sold_817 - curtailment_817 = -713568 
 R5720: - battery_charge_818 + battery_discharge_818 - hydrogen_electricity_818
-          - electricity_sold_818 = -736032 
+          - electricity_sold_818 - curtailment_818 = -736032 
 R5721: - battery_charge_819 + battery_discharge_819 - hydrogen_electricity_819
-          - electricity_sold_819 = -758016 
+          - electricity_sold_819 - curtailment_819 = -758016 
 R5722: - battery_charge_820 + battery_discharge_820 - hydrogen_electricity_820
-          - electricity_sold_820 = -740040 
+          - electricity_sold_820 - curtailment_820 = -740040 
 R5723: - battery_charge_821 + battery_discharge_821 - hydrogen_electricity_821
-          - electricity_sold_821 = -768168 
+          - electricity_sold_821 - curtailment_821 = -768168 
 R5724: - battery_charge_822 + battery_discharge_822 - hydrogen_electricity_822
-          - electricity_sold_822 = -713832 
+          - electricity_sold_822 - curtailment_822 = -713832 
 R5725: - battery_charge_823 + battery_discharge_823 - hydrogen_electricity_823
-          - electricity_sold_823 = -596628 
+          - electricity_sold_823 - curtailment_823 = -596628 
 R5726: - battery_charge_824 + battery_discharge_824 - hydrogen_electricity_824
-          - electricity_sold_824 = -479424 
+          - electricity_sold_824 - curtailment_824 = -479424 
 R5727: - battery_charge_825 + battery_discharge_825 - hydrogen_electricity_825
-          - electricity_sold_825 = -703032 
+          - electricity_sold_825 - curtailment_825 = -703032 
 R5728: - battery_charge_826 + battery_discharge_826 - hydrogen_electricity_826
-          - electricity_sold_826 = -683328 
+          - electricity_sold_826 - curtailment_826 = -683328 
 R5729: - battery_charge_827 + battery_discharge_827 - hydrogen_electricity_827
-          - electricity_sold_827 = -642031.9999999999 
+          - electricity_sold_827 - curtailment_827 = -642031.9999999999 
 R5730: - battery_charge_828 + battery_discharge_828 - hydrogen_electricity_828
-          - electricity_sold_828 = -600736.0000000001 
+          - electricity_sold_828 - curtailment_828 = -600736.0000000001 
 R5731: - battery_charge_829 + battery_discharge_829 - hydrogen_electricity_829
-          - electricity_sold_829 = -559440 
+          - electricity_sold_829 - curtailment_829 = -559440 
 R5732: - battery_charge_830 + battery_discharge_830 - hydrogen_electricity_830
-          - electricity_sold_830 = -585600 
+          - electricity_sold_830 - curtailment_830 = -585600 
 R5733: - battery_charge_831 + battery_discharge_831 - hydrogen_electricity_831
-          - electricity_sold_831 = -639312 
+          - electricity_sold_831 - curtailment_831 = -639312 
 R5734: - battery_charge_832 + battery_discharge_832 - hydrogen_electricity_832
-          - electricity_sold_832 = -691536 
+          - electricity_sold_832 - curtailment_832 = -691536 
 R5735: - battery_charge_833 + battery_discharge_833 - hydrogen_electricity_833
-          - electricity_sold_833 = -633432 
+          - electricity_sold_833 - curtailment_833 = -633432 
 R5736: - battery_charge_834 + battery_discharge_834 - hydrogen_electricity_834
-          - electricity_sold_834 = -727800 
+          - electricity_sold_834 - curtailment_834 = -727800 
 R5737: - battery_charge_835 + battery_discharge_835 - hydrogen_electricity_835
-          - electricity_sold_835 = -670968 
+          - electricity_sold_835 - curtailment_835 = -670968 
 R5738: - battery_charge_836 + battery_discharge_836 - hydrogen_electricity_836
-          - electricity_sold_836 = -564288 
+          - electricity_sold_836 - curtailment_836 = -564288 
 R5739: - battery_charge_837 + battery_discharge_837 - hydrogen_electricity_837
-          - electricity_sold_837 = -580728 
+          - electricity_sold_837 - curtailment_837 = -580728 
 R5740: - battery_charge_838 + battery_discharge_838 - hydrogen_electricity_838
-          - electricity_sold_838 = -597168 
+          - electricity_sold_838 - curtailment_838 = -597168 
 R5741: - battery_charge_839 + battery_discharge_839 - hydrogen_electricity_839
-          - electricity_sold_839 = -718440 
+          - electricity_sold_839 - curtailment_839 = -718440 
 R5742: - battery_charge_840 + battery_discharge_840 - hydrogen_electricity_840
-          - electricity_sold_840 = -630552 
+          - electricity_sold_840 - curtailment_840 = -630552 
 R5743: - battery_charge_841 + battery_discharge_841 - hydrogen_electricity_841
-          - electricity_sold_841 = -730368 
+          - electricity_sold_841 - curtailment_841 = -730368 
 R5744: - battery_charge_842 + battery_discharge_842 - hydrogen_electricity_842
-          - electricity_sold_842 = -699504 
+          - electricity_sold_842 - curtailment_842 = -699504 
 R5745: - battery_charge_843 + battery_discharge_843 - hydrogen_electricity_843
-          - electricity_sold_843 = -557712 
+          - electricity_sold_843 - curtailment_843 = -557712 
 R5746: - battery_charge_844 + battery_discharge_844 - hydrogen_electricity_844
-          - electricity_sold_844 = -570984 
+          - electricity_sold_844 - curtailment_844 = -570984 
 R5747: - battery_charge_845 + battery_discharge_845 - hydrogen_electricity_845
-          - electricity_sold_845 = -736104 
+          - electricity_sold_845 - curtailment_845 = -736104 
 R5748: - battery_charge_846 + battery_discharge_846 - hydrogen_electricity_846
-          - electricity_sold_846 = -784632 
+          - electricity_sold_846 - curtailment_846 = -784632 
 R5749: - battery_charge_847 + battery_discharge_847 - hydrogen_electricity_847
-          - electricity_sold_847 = -776352 
+          - electricity_sold_847 - curtailment_847 = -776352 
 R5750: - battery_charge_848 + battery_discharge_848 - hydrogen_electricity_848
-          - electricity_sold_848 = -730711.9999999999 
+          - electricity_sold_848 - curtailment_848 = -730711.9999999999 
 R5751: - battery_charge_849 + battery_discharge_849 - hydrogen_electricity_849
-          - electricity_sold_849 = -685072.0000000001 
+          - electricity_sold_849 - curtailment_849 = -685072.0000000001 
 R5752: - battery_charge_850 + battery_discharge_850 - hydrogen_electricity_850
-          - electricity_sold_850 = -639432 
+          - electricity_sold_850 - curtailment_850 = -639432 
 R5753: - battery_charge_851 + battery_discharge_851 - hydrogen_electricity_851
-          - electricity_sold_851 = -703320 
+          - electricity_sold_851 - curtailment_851 = -703320 
 R5754: - battery_charge_852 + battery_discharge_852 - hydrogen_electricity_852
-          - electricity_sold_852 = -734928 
+          - electricity_sold_852 - curtailment_852 = -734928 
 R5755: - battery_charge_853 + battery_discharge_853 - hydrogen_electricity_853
-          - electricity_sold_853 = -749088 
+          - electricity_sold_853 - curtailment_853 = -749088 
 R5756: - battery_charge_854 + battery_discharge_854 - hydrogen_electricity_854
-          - electricity_sold_854 = -818832 
+          - electricity_sold_854 - curtailment_854 = -818832 
 R5757: - battery_charge_855 + battery_discharge_855 - hydrogen_electricity_855
-          - electricity_sold_855 = -668304 
+          - electricity_sold_855 - curtailment_855 = -668304 
 R5758: - battery_charge_856 + battery_discharge_856 - hydrogen_electricity_856
-          - electricity_sold_856 = -789480 
+          - electricity_sold_856 - curtailment_856 = -789480 
 R5759: - battery_charge_857 + battery_discharge_857 - hydrogen_electricity_857
-          - electricity_sold_857 = -693120 
+          - electricity_sold_857 - curtailment_857 = -693120 
 R5760: - battery_charge_858 + battery_discharge_858 - hydrogen_electricity_858
-          - electricity_sold_858 = -648216 
+          - electricity_sold_858 - curtailment_858 = -648216 
 R5761: - battery_charge_859 + battery_discharge_859 - hydrogen_electricity_859
-          - electricity_sold_859 = -756648 
+          - electricity_sold_859 - curtailment_859 = -756648 
 R5762: - battery_charge_860 + battery_discharge_860 - hydrogen_electricity_860
-          - electricity_sold_860 = -709920 
+          - electricity_sold_860 - curtailment_860 = -709920 
 R5763: - battery_charge_861 + battery_discharge_861 - hydrogen_electricity_861
-          - electricity_sold_861 = -548928 
+          - electricity_sold_861 - curtailment_861 = -548928 
 R5764: - battery_charge_862 + battery_discharge_862 - hydrogen_electricity_862
-          - electricity_sold_862 = -740952 
+          - electricity_sold_862 - curtailment_862 = -740952 
 R5765: - battery_charge_863 + battery_discharge_863 - hydrogen_electricity_863
-          - electricity_sold_863 = -699696 
+          - electricity_sold_863 - curtailment_863 = -699696 
 R5766: - battery_charge_864 + battery_discharge_864 - hydrogen_electricity_864
-          - electricity_sold_864 = -668496 
+          - electricity_sold_864 - curtailment_864 = -668496 
 R5767: - battery_charge_865 + battery_discharge_865 - hydrogen_electricity_865
-          - electricity_sold_865 = -612864 
+          - electricity_sold_865 - curtailment_865 = -612864 
 R5768: - battery_charge_866 + battery_discharge_866 - hydrogen_electricity_866
-          - electricity_sold_866 = -729888 
+          - electricity_sold_866 - curtailment_866 = -729888 
 R5769: - battery_charge_867 + battery_discharge_867 - hydrogen_electricity_867
-          - electricity_sold_867 = -707280 
+          - electricity_sold_867 - curtailment_867 = -707280 
 R5770: - battery_charge_868 + battery_discharge_868 - hydrogen_electricity_868
-          - electricity_sold_868 = -722376 
+          - electricity_sold_868 - curtailment_868 = -722376 
 R5771: - battery_charge_869 + battery_discharge_869 - hydrogen_electricity_869
-          - electricity_sold_869 = -739152 
+          - electricity_sold_869 - curtailment_869 = -739152 
 R5772: - battery_charge_870 + battery_discharge_870 - hydrogen_electricity_870
-          - electricity_sold_870 = -723768 
+          - electricity_sold_870 - curtailment_870 = -723768 
 R5773: - battery_charge_871 + battery_discharge_871 - hydrogen_electricity_871
-          - electricity_sold_871 = -619416 
+          - electricity_sold_871 - curtailment_871 = -619416 
 R5774: - battery_charge_872 + battery_discharge_872 - hydrogen_electricity_872
-          - electricity_sold_872 = -615144 
+          - electricity_sold_872 - curtailment_872 = -615144 
 R5775: - battery_charge_873 + battery_discharge_873 - hydrogen_electricity_873
-          - electricity_sold_873 = -668016 
+          - electricity_sold_873 - curtailment_873 = -668016 
 R5776: - battery_charge_874 + battery_discharge_874 - hydrogen_electricity_874
-          - electricity_sold_874 = -616248 
+          - electricity_sold_874 - curtailment_874 = -616248 
 R5777: - battery_charge_875 + battery_discharge_875 - hydrogen_electricity_875
-          - electricity_sold_875 = -676008 
+          - electricity_sold_875 - curtailment_875 = -676008 
 R5778: - battery_charge_876 + battery_discharge_876 - hydrogen_electricity_876
-          - electricity_sold_876 = -634824 
+          - electricity_sold_876 - curtailment_876 = -634824 
 R5779: - battery_charge_877 + battery_discharge_877 - hydrogen_electricity_877
-          - electricity_sold_877 = -637464 
+          - electricity_sold_877 - curtailment_877 = -637464 
 R5780: - battery_charge_878 + battery_discharge_878 - hydrogen_electricity_878
-          - electricity_sold_878 = -561648 
+          - electricity_sold_878 - curtailment_878 = -561648 
 R5781: - battery_charge_879 + battery_discharge_879 - hydrogen_electricity_879
-          - electricity_sold_879 = -522576 
+          - electricity_sold_879 - curtailment_879 = -522576 
 R5782: - battery_charge_880 + battery_discharge_880 - hydrogen_electricity_880
-          - electricity_sold_880 = -682440 
+          - electricity_sold_880 - curtailment_880 = -682440 
 R5783: - battery_charge_881 + battery_discharge_881 - hydrogen_electricity_881
-          - electricity_sold_881 = -737040 
+          - electricity_sold_881 - curtailment_881 = -737040 
 R5784: - battery_charge_882 + battery_discharge_882 - hydrogen_electricity_882
-          - electricity_sold_882 = -737520 
+          - electricity_sold_882 - curtailment_882 = -737520 
 R5785: - battery_charge_883 + battery_discharge_883 - hydrogen_electricity_883
-          - electricity_sold_883 = -704112 
+          - electricity_sold_883 - curtailment_883 = -704112 
 R5786: - battery_charge_884 + battery_discharge_884 - hydrogen_electricity_884
-          - electricity_sold_884 = -690984 
+          - electricity_sold_884 - curtailment_884 = -690984 
 R5787: - battery_charge_885 + battery_discharge_885 - hydrogen_electricity_885
-          - electricity_sold_885 = -551880 
+          - electricity_sold_885 - curtailment_885 = -551880 
 R5788: - battery_charge_886 + battery_discharge_886 - hydrogen_electricity_886
-          - electricity_sold_886 = -602832 
+          - electricity_sold_886 - curtailment_886 = -602832 
 R5789: - battery_charge_887 + battery_discharge_887 - hydrogen_electricity_887
-          - electricity_sold_887 = -654120 
+          - electricity_sold_887 - curtailment_887 = -654120 
 R5790: - battery_charge_888 + battery_discharge_888 - hydrogen_electricity_888
-          - electricity_sold_888 = -723504 
+          - electricity_sold_888 - curtailment_888 = -723504 
 R5791: - battery_charge_889 + battery_discharge_889 - hydrogen_electricity_889
-          - electricity_sold_889 = -575160 
+          - electricity_sold_889 - curtailment_889 = -575160 
 R5792: - battery_charge_890 + battery_discharge_890 - hydrogen_electricity_890
-          - electricity_sold_890 = -706992 
+          - electricity_sold_890 - curtailment_890 = -706992 
 R5793: - battery_charge_891 + battery_discharge_891 - hydrogen_electricity_891
-          - electricity_sold_891 = -679800 
+          - electricity_sold_891 - curtailment_891 = -679800 
 R5794: - battery_charge_892 + battery_discharge_892 - hydrogen_electricity_892
-          - electricity_sold_892 = -607392 
+          - electricity_sold_892 - curtailment_892 = -607392 
 R5795: - battery_charge_893 + battery_discharge_893 - hydrogen_electricity_893
-          - electricity_sold_893 = -577800 
+          - electricity_sold_893 - curtailment_893 = -577800 
 R5796: - battery_charge_894 + battery_discharge_894 - hydrogen_electricity_894
-          - electricity_sold_894 = -493560 
+          - electricity_sold_894 - curtailment_894 = -493560 
 R5797: - battery_charge_895 + battery_discharge_895 - hydrogen_electricity_895
-          - electricity_sold_895 = -552360 
+          - electricity_sold_895 - curtailment_895 = -552360 
 R5798: - battery_charge_896 + battery_discharge_896 - hydrogen_electricity_896
-          - electricity_sold_896 = -570360 
+          - electricity_sold_896 - curtailment_896 = -570360 
 R5799: - battery_charge_897 + battery_discharge_897 - hydrogen_electricity_897
-          - electricity_sold_897 = -704304 
+          - electricity_sold_897 - curtailment_897 = -704304 
 R5800: - battery_charge_898 + battery_discharge_898 - hydrogen_electricity_898
-          - electricity_sold_898 = -528120 
+          - electricity_sold_898 - curtailment_898 = -528120 
 R5801: - battery_charge_899 + battery_discharge_899 - hydrogen_electricity_899
-          - electricity_sold_899 = -483744 
+          - electricity_sold_899 - curtailment_899 = -483744 
 R5802: - battery_charge_900 + battery_discharge_900 - hydrogen_electricity_900
-          - electricity_sold_900 = -558816 
+          - electricity_sold_900 - curtailment_900 = -558816 
 R5803: - battery_charge_901 + battery_discharge_901 - hydrogen_electricity_901
-          - electricity_sold_901 = -703800 
+          - electricity_sold_901 - curtailment_901 = -703800 
 R5804: - battery_charge_902 + battery_discharge_902 - hydrogen_electricity_902
-          - electricity_sold_902 = -711696 
+          - electricity_sold_902 - curtailment_902 = -711696 
 R5805: - battery_charge_903 + battery_discharge_903 - hydrogen_electricity_903
-          - electricity_sold_903 = -650460 
+          - electricity_sold_903 - curtailment_903 = -650460 
 R5806: - battery_charge_904 + battery_discharge_904 - hydrogen_electricity_904
-          - electricity_sold_904 = -589224 
+          - electricity_sold_904 - curtailment_904 = -589224 
 R5807: - battery_charge_905 + battery_discharge_905 - hydrogen_electricity_905
-          - electricity_sold_905 = -647472 
+          - electricity_sold_905 - curtailment_905 = -647472 
 R5808: - battery_charge_906 + battery_discharge_906 - hydrogen_electricity_906
-          - electricity_sold_906 = -550992 
+          - electricity_sold_906 - curtailment_906 = -550992 
 R5809: - battery_charge_907 + battery_discharge_907 - hydrogen_electricity_907
-          - electricity_sold_907 = -515040 
+          - electricity_sold_907 - curtailment_907 = -515040 
 R5810: - battery_charge_908 + battery_discharge_908 - hydrogen_electricity_908
-          - electricity_sold_908 = -689832 
+          - electricity_sold_908 - curtailment_908 = -689832 
 R5811: - battery_charge_909 + battery_discharge_909 - hydrogen_electricity_909
-          - electricity_sold_909 = -725784 
+          - electricity_sold_909 - curtailment_909 = -725784 
 R5812: - battery_charge_910 + battery_discharge_910 - hydrogen_electricity_910
-          - electricity_sold_910 = -707064 
+          - electricity_sold_910 - curtailment_910 = -707064 
 R5813: - battery_charge_911 + battery_discharge_911 - hydrogen_electricity_911
-          - electricity_sold_911 = -692544 
+          - electricity_sold_911 - curtailment_911 = -692544 
 R5814: - battery_charge_912 + battery_discharge_912 - hydrogen_electricity_912
-          - electricity_sold_912 = -698688 
+          - electricity_sold_912 - curtailment_912 = -698688 
 R5815: - battery_charge_913 + battery_discharge_913 - hydrogen_electricity_913
-          - electricity_sold_913 = -627120 
+          - electricity_sold_913 - curtailment_913 = -627120 
 R5816: - battery_charge_914 + battery_discharge_914 - hydrogen_electricity_914
-          - electricity_sold_914 = -630024 
+          - electricity_sold_914 - curtailment_914 = -630024 
 R5817: - battery_charge_915 + battery_discharge_915 - hydrogen_electricity_915
-          - electricity_sold_915 = -694200 
+          - electricity_sold_915 - curtailment_915 = -694200 
 R5818: - battery_charge_916 + battery_discharge_916 - hydrogen_electricity_916
-          - electricity_sold_916 = -695280 
+          - electricity_sold_916 - curtailment_916 = -695280 
 R5819: - battery_charge_917 + battery_discharge_917 - hydrogen_electricity_917
-          - electricity_sold_917 = -667800 
+          - electricity_sold_917 - curtailment_917 = -667800 
 R5820: - battery_charge_918 + battery_discharge_918 - hydrogen_electricity_918
-          - electricity_sold_918 = -689520 
+          - electricity_sold_918 - curtailment_918 = -689520 
 R5821: - battery_charge_919 + battery_discharge_919 - hydrogen_electricity_919
-          - electricity_sold_919 = -712392 
+          - electricity_sold_919 - curtailment_919 = -712392 
 R5822: - battery_charge_920 + battery_discharge_920 - hydrogen_electricity_920
-          - electricity_sold_920 = -614640 
+          - electricity_sold_920 - curtailment_920 = -614640 
 R5823: - battery_charge_921 + battery_discharge_921 - hydrogen_electricity_921
-          - electricity_sold_921 = -583512 
+          - electricity_sold_921 - curtailment_921 = -583512 
 R5824: - battery_charge_922 + battery_discharge_922 - hydrogen_electricity_922
-          - electricity_sold_922 = -711552 
+          - electricity_sold_922 - curtailment_922 = -711552 
 R5825: - battery_charge_923 + battery_discharge_923 - hydrogen_electricity_923
-          - electricity_sold_923 = -710280 
+          - electricity_sold_923 - curtailment_923 = -710280 
 R5826: - battery_charge_924 + battery_discharge_924 - hydrogen_electricity_924
-          - electricity_sold_924 = -703008 
+          - electricity_sold_924 - curtailment_924 = -703008 
 R5827: - battery_charge_925 + battery_discharge_925 - hydrogen_electricity_925
-          - electricity_sold_925 = -620928 
+          - electricity_sold_925 - curtailment_925 = -620928 
 R5828: - battery_charge_926 + battery_discharge_926 - hydrogen_electricity_926
-          - electricity_sold_926 = -684240 
+          - electricity_sold_926 - curtailment_926 = -684240 
 R5829: - battery_charge_927 + battery_discharge_927 - hydrogen_electricity_927
-          - electricity_sold_927 = -631080 
+          - electricity_sold_927 - curtailment_927 = -631080 
 R5830: - battery_charge_928 + battery_discharge_928 - hydrogen_electricity_928
-          - electricity_sold_928 = -620400 
+          - electricity_sold_928 - curtailment_928 = -620400 
 R5831: - battery_charge_929 + battery_discharge_929 - hydrogen_electricity_929
-          - electricity_sold_929 = -720240 
+          - electricity_sold_929 - curtailment_929 = -720240 
 R5832: - battery_charge_930 + battery_discharge_930 - hydrogen_electricity_930
-          - electricity_sold_930 = -736224 
+          - electricity_sold_930 - curtailment_930 = -736224 
 R5833: - battery_charge_931 + battery_discharge_931 - hydrogen_electricity_931
-          - electricity_sold_931 = -697656 
+          - electricity_sold_931 - curtailment_931 = -697656 
 R5834: - battery_charge_932 + battery_discharge_932 - hydrogen_electricity_932
-          - electricity_sold_932 = -707064 
+          - electricity_sold_932 - curtailment_932 = -707064 
 R5835: - battery_charge_933 + battery_discharge_933 - hydrogen_electricity_933
-          - electricity_sold_933 = -688440 
+          - electricity_sold_933 - curtailment_933 = -688440 
 R5836: - battery_charge_934 + battery_discharge_934 - hydrogen_electricity_934
-          - electricity_sold_934 = -604368 
+          - electricity_sold_934 - curtailment_934 = -604368 
 R5837: - battery_charge_935 + battery_discharge_935 - hydrogen_electricity_935
-          - electricity_sold_935 = -556488 
+          - electricity_sold_935 - curtailment_935 = -556488 
 R5838: - battery_charge_936 + battery_discharge_936 - hydrogen_electricity_936
-          - electricity_sold_936 = -647112 
+          - electricity_sold_936 - curtailment_936 = -647112 
 R5839: - battery_charge_937 + battery_discharge_937 - hydrogen_electricity_937
-          - electricity_sold_937 = -660504 
+          - electricity_sold_937 - curtailment_937 = -660504 
 R5840: - battery_charge_938 + battery_discharge_938 - hydrogen_electricity_938
-          - electricity_sold_938 = -649800 
+          - electricity_sold_938 - curtailment_938 = -649800 
 R5841: - battery_charge_939 + battery_discharge_939 - hydrogen_electricity_939
-          - electricity_sold_939 = -693000 
+          - electricity_sold_939 - curtailment_939 = -693000 
 R5842: - battery_charge_940 + battery_discharge_940 - hydrogen_electricity_940
-          - electricity_sold_940 = -706440 
+          - electricity_sold_940 - curtailment_940 = -706440 
 R5843: - battery_charge_941 + battery_discharge_941 - hydrogen_electricity_941
-          - electricity_sold_941 = -624840 
+          - electricity_sold_941 - curtailment_941 = -624840 
 R5844: - battery_charge_942 + battery_discharge_942 - hydrogen_electricity_942
-          - electricity_sold_942 = -607440 
+          - electricity_sold_942 - curtailment_942 = -607440 
 R5845: - battery_charge_943 + battery_discharge_943 - hydrogen_electricity_943
-          - electricity_sold_943 = -675144 
+          - electricity_sold_943 - curtailment_943 = -675144 
 R5846: - battery_charge_944 + battery_discharge_944 - hydrogen_electricity_944
-          - electricity_sold_944 = -609696 
+          - electricity_sold_944 - curtailment_944 = -609696 
 R5847: - battery_charge_945 + battery_discharge_945 - hydrogen_electricity_945
-          - electricity_sold_945 = -676944 
+          - electricity_sold_945 - curtailment_945 = -676944 
 R5848: - battery_charge_946 + battery_discharge_946 - hydrogen_electricity_946
-          - electricity_sold_946 = -732360 
+          - electricity_sold_946 - curtailment_946 = -732360 
 R5849: - battery_charge_947 + battery_discharge_947 - hydrogen_electricity_947
-          - electricity_sold_947 = -702264 
+          - electricity_sold_947 - curtailment_947 = -702264 
 R5850: - battery_charge_948 + battery_discharge_948 - hydrogen_electricity_948
-          - electricity_sold_948 = -545640 
+          - electricity_sold_948 - curtailment_948 = -545640 
 R5851: - battery_charge_949 + battery_discharge_949 - hydrogen_electricity_949
-          - electricity_sold_949 = -536112 
+          - electricity_sold_949 - curtailment_949 = -536112 
 R5852: - battery_charge_950 + battery_discharge_950 - hydrogen_electricity_950
-          - electricity_sold_950 = -709896 
+          - electricity_sold_950 - curtailment_950 = -709896 
 R5853: - battery_charge_951 + battery_discharge_951 - hydrogen_electricity_951
-          - electricity_sold_951 = -701688 
+          - electricity_sold_951 - curtailment_951 = -701688 
 R5854: - battery_charge_952 + battery_discharge_952 - hydrogen_electricity_952
-          - electricity_sold_952 = -698616 
+          - electricity_sold_952 - curtailment_952 = -698616 
 R5855: - battery_charge_953 + battery_discharge_953 - hydrogen_electricity_953
-          - electricity_sold_953 = -696264 
+          - electricity_sold_953 - curtailment_953 = -696264 
 R5856: - battery_charge_954 + battery_discharge_954 - hydrogen_electricity_954
-          - electricity_sold_954 = -693792 
+          - electricity_sold_954 - curtailment_954 = -693792 
 R5857: - battery_charge_955 + battery_discharge_955 - hydrogen_electricity_955
-          - electricity_sold_955 = -631728 
+          - electricity_sold_955 - curtailment_955 = -631728 
 R5858: - battery_charge_956 + battery_discharge_956 - hydrogen_electricity_956
-          - electricity_sold_956 = -567024 
+          - electricity_sold_956 - curtailment_956 = -567024 
 R5859: - battery_charge_957 + battery_discharge_957 - hydrogen_electricity_957
-          - electricity_sold_957 = -643656 
+          - electricity_sold_957 - curtailment_957 = -643656 
 R5860: - battery_charge_958 + battery_discharge_958 - hydrogen_electricity_958
-          - electricity_sold_958 = -664752 
+          - electricity_sold_958 - curtailment_958 = -664752 
 R5861: - battery_charge_959 + battery_discharge_959 - hydrogen_electricity_959
-          - electricity_sold_959 = -702480 
+          - electricity_sold_959 - curtailment_959 = -702480 
 R5862: - battery_charge_960 + battery_discharge_960 - hydrogen_electricity_960
-          - electricity_sold_960 = -695544 
+          - electricity_sold_960 - curtailment_960 = -695544 
 R5863: - battery_charge_961 + battery_discharge_961 - hydrogen_electricity_961
-          - electricity_sold_961 = -671424 
+          - electricity_sold_961 - curtailment_961 = -671424 
 R5864: - battery_charge_962 + battery_discharge_962 - hydrogen_electricity_962
-          - electricity_sold_962 = -629736 
+          - electricity_sold_962 - curtailment_962 = -629736 
 R5865: - battery_charge_963 + battery_discharge_963 - hydrogen_electricity_963
-          - electricity_sold_963 = -547584 
+          - electricity_sold_963 - curtailment_963 = -547584 
 R5866: - battery_charge_964 + battery_discharge_964 - hydrogen_electricity_964
-          - electricity_sold_964 = -614952 
+          - electricity_sold_964 - curtailment_964 = -614952 
 R5867: - battery_charge_965 + battery_discharge_965 - hydrogen_electricity_965
-          - electricity_sold_965 = -658152 
+          - electricity_sold_965 - curtailment_965 = -658152 
 R5868: - battery_charge_966 + battery_discharge_966 - hydrogen_electricity_966
-          - electricity_sold_966 = -670608 
+          - electricity_sold_966 - curtailment_966 = -670608 
 R5869: - battery_charge_967 + battery_discharge_967 - hydrogen_electricity_967
-          - electricity_sold_967 = -673680 
+          - electricity_sold_967 - curtailment_967 = -673680 
 R5870: - battery_charge_968 + battery_discharge_968 - hydrogen_electricity_968
-          - electricity_sold_968 = -641448 
+          - electricity_sold_968 - curtailment_968 = -641448 
 R5871: - battery_charge_969 + battery_discharge_969 - hydrogen_electricity_969
-          - electricity_sold_969 = -615744 
+          - electricity_sold_969 - curtailment_969 = -615744 
 R5872: - battery_charge_970 + battery_discharge_970 - hydrogen_electricity_970
-          - electricity_sold_970 = -571488 
+          - electricity_sold_970 - curtailment_970 = -571488 
 R5873: - battery_charge_971 + battery_discharge_971 - hydrogen_electricity_971
-          - electricity_sold_971 = -642144 
+          - electricity_sold_971 - curtailment_971 = -642144 
 R5874: - battery_charge_972 + battery_discharge_972 - hydrogen_electricity_972
-          - electricity_sold_972 = -697200 
+          - electricity_sold_972 - curtailment_972 = -697200 
 R5875: - battery_charge_973 + battery_discharge_973 - hydrogen_electricity_973
-          - electricity_sold_973 = -736200 
+          - electricity_sold_973 - curtailment_973 = -736200 
 R5876: - battery_charge_974 + battery_discharge_974 - hydrogen_electricity_974
-          - electricity_sold_974 = -662880 
+          - electricity_sold_974 - curtailment_974 = -662880 
 R5877: - battery_charge_975 + battery_discharge_975 - hydrogen_electricity_975
-          - electricity_sold_975 = -730944 
+          - electricity_sold_975 - curtailment_975 = -730944 
 R5878: - battery_charge_976 + battery_discharge_976 - hydrogen_electricity_976
-          - electricity_sold_976 = -637680 
+          - electricity_sold_976 - curtailment_976 = -637680 
 R5879: - battery_charge_977 + battery_discharge_977 - hydrogen_electricity_977
-          - electricity_sold_977 = -613080 
+          - electricity_sold_977 - curtailment_977 = -613080 
 R5880: - battery_charge_978 + battery_discharge_978 - hydrogen_electricity_978
-          - electricity_sold_978 = -709728 
+          - electricity_sold_978 - curtailment_978 = -709728 
 R5881: - battery_charge_979 + battery_discharge_979 - hydrogen_electricity_979
-          - electricity_sold_979 = -715272 
+          - electricity_sold_979 - curtailment_979 = -715272 
 R5882: - battery_charge_980 + battery_discharge_980 - hydrogen_electricity_980
-          - electricity_sold_980 = -744240 
+          - electricity_sold_980 - curtailment_980 = -744240 
 R5883: - battery_charge_981 + battery_discharge_981 - hydrogen_electricity_981
-          - electricity_sold_981 = -744216 
+          - electricity_sold_981 - curtailment_981 = -744216 
 R5884: - battery_charge_982 + battery_discharge_982 - hydrogen_electricity_982
-          - electricity_sold_982 = -746256 
+          - electricity_sold_982 - curtailment_982 = -746256 
 R5885: - battery_charge_983 + battery_discharge_983 - hydrogen_electricity_983
-          - electricity_sold_983 = -640008 
+          - electricity_sold_983 - curtailment_983 = -640008 
 R5886: - battery_charge_984 + battery_discharge_984 - hydrogen_electricity_984
-          - electricity_sold_984 = -639792 
+          - electricity_sold_984 - curtailment_984 = -639792 
 R5887: - battery_charge_985 + battery_discharge_985 - hydrogen_electricity_985
-          - electricity_sold_985 = -713472 
+          - electricity_sold_985 - curtailment_985 = -713472 
 R5888: - battery_charge_986 + battery_discharge_986 - hydrogen_electricity_986
-          - electricity_sold_986 = -713280 
+          - electricity_sold_986 - curtailment_986 = -713280 
 R5889: - battery_charge_987 + battery_discharge_987 - hydrogen_electricity_987
-          - electricity_sold_987 = -749544 
+          - electricity_sold_987 - curtailment_987 = -749544 
 R5890: - battery_charge_988 + battery_discharge_988 - hydrogen_electricity_988
-          - electricity_sold_988 = -488520 
+          - electricity_sold_988 - curtailment_988 = -488520 
 R5891: - battery_charge_989 + battery_discharge_989 - hydrogen_electricity_989
-          - electricity_sold_989 = -609168 
+          - electricity_sold_989 - curtailment_989 = -609168 
 R5892: - battery_charge_990 + battery_discharge_990 - hydrogen_electricity_990
-          - electricity_sold_990 = -518808 
+          - electricity_sold_990 - curtailment_990 = -518808 
 R5893: - battery_charge_991 + battery_discharge_991 - hydrogen_electricity_991
-          - electricity_sold_991 = -428448 
+          - electricity_sold_991 - curtailment_991 = -428448 
 R5894: - battery_charge_992 + battery_discharge_992 - hydrogen_electricity_992
-          - electricity_sold_992 = -618480 
+          - electricity_sold_992 - curtailment_992 = -618480 
 R5895: - battery_charge_993 + battery_discharge_993 - hydrogen_electricity_993
-          - electricity_sold_993 = -591360 
+          - electricity_sold_993 - curtailment_993 = -591360 
 R5896: - battery_charge_994 + battery_discharge_994 - hydrogen_electricity_994
-          - electricity_sold_994 = -718584 
+          - electricity_sold_994 - curtailment_994 = -718584 
 R5897: - battery_charge_995 + battery_discharge_995 - hydrogen_electricity_995
-          - electricity_sold_995 = -702576 
+          - electricity_sold_995 - curtailment_995 = -702576 
 R5898: - battery_charge_996 + battery_discharge_996 - hydrogen_electricity_996
-          - electricity_sold_996 = -634932 
+          - electricity_sold_996 - curtailment_996 = -634932 
 R5899: - battery_charge_997 + battery_discharge_997 - hydrogen_electricity_997
-          - electricity_sold_997 = -567288 
+          - electricity_sold_997 - curtailment_997 = -567288 
 R5900: - battery_charge_998 + battery_discharge_998 - hydrogen_electricity_998
-          - electricity_sold_998 = -640632 
+          - electricity_sold_998 - curtailment_998 = -640632 
 R5901: - battery_charge_999 + battery_discharge_999 - hydrogen_electricity_999
-          - electricity_sold_999 = -502608 
+          - electricity_sold_999 - curtailment_999 = -502608 
 R5902: - battery_charge_1000 + battery_discharge_1000
-          - hydrogen_electricity_1000 - electricity_sold_1000 = -735336 
+          - hydrogen_electricity_1000 - electricity_sold_1000
+          - curtailment_1000 = -735336 
 R5903: - battery_charge_1001 + battery_discharge_1001
-          - hydrogen_electricity_1001 - electricity_sold_1001 = -764328 
+          - hydrogen_electricity_1001 - electricity_sold_1001
+          - curtailment_1001 = -764328 
 R5904: - battery_charge_1002 + battery_discharge_1002
-          - hydrogen_electricity_1002 - electricity_sold_1002 = -752208 
+          - hydrogen_electricity_1002 - electricity_sold_1002
+          - curtailment_1002 = -752208 
 R5905: - battery_charge_1003 + battery_discharge_1003
-          - hydrogen_electricity_1003 - electricity_sold_1003 = -703344 
+          - hydrogen_electricity_1003 - electricity_sold_1003
+          - curtailment_1003 = -703344 
 R5906: - battery_charge_1004 + battery_discharge_1004
-          - hydrogen_electricity_1004 - electricity_sold_1004 = -521976 
+          - hydrogen_electricity_1004 - electricity_sold_1004
+          - curtailment_1004 = -521976 
 R5907: - battery_charge_1005 + battery_discharge_1005
-          - hydrogen_electricity_1005 - electricity_sold_1005 = -525360 
+          - hydrogen_electricity_1005 - electricity_sold_1005
+          - curtailment_1005 = -525360 
 R5908: - battery_charge_1006 + battery_discharge_1006
-          - hydrogen_electricity_1006 - electricity_sold_1006 = -685656 
+          - hydrogen_electricity_1006 - electricity_sold_1006
+          - curtailment_1006 = -685656 
 R5909: - battery_charge_1007 + battery_discharge_1007
-          - hydrogen_electricity_1007 - electricity_sold_1007 = -657192 
+          - hydrogen_electricity_1007 - electricity_sold_1007
+          - curtailment_1007 = -657192 
 R5910: - battery_charge_1008 + battery_discharge_1008
-          - hydrogen_electricity_1008 - electricity_sold_1008 = -613704 
+          - hydrogen_electricity_1008 - electricity_sold_1008
+          - curtailment_1008 = -613704 
 R5911: - battery_charge_1009 + battery_discharge_1009
-          - hydrogen_electricity_1009 - electricity_sold_1009 = -627744 
+          - hydrogen_electricity_1009 - electricity_sold_1009
+          - curtailment_1009 = -627744 
 R5912: - battery_charge_1010 + battery_discharge_1010
-          - hydrogen_electricity_1010 - electricity_sold_1010 = -589752 
+          - hydrogen_electricity_1010 - electricity_sold_1010
+          - curtailment_1010 = -589752 
 R5913: - battery_charge_1011 + battery_discharge_1011
-          - hydrogen_electricity_1011 - electricity_sold_1011 = -562848 
+          - hydrogen_electricity_1011 - electricity_sold_1011
+          - curtailment_1011 = -562848 
 R5914: - battery_charge_1012 + battery_discharge_1012
-          - hydrogen_electricity_1012 - electricity_sold_1012 = -542928 
+          - hydrogen_electricity_1012 - electricity_sold_1012
+          - curtailment_1012 = -542928 
 R5915: - battery_charge_1013 + battery_discharge_1013
-          - hydrogen_electricity_1013 - electricity_sold_1013 = -667512 
+          - hydrogen_electricity_1013 - electricity_sold_1013
+          - curtailment_1013 = -667512 
 R5916: - battery_charge_1014 + battery_discharge_1014
-          - hydrogen_electricity_1014 - electricity_sold_1014 = -731424 
+          - hydrogen_electricity_1014 - electricity_sold_1014
+          - curtailment_1014 = -731424 
 R5917: - battery_charge_1015 + battery_discharge_1015
-          - hydrogen_electricity_1015 - electricity_sold_1015 = -762936 
+          - hydrogen_electricity_1015 - electricity_sold_1015
+          - curtailment_1015 = -762936 
 R5918: - battery_charge_1016 + battery_discharge_1016
-          - hydrogen_electricity_1016 - electricity_sold_1016 = -760320 
+          - hydrogen_electricity_1016 - electricity_sold_1016
+          - curtailment_1016 = -760320 
 R5919: - battery_charge_1017 + battery_discharge_1017
-          - hydrogen_electricity_1017 - electricity_sold_1017 = -748080 
+          - hydrogen_electricity_1017 - electricity_sold_1017
+          - curtailment_1017 = -748080 
 R5920: - battery_charge_1018 + battery_discharge_1018
-          - hydrogen_electricity_1018 - electricity_sold_1018 = -613488 
+          - hydrogen_electricity_1018 - electricity_sold_1018
+          - curtailment_1018 = -613488 
 R5921: - battery_charge_1019 + battery_discharge_1019
-          - hydrogen_electricity_1019 - electricity_sold_1019 = -262416 
+          - hydrogen_electricity_1019 - electricity_sold_1019
+          - curtailment_1019 = -262416 
 R5922: - battery_charge_1020 + battery_discharge_1020
-          - hydrogen_electricity_1020 - electricity_sold_1020 = -291984 
+          - hydrogen_electricity_1020 - electricity_sold_1020
+          - curtailment_1020 = -291984 
 R5923: - battery_charge_1021 + battery_discharge_1021
-          - hydrogen_electricity_1021 - electricity_sold_1021 = -491544 
+          - hydrogen_electricity_1021 - electricity_sold_1021
+          - curtailment_1021 = -491544 
 R5924: - battery_charge_1022 + battery_discharge_1022
-          - hydrogen_electricity_1022 - electricity_sold_1022 = -705384 
+          - hydrogen_electricity_1022 - electricity_sold_1022
+          - curtailment_1022 = -705384 
 R5925: - battery_charge_1023 + battery_discharge_1023
-          - hydrogen_electricity_1023 - electricity_sold_1023 = -731448 
+          - hydrogen_electricity_1023 - electricity_sold_1023
+          - curtailment_1023 = -731448 
 R5926: - battery_charge_1024 + battery_discharge_1024
-          - hydrogen_electricity_1024 - electricity_sold_1024 = -727824 
+          - hydrogen_electricity_1024 - electricity_sold_1024
+          - curtailment_1024 = -727824 
 R5927: - battery_charge_1025 + battery_discharge_1025
-          - hydrogen_electricity_1025 - electricity_sold_1025 = -641952 
+          - hydrogen_electricity_1025 - electricity_sold_1025
+          - curtailment_1025 = -641952 
 R5928: - battery_charge_1026 + battery_discharge_1026
-          - hydrogen_electricity_1026 - electricity_sold_1026 = -570048 
+          - hydrogen_electricity_1026 - electricity_sold_1026
+          - curtailment_1026 = -570048 
 R5929: - battery_charge_1027 + battery_discharge_1027
-          - hydrogen_electricity_1027 - electricity_sold_1027 = -654048 
+          - hydrogen_electricity_1027 - electricity_sold_1027
+          - curtailment_1027 = -654048 
 R5930: - battery_charge_1028 + battery_discharge_1028
-          - hydrogen_electricity_1028 - electricity_sold_1028 = -710832 
+          - hydrogen_electricity_1028 - electricity_sold_1028
+          - curtailment_1028 = -710832 
 R5931: - battery_charge_1029 + battery_discharge_1029
-          - hydrogen_electricity_1029 - electricity_sold_1029 = -670344 
+          - hydrogen_electricity_1029 - electricity_sold_1029
+          - curtailment_1029 = -670344 
 R5932: - battery_charge_1030 + battery_discharge_1030
-          - hydrogen_electricity_1030 - electricity_sold_1030 = -708960 
+          - hydrogen_electricity_1030 - electricity_sold_1030
+          - curtailment_1030 = -708960 
 R5933: - battery_charge_1031 + battery_discharge_1031
-          - hydrogen_electricity_1031 - electricity_sold_1031 = -683832 
+          - hydrogen_electricity_1031 - electricity_sold_1031
+          - curtailment_1031 = -683832 
 R5934: - battery_charge_1032 + battery_discharge_1032
-          - hydrogen_electricity_1032 - electricity_sold_1032 = -581712 
+          - hydrogen_electricity_1032 - electricity_sold_1032
+          - curtailment_1032 = -581712 
 R5935: - battery_charge_1033 + battery_discharge_1033
-          - hydrogen_electricity_1033 - electricity_sold_1033 = -526632 
+          - hydrogen_electricity_1033 - electricity_sold_1033
+          - curtailment_1033 = -526632 
 R5936: - battery_charge_1034 + battery_discharge_1034
-          - hydrogen_electricity_1034 - electricity_sold_1034 = -634344 
+          - hydrogen_electricity_1034 - electricity_sold_1034
+          - curtailment_1034 = -634344 
 R5937: - battery_charge_1035 + battery_discharge_1035
-          - hydrogen_electricity_1035 - electricity_sold_1035 = -567768 
+          - hydrogen_electricity_1035 - electricity_sold_1035
+          - curtailment_1035 = -567768 
 R5938: - battery_charge_1036 + battery_discharge_1036
-          - hydrogen_electricity_1036 - electricity_sold_1036 = -647088 
+          - hydrogen_electricity_1036 - electricity_sold_1036
+          - curtailment_1036 = -647088 
 R5939: - battery_charge_1037 + battery_discharge_1037
-          - hydrogen_electricity_1037 - electricity_sold_1037 = -658824 
+          - hydrogen_electricity_1037 - electricity_sold_1037
+          - curtailment_1037 = -658824 
 R5940: - battery_charge_1038 + battery_discharge_1038
-          - hydrogen_electricity_1038 - electricity_sold_1038 = -681576 
+          - hydrogen_electricity_1038 - electricity_sold_1038
+          - curtailment_1038 = -681576 
 R5941: - battery_charge_1039 + battery_discharge_1039
-          - hydrogen_electricity_1039 - electricity_sold_1039 = -582264 
+          - hydrogen_electricity_1039 - electricity_sold_1039
+          - curtailment_1039 = -582264 
 R5942: - battery_charge_1040 + battery_discharge_1040
-          - hydrogen_electricity_1040 - electricity_sold_1040 = -500832 
+          - hydrogen_electricity_1040 - electricity_sold_1040
+          - curtailment_1040 = -500832 
 R5943: - battery_charge_1041 + battery_discharge_1041
-          - hydrogen_electricity_1041 - electricity_sold_1041 = -647760 
+          - hydrogen_electricity_1041 - electricity_sold_1041
+          - curtailment_1041 = -647760 
 R5944: - battery_charge_1042 + battery_discharge_1042
-          - hydrogen_electricity_1042 - electricity_sold_1042 = -617568 
+          - hydrogen_electricity_1042 - electricity_sold_1042
+          - curtailment_1042 = -617568 
 R5945: - battery_charge_1043 + battery_discharge_1043
-          - hydrogen_electricity_1043 - electricity_sold_1043 = -683568 
+          - hydrogen_electricity_1043 - electricity_sold_1043
+          - curtailment_1043 = -683568 
 R5946: - battery_charge_1044 + battery_discharge_1044
-          - hydrogen_electricity_1044 - electricity_sold_1044 = -686976 
+          - hydrogen_electricity_1044 - electricity_sold_1044
+          - curtailment_1044 = -686976 
 R5947: - battery_charge_1045 + battery_discharge_1045
-          - hydrogen_electricity_1045 - electricity_sold_1045 = -691224 
+          - hydrogen_electricity_1045 - electricity_sold_1045
+          - curtailment_1045 = -691224 
 R5948: - battery_charge_1046 + battery_discharge_1046
-          - hydrogen_electricity_1046 - electricity_sold_1046 = -676104 
+          - hydrogen_electricity_1046 - electricity_sold_1046
+          - curtailment_1046 = -676104 
 R5949: - battery_charge_1047 + battery_discharge_1047
-          - hydrogen_electricity_1047 - electricity_sold_1047 = -660744 
+          - hydrogen_electricity_1047 - electricity_sold_1047
+          - curtailment_1047 = -660744 
 R5950: - battery_charge_1048 + battery_discharge_1048
-          - hydrogen_electricity_1048 - electricity_sold_1048 = -722928 
+          - hydrogen_electricity_1048 - electricity_sold_1048
+          - curtailment_1048 = -722928 
 R5951: - battery_charge_1049 + battery_discharge_1049
-          - hydrogen_electricity_1049 - electricity_sold_1049 = -732552 
+          - hydrogen_electricity_1049 - electricity_sold_1049
+          - curtailment_1049 = -732552 
 R5952: - battery_charge_1050 + battery_discharge_1050
-          - hydrogen_electricity_1050 - electricity_sold_1050 = -706584 
+          - hydrogen_electricity_1050 - electricity_sold_1050
+          - curtailment_1050 = -706584 
 R5953: - battery_charge_1051 + battery_discharge_1051
-          - hydrogen_electricity_1051 - electricity_sold_1051 = -646008 
+          - hydrogen_electricity_1051 - electricity_sold_1051
+          - curtailment_1051 = -646008 
 R5954: - battery_charge_1052 + battery_discharge_1052
-          - hydrogen_electricity_1052 - electricity_sold_1052 = -732744 
+          - hydrogen_electricity_1052 - electricity_sold_1052
+          - curtailment_1052 = -732744 
 R5955: - battery_charge_1053 + battery_discharge_1053
-          - hydrogen_electricity_1053 - electricity_sold_1053 = -544920 
+          - hydrogen_electricity_1053 - electricity_sold_1053
+          - curtailment_1053 = -544920 
 R5956: - battery_charge_1054 + battery_discharge_1054
-          - hydrogen_electricity_1054 - electricity_sold_1054 = -171336 
+          - hydrogen_electricity_1054 - electricity_sold_1054
+          - curtailment_1054 = -171336 
 R5957: - battery_charge_1055 + battery_discharge_1055
-          - hydrogen_electricity_1055 - electricity_sold_1055 = -174744 
+          - hydrogen_electricity_1055 - electricity_sold_1055
+          - curtailment_1055 = -174744 
 R5958: - battery_charge_1056 + battery_discharge_1056
-          - hydrogen_electricity_1056 - electricity_sold_1056 = -499200 
+          - hydrogen_electricity_1056 - electricity_sold_1056
+          - curtailment_1056 = -499200 
 R5959: - battery_charge_1057 + battery_discharge_1057
-          - hydrogen_electricity_1057 - electricity_sold_1057 = -755784 
+          - hydrogen_electricity_1057 - electricity_sold_1057
+          - curtailment_1057 = -755784 
 R5960: - battery_charge_1058 + battery_discharge_1058
-          - hydrogen_electricity_1058 - electricity_sold_1058 = -757032 
+          - hydrogen_electricity_1058 - electricity_sold_1058
+          - curtailment_1058 = -757032 
 R5961: - battery_charge_1059 + battery_discharge_1059
-          - hydrogen_electricity_1059 - electricity_sold_1059 = -772488 
+          - hydrogen_electricity_1059 - electricity_sold_1059
+          - curtailment_1059 = -772488 
 R5962: - battery_charge_1060 + battery_discharge_1060
-          - hydrogen_electricity_1060 - electricity_sold_1060 = -725232 
+          - hydrogen_electricity_1060 - electricity_sold_1060
+          - curtailment_1060 = -725232 
 R5963: - battery_charge_1061 + battery_discharge_1061
-          - hydrogen_electricity_1061 - electricity_sold_1061 = -703608 
+          - hydrogen_electricity_1061 - electricity_sold_1061
+          - curtailment_1061 = -703608 
 R5964: - battery_charge_1062 + battery_discharge_1062
-          - hydrogen_electricity_1062 - electricity_sold_1062 = -746400 
+          - hydrogen_electricity_1062 - electricity_sold_1062
+          - curtailment_1062 = -746400 
 R5965: - battery_charge_1063 + battery_discharge_1063
-          - hydrogen_electricity_1063 - electricity_sold_1063 = -736824 
+          - hydrogen_electricity_1063 - electricity_sold_1063
+          - curtailment_1063 = -736824 
 R5966: - battery_charge_1064 + battery_discharge_1064
-          - hydrogen_electricity_1064 - electricity_sold_1064 = -329832 
+          - hydrogen_electricity_1064 - electricity_sold_1064
+          - curtailment_1064 = -329832 
 R5967: - battery_charge_1065 + battery_discharge_1065
-          - hydrogen_electricity_1065 - electricity_sold_1065 = -64992 
+          - hydrogen_electricity_1065 - electricity_sold_1065
+          - curtailment_1065 = -64992 
 R5968: - battery_charge_1066 + battery_discharge_1066
-          - hydrogen_electricity_1066 - electricity_sold_1066 = -116232 
+          - hydrogen_electricity_1066 - electricity_sold_1066
+          - curtailment_1066 = -116232 
 R5969: - battery_charge_1067 + battery_discharge_1067
-          - hydrogen_electricity_1067 - electricity_sold_1067 = -163584 
+          - hydrogen_electricity_1067 - electricity_sold_1067
+          - curtailment_1067 = -163584 
 R5970: - battery_charge_1068 + battery_discharge_1068
-          - hydrogen_electricity_1068 - electricity_sold_1068 = -185304 
+          - hydrogen_electricity_1068 - electricity_sold_1068
+          - curtailment_1068 = -185304 
 R5971: - battery_charge_1069 + battery_discharge_1069
-          - hydrogen_electricity_1069 - electricity_sold_1069 = -183168 
+          - hydrogen_electricity_1069 - electricity_sold_1069
+          - curtailment_1069 = -183168 
 R5972: - battery_charge_1070 + battery_discharge_1070
-          - hydrogen_electricity_1070 - electricity_sold_1070 = -164904 
+          - hydrogen_electricity_1070 - electricity_sold_1070
+          - curtailment_1070 = -164904 
 R5973: - battery_charge_1071 + battery_discharge_1071
-          - hydrogen_electricity_1071 - electricity_sold_1071 = -174384 
+          - hydrogen_electricity_1071 - electricity_sold_1071
+          - curtailment_1071 = -174384 
 R5974: - battery_charge_1072 + battery_discharge_1072
-          - hydrogen_electricity_1072 - electricity_sold_1072 = -149328 
+          - hydrogen_electricity_1072 - electricity_sold_1072
+          - curtailment_1072 = -149328 
 R5975: - battery_charge_1073 + battery_discharge_1073
-          - hydrogen_electricity_1073 - electricity_sold_1073 = -118680 
+          - hydrogen_electricity_1073 - electricity_sold_1073
+          - curtailment_1073 = -118680 
 R5976: - battery_charge_1074 + battery_discharge_1074
-          - hydrogen_electricity_1074 - electricity_sold_1074 = -81768 
+          - hydrogen_electricity_1074 - electricity_sold_1074
+          - curtailment_1074 = -81768 
 R5977: - battery_charge_1075 + battery_discharge_1075
-          - hydrogen_electricity_1075 - electricity_sold_1075 = -34800 
+          - hydrogen_electricity_1075 - electricity_sold_1075
+          - curtailment_1075 = -34800 
 R5978: - battery_charge_1076 + battery_discharge_1076
-          - hydrogen_electricity_1076 - electricity_sold_1076 = -39936 
+          - hydrogen_electricity_1076 - electricity_sold_1076
+          - curtailment_1076 = -39936 
 R5979: - battery_charge_1077 + battery_discharge_1077
-          - hydrogen_electricity_1077 - electricity_sold_1077 = -75264 
+          - hydrogen_electricity_1077 - electricity_sold_1077
+          - curtailment_1077 = -75264 
 R5980: - battery_charge_1078 + battery_discharge_1078
-          - hydrogen_electricity_1078 - electricity_sold_1078 = -167520 
+          - hydrogen_electricity_1078 - electricity_sold_1078
+          - curtailment_1078 = -167520 
 R5981: - battery_charge_1079 + battery_discharge_1079
-          - hydrogen_electricity_1079 - electricity_sold_1079 = -157128 
+          - hydrogen_electricity_1079 - electricity_sold_1079
+          - curtailment_1079 = -157128 
 R5982: - battery_charge_1080 + battery_discharge_1080
-          - hydrogen_electricity_1080 - electricity_sold_1080 = -128544 
+          - hydrogen_electricity_1080 - electricity_sold_1080
+          - curtailment_1080 = -128544 
 R5983: - battery_charge_1081 + battery_discharge_1081
-          - hydrogen_electricity_1081 - electricity_sold_1081 = -220248 
+          - hydrogen_electricity_1081 - electricity_sold_1081
+          - curtailment_1081 = -220248 
 R5984: - battery_charge_1082 + battery_discharge_1082
-          - hydrogen_electricity_1082 - electricity_sold_1082 = -291048 
+          - hydrogen_electricity_1082 - electricity_sold_1082
+          - curtailment_1082 = -291048 
 R5985: - battery_charge_1083 + battery_discharge_1083
-          - hydrogen_electricity_1083 - electricity_sold_1083 = -358920 
+          - hydrogen_electricity_1083 - electricity_sold_1083
+          - curtailment_1083 = -358920 
 R5986: - battery_charge_1084 + battery_discharge_1084
-          - hydrogen_electricity_1084 - electricity_sold_1084 = -294120 
+          - hydrogen_electricity_1084 - electricity_sold_1084
+          - curtailment_1084 = -294120 
 R5987: - battery_charge_1085 + battery_discharge_1085
-          - hydrogen_electricity_1085 - electricity_sold_1085 = -302544 
+          - hydrogen_electricity_1085 - electricity_sold_1085
+          - curtailment_1085 = -302544 
 R5988: - battery_charge_1086 + battery_discharge_1086
-          - hydrogen_electricity_1086 - electricity_sold_1086 = -109008 
+          - hydrogen_electricity_1086 - electricity_sold_1086
+          - curtailment_1086 = -109008 
 R5989: - battery_charge_1087 + battery_discharge_1087
-          - hydrogen_electricity_1087 - electricity_sold_1087 = -171912 
+          - hydrogen_electricity_1087 - electricity_sold_1087
+          - curtailment_1087 = -171912 
 R5990: - battery_charge_1088 + battery_discharge_1088
-          - hydrogen_electricity_1088 - electricity_sold_1088 = -257352 
+          - hydrogen_electricity_1088 - electricity_sold_1088
+          - curtailment_1088 = -257352 
 R5991: - battery_charge_1089 + battery_discharge_1089
-          - hydrogen_electricity_1089 - electricity_sold_1089 = -232248 
+          - hydrogen_electricity_1089 - electricity_sold_1089
+          - curtailment_1089 = -232248 
 R5992: - battery_charge_1090 + battery_discharge_1090
-          - hydrogen_electricity_1090 - electricity_sold_1090 = -309072 
+          - hydrogen_electricity_1090 - electricity_sold_1090
+          - curtailment_1090 = -309072 
 R5993: - battery_charge_1091 + battery_discharge_1091
-          - hydrogen_electricity_1091 - electricity_sold_1091 = -252912 
+          - hydrogen_electricity_1091 - electricity_sold_1091
+          - curtailment_1091 = -252912 
 R5994: - battery_charge_1092 + battery_discharge_1092
-          - hydrogen_electricity_1092 - electricity_sold_1092 = -281208 
+          - hydrogen_electricity_1092 - electricity_sold_1092
+          - curtailment_1092 = -281208 
 R5995: - battery_charge_1093 + battery_discharge_1093
-          - hydrogen_electricity_1093 - electricity_sold_1093 = -339312 
+          - hydrogen_electricity_1093 - electricity_sold_1093
+          - curtailment_1093 = -339312 
 R5996: - battery_charge_1094 + battery_discharge_1094
-          - hydrogen_electricity_1094 - electricity_sold_1094 = -362544 
+          - hydrogen_electricity_1094 - electricity_sold_1094
+          - curtailment_1094 = -362544 
 R5997: - battery_charge_1095 + battery_discharge_1095
-          - hydrogen_electricity_1095 - electricity_sold_1095 = -180216 
+          - hydrogen_electricity_1095 - electricity_sold_1095
+          - curtailment_1095 = -180216 
 R5998: - battery_charge_1096 + battery_discharge_1096
-          - hydrogen_electricity_1096 - electricity_sold_1096 = -197808 
+          - hydrogen_electricity_1096 - electricity_sold_1096
+          - curtailment_1096 = -197808 
 R5999: - battery_charge_1097 + battery_discharge_1097
-          - hydrogen_electricity_1097 - electricity_sold_1097 = -130992 
+          - hydrogen_electricity_1097 - electricity_sold_1097
+          - curtailment_1097 = -130992 
 R6000: - battery_charge_1098 + battery_discharge_1098
-          - hydrogen_electricity_1098 - electricity_sold_1098 = -281592 
+          - hydrogen_electricity_1098 - electricity_sold_1098
+          - curtailment_1098 = -281592 
 R6001: - battery_charge_1099 + battery_discharge_1099
-          - hydrogen_electricity_1099 - electricity_sold_1099 = -323952 
+          - hydrogen_electricity_1099 - electricity_sold_1099
+          - curtailment_1099 = -323952 
 R6002: - battery_charge_1100 + battery_discharge_1100
-          - hydrogen_electricity_1100 - electricity_sold_1100 = -266304 
+          - hydrogen_electricity_1100 - electricity_sold_1100
+          - curtailment_1100 = -266304 
 R6003: - battery_charge_1101 + battery_discharge_1101
-          - hydrogen_electricity_1101 - electricity_sold_1101 = -325512 
+          - hydrogen_electricity_1101 - electricity_sold_1101
+          - curtailment_1101 = -325512 
 R6004: - battery_charge_1102 + battery_discharge_1102
-          - hydrogen_electricity_1102 - electricity_sold_1102 = -333480 
+          - hydrogen_electricity_1102 - electricity_sold_1102
+          - curtailment_1102 = -333480 
 R6005: - battery_charge_1103 + battery_discharge_1103
-          - hydrogen_electricity_1103 - electricity_sold_1103 = -333264 
+          - hydrogen_electricity_1103 - electricity_sold_1103
+          - curtailment_1103 = -333264 
 R6006: - battery_charge_1104 + battery_discharge_1104
-          - hydrogen_electricity_1104 - electricity_sold_1104 = -299040 
+          - hydrogen_electricity_1104 - electricity_sold_1104
+          - curtailment_1104 = -299040 
 R6007: - battery_charge_1105 + battery_discharge_1105
-          - hydrogen_electricity_1105 - electricity_sold_1105 = -342720 
+          - hydrogen_electricity_1105 - electricity_sold_1105
+          - curtailment_1105 = -342720 
 R6008: - battery_charge_1106 + battery_discharge_1106
-          - hydrogen_electricity_1106 - electricity_sold_1106 = -376176 
+          - hydrogen_electricity_1106 - electricity_sold_1106
+          - curtailment_1106 = -376176 
 R6009: - battery_charge_1107 + battery_discharge_1107
-          - hydrogen_electricity_1107 - electricity_sold_1107 = -486168 
+          - hydrogen_electricity_1107 - electricity_sold_1107
+          - curtailment_1107 = -486168 
 R6010: - battery_charge_1108 + battery_discharge_1108
-          - hydrogen_electricity_1108 - electricity_sold_1108 = -647472 
+          - hydrogen_electricity_1108 - electricity_sold_1108
+          - curtailment_1108 = -647472 
 R6011: - battery_charge_1109 + battery_discharge_1109
-          - hydrogen_electricity_1109 - electricity_sold_1109 = -568488 
+          - hydrogen_electricity_1109 - electricity_sold_1109
+          - curtailment_1109 = -568488 
 R6012: - battery_charge_1110 + battery_discharge_1110
-          - hydrogen_electricity_1110 - electricity_sold_1110 = -635808 
+          - hydrogen_electricity_1110 - electricity_sold_1110
+          - curtailment_1110 = -635808 
 R6013: - battery_charge_1111 + battery_discharge_1111
-          - hydrogen_electricity_1111 - electricity_sold_1111 = -704784 
+          - hydrogen_electricity_1111 - electricity_sold_1111
+          - curtailment_1111 = -704784 
 R6014: - battery_charge_1112 + battery_discharge_1112
-          - hydrogen_electricity_1112 - electricity_sold_1112 = -786744 
+          - hydrogen_electricity_1112 - electricity_sold_1112
+          - curtailment_1112 = -786744 
 R6015: - battery_charge_1113 + battery_discharge_1113
-          - hydrogen_electricity_1113 - electricity_sold_1113 = -812784 
+          - hydrogen_electricity_1113 - electricity_sold_1113
+          - curtailment_1113 = -812784 
 R6016: - battery_charge_1114 + battery_discharge_1114
-          - hydrogen_electricity_1114 - electricity_sold_1114 = -855336 
+          - hydrogen_electricity_1114 - electricity_sold_1114
+          - curtailment_1114 = -855336 
 R6017: - battery_charge_1115 + battery_discharge_1115
-          - hydrogen_electricity_1115 - electricity_sold_1115 = -814632 
+          - hydrogen_electricity_1115 - electricity_sold_1115
+          - curtailment_1115 = -814632 
 R6018: - battery_charge_1116 + battery_discharge_1116
-          - hydrogen_electricity_1116 - electricity_sold_1116 = -675792 
+          - hydrogen_electricity_1116 - electricity_sold_1116
+          - curtailment_1116 = -675792 
 R6019: - battery_charge_1117 + battery_discharge_1117
-          - hydrogen_electricity_1117 - electricity_sold_1117 = -680472 
+          - hydrogen_electricity_1117 - electricity_sold_1117
+          - curtailment_1117 = -680472 
 R6020: - battery_charge_1118 + battery_discharge_1118
-          - hydrogen_electricity_1118 - electricity_sold_1118 = -808392 
+          - hydrogen_electricity_1118 - electricity_sold_1118
+          - curtailment_1118 = -808392 
 R6021: - battery_charge_1119 + battery_discharge_1119
-          - hydrogen_electricity_1119 - electricity_sold_1119 = -810048 
+          - hydrogen_electricity_1119 - electricity_sold_1119
+          - curtailment_1119 = -810048 
 R6022: - battery_charge_1120 + battery_discharge_1120
-          - hydrogen_electricity_1120 - electricity_sold_1120 = -784104 
+          - hydrogen_electricity_1120 - electricity_sold_1120
+          - curtailment_1120 = -784104 
 R6023: - battery_charge_1121 + battery_discharge_1121
-          - hydrogen_electricity_1121 - electricity_sold_1121 = -743832 
+          - hydrogen_electricity_1121 - electricity_sold_1121
+          - curtailment_1121 = -743832 
 R6024: - battery_charge_1122 + battery_discharge_1122
-          - hydrogen_electricity_1122 - electricity_sold_1122 = -730632 
+          - hydrogen_electricity_1122 - electricity_sold_1122
+          - curtailment_1122 = -730632 
 R6025: - battery_charge_1123 + battery_discharge_1123
-          - hydrogen_electricity_1123 - electricity_sold_1123 = -697344 
+          - hydrogen_electricity_1123 - electricity_sold_1123
+          - curtailment_1123 = -697344 
 R6026: - battery_charge_1124 + battery_discharge_1124
-          - hydrogen_electricity_1124 - electricity_sold_1124 = -561552 
+          - hydrogen_electricity_1124 - electricity_sold_1124
+          - curtailment_1124 = -561552 
 R6027: - battery_charge_1125 + battery_discharge_1125
-          - hydrogen_electricity_1125 - electricity_sold_1125 = -658968 
+          - hydrogen_electricity_1125 - electricity_sold_1125
+          - curtailment_1125 = -658968 
 R6028: - battery_charge_1126 + battery_discharge_1126
-          - hydrogen_electricity_1126 - electricity_sold_1126 = -620544 
+          - hydrogen_electricity_1126 - electricity_sold_1126
+          - curtailment_1126 = -620544 
 R6029: - battery_charge_1127 + battery_discharge_1127
-          - hydrogen_electricity_1127 - electricity_sold_1127 = -553872 
+          - hydrogen_electricity_1127 - electricity_sold_1127
+          - curtailment_1127 = -553872 
 R6030: - battery_charge_1128 + battery_discharge_1128
-          - hydrogen_electricity_1128 - electricity_sold_1128 = -499368 
+          - hydrogen_electricity_1128 - electricity_sold_1128
+          - curtailment_1128 = -499368 
 R6031: - battery_charge_1129 + battery_discharge_1129
-          - hydrogen_electricity_1129 - electricity_sold_1129 = -480336 
+          - hydrogen_electricity_1129 - electricity_sold_1129
+          - curtailment_1129 = -480336 
 R6032: - battery_charge_1130 + battery_discharge_1130
-          - hydrogen_electricity_1130 - electricity_sold_1130 = -458544 
+          - hydrogen_electricity_1130 - electricity_sold_1130
+          - curtailment_1130 = -458544 
 R6033: - battery_charge_1131 + battery_discharge_1131
-          - hydrogen_electricity_1131 - electricity_sold_1131 = -507168 
+          - hydrogen_electricity_1131 - electricity_sold_1131
+          - curtailment_1131 = -507168 
 R6034: - battery_charge_1132 + battery_discharge_1132
-          - hydrogen_electricity_1132 - electricity_sold_1132 = -655992 
+          - hydrogen_electricity_1132 - electricity_sold_1132
+          - curtailment_1132 = -655992 
 R6035: - battery_charge_1133 + battery_discharge_1133
-          - hydrogen_electricity_1133 - electricity_sold_1133 = -710064 
+          - hydrogen_electricity_1133 - electricity_sold_1133
+          - curtailment_1133 = -710064 
 R6036: - battery_charge_1134 + battery_discharge_1134
-          - hydrogen_electricity_1134 - electricity_sold_1134 = -636648 
+          - hydrogen_electricity_1134 - electricity_sold_1134
+          - curtailment_1134 = -636648 
 R6037: - battery_charge_1135 + battery_discharge_1135
-          - hydrogen_electricity_1135 - electricity_sold_1135 = -615624 
+          - hydrogen_electricity_1135 - electricity_sold_1135
+          - curtailment_1135 = -615624 
 R6038: - battery_charge_1136 + battery_discharge_1136
-          - hydrogen_electricity_1136 - electricity_sold_1136 = -563136 
+          - hydrogen_electricity_1136 - electricity_sold_1136
+          - curtailment_1136 = -563136 
 R6039: - battery_charge_1137 + battery_discharge_1137
-          - hydrogen_electricity_1137 - electricity_sold_1137 = -508560 
+          - hydrogen_electricity_1137 - electricity_sold_1137
+          - curtailment_1137 = -508560 
 R6040: - battery_charge_1138 + battery_discharge_1138
-          - hydrogen_electricity_1138 - electricity_sold_1138 = -532584 
+          - hydrogen_electricity_1138 - electricity_sold_1138
+          - curtailment_1138 = -532584 
 R6041: - battery_charge_1139 + battery_discharge_1139
-          - hydrogen_electricity_1139 - electricity_sold_1139 = -656352 
+          - hydrogen_electricity_1139 - electricity_sold_1139
+          - curtailment_1139 = -656352 
 R6042: - battery_charge_1140 + battery_discharge_1140
-          - hydrogen_electricity_1140 - electricity_sold_1140 = -631248 
+          - hydrogen_electricity_1140 - electricity_sold_1140
+          - curtailment_1140 = -631248 
 R6043: - battery_charge_1141 + battery_discharge_1141
-          - hydrogen_electricity_1141 - electricity_sold_1141 = -531480 
+          - hydrogen_electricity_1141 - electricity_sold_1141
+          - curtailment_1141 = -531480 
 R6044: - battery_charge_1142 + battery_discharge_1142
-          - hydrogen_electricity_1142 - electricity_sold_1142 = -472272 
+          - hydrogen_electricity_1142 - electricity_sold_1142
+          - curtailment_1142 = -472272 
 R6045: - battery_charge_1143 + battery_discharge_1143
-          - hydrogen_electricity_1143 - electricity_sold_1143 = -407280 
+          - hydrogen_electricity_1143 - electricity_sold_1143
+          - curtailment_1143 = -407280 
 R6046: - battery_charge_1144 + battery_discharge_1144
-          - hydrogen_electricity_1144 - electricity_sold_1144 = -407736 
+          - hydrogen_electricity_1144 - electricity_sold_1144
+          - curtailment_1144 = -407736 
 R6047: - battery_charge_1145 + battery_discharge_1145
-          - hydrogen_electricity_1145 - electricity_sold_1145 = -412776 
+          - hydrogen_electricity_1145 - electricity_sold_1145
+          - curtailment_1145 = -412776 
 R6048: - battery_charge_1146 + battery_discharge_1146
-          - hydrogen_electricity_1146 - electricity_sold_1146 = -449640 
+          - hydrogen_electricity_1146 - electricity_sold_1146
+          - curtailment_1146 = -449640 
 R6049: - battery_charge_1147 + battery_discharge_1147
-          - hydrogen_electricity_1147 - electricity_sold_1147 = -545976 
+          - hydrogen_electricity_1147 - electricity_sold_1147
+          - curtailment_1147 = -545976 
 R6050: - battery_charge_1148 + battery_discharge_1148
-          - hydrogen_electricity_1148 - electricity_sold_1148 = -608616 
+          - hydrogen_electricity_1148 - electricity_sold_1148
+          - curtailment_1148 = -608616 
 R6051: - battery_charge_1149 + battery_discharge_1149
-          - hydrogen_electricity_1149 - electricity_sold_1149 = -576792 
+          - hydrogen_electricity_1149 - electricity_sold_1149
+          - curtailment_1149 = -576792 
 R6052: - battery_charge_1150 + battery_discharge_1150
-          - hydrogen_electricity_1150 - electricity_sold_1150 = -476664 
+          - hydrogen_electricity_1150 - electricity_sold_1150
+          - curtailment_1150 = -476664 
 R6053: - battery_charge_1151 + battery_discharge_1151
-          - hydrogen_electricity_1151 - electricity_sold_1151 = -456336 
+          - hydrogen_electricity_1151 - electricity_sold_1151
+          - curtailment_1151 = -456336 
 R6054: - battery_charge_1152 + battery_discharge_1152
-          - hydrogen_electricity_1152 - electricity_sold_1152 = -498576 
+          - hydrogen_electricity_1152 - electricity_sold_1152
+          - curtailment_1152 = -498576 
 R6055: - battery_charge_1153 + battery_discharge_1153
-          - hydrogen_electricity_1153 - electricity_sold_1153 = -685104 
+          - hydrogen_electricity_1153 - electricity_sold_1153
+          - curtailment_1153 = -685104 
 R6056: - battery_charge_1154 + battery_discharge_1154
-          - hydrogen_electricity_1154 - electricity_sold_1154 = -762840 
+          - hydrogen_electricity_1154 - electricity_sold_1154
+          - curtailment_1154 = -762840 
 R6057: - battery_charge_1155 + battery_discharge_1155
-          - hydrogen_electricity_1155 - electricity_sold_1155 = -738864 
+          - hydrogen_electricity_1155 - electricity_sold_1155
+          - curtailment_1155 = -738864 
 R6058: - battery_charge_1156 + battery_discharge_1156
-          - hydrogen_electricity_1156 - electricity_sold_1156 = -774216 
+          - hydrogen_electricity_1156 - electricity_sold_1156
+          - curtailment_1156 = -774216 
 R6059: - battery_charge_1157 + battery_discharge_1157
-          - hydrogen_electricity_1157 - electricity_sold_1157 = -726624 
+          - hydrogen_electricity_1157 - electricity_sold_1157
+          - curtailment_1157 = -726624 
 R6060: - battery_charge_1158 + battery_discharge_1158
-          - hydrogen_electricity_1158 - electricity_sold_1158 = -656160 
+          - hydrogen_electricity_1158 - electricity_sold_1158
+          - curtailment_1158 = -656160 
 R6061: - battery_charge_1159 + battery_discharge_1159
-          - hydrogen_electricity_1159 - electricity_sold_1159 = -640848 
+          - hydrogen_electricity_1159 - electricity_sold_1159
+          - curtailment_1159 = -640848 
 R6062: - battery_charge_1160 + battery_discharge_1160
-          - hydrogen_electricity_1160 - electricity_sold_1160 = -750048 
+          - hydrogen_electricity_1160 - electricity_sold_1160
+          - curtailment_1160 = -750048 
 R6063: - battery_charge_1161 + battery_discharge_1161
-          - hydrogen_electricity_1161 - electricity_sold_1161 = -758976 
+          - hydrogen_electricity_1161 - electricity_sold_1161
+          - curtailment_1161 = -758976 
 R6064: - battery_charge_1162 + battery_discharge_1162
-          - hydrogen_electricity_1162 - electricity_sold_1162 = -692136 
+          - hydrogen_electricity_1162 - electricity_sold_1162
+          - curtailment_1162 = -692136 
 R6065: - battery_charge_1163 + battery_discharge_1163
-          - hydrogen_electricity_1163 - electricity_sold_1163 = -634944 
+          - hydrogen_electricity_1163 - electricity_sold_1163
+          - curtailment_1163 = -634944 
 R6066: - battery_charge_1164 + battery_discharge_1164
-          - hydrogen_electricity_1164 - electricity_sold_1164 = -602760 
+          - hydrogen_electricity_1164 - electricity_sold_1164
+          - curtailment_1164 = -602760 
 R6067: - battery_charge_1165 + battery_discharge_1165
-          - hydrogen_electricity_1165 - electricity_sold_1165 = -575184 
+          - hydrogen_electricity_1165 - electricity_sold_1165
+          - curtailment_1165 = -575184 
 R6068: - battery_charge_1166 + battery_discharge_1166
-          - hydrogen_electricity_1166 - electricity_sold_1166 = -514440 
+          - hydrogen_electricity_1166 - electricity_sold_1166
+          - curtailment_1166 = -514440 
 R6069: - battery_charge_1167 + battery_discharge_1167
-          - hydrogen_electricity_1167 - electricity_sold_1167 = -480672 
+          - hydrogen_electricity_1167 - electricity_sold_1167
+          - curtailment_1167 = -480672 
 R6070: - battery_charge_1168 + battery_discharge_1168
-          - hydrogen_electricity_1168 - electricity_sold_1168 = -579336 
+          - hydrogen_electricity_1168 - electricity_sold_1168
+          - curtailment_1168 = -579336 
 R6071: - battery_charge_1169 + battery_discharge_1169
-          - hydrogen_electricity_1169 - electricity_sold_1169 = -642864 
+          - hydrogen_electricity_1169 - electricity_sold_1169
+          - curtailment_1169 = -642864 
 R6072: - battery_charge_1170 + battery_discharge_1170
-          - hydrogen_electricity_1170 - electricity_sold_1170 = -505536 
+          - hydrogen_electricity_1170 - electricity_sold_1170
+          - curtailment_1170 = -505536 
 R6073: - battery_charge_1171 + battery_discharge_1171
-          - hydrogen_electricity_1171 - electricity_sold_1171 = -549264 
+          - hydrogen_electricity_1171 - electricity_sold_1171
+          - curtailment_1171 = -549264 
 R6074: - battery_charge_1172 + battery_discharge_1172
-          - hydrogen_electricity_1172 - electricity_sold_1172 = -502104 
+          - hydrogen_electricity_1172 - electricity_sold_1172
+          - curtailment_1172 = -502104 
 R6075: - battery_charge_1173 + battery_discharge_1173
-          - hydrogen_electricity_1173 - electricity_sold_1173 = -509256 
+          - hydrogen_electricity_1173 - electricity_sold_1173
+          - curtailment_1173 = -509256 
 R6076: - battery_charge_1174 + battery_discharge_1174
-          - hydrogen_electricity_1174 - electricity_sold_1174 = -574416 
+          - hydrogen_electricity_1174 - electricity_sold_1174
+          - curtailment_1174 = -574416 
 R6077: - battery_charge_1175 + battery_discharge_1175
-          - hydrogen_electricity_1175 - electricity_sold_1175 = -510072 
+          - hydrogen_electricity_1175 - electricity_sold_1175
+          - curtailment_1175 = -510072 
 R6078: - battery_charge_1176 + battery_discharge_1176
-          - hydrogen_electricity_1176 - electricity_sold_1176 = -504120 
+          - hydrogen_electricity_1176 - electricity_sold_1176
+          - curtailment_1176 = -504120 
 R6079: - battery_charge_1177 + battery_discharge_1177
-          - hydrogen_electricity_1177 - electricity_sold_1177 = -449472 
+          - hydrogen_electricity_1177 - electricity_sold_1177
+          - curtailment_1177 = -449472 
 R6080: - battery_charge_1178 + battery_discharge_1178
-          - hydrogen_electricity_1178 - electricity_sold_1178 = -418296 
+          - hydrogen_electricity_1178 - electricity_sold_1178
+          - curtailment_1178 = -418296 
 R6081: - battery_charge_1179 + battery_discharge_1179
-          - hydrogen_electricity_1179 - electricity_sold_1179 = -469944 
+          - hydrogen_electricity_1179 - electricity_sold_1179
+          - curtailment_1179 = -469944 
 R6082: - battery_charge_1180 + battery_discharge_1180
-          - hydrogen_electricity_1180 - electricity_sold_1180 = -456864 
+          - hydrogen_electricity_1180 - electricity_sold_1180
+          - curtailment_1180 = -456864 
 R6083: - battery_charge_1181 + battery_discharge_1181
-          - hydrogen_electricity_1181 - electricity_sold_1181 = -578376 
+          - hydrogen_electricity_1181 - electricity_sold_1181
+          - curtailment_1181 = -578376 
 R6084: - battery_charge_1182 + battery_discharge_1182
-          - hydrogen_electricity_1182 - electricity_sold_1182 = -505272 
+          - hydrogen_electricity_1182 - electricity_sold_1182
+          - curtailment_1182 = -505272 
 R6085: - battery_charge_1183 + battery_discharge_1183
-          - hydrogen_electricity_1183 - electricity_sold_1183 = -489624 
+          - hydrogen_electricity_1183 - electricity_sold_1183
+          - curtailment_1183 = -489624 
 R6086: - battery_charge_1184 + battery_discharge_1184
-          - hydrogen_electricity_1184 - electricity_sold_1184 = -442800 
+          - hydrogen_electricity_1184 - electricity_sold_1184
+          - curtailment_1184 = -442800 
 R6087: - battery_charge_1185 + battery_discharge_1185
-          - hydrogen_electricity_1185 - electricity_sold_1185 = -477360 
+          - hydrogen_electricity_1185 - electricity_sold_1185
+          - curtailment_1185 = -477360 
 R6088: - battery_charge_1186 + battery_discharge_1186
-          - hydrogen_electricity_1186 - electricity_sold_1186 = -477048 
+          - hydrogen_electricity_1186 - electricity_sold_1186
+          - curtailment_1186 = -477048 
 R6089: - battery_charge_1187 + battery_discharge_1187
-          - hydrogen_electricity_1187 - electricity_sold_1187 = -486360 
+          - hydrogen_electricity_1187 - electricity_sold_1187
+          - curtailment_1187 = -486360 
 R6090: - battery_charge_1188 + battery_discharge_1188
-          - hydrogen_electricity_1188 - electricity_sold_1188 = -541128 
+          - hydrogen_electricity_1188 - electricity_sold_1188
+          - curtailment_1188 = -541128 
 R6091: - battery_charge_1189 + battery_discharge_1189
-          - hydrogen_electricity_1189 - electricity_sold_1189 = -612816 
+          - hydrogen_electricity_1189 - electricity_sold_1189
+          - curtailment_1189 = -612816 
 R6092: - battery_charge_1190 + battery_discharge_1190
-          - hydrogen_electricity_1190 - electricity_sold_1190 = -630552 
+          - hydrogen_electricity_1190 - electricity_sold_1190
+          - curtailment_1190 = -630552 
 R6093: - battery_charge_1191 + battery_discharge_1191
-          - hydrogen_electricity_1191 - electricity_sold_1191 = -575760 
+          - hydrogen_electricity_1191 - electricity_sold_1191
+          - curtailment_1191 = -575760 
 R6094: - battery_charge_1192 + battery_discharge_1192
-          - hydrogen_electricity_1192 - electricity_sold_1192 = -543528 
+          - hydrogen_electricity_1192 - electricity_sold_1192
+          - curtailment_1192 = -543528 
 R6095: - battery_charge_1193 + battery_discharge_1193
-          - hydrogen_electricity_1193 - electricity_sold_1193 = -522840 
+          - hydrogen_electricity_1193 - electricity_sold_1193
+          - curtailment_1193 = -522840 
 R6096: - battery_charge_1194 + battery_discharge_1194
-          - hydrogen_electricity_1194 - electricity_sold_1194 = -484800 
+          - hydrogen_electricity_1194 - electricity_sold_1194
+          - curtailment_1194 = -484800 
 R6097: - battery_charge_1195 + battery_discharge_1195
-          - hydrogen_electricity_1195 - electricity_sold_1195 = -444456 
+          - hydrogen_electricity_1195 - electricity_sold_1195
+          - curtailment_1195 = -444456 
 R6098: - battery_charge_1196 + battery_discharge_1196
-          - hydrogen_electricity_1196 - electricity_sold_1196 = -536976 
+          - hydrogen_electricity_1196 - electricity_sold_1196
+          - curtailment_1196 = -536976 
 R6099: - battery_charge_1197 + battery_discharge_1197
-          - hydrogen_electricity_1197 - electricity_sold_1197 = -499896 
+          - hydrogen_electricity_1197 - electricity_sold_1197
+          - curtailment_1197 = -499896 
 R6100: - battery_charge_1198 + battery_discharge_1198
-          - hydrogen_electricity_1198 - electricity_sold_1198 = -522912 
+          - hydrogen_electricity_1198 - electricity_sold_1198
+          - curtailment_1198 = -522912 
 R6101: - battery_charge_1199 + battery_discharge_1199
-          - hydrogen_electricity_1199 - electricity_sold_1199 = -656232 
+          - hydrogen_electricity_1199 - electricity_sold_1199
+          - curtailment_1199 = -656232 
 R6102: - battery_charge_1200 + battery_discharge_1200
-          - hydrogen_electricity_1200 - electricity_sold_1200 = -518520 
+          - hydrogen_electricity_1200 - electricity_sold_1200
+          - curtailment_1200 = -518520 
 R6103: - battery_charge_1201 + battery_discharge_1201
-          - hydrogen_electricity_1201 - electricity_sold_1201 = -548736 
+          - hydrogen_electricity_1201 - electricity_sold_1201
+          - curtailment_1201 = -548736 
 R6104: - battery_charge_1202 + battery_discharge_1202
-          - hydrogen_electricity_1202 - electricity_sold_1202 = -648696 
+          - hydrogen_electricity_1202 - electricity_sold_1202
+          - curtailment_1202 = -648696 
 R6105: - battery_charge_1203 + battery_discharge_1203
-          - hydrogen_electricity_1203 - electricity_sold_1203 = -539088 
+          - hydrogen_electricity_1203 - electricity_sold_1203
+          - curtailment_1203 = -539088 
 R6106: - battery_charge_1204 + battery_discharge_1204
-          - hydrogen_electricity_1204 - electricity_sold_1204 = -495264 
+          - hydrogen_electricity_1204 - electricity_sold_1204
+          - curtailment_1204 = -495264 
 R6107: - battery_charge_1205 + battery_discharge_1205
-          - hydrogen_electricity_1205 - electricity_sold_1205 = -540072 
+          - hydrogen_electricity_1205 - electricity_sold_1205
+          - curtailment_1205 = -540072 
 R6108: - battery_charge_1206 + battery_discharge_1206
-          - hydrogen_electricity_1206 - electricity_sold_1206 = -562464 
+          - hydrogen_electricity_1206 - electricity_sold_1206
+          - curtailment_1206 = -562464 
 R6109: - battery_charge_1207 + battery_discharge_1207
-          - hydrogen_electricity_1207 - electricity_sold_1207 = -504144 
+          - hydrogen_electricity_1207 - electricity_sold_1207
+          - curtailment_1207 = -504144 
 R6110: - battery_charge_1208 + battery_discharge_1208
-          - hydrogen_electricity_1208 - electricity_sold_1208 = -247560 
+          - hydrogen_electricity_1208 - electricity_sold_1208
+          - curtailment_1208 = -247560 
 R6111: - battery_charge_1209 + battery_discharge_1209
-          - hydrogen_electricity_1209 - electricity_sold_1209 = -144216 
+          - hydrogen_electricity_1209 - electricity_sold_1209
+          - curtailment_1209 = -144216 
 R6112: - battery_charge_1210 + battery_discharge_1210
-          - hydrogen_electricity_1210 - electricity_sold_1210 = -110568 
+          - hydrogen_electricity_1210 - electricity_sold_1210
+          - curtailment_1210 = -110568 
 R6113: - battery_charge_1211 + battery_discharge_1211
-          - hydrogen_electricity_1211 - electricity_sold_1211 = -65040 
+          - hydrogen_electricity_1211 - electricity_sold_1211
+          - curtailment_1211 = -65040 
 R6114: - battery_charge_1212 + battery_discharge_1212
-          - hydrogen_electricity_1212 - electricity_sold_1212 = -118776 
+          - hydrogen_electricity_1212 - electricity_sold_1212
+          - curtailment_1212 = -118776 
 R6115: - battery_charge_1213 + battery_discharge_1213
-          - hydrogen_electricity_1213 - electricity_sold_1213 = -102696 
+          - hydrogen_electricity_1213 - electricity_sold_1213
+          - curtailment_1213 = -102696 
 R6116: - battery_charge_1214 + battery_discharge_1214
-          - hydrogen_electricity_1214 - electricity_sold_1214 = -77064 
+          - hydrogen_electricity_1214 - electricity_sold_1214
+          - curtailment_1214 = -77064 
 R6117: - battery_charge_1215 + battery_discharge_1215
-          - hydrogen_electricity_1215 - electricity_sold_1215 = -116232 
+          - hydrogen_electricity_1215 - electricity_sold_1215
+          - curtailment_1215 = -116232 
 R6118: - battery_charge_1216 + battery_discharge_1216
-          - hydrogen_electricity_1216 - electricity_sold_1216 = -130464 
+          - hydrogen_electricity_1216 - electricity_sold_1216
+          - curtailment_1216 = -130464 
 R6119: - battery_charge_1217 + battery_discharge_1217
-          - hydrogen_electricity_1217 - electricity_sold_1217 = -78504 
+          - hydrogen_electricity_1217 - electricity_sold_1217
+          - curtailment_1217 = -78504 
 R6120: - battery_charge_1218 + battery_discharge_1218
-          - hydrogen_electricity_1218 - electricity_sold_1218 = -148296 
+          - hydrogen_electricity_1218 - electricity_sold_1218
+          - curtailment_1218 = -148296 
 R6121: - battery_charge_1219 + battery_discharge_1219
-          - hydrogen_electricity_1219 - electricity_sold_1219 = -407064 
+          - hydrogen_electricity_1219 - electricity_sold_1219
+          - curtailment_1219 = -407064 
 R6122: - battery_charge_1220 + battery_discharge_1220
-          - hydrogen_electricity_1220 - electricity_sold_1220 = -521976 
+          - hydrogen_electricity_1220 - electricity_sold_1220
+          - curtailment_1220 = -521976 
 R6123: - battery_charge_1221 + battery_discharge_1221
-          - hydrogen_electricity_1221 - electricity_sold_1221 = -481488 
+          - hydrogen_electricity_1221 - electricity_sold_1221
+          - curtailment_1221 = -481488 
 R6124: - battery_charge_1222 + battery_discharge_1222
-          - hydrogen_electricity_1222 - electricity_sold_1222 = -410856 
+          - hydrogen_electricity_1222 - electricity_sold_1222
+          - curtailment_1222 = -410856 
 R6125: - battery_charge_1223 + battery_discharge_1223
-          - hydrogen_electricity_1223 - electricity_sold_1223 = -468048 
+          - hydrogen_electricity_1223 - electricity_sold_1223
+          - curtailment_1223 = -468048 
 R6126: - battery_charge_1224 + battery_discharge_1224
-          - hydrogen_electricity_1224 - electricity_sold_1224 = -534672 
+          - hydrogen_electricity_1224 - electricity_sold_1224
+          - curtailment_1224 = -534672 
 R6127: - battery_charge_1225 + battery_discharge_1225
-          - hydrogen_electricity_1225 - electricity_sold_1225 = -547944 
+          - hydrogen_electricity_1225 - electricity_sold_1225
+          - curtailment_1225 = -547944 
 R6128: - battery_charge_1226 + battery_discharge_1226
-          - hydrogen_electricity_1226 - electricity_sold_1226 = -582528 
+          - hydrogen_electricity_1226 - electricity_sold_1226
+          - curtailment_1226 = -582528 
 R6129: - battery_charge_1227 + battery_discharge_1227
-          - hydrogen_electricity_1227 - electricity_sold_1227 = -505992 
+          - hydrogen_electricity_1227 - electricity_sold_1227
+          - curtailment_1227 = -505992 
 R6130: - battery_charge_1228 + battery_discharge_1228
-          - hydrogen_electricity_1228 - electricity_sold_1228 = -413112 
+          - hydrogen_electricity_1228 - electricity_sold_1228
+          - curtailment_1228 = -413112 
 R6131: - battery_charge_1229 + battery_discharge_1229
-          - hydrogen_electricity_1229 - electricity_sold_1229 = -421776 
+          - hydrogen_electricity_1229 - electricity_sold_1229
+          - curtailment_1229 = -421776 
 R6132: - battery_charge_1230 + battery_discharge_1230
-          - hydrogen_electricity_1230 - electricity_sold_1230 = -457176 
+          - hydrogen_electricity_1230 - electricity_sold_1230
+          - curtailment_1230 = -457176 
 R6133: - battery_charge_1231 + battery_discharge_1231
-          - hydrogen_electricity_1231 - electricity_sold_1231 = -460944 
+          - hydrogen_electricity_1231 - electricity_sold_1231
+          - curtailment_1231 = -460944 
 R6134: - battery_charge_1232 + battery_discharge_1232
-          - hydrogen_electricity_1232 - electricity_sold_1232 = -522912 
+          - hydrogen_electricity_1232 - electricity_sold_1232
+          - curtailment_1232 = -522912 
 R6135: - battery_charge_1233 + battery_discharge_1233
-          - hydrogen_electricity_1233 - electricity_sold_1233 = -493824 
+          - hydrogen_electricity_1233 - electricity_sold_1233
+          - curtailment_1233 = -493824 
 R6136: - battery_charge_1234 + battery_discharge_1234
-          - hydrogen_electricity_1234 - electricity_sold_1234 = -497568 
+          - hydrogen_electricity_1234 - electricity_sold_1234
+          - curtailment_1234 = -497568 
 R6137: - battery_charge_1235 + battery_discharge_1235
-          - hydrogen_electricity_1235 - electricity_sold_1235 = -388056 
+          - hydrogen_electricity_1235 - electricity_sold_1235
+          - curtailment_1235 = -388056 
 R6138: - battery_charge_1236 + battery_discharge_1236
-          - hydrogen_electricity_1236 - electricity_sold_1236 = -386472 
+          - hydrogen_electricity_1236 - electricity_sold_1236
+          - curtailment_1236 = -386472 
 R6139: - battery_charge_1237 + battery_discharge_1237
-          - hydrogen_electricity_1237 - electricity_sold_1237 = -453912 
+          - hydrogen_electricity_1237 - electricity_sold_1237
+          - curtailment_1237 = -453912 
 R6140: - battery_charge_1238 + battery_discharge_1238
-          - hydrogen_electricity_1238 - electricity_sold_1238 = -466368 
+          - hydrogen_electricity_1238 - electricity_sold_1238
+          - curtailment_1238 = -466368 
 R6141: - battery_charge_1239 + battery_discharge_1239
-          - hydrogen_electricity_1239 - electricity_sold_1239 = -529464 
+          - hydrogen_electricity_1239 - electricity_sold_1239
+          - curtailment_1239 = -529464 
 R6142: - battery_charge_1240 + battery_discharge_1240
-          - hydrogen_electricity_1240 - electricity_sold_1240 = -497448 
+          - hydrogen_electricity_1240 - electricity_sold_1240
+          - curtailment_1240 = -497448 
 R6143: - battery_charge_1241 + battery_discharge_1241
-          - hydrogen_electricity_1241 - electricity_sold_1241 = -485616 
+          - hydrogen_electricity_1241 - electricity_sold_1241
+          - curtailment_1241 = -485616 
 R6144: - battery_charge_1242 + battery_discharge_1242
-          - hydrogen_electricity_1242 - electricity_sold_1242 = -426384 
+          - hydrogen_electricity_1242 - electricity_sold_1242
+          - curtailment_1242 = -426384 
 R6145: - battery_charge_1243 + battery_discharge_1243
-          - hydrogen_electricity_1243 - electricity_sold_1243 = -387720 
+          - hydrogen_electricity_1243 - electricity_sold_1243
+          - curtailment_1243 = -387720 
 R6146: - battery_charge_1244 + battery_discharge_1244
-          - hydrogen_electricity_1244 - electricity_sold_1244 = -402072 
+          - hydrogen_electricity_1244 - electricity_sold_1244
+          - curtailment_1244 = -402072 
 R6147: - battery_charge_1245 + battery_discharge_1245
-          - hydrogen_electricity_1245 - electricity_sold_1245 = -457752 
+          - hydrogen_electricity_1245 - electricity_sold_1245
+          - curtailment_1245 = -457752 
 R6148: - battery_charge_1246 + battery_discharge_1246
-          - hydrogen_electricity_1246 - electricity_sold_1246 = -483096 
+          - hydrogen_electricity_1246 - electricity_sold_1246
+          - curtailment_1246 = -483096 
 R6149: - battery_charge_1247 + battery_discharge_1247
-          - hydrogen_electricity_1247 - electricity_sold_1247 = -463824 
+          - hydrogen_electricity_1247 - electricity_sold_1247
+          - curtailment_1247 = -463824 
 R6150: - battery_charge_1248 + battery_discharge_1248
-          - hydrogen_electricity_1248 - electricity_sold_1248 = -463536 
+          - hydrogen_electricity_1248 - electricity_sold_1248
+          - curtailment_1248 = -463536 
 R6151: - battery_charge_1249 + battery_discharge_1249
-          - hydrogen_electricity_1249 - electricity_sold_1249 = -410880 
+          - hydrogen_electricity_1249 - electricity_sold_1249
+          - curtailment_1249 = -410880 
 R6152: - battery_charge_1250 + battery_discharge_1250
-          - hydrogen_electricity_1250 - electricity_sold_1250 = -432864 
+          - hydrogen_electricity_1250 - electricity_sold_1250
+          - curtailment_1250 = -432864 
 R6153: - battery_charge_1251 + battery_discharge_1251
-          - hydrogen_electricity_1251 - electricity_sold_1251 = -512232 
+          - hydrogen_electricity_1251 - electricity_sold_1251
+          - curtailment_1251 = -512232 
 R6154: - battery_charge_1252 + battery_discharge_1252
-          - hydrogen_electricity_1252 - electricity_sold_1252 = -544848 
+          - hydrogen_electricity_1252 - electricity_sold_1252
+          - curtailment_1252 = -544848 
 R6155: - battery_charge_1253 + battery_discharge_1253
-          - hydrogen_electricity_1253 - electricity_sold_1253 = -512040 
+          - hydrogen_electricity_1253 - electricity_sold_1253
+          - curtailment_1253 = -512040 
 R6156: - battery_charge_1254 + battery_discharge_1254
-          - hydrogen_electricity_1254 - electricity_sold_1254 = -535536 
+          - hydrogen_electricity_1254 - electricity_sold_1254
+          - curtailment_1254 = -535536 
 R6157: - battery_charge_1255 + battery_discharge_1255
-          - hydrogen_electricity_1255 - electricity_sold_1255 = -479352 
+          - hydrogen_electricity_1255 - electricity_sold_1255
+          - curtailment_1255 = -479352 
 R6158: - battery_charge_1256 + battery_discharge_1256
-          - hydrogen_electricity_1256 - electricity_sold_1256 = -451920 
+          - hydrogen_electricity_1256 - electricity_sold_1256
+          - curtailment_1256 = -451920 
 R6159: - battery_charge_1257 + battery_discharge_1257
-          - hydrogen_electricity_1257 - electricity_sold_1257 = -445320 
+          - hydrogen_electricity_1257 - electricity_sold_1257
+          - curtailment_1257 = -445320 
 R6160: - battery_charge_1258 + battery_discharge_1258
-          - hydrogen_electricity_1258 - electricity_sold_1258 = -517368 
+          - hydrogen_electricity_1258 - electricity_sold_1258
+          - curtailment_1258 = -517368 
 R6161: - battery_charge_1259 + battery_discharge_1259
-          - hydrogen_electricity_1259 - electricity_sold_1259 = -529152 
+          - hydrogen_electricity_1259 - electricity_sold_1259
+          - curtailment_1259 = -529152 
 R6162: - battery_charge_1260 + battery_discharge_1260
-          - hydrogen_electricity_1260 - electricity_sold_1260 = -538392 
+          - hydrogen_electricity_1260 - electricity_sold_1260
+          - curtailment_1260 = -538392 
 R6163: - battery_charge_1261 + battery_discharge_1261
-          - hydrogen_electricity_1261 - electricity_sold_1261 = -571248 
+          - hydrogen_electricity_1261 - electricity_sold_1261
+          - curtailment_1261 = -571248 
 R6164: - battery_charge_1262 + battery_discharge_1262
-          - hydrogen_electricity_1262 - electricity_sold_1262 = -558216 
+          - hydrogen_electricity_1262 - electricity_sold_1262
+          - curtailment_1262 = -558216 
 R6165: - battery_charge_1263 + battery_discharge_1263
-          - hydrogen_electricity_1263 - electricity_sold_1263 = -487896 
+          - hydrogen_electricity_1263 - electricity_sold_1263
+          - curtailment_1263 = -487896 
 R6166: - battery_charge_1264 + battery_discharge_1264
-          - hydrogen_electricity_1264 - electricity_sold_1264 = -450528 
+          - hydrogen_electricity_1264 - electricity_sold_1264
+          - curtailment_1264 = -450528 
 R6167: - battery_charge_1265 + battery_discharge_1265
-          - hydrogen_electricity_1265 - electricity_sold_1265 = -558528 
+          - hydrogen_electricity_1265 - electricity_sold_1265
+          - curtailment_1265 = -558528 
 R6168: - battery_charge_1266 + battery_discharge_1266
-          - hydrogen_electricity_1266 - electricity_sold_1266 = -567432 
+          - hydrogen_electricity_1266 - electricity_sold_1266
+          - curtailment_1266 = -567432 
 R6169: - battery_charge_1267 + battery_discharge_1267
-          - hydrogen_electricity_1267 - electricity_sold_1267 = -603216 
+          - hydrogen_electricity_1267 - electricity_sold_1267
+          - curtailment_1267 = -603216 
 R6170: - battery_charge_1268 + battery_discharge_1268
-          - hydrogen_electricity_1268 - electricity_sold_1268 = -588024 
+          - hydrogen_electricity_1268 - electricity_sold_1268
+          - curtailment_1268 = -588024 
 R6171: - battery_charge_1269 + battery_discharge_1269
-          - hydrogen_electricity_1269 - electricity_sold_1269 = -545376 
+          - hydrogen_electricity_1269 - electricity_sold_1269
+          - curtailment_1269 = -545376 
 R6172: - battery_charge_1270 + battery_discharge_1270
-          - hydrogen_electricity_1270 - electricity_sold_1270 = -435192 
+          - hydrogen_electricity_1270 - electricity_sold_1270
+          - curtailment_1270 = -435192 
 R6173: - battery_charge_1271 + battery_discharge_1271
-          - hydrogen_electricity_1271 - electricity_sold_1271 = -483312 
+          - hydrogen_electricity_1271 - electricity_sold_1271
+          - curtailment_1271 = -483312 
 R6174: - battery_charge_1272 + battery_discharge_1272
-          - hydrogen_electricity_1272 - electricity_sold_1272 = -464880 
+          - hydrogen_electricity_1272 - electricity_sold_1272
+          - curtailment_1272 = -464880 
 R6175: - battery_charge_1273 + battery_discharge_1273
-          - hydrogen_electricity_1273 - electricity_sold_1273 = -454968 
+          - hydrogen_electricity_1273 - electricity_sold_1273
+          - curtailment_1273 = -454968 
 R6176: - battery_charge_1274 + battery_discharge_1274
-          - hydrogen_electricity_1274 - electricity_sold_1274 = -558888 
+          - hydrogen_electricity_1274 - electricity_sold_1274
+          - curtailment_1274 = -558888 
 R6177: - battery_charge_1275 + battery_discharge_1275
-          - hydrogen_electricity_1275 - electricity_sold_1275 = -564648 
+          - hydrogen_electricity_1275 - electricity_sold_1275
+          - curtailment_1275 = -564648 
 R6178: - battery_charge_1276 + battery_discharge_1276
-          - hydrogen_electricity_1276 - electricity_sold_1276 = -465360 
+          - hydrogen_electricity_1276 - electricity_sold_1276
+          - curtailment_1276 = -465360 
 R6179: - battery_charge_1277 + battery_discharge_1277
-          - hydrogen_electricity_1277 - electricity_sold_1277 = -468792 
+          - hydrogen_electricity_1277 - electricity_sold_1277
+          - curtailment_1277 = -468792 
 R6180: - battery_charge_1278 + battery_discharge_1278
-          - hydrogen_electricity_1278 - electricity_sold_1278 = -475440 
+          - hydrogen_electricity_1278 - electricity_sold_1278
+          - curtailment_1278 = -475440 
 R6181: - battery_charge_1279 + battery_discharge_1279
-          - hydrogen_electricity_1279 - electricity_sold_1279 = -431904 
+          - hydrogen_electricity_1279 - electricity_sold_1279
+          - curtailment_1279 = -431904 
 R6182: - battery_charge_1280 + battery_discharge_1280
-          - hydrogen_electricity_1280 - electricity_sold_1280 = -462816 
+          - hydrogen_electricity_1280 - electricity_sold_1280
+          - curtailment_1280 = -462816 
 R6183: - battery_charge_1281 + battery_discharge_1281
-          - hydrogen_electricity_1281 - electricity_sold_1281 = -434736 
+          - hydrogen_electricity_1281 - electricity_sold_1281
+          - curtailment_1281 = -434736 
 R6184: - battery_charge_1282 + battery_discharge_1282
-          - hydrogen_electricity_1282 - electricity_sold_1282 = -509616 
+          - hydrogen_electricity_1282 - electricity_sold_1282
+          - curtailment_1282 = -509616 
 R6185: - battery_charge_1283 + battery_discharge_1283
-          - hydrogen_electricity_1283 - electricity_sold_1283 = -517896 
+          - hydrogen_electricity_1283 - electricity_sold_1283
+          - curtailment_1283 = -517896 
 R6186: - battery_charge_1284 + battery_discharge_1284
-          - hydrogen_electricity_1284 - electricity_sold_1284 = -429720 
+          - hydrogen_electricity_1284 - electricity_sold_1284
+          - curtailment_1284 = -429720 
 R6187: - battery_charge_1285 + battery_discharge_1285
-          - hydrogen_electricity_1285 - electricity_sold_1285 = -446256 
+          - hydrogen_electricity_1285 - electricity_sold_1285
+          - curtailment_1285 = -446256 
 R6188: - battery_charge_1286 + battery_discharge_1286
-          - hydrogen_electricity_1286 - electricity_sold_1286 = -552768 
+          - hydrogen_electricity_1286 - electricity_sold_1286
+          - curtailment_1286 = -552768 
 R6189: - battery_charge_1287 + battery_discharge_1287
-          - hydrogen_electricity_1287 - electricity_sold_1287 = -550632 
+          - hydrogen_electricity_1287 - electricity_sold_1287
+          - curtailment_1287 = -550632 
 R6190: - battery_charge_1288 + battery_discharge_1288
-          - hydrogen_electricity_1288 - electricity_sold_1288 = -548040 
+          - hydrogen_electricity_1288 - electricity_sold_1288
+          - curtailment_1288 = -548040 
 R6191: - battery_charge_1289 + battery_discharge_1289
-          - hydrogen_electricity_1289 - electricity_sold_1289 = -557040 
+          - hydrogen_electricity_1289 - electricity_sold_1289
+          - curtailment_1289 = -557040 
 R6192: - battery_charge_1290 + battery_discharge_1290
-          - hydrogen_electricity_1290 - electricity_sold_1290 = -523104 
+          - hydrogen_electricity_1290 - electricity_sold_1290
+          - curtailment_1290 = -523104 
 R6193: - battery_charge_1291 + battery_discharge_1291
-          - hydrogen_electricity_1291 - electricity_sold_1291 = -472656 
+          - hydrogen_electricity_1291 - electricity_sold_1291
+          - curtailment_1291 = -472656 
 R6194: - battery_charge_1292 + battery_discharge_1292
-          - hydrogen_electricity_1292 - electricity_sold_1292 = -504048 
+          - hydrogen_electricity_1292 - electricity_sold_1292
+          - curtailment_1292 = -504048 
 R6195: - battery_charge_1293 + battery_discharge_1293
-          - hydrogen_electricity_1293 - electricity_sold_1293 = -495840 
+          - hydrogen_electricity_1293 - electricity_sold_1293
+          - curtailment_1293 = -495840 
 R6196: - battery_charge_1294 + battery_discharge_1294
-          - hydrogen_electricity_1294 - electricity_sold_1294 = -551712 
+          - hydrogen_electricity_1294 - electricity_sold_1294
+          - curtailment_1294 = -551712 
 R6197: - battery_charge_1295 + battery_discharge_1295
-          - hydrogen_electricity_1295 - electricity_sold_1295 = -574392 
+          - hydrogen_electricity_1295 - electricity_sold_1295
+          - curtailment_1295 = -574392 
 R6198: - battery_charge_1296 + battery_discharge_1296
-          - hydrogen_electricity_1296 - electricity_sold_1296 = -569736 
+          - hydrogen_electricity_1296 - electricity_sold_1296
+          - curtailment_1296 = -569736 
 R6199: - battery_charge_1297 + battery_discharge_1297
-          - hydrogen_electricity_1297 - electricity_sold_1297 = -548880 
+          - hydrogen_electricity_1297 - electricity_sold_1297
+          - curtailment_1297 = -548880 
 R6200: - battery_charge_1298 + battery_discharge_1298
-          - hydrogen_electricity_1298 - electricity_sold_1298 = -391656 
+          - hydrogen_electricity_1298 - electricity_sold_1298
+          - curtailment_1298 = -391656 
 R6201: - battery_charge_1299 + battery_discharge_1299
-          - hydrogen_electricity_1299 - electricity_sold_1299 = -414528 
+          - hydrogen_electricity_1299 - electricity_sold_1299
+          - curtailment_1299 = -414528 
 R6202: - battery_charge_1300 + battery_discharge_1300
-          - hydrogen_electricity_1300 - electricity_sold_1300 = -445728 
+          - hydrogen_electricity_1300 - electricity_sold_1300
+          - curtailment_1300 = -445728 
 R6203: - battery_charge_1301 + battery_discharge_1301
-          - hydrogen_electricity_1301 - electricity_sold_1301 = -502752 
+          - hydrogen_electricity_1301 - electricity_sold_1301
+          - curtailment_1301 = -502752 
 R6204: - battery_charge_1302 + battery_discharge_1302
-          - hydrogen_electricity_1302 - electricity_sold_1302 = -493728 
+          - hydrogen_electricity_1302 - electricity_sold_1302
+          - curtailment_1302 = -493728 
 R6205: - battery_charge_1303 + battery_discharge_1303
-          - hydrogen_electricity_1303 - electricity_sold_1303 = -468816 
+          - hydrogen_electricity_1303 - electricity_sold_1303
+          - curtailment_1303 = -468816 
 R6206: - battery_charge_1304 + battery_discharge_1304
-          - hydrogen_electricity_1304 - electricity_sold_1304 = -506160 
+          - hydrogen_electricity_1304 - electricity_sold_1304
+          - curtailment_1304 = -506160 
 R6207: - battery_charge_1305 + battery_discharge_1305
-          - hydrogen_electricity_1305 - electricity_sold_1305 = -428688 
+          - hydrogen_electricity_1305 - electricity_sold_1305
+          - curtailment_1305 = -428688 
 R6208: - battery_charge_1306 + battery_discharge_1306
-          - hydrogen_electricity_1306 - electricity_sold_1306 = -445440 
+          - hydrogen_electricity_1306 - electricity_sold_1306
+          - curtailment_1306 = -445440 
 R6209: - battery_charge_1307 + battery_discharge_1307
-          - hydrogen_electricity_1307 - electricity_sold_1307 = -441504 
+          - hydrogen_electricity_1307 - electricity_sold_1307
+          - curtailment_1307 = -441504 
 R6210: - battery_charge_1308 + battery_discharge_1308
-          - hydrogen_electricity_1308 - electricity_sold_1308 = -465744 
+          - hydrogen_electricity_1308 - electricity_sold_1308
+          - curtailment_1308 = -465744 
 R6211: - battery_charge_1309 + battery_discharge_1309
-          - hydrogen_electricity_1309 - electricity_sold_1309 = -411168 
+          - hydrogen_electricity_1309 - electricity_sold_1309
+          - curtailment_1309 = -411168 
 R6212: - battery_charge_1310 + battery_discharge_1310
-          - hydrogen_electricity_1310 - electricity_sold_1310 = -413472 
+          - hydrogen_electricity_1310 - electricity_sold_1310
+          - curtailment_1310 = -413472 
 R6213: - battery_charge_1311 + battery_discharge_1311
-          - hydrogen_electricity_1311 - electricity_sold_1311 = -499728 
+          - hydrogen_electricity_1311 - electricity_sold_1311
+          - curtailment_1311 = -499728 
 R6214: - battery_charge_1312 + battery_discharge_1312
-          - hydrogen_electricity_1312 - electricity_sold_1312 = -433392 
+          - hydrogen_electricity_1312 - electricity_sold_1312
+          - curtailment_1312 = -433392 
 R6215: - battery_charge_1313 + battery_discharge_1313
-          - hydrogen_electricity_1313 - electricity_sold_1313 = -381624 
+          - hydrogen_electricity_1313 - electricity_sold_1313
+          - curtailment_1313 = -381624 
 R6216: - battery_charge_1314 + battery_discharge_1314
-          - hydrogen_electricity_1314 - electricity_sold_1314 = -437520 
+          - hydrogen_electricity_1314 - electricity_sold_1314
+          - curtailment_1314 = -437520 
 R6217: - battery_charge_1315 + battery_discharge_1315
-          - hydrogen_electricity_1315 - electricity_sold_1315 = -507744 
+          - hydrogen_electricity_1315 - electricity_sold_1315
+          - curtailment_1315 = -507744 
 R6218: - battery_charge_1316 + battery_discharge_1316
-          - hydrogen_electricity_1316 - electricity_sold_1316 = -542088 
+          - hydrogen_electricity_1316 - electricity_sold_1316
+          - curtailment_1316 = -542088 
 R6219: - battery_charge_1317 + battery_discharge_1317
-          - hydrogen_electricity_1317 - electricity_sold_1317 = -578496 
+          - hydrogen_electricity_1317 - electricity_sold_1317
+          - curtailment_1317 = -578496 
 R6220: - battery_charge_1318 + battery_discharge_1318
-          - hydrogen_electricity_1318 - electricity_sold_1318 = -535848 
+          - hydrogen_electricity_1318 - electricity_sold_1318
+          - curtailment_1318 = -535848 
 R6221: - battery_charge_1319 + battery_discharge_1319
-          - hydrogen_electricity_1319 - electricity_sold_1319 = -474360 
+          - hydrogen_electricity_1319 - electricity_sold_1319
+          - curtailment_1319 = -474360 
 R6222: - battery_charge_1320 + battery_discharge_1320
-          - hydrogen_electricity_1320 - electricity_sold_1320 = -483384 
+          - hydrogen_electricity_1320 - electricity_sold_1320
+          - curtailment_1320 = -483384 
 R6223: - battery_charge_1321 + battery_discharge_1321
-          - hydrogen_electricity_1321 - electricity_sold_1321 = -566544 
+          - hydrogen_electricity_1321 - electricity_sold_1321
+          - curtailment_1321 = -566544 
 R6224: - battery_charge_1322 + battery_discharge_1322
-          - hydrogen_electricity_1322 - electricity_sold_1322 = -558768 
+          - hydrogen_electricity_1322 - electricity_sold_1322
+          - curtailment_1322 = -558768 
 R6225: - battery_charge_1323 + battery_discharge_1323
-          - hydrogen_electricity_1323 - electricity_sold_1323 = -595800 
+          - hydrogen_electricity_1323 - electricity_sold_1323
+          - curtailment_1323 = -595800 
 R6226: - battery_charge_1324 + battery_discharge_1324
-          - hydrogen_electricity_1324 - electricity_sold_1324 = -619464 
+          - hydrogen_electricity_1324 - electricity_sold_1324
+          - curtailment_1324 = -619464 
 R6227: - battery_charge_1325 + battery_discharge_1325
-          - hydrogen_electricity_1325 - electricity_sold_1325 = -582576 
+          - hydrogen_electricity_1325 - electricity_sold_1325
+          - curtailment_1325 = -582576 
 R6228: - battery_charge_1326 + battery_discharge_1326
-          - hydrogen_electricity_1326 - electricity_sold_1326 = -551832 
+          - hydrogen_electricity_1326 - electricity_sold_1326
+          - curtailment_1326 = -551832 
 R6229: - battery_charge_1327 + battery_discharge_1327
-          - hydrogen_electricity_1327 - electricity_sold_1327 = -469680 
+          - hydrogen_electricity_1327 - electricity_sold_1327
+          - curtailment_1327 = -469680 
 R6230: - battery_charge_1328 + battery_discharge_1328
-          - hydrogen_electricity_1328 - electricity_sold_1328 = -593304 
+          - hydrogen_electricity_1328 - electricity_sold_1328
+          - curtailment_1328 = -593304 
 R6231: - battery_charge_1329 + battery_discharge_1329
-          - hydrogen_electricity_1329 - electricity_sold_1329 = -630504 
+          - hydrogen_electricity_1329 - electricity_sold_1329
+          - curtailment_1329 = -630504 
 R6232: - battery_charge_1330 + battery_discharge_1330
-          - hydrogen_electricity_1330 - electricity_sold_1330 = -640296 
+          - hydrogen_electricity_1330 - electricity_sold_1330
+          - curtailment_1330 = -640296 
 R6233: - battery_charge_1331 + battery_discharge_1331
-          - hydrogen_electricity_1331 - electricity_sold_1331 = -645312 
+          - hydrogen_electricity_1331 - electricity_sold_1331
+          - curtailment_1331 = -645312 
 R6234: - battery_charge_1332 + battery_discharge_1332
-          - hydrogen_electricity_1332 - electricity_sold_1332 = -618312 
+          - hydrogen_electricity_1332 - electricity_sold_1332
+          - curtailment_1332 = -618312 
 R6235: - battery_charge_1333 + battery_discharge_1333
-          - hydrogen_electricity_1333 - electricity_sold_1333 = -484032 
+          - hydrogen_electricity_1333 - electricity_sold_1333
+          - curtailment_1333 = -484032 
 R6236: - battery_charge_1334 + battery_discharge_1334
-          - hydrogen_electricity_1334 - electricity_sold_1334 = -445920 
+          - hydrogen_electricity_1334 - electricity_sold_1334
+          - curtailment_1334 = -445920 
 R6237: - battery_charge_1335 + battery_discharge_1335
-          - hydrogen_electricity_1335 - electricity_sold_1335 = -542976 
+          - hydrogen_electricity_1335 - electricity_sold_1335
+          - curtailment_1335 = -542976 
 R6238: - battery_charge_1336 + battery_discharge_1336
-          - hydrogen_electricity_1336 - electricity_sold_1336 = -615264 
+          - hydrogen_electricity_1336 - electricity_sold_1336
+          - curtailment_1336 = -615264 
 R6239: - battery_charge_1337 + battery_discharge_1337
-          - hydrogen_electricity_1337 - electricity_sold_1337 = -604224 
+          - hydrogen_electricity_1337 - electricity_sold_1337
+          - curtailment_1337 = -604224 
 R6240: - battery_charge_1338 + battery_discharge_1338
-          - hydrogen_electricity_1338 - electricity_sold_1338 = -587136 
+          - hydrogen_electricity_1338 - electricity_sold_1338
+          - curtailment_1338 = -587136 
 R6241: - battery_charge_1339 + battery_discharge_1339
-          - hydrogen_electricity_1339 - electricity_sold_1339 = -623088 
+          - hydrogen_electricity_1339 - electricity_sold_1339
+          - curtailment_1339 = -623088 
 R6242: - battery_charge_1340 + battery_discharge_1340
-          - hydrogen_electricity_1340 - electricity_sold_1340 = -524376 
+          - hydrogen_electricity_1340 - electricity_sold_1340
+          - curtailment_1340 = -524376 
 R6243: - battery_charge_1341 + battery_discharge_1341
-          - hydrogen_electricity_1341 - electricity_sold_1341 = -481056 
+          - hydrogen_electricity_1341 - electricity_sold_1341
+          - curtailment_1341 = -481056 
 R6244: - battery_charge_1342 + battery_discharge_1342
-          - hydrogen_electricity_1342 - electricity_sold_1342 = -581088 
+          - hydrogen_electricity_1342 - electricity_sold_1342
+          - curtailment_1342 = -581088 
 R6245: - battery_charge_1343 + battery_discharge_1343
-          - hydrogen_electricity_1343 - electricity_sold_1343 = -666984 
+          - hydrogen_electricity_1343 - electricity_sold_1343
+          - curtailment_1343 = -666984 
 R6246: - battery_charge_1344 + battery_discharge_1344
-          - hydrogen_electricity_1344 - electricity_sold_1344 = -661584 
+          - hydrogen_electricity_1344 - electricity_sold_1344
+          - curtailment_1344 = -661584 
 R6247: - battery_charge_1345 + battery_discharge_1345
-          - hydrogen_electricity_1345 - electricity_sold_1345 = -637680 
+          - hydrogen_electricity_1345 - electricity_sold_1345
+          - curtailment_1345 = -637680 
 R6248: - battery_charge_1346 + battery_discharge_1346
-          - hydrogen_electricity_1346 - electricity_sold_1346 = -642840 
+          - hydrogen_electricity_1346 - electricity_sold_1346
+          - curtailment_1346 = -642840 
 R6249: - battery_charge_1347 + battery_discharge_1347
-          - hydrogen_electricity_1347 - electricity_sold_1347 = -565728 
+          - hydrogen_electricity_1347 - electricity_sold_1347
+          - curtailment_1347 = -565728 
 R6250: - battery_charge_1348 + battery_discharge_1348
-          - hydrogen_electricity_1348 - electricity_sold_1348 = -558696 
+          - hydrogen_electricity_1348 - electricity_sold_1348
+          - curtailment_1348 = -558696 
 R6251: - battery_charge_1349 + battery_discharge_1349
-          - hydrogen_electricity_1349 - electricity_sold_1349 = -668928 
+          - hydrogen_electricity_1349 - electricity_sold_1349
+          - curtailment_1349 = -668928 
 R6252: - battery_charge_1350 + battery_discharge_1350
-          - hydrogen_electricity_1350 - electricity_sold_1350 = -683760 
+          - hydrogen_electricity_1350 - electricity_sold_1350
+          - curtailment_1350 = -683760 
 R6253: - battery_charge_1351 + battery_discharge_1351
-          - hydrogen_electricity_1351 - electricity_sold_1351 = -639168 
+          - hydrogen_electricity_1351 - electricity_sold_1351
+          - curtailment_1351 = -639168 
 R6254: - battery_charge_1352 + battery_discharge_1352
-          - hydrogen_electricity_1352 - electricity_sold_1352 = -653472 
+          - hydrogen_electricity_1352 - electricity_sold_1352
+          - curtailment_1352 = -653472 
 R6255: - battery_charge_1353 + battery_discharge_1353
-          - hydrogen_electricity_1353 - electricity_sold_1353 = -596952 
+          - hydrogen_electricity_1353 - electricity_sold_1353
+          - curtailment_1353 = -596952 
 R6256: - battery_charge_1354 + battery_discharge_1354
-          - hydrogen_electricity_1354 - electricity_sold_1354 = -504552 
+          - hydrogen_electricity_1354 - electricity_sold_1354
+          - curtailment_1354 = -504552 
 R6257: - battery_charge_1355 + battery_discharge_1355
-          - hydrogen_electricity_1355 - electricity_sold_1355 = -499224 
+          - hydrogen_electricity_1355 - electricity_sold_1355
+          - curtailment_1355 = -499224 
 R6258: - battery_charge_1356 + battery_discharge_1356
-          - hydrogen_electricity_1356 - electricity_sold_1356 = -553272 
+          - hydrogen_electricity_1356 - electricity_sold_1356
+          - curtailment_1356 = -553272 
 R6259: - battery_charge_1357 + battery_discharge_1357
-          - hydrogen_electricity_1357 - electricity_sold_1357 = -576312 
+          - hydrogen_electricity_1357 - electricity_sold_1357
+          - curtailment_1357 = -576312 
 R6260: - battery_charge_1358 + battery_discharge_1358
-          - hydrogen_electricity_1358 - electricity_sold_1358 = -599976 
+          - hydrogen_electricity_1358 - electricity_sold_1358
+          - curtailment_1358 = -599976 
 R6261: - battery_charge_1359 + battery_discharge_1359
-          - hydrogen_electricity_1359 - electricity_sold_1359 = -594240 
+          - hydrogen_electricity_1359 - electricity_sold_1359
+          - curtailment_1359 = -594240 
 R6262: - battery_charge_1360 + battery_discharge_1360
-          - hydrogen_electricity_1360 - electricity_sold_1360 = -531288 
+          - hydrogen_electricity_1360 - electricity_sold_1360
+          - curtailment_1360 = -531288 
 R6263: - battery_charge_1361 + battery_discharge_1361
-          - hydrogen_electricity_1361 - electricity_sold_1361 = -505704 
+          - hydrogen_electricity_1361 - electricity_sold_1361
+          - curtailment_1361 = -505704 
 R6264: - battery_charge_1362 + battery_discharge_1362
-          - hydrogen_electricity_1362 - electricity_sold_1362 = -580008 
+          - hydrogen_electricity_1362 - electricity_sold_1362
+          - curtailment_1362 = -580008 
 R6265: - battery_charge_1363 + battery_discharge_1363
-          - hydrogen_electricity_1363 - electricity_sold_1363 = -631752 
+          - hydrogen_electricity_1363 - electricity_sold_1363
+          - curtailment_1363 = -631752 
 R6266: - battery_charge_1364 + battery_discharge_1364
-          - hydrogen_electricity_1364 - electricity_sold_1364 = -659040 
+          - hydrogen_electricity_1364 - electricity_sold_1364
+          - curtailment_1364 = -659040 
 R6267: - battery_charge_1365 + battery_discharge_1365
-          - hydrogen_electricity_1365 - electricity_sold_1365 = -584880 
+          - hydrogen_electricity_1365 - electricity_sold_1365
+          - curtailment_1365 = -584880 
 R6268: - battery_charge_1366 + battery_discharge_1366
-          - hydrogen_electricity_1366 - electricity_sold_1366 = -574032 
+          - hydrogen_electricity_1366 - electricity_sold_1366
+          - curtailment_1366 = -574032 
 R6269: - battery_charge_1367 + battery_discharge_1367
-          - hydrogen_electricity_1367 - electricity_sold_1367 = -611448 
+          - hydrogen_electricity_1367 - electricity_sold_1367
+          - curtailment_1367 = -611448 
 R6270: - battery_charge_1368 + battery_discharge_1368
-          - hydrogen_electricity_1368 - electricity_sold_1368 = -519192 
+          - hydrogen_electricity_1368 - electricity_sold_1368
+          - curtailment_1368 = -519192 
 R6271: - battery_charge_1369 + battery_discharge_1369
-          - hydrogen_electricity_1369 - electricity_sold_1369 = -546000 
+          - hydrogen_electricity_1369 - electricity_sold_1369
+          - curtailment_1369 = -546000 
 R6272: - battery_charge_1370 + battery_discharge_1370
-          - hydrogen_electricity_1370 - electricity_sold_1370 = -629160 
+          - hydrogen_electricity_1370 - electricity_sold_1370
+          - curtailment_1370 = -629160 
 R6273: - battery_charge_1371 + battery_discharge_1371
-          - hydrogen_electricity_1371 - electricity_sold_1371 = -574296 
+          - hydrogen_electricity_1371 - electricity_sold_1371
+          - curtailment_1371 = -574296 
 R6274: - battery_charge_1372 + battery_discharge_1372
-          - hydrogen_electricity_1372 - electricity_sold_1372 = -612384 
+          - hydrogen_electricity_1372 - electricity_sold_1372
+          - curtailment_1372 = -612384 
 R6275: - battery_charge_1373 + battery_discharge_1373
-          - hydrogen_electricity_1373 - electricity_sold_1373 = -637944 
+          - hydrogen_electricity_1373 - electricity_sold_1373
+          - curtailment_1373 = -637944 
 R6276: - battery_charge_1374 + battery_discharge_1374
-          - hydrogen_electricity_1374 - electricity_sold_1374 = -587136 
+          - hydrogen_electricity_1374 - electricity_sold_1374
+          - curtailment_1374 = -587136 
 R6277: - battery_charge_1375 + battery_discharge_1375
-          - hydrogen_electricity_1375 - electricity_sold_1375 = -492792 
+          - hydrogen_electricity_1375 - electricity_sold_1375
+          - curtailment_1375 = -492792 
 R6278: - battery_charge_1376 + battery_discharge_1376
-          - hydrogen_electricity_1376 - electricity_sold_1376 = -525792 
+          - hydrogen_electricity_1376 - electricity_sold_1376
+          - curtailment_1376 = -525792 
 R6279: - battery_charge_1377 + battery_discharge_1377
-          - hydrogen_electricity_1377 - electricity_sold_1377 = -653592 
+          - hydrogen_electricity_1377 - electricity_sold_1377
+          - curtailment_1377 = -653592 
 R6280: - battery_charge_1378 + battery_discharge_1378
-          - hydrogen_electricity_1378 - electricity_sold_1378 = -650304 
+          - hydrogen_electricity_1378 - electricity_sold_1378
+          - curtailment_1378 = -650304 
 R6281: - battery_charge_1379 + battery_discharge_1379
-          - hydrogen_electricity_1379 - electricity_sold_1379 = -609288 
+          - hydrogen_electricity_1379 - electricity_sold_1379
+          - curtailment_1379 = -609288 
 R6282: - battery_charge_1380 + battery_discharge_1380
-          - hydrogen_electricity_1380 - electricity_sold_1380 = -649248 
+          - hydrogen_electricity_1380 - electricity_sold_1380
+          - curtailment_1380 = -649248 
 R6283: - battery_charge_1381 + battery_discharge_1381
-          - hydrogen_electricity_1381 - electricity_sold_1381 = -572352 
+          - hydrogen_electricity_1381 - electricity_sold_1381
+          - curtailment_1381 = -572352 
 R6284: - battery_charge_1382 + battery_discharge_1382
-          - hydrogen_electricity_1382 - electricity_sold_1382 = -547200 
+          - hydrogen_electricity_1382 - electricity_sold_1382
+          - curtailment_1382 = -547200 
 R6285: - battery_charge_1383 + battery_discharge_1383
-          - hydrogen_electricity_1383 - electricity_sold_1383 = -534648 
+          - hydrogen_electricity_1383 - electricity_sold_1383
+          - curtailment_1383 = -534648 
 R6286: - battery_charge_1384 + battery_discharge_1384
-          - hydrogen_electricity_1384 - electricity_sold_1384 = -655920 
+          - hydrogen_electricity_1384 - electricity_sold_1384
+          - curtailment_1384 = -655920 
 R6287: - battery_charge_1385 + battery_discharge_1385
-          - hydrogen_electricity_1385 - electricity_sold_1385 = -602280 
+          - hydrogen_electricity_1385 - electricity_sold_1385
+          - curtailment_1385 = -602280 
 R6288: - battery_charge_1386 + battery_discharge_1386
-          - hydrogen_electricity_1386 - electricity_sold_1386 = -679872 
+          - hydrogen_electricity_1386 - electricity_sold_1386
+          - curtailment_1386 = -679872 
 R6289: - battery_charge_1387 + battery_discharge_1387
-          - hydrogen_electricity_1387 - electricity_sold_1387 = -694992 
+          - hydrogen_electricity_1387 - electricity_sold_1387
+          - curtailment_1387 = -694992 
 R6290: - battery_charge_1388 + battery_discharge_1388
-          - hydrogen_electricity_1388 - electricity_sold_1388 = -666144 
+          - hydrogen_electricity_1388 - electricity_sold_1388
+          - curtailment_1388 = -666144 
 R6291: - battery_charge_1389 + battery_discharge_1389
-          - hydrogen_electricity_1389 - electricity_sold_1389 = -533448 
+          - hydrogen_electricity_1389 - electricity_sold_1389
+          - curtailment_1389 = -533448 
 R6292: - battery_charge_1390 + battery_discharge_1390
-          - hydrogen_electricity_1390 - electricity_sold_1390 = -545784 
+          - hydrogen_electricity_1390 - electricity_sold_1390
+          - curtailment_1390 = -545784 
 R6293: - battery_charge_1391 + battery_discharge_1391
-          - hydrogen_electricity_1391 - electricity_sold_1391 = -662040 
+          - hydrogen_electricity_1391 - electricity_sold_1391
+          - curtailment_1391 = -662040 
 R6294: - battery_charge_1392 + battery_discharge_1392
-          - hydrogen_electricity_1392 - electricity_sold_1392 = -663504 
+          - hydrogen_electricity_1392 - electricity_sold_1392
+          - curtailment_1392 = -663504 
 R6295: - battery_charge_1393 + battery_discharge_1393
-          - hydrogen_electricity_1393 - electricity_sold_1393 = -660072 
+          - hydrogen_electricity_1393 - electricity_sold_1393
+          - curtailment_1393 = -660072 
 R6296: - battery_charge_1394 + battery_discharge_1394
-          - hydrogen_electricity_1394 - electricity_sold_1394 = -712368 
+          - hydrogen_electricity_1394 - electricity_sold_1394
+          - curtailment_1394 = -712368 
 R6297: - battery_charge_1395 + battery_discharge_1395
-          - hydrogen_electricity_1395 - electricity_sold_1395 = -645000 
+          - hydrogen_electricity_1395 - electricity_sold_1395
+          - curtailment_1395 = -645000 
 R6298: - battery_charge_1396 + battery_discharge_1396
-          - hydrogen_electricity_1396 - electricity_sold_1396 = -538536 
+          - hydrogen_electricity_1396 - electricity_sold_1396
+          - curtailment_1396 = -538536 
 R6299: - battery_charge_1397 + battery_discharge_1397
-          - hydrogen_electricity_1397 - electricity_sold_1397 = -576672 
+          - hydrogen_electricity_1397 - electricity_sold_1397
+          - curtailment_1397 = -576672 
 R6300: - battery_charge_1398 + battery_discharge_1398
-          - hydrogen_electricity_1398 - electricity_sold_1398 = -656880 
+          - hydrogen_electricity_1398 - electricity_sold_1398
+          - curtailment_1398 = -656880 
 R6301: - battery_charge_1399 + battery_discharge_1399
-          - hydrogen_electricity_1399 - electricity_sold_1399 = -598128 
+          - hydrogen_electricity_1399 - electricity_sold_1399
+          - curtailment_1399 = -598128 
 R6302: - battery_charge_1400 + battery_discharge_1400
-          - hydrogen_electricity_1400 - electricity_sold_1400 = -616128 
+          - hydrogen_electricity_1400 - electricity_sold_1400
+          - curtailment_1400 = -616128 
 R6303: - battery_charge_1401 + battery_discharge_1401
-          - hydrogen_electricity_1401 - electricity_sold_1401 = -625632 
+          - hydrogen_electricity_1401 - electricity_sold_1401
+          - curtailment_1401 = -625632 
 R6304: - battery_charge_1402 + battery_discharge_1402
-          - hydrogen_electricity_1402 - electricity_sold_1402 = -639888 
+          - hydrogen_electricity_1402 - electricity_sold_1402
+          - curtailment_1402 = -639888 
 R6305: - battery_charge_1403 + battery_discharge_1403
-          - hydrogen_electricity_1403 - electricity_sold_1403 = -559008 
+          - hydrogen_electricity_1403 - electricity_sold_1403
+          - curtailment_1403 = -559008 
 R6306: - battery_charge_1404 + battery_discharge_1404
-          - hydrogen_electricity_1404 - electricity_sold_1404 = -556848 
+          - hydrogen_electricity_1404 - electricity_sold_1404
+          - curtailment_1404 = -556848 
 R6307: - battery_charge_1405 + battery_discharge_1405
-          - hydrogen_electricity_1405 - electricity_sold_1405 = -641088 
+          - hydrogen_electricity_1405 - electricity_sold_1405
+          - curtailment_1405 = -641088 
 R6308: - battery_charge_1406 + battery_discharge_1406
-          - hydrogen_electricity_1406 - electricity_sold_1406 = -673296 
+          - hydrogen_electricity_1406 - electricity_sold_1406
+          - curtailment_1406 = -673296 
 R6309: - battery_charge_1407 + battery_discharge_1407
-          - hydrogen_electricity_1407 - electricity_sold_1407 = -653232 
+          - hydrogen_electricity_1407 - electricity_sold_1407
+          - curtailment_1407 = -653232 
 R6310: - battery_charge_1408 + battery_discharge_1408
-          - hydrogen_electricity_1408 - electricity_sold_1408 = -684504 
+          - hydrogen_electricity_1408 - electricity_sold_1408
+          - curtailment_1408 = -684504 
 R6311: - battery_charge_1409 + battery_discharge_1409
-          - hydrogen_electricity_1409 - electricity_sold_1409 = -679968 
+          - hydrogen_electricity_1409 - electricity_sold_1409
+          - curtailment_1409 = -679968 
 R6312: - battery_charge_1410 + battery_discharge_1410
-          - hydrogen_electricity_1410 - electricity_sold_1410 = -638280 
+          - hydrogen_electricity_1410 - electricity_sold_1410
+          - curtailment_1410 = -638280 
 R6313: - battery_charge_1411 + battery_discharge_1411
-          - hydrogen_electricity_1411 - electricity_sold_1411 = -625728 
+          - hydrogen_electricity_1411 - electricity_sold_1411
+          - curtailment_1411 = -625728 
 R6314: - battery_charge_1412 + battery_discharge_1412
-          - hydrogen_electricity_1412 - electricity_sold_1412 = -708840 
+          - hydrogen_electricity_1412 - electricity_sold_1412
+          - curtailment_1412 = -708840 
 R6315: - battery_charge_1413 + battery_discharge_1413
-          - hydrogen_electricity_1413 - electricity_sold_1413 = -610392 
+          - hydrogen_electricity_1413 - electricity_sold_1413
+          - curtailment_1413 = -610392 
 R6316: - battery_charge_1414 + battery_discharge_1414
-          - hydrogen_electricity_1414 - electricity_sold_1414 = -746472 
+          - hydrogen_electricity_1414 - electricity_sold_1414
+          - curtailment_1414 = -746472 
 R6317: - battery_charge_1415 + battery_discharge_1415
-          - hydrogen_electricity_1415 - electricity_sold_1415 = -737088 
+          - hydrogen_electricity_1415 - electricity_sold_1415
+          - curtailment_1415 = -737088 
 R6318: - battery_charge_1416 + battery_discharge_1416
-          - hydrogen_electricity_1416 - electricity_sold_1416 = -748632 
+          - hydrogen_electricity_1416 - electricity_sold_1416
+          - curtailment_1416 = -748632 
 R6319: - battery_charge_1417 + battery_discharge_1417
-          - hydrogen_electricity_1417 - electricity_sold_1417 = -608184 
+          - hydrogen_electricity_1417 - electricity_sold_1417
+          - curtailment_1417 = -608184 
 R6320: - battery_charge_1418 + battery_discharge_1418
-          - hydrogen_electricity_1418 - electricity_sold_1418 = -604320 
+          - hydrogen_electricity_1418 - electricity_sold_1418
+          - curtailment_1418 = -604320 
 R6321: - battery_charge_1419 + battery_discharge_1419
-          - hydrogen_electricity_1419 - electricity_sold_1419 = -715392 
+          - hydrogen_electricity_1419 - electricity_sold_1419
+          - curtailment_1419 = -715392 
 R6322: - battery_charge_1420 + battery_discharge_1420
-          - hydrogen_electricity_1420 - electricity_sold_1420 = -790368 
+          - hydrogen_electricity_1420 - electricity_sold_1420
+          - curtailment_1420 = -790368 
 R6323: - battery_charge_1421 + battery_discharge_1421
-          - hydrogen_electricity_1421 - electricity_sold_1421 = -767736 
+          - hydrogen_electricity_1421 - electricity_sold_1421
+          - curtailment_1421 = -767736 
 R6324: - battery_charge_1422 + battery_discharge_1422
-          - hydrogen_electricity_1422 - electricity_sold_1422 = -713160 
+          - hydrogen_electricity_1422 - electricity_sold_1422
+          - curtailment_1422 = -713160 
 R6325: - battery_charge_1423 + battery_discharge_1423
-          - hydrogen_electricity_1423 - electricity_sold_1423 = -698712 
+          - hydrogen_electricity_1423 - electricity_sold_1423
+          - curtailment_1423 = -698712 
 R6326: - battery_charge_1424 + battery_discharge_1424
-          - hydrogen_electricity_1424 - electricity_sold_1424 = -678408 
+          - hydrogen_electricity_1424 - electricity_sold_1424
+          - curtailment_1424 = -678408 
 R6327: - battery_charge_1425 + battery_discharge_1425
-          - hydrogen_electricity_1425 - electricity_sold_1425 = -676176 
+          - hydrogen_electricity_1425 - electricity_sold_1425
+          - curtailment_1425 = -676176 
 R6328: - battery_charge_1426 + battery_discharge_1426
-          - hydrogen_electricity_1426 - electricity_sold_1426 = -765504 
+          - hydrogen_electricity_1426 - electricity_sold_1426
+          - curtailment_1426 = -765504 
 R6329: - battery_charge_1427 + battery_discharge_1427
-          - hydrogen_electricity_1427 - electricity_sold_1427 = -795576 
+          - hydrogen_electricity_1427 - electricity_sold_1427
+          - curtailment_1427 = -795576 
 R6330: - battery_charge_1428 + battery_discharge_1428
-          - hydrogen_electricity_1428 - electricity_sold_1428 = -821472 
+          - hydrogen_electricity_1428 - electricity_sold_1428
+          - curtailment_1428 = -821472 
 R6331: - battery_charge_1429 + battery_discharge_1429
-          - hydrogen_electricity_1429 - electricity_sold_1429 = -940032 
+          - hydrogen_electricity_1429 - electricity_sold_1429
+          - curtailment_1429 = -940032 
 R6332: - battery_charge_1430 + battery_discharge_1430
-          - hydrogen_electricity_1430 - electricity_sold_1430 = -900984 
+          - hydrogen_electricity_1430 - electricity_sold_1430
+          - curtailment_1430 = -900984 
 R6333: - battery_charge_1431 + battery_discharge_1431
-          - hydrogen_electricity_1431 - electricity_sold_1431 = -798936 
+          - hydrogen_electricity_1431 - electricity_sold_1431
+          - curtailment_1431 = -798936 
 R6334: - battery_charge_1432 + battery_discharge_1432
-          - hydrogen_electricity_1432 - electricity_sold_1432 = -741120 
+          - hydrogen_electricity_1432 - electricity_sold_1432
+          - curtailment_1432 = -741120 
 R6335: - battery_charge_1433 + battery_discharge_1433
-          - hydrogen_electricity_1433 - electricity_sold_1433 = -838632 
+          - hydrogen_electricity_1433 - electricity_sold_1433
+          - curtailment_1433 = -838632 
 R6336: - battery_charge_1434 + battery_discharge_1434
-          - hydrogen_electricity_1434 - electricity_sold_1434 = -847392 
+          - hydrogen_electricity_1434 - electricity_sold_1434
+          - curtailment_1434 = -847392 
 R6337: - battery_charge_1435 + battery_discharge_1435
-          - hydrogen_electricity_1435 - electricity_sold_1435 = -906456 
+          - hydrogen_electricity_1435 - electricity_sold_1435
+          - curtailment_1435 = -906456 
 R6338: - battery_charge_1436 + battery_discharge_1436
-          - hydrogen_electricity_1436 - electricity_sold_1436 = -948696 
+          - hydrogen_electricity_1436 - electricity_sold_1436
+          - curtailment_1436 = -948696 
 R6339: - battery_charge_1437 + battery_discharge_1437
-          - hydrogen_electricity_1437 - electricity_sold_1437 = -825984 
+          - hydrogen_electricity_1437 - electricity_sold_1437
+          - curtailment_1437 = -825984 
 R6340: - battery_charge_1438 + battery_discharge_1438
-          - hydrogen_electricity_1438 - electricity_sold_1438 = -646200 
+          - hydrogen_electricity_1438 - electricity_sold_1438
+          - curtailment_1438 = -646200 
 R6341: - battery_charge_1439 + battery_discharge_1439
-          - hydrogen_electricity_1439 - electricity_sold_1439 = -639816 
+          - hydrogen_electricity_1439 - electricity_sold_1439
+          - curtailment_1439 = -639816 
 R6342: - battery_charge_1440 + battery_discharge_1440
-          - hydrogen_electricity_1440 - electricity_sold_1440 = -754968 
+          - hydrogen_electricity_1440 - electricity_sold_1440
+          - curtailment_1440 = -754968 
 R6343: - battery_charge_1441 + battery_discharge_1441
-          - hydrogen_electricity_1441 - electricity_sold_1441 = -790704 
+          - hydrogen_electricity_1441 - electricity_sold_1441
+          - curtailment_1441 = -790704 
 R6344: - battery_charge_1442 + battery_discharge_1442
-          - hydrogen_electricity_1442 - electricity_sold_1442 = -825024 
+          - hydrogen_electricity_1442 - electricity_sold_1442
+          - curtailment_1442 = -825024 
 R6345: - battery_charge_1443 + battery_discharge_1443
-          - hydrogen_electricity_1443 - electricity_sold_1443 = -884088 
+          - hydrogen_electricity_1443 - electricity_sold_1443
+          - curtailment_1443 = -884088 
 R6346: - battery_charge_1444 + battery_discharge_1444
-          - hydrogen_electricity_1444 - electricity_sold_1444 = -763992 
+          - hydrogen_electricity_1444 - electricity_sold_1444
+          - curtailment_1444 = -763992 
 R6347: - battery_charge_1445 + battery_discharge_1445
-          - hydrogen_electricity_1445 - electricity_sold_1445 = -697800 
+          - hydrogen_electricity_1445 - electricity_sold_1445
+          - curtailment_1445 = -697800 
 R6348: - battery_charge_1446 + battery_discharge_1446
-          - hydrogen_electricity_1446 - electricity_sold_1446 = -704568 
+          - hydrogen_electricity_1446 - electricity_sold_1446
+          - curtailment_1446 = -704568 
 R6349: - battery_charge_1447 + battery_discharge_1447
-          - hydrogen_electricity_1447 - electricity_sold_1447 = -793944 
+          - hydrogen_electricity_1447 - electricity_sold_1447
+          - curtailment_1447 = -793944 
 R6350: - battery_charge_1448 + battery_discharge_1448
-          - hydrogen_electricity_1448 - electricity_sold_1448 = -750384 
+          - hydrogen_electricity_1448 - electricity_sold_1448
+          - curtailment_1448 = -750384 
 R6351: - battery_charge_1449 + battery_discharge_1449
-          - hydrogen_electricity_1449 - electricity_sold_1449 = -740328 
+          - hydrogen_electricity_1449 - electricity_sold_1449
+          - curtailment_1449 = -740328 
 R6352: - battery_charge_1450 + battery_discharge_1450
-          - hydrogen_electricity_1450 - electricity_sold_1450 = -717840 
+          - hydrogen_electricity_1450 - electricity_sold_1450
+          - curtailment_1450 = -717840 
 R6353: - battery_charge_1451 + battery_discharge_1451
-          - hydrogen_electricity_1451 - electricity_sold_1451 = -674376 
+          - hydrogen_electricity_1451 - electricity_sold_1451
+          - curtailment_1451 = -674376 
 R6354: - battery_charge_1452 + battery_discharge_1452
-          - hydrogen_electricity_1452 - electricity_sold_1452 = -667800 
+          - hydrogen_electricity_1452 - electricity_sold_1452
+          - curtailment_1452 = -667800 
 R6355: - battery_charge_1453 + battery_discharge_1453
-          - hydrogen_electricity_1453 - electricity_sold_1453 = -678576 
+          - hydrogen_electricity_1453 - electricity_sold_1453
+          - curtailment_1453 = -678576 
 R6356: - battery_charge_1454 + battery_discharge_1454
-          - hydrogen_electricity_1454 - electricity_sold_1454 = -564552 
+          - hydrogen_electricity_1454 - electricity_sold_1454
+          - curtailment_1454 = -564552 
 R6357: - battery_charge_1455 + battery_discharge_1455
-          - hydrogen_electricity_1455 - electricity_sold_1455 = -590112 
+          - hydrogen_electricity_1455 - electricity_sold_1455
+          - curtailment_1455 = -590112 
 R6358: - battery_charge_1456 + battery_discharge_1456
-          - hydrogen_electricity_1456 - electricity_sold_1456 = -672192 
+          - hydrogen_electricity_1456 - electricity_sold_1456
+          - curtailment_1456 = -672192 
 R6359: - battery_charge_1457 + battery_discharge_1457
-          - hydrogen_electricity_1457 - electricity_sold_1457 = -683568 
+          - hydrogen_electricity_1457 - electricity_sold_1457
+          - curtailment_1457 = -683568 
 R6360: - battery_charge_1458 + battery_discharge_1458
-          - hydrogen_electricity_1458 - electricity_sold_1458 = -658992 
+          - hydrogen_electricity_1458 - electricity_sold_1458
+          - curtailment_1458 = -658992 
 R6361: - battery_charge_1459 + battery_discharge_1459
-          - hydrogen_electricity_1459 - electricity_sold_1459 = -587736 
+          - hydrogen_electricity_1459 - electricity_sold_1459
+          - curtailment_1459 = -587736 
 R6362: - battery_charge_1460 + battery_discharge_1460
-          - hydrogen_electricity_1460 - electricity_sold_1460 = -582696 
+          - hydrogen_electricity_1460 - electricity_sold_1460
+          - curtailment_1460 = -582696 
 R6363: - battery_charge_1461 + battery_discharge_1461
-          - hydrogen_electricity_1461 - electricity_sold_1461 = -595488 
+          - hydrogen_electricity_1461 - electricity_sold_1461
+          - curtailment_1461 = -595488 
 R6364: - battery_charge_1462 + battery_discharge_1462
-          - hydrogen_electricity_1462 - electricity_sold_1462 = -698904 
+          - hydrogen_electricity_1462 - electricity_sold_1462
+          - curtailment_1462 = -698904 
 R6365: - battery_charge_1463 + battery_discharge_1463
-          - hydrogen_electricity_1463 - electricity_sold_1463 = -684888 
+          - hydrogen_electricity_1463 - electricity_sold_1463
+          - curtailment_1463 = -684888 
 R6366: - battery_charge_1464 + battery_discharge_1464
-          - hydrogen_electricity_1464 - electricity_sold_1464 = -737544 
+          - hydrogen_electricity_1464 - electricity_sold_1464
+          - curtailment_1464 = -737544 
 R6367: - battery_charge_1465 + battery_discharge_1465
-          - hydrogen_electricity_1465 - electricity_sold_1465 = -725352 
+          - hydrogen_electricity_1465 - electricity_sold_1465
+          - curtailment_1465 = -725352 
 R6368: - battery_charge_1466 + battery_discharge_1466
-          - hydrogen_electricity_1466 - electricity_sold_1466 = -657480 
+          - hydrogen_electricity_1466 - electricity_sold_1466
+          - curtailment_1466 = -657480 
 R6369: - battery_charge_1467 + battery_discharge_1467
-          - hydrogen_electricity_1467 - electricity_sold_1467 = -539328 
+          - hydrogen_electricity_1467 - electricity_sold_1467
+          - curtailment_1467 = -539328 
 R6370: - battery_charge_1468 + battery_discharge_1468
-          - hydrogen_electricity_1468 - electricity_sold_1468 = -832488 
+          - hydrogen_electricity_1468 - electricity_sold_1468
+          - curtailment_1468 = -832488 
 R6371: - battery_charge_1469 + battery_discharge_1469
-          - hydrogen_electricity_1469 - electricity_sold_1469 = -959712 
+          - hydrogen_electricity_1469 - electricity_sold_1469
+          - curtailment_1469 = -959712 
 R6372: - battery_charge_1470 + battery_discharge_1470
-          - hydrogen_electricity_1470 - electricity_sold_1470 = -959904 
+          - hydrogen_electricity_1470 - electricity_sold_1470
+          - curtailment_1470 = -959904 
 R6373: - battery_charge_1471 + battery_discharge_1471
-          - hydrogen_electricity_1471 - electricity_sold_1471 = -952080 
+          - hydrogen_electricity_1471 - electricity_sold_1471
+          - curtailment_1471 = -952080 
 R6374: - battery_charge_1472 + battery_discharge_1472
-          - hydrogen_electricity_1472 - electricity_sold_1472 = -881040 
+          - hydrogen_electricity_1472 - electricity_sold_1472
+          - curtailment_1472 = -881040 
 R6375: - battery_charge_1473 + battery_discharge_1473
-          - hydrogen_electricity_1473 - electricity_sold_1473 = -749448 
+          - hydrogen_electricity_1473 - electricity_sold_1473
+          - curtailment_1473 = -749448 
 R6376: - battery_charge_1474 + battery_discharge_1474
-          - hydrogen_electricity_1474 - electricity_sold_1474 = -696696 
+          - hydrogen_electricity_1474 - electricity_sold_1474
+          - curtailment_1474 = -696696 
 R6377: - battery_charge_1475 + battery_discharge_1475
-          - hydrogen_electricity_1475 - electricity_sold_1475 = -872256 
+          - hydrogen_electricity_1475 - electricity_sold_1475
+          - curtailment_1475 = -872256 
 R6378: - battery_charge_1476 + battery_discharge_1476
-          - hydrogen_electricity_1476 - electricity_sold_1476 = -953160 
+          - hydrogen_electricity_1476 - electricity_sold_1476
+          - curtailment_1476 = -953160 
 R6379: - battery_charge_1477 + battery_discharge_1477
-          - hydrogen_electricity_1477 - electricity_sold_1477 = -887784 
+          - hydrogen_electricity_1477 - electricity_sold_1477
+          - curtailment_1477 = -887784 
 R6380: - battery_charge_1478 + battery_discharge_1478
-          - hydrogen_electricity_1478 - electricity_sold_1478 = -941736 
+          - hydrogen_electricity_1478 - electricity_sold_1478
+          - curtailment_1478 = -941736 
 R6381: - battery_charge_1479 + battery_discharge_1479
-          - hydrogen_electricity_1479 - electricity_sold_1479 = -909936 
+          - hydrogen_electricity_1479 - electricity_sold_1479
+          - curtailment_1479 = -909936 
 R6382: - battery_charge_1480 + battery_discharge_1480
-          - hydrogen_electricity_1480 - electricity_sold_1480 = -778536 
+          - hydrogen_electricity_1480 - electricity_sold_1480
+          - curtailment_1480 = -778536 
 R6383: - battery_charge_1481 + battery_discharge_1481
-          - hydrogen_electricity_1481 - electricity_sold_1481 = -662232 
+          - hydrogen_electricity_1481 - electricity_sold_1481
+          - curtailment_1481 = -662232 
 R6384: - battery_charge_1482 + battery_discharge_1482
-          - hydrogen_electricity_1482 - electricity_sold_1482 = -713208 
+          - hydrogen_electricity_1482 - electricity_sold_1482
+          - curtailment_1482 = -713208 
 R6385: - battery_charge_1483 + battery_discharge_1483
-          - hydrogen_electricity_1483 - electricity_sold_1483 = -636624 
+          - hydrogen_electricity_1483 - electricity_sold_1483
+          - curtailment_1483 = -636624 
 R6386: - battery_charge_1484 + battery_discharge_1484
-          - hydrogen_electricity_1484 - electricity_sold_1484 = -726264 
+          - hydrogen_electricity_1484 - electricity_sold_1484
+          - curtailment_1484 = -726264 
 R6387: - battery_charge_1485 + battery_discharge_1485
-          - hydrogen_electricity_1485 - electricity_sold_1485 = -727776 
+          - hydrogen_electricity_1485 - electricity_sold_1485
+          - curtailment_1485 = -727776 
 R6388: - battery_charge_1486 + battery_discharge_1486
-          - hydrogen_electricity_1486 - electricity_sold_1486 = -712872 
+          - hydrogen_electricity_1486 - electricity_sold_1486
+          - curtailment_1486 = -712872 
 R6389: - battery_charge_1487 + battery_discharge_1487
-          - hydrogen_electricity_1487 - electricity_sold_1487 = -618120 
+          - hydrogen_electricity_1487 - electricity_sold_1487
+          - curtailment_1487 = -618120 
 R6390: - battery_charge_1488 + battery_discharge_1488
-          - hydrogen_electricity_1488 - electricity_sold_1488 = -642552 
+          - hydrogen_electricity_1488 - electricity_sold_1488
+          - curtailment_1488 = -642552 
 R6391: - battery_charge_1489 + battery_discharge_1489
-          - hydrogen_electricity_1489 - electricity_sold_1489 = -698952 
+          - hydrogen_electricity_1489 - electricity_sold_1489
+          - curtailment_1489 = -698952 
 R6392: - battery_charge_1490 + battery_discharge_1490
-          - hydrogen_electricity_1490 - electricity_sold_1490 = -714960 
+          - hydrogen_electricity_1490 - electricity_sold_1490
+          - curtailment_1490 = -714960 
 R6393: - battery_charge_1491 + battery_discharge_1491
-          - hydrogen_electricity_1491 - electricity_sold_1491 = -740832 
+          - hydrogen_electricity_1491 - electricity_sold_1491
+          - curtailment_1491 = -740832 
 R6394: - battery_charge_1492 + battery_discharge_1492
-          - hydrogen_electricity_1492 - electricity_sold_1492 = -705576 
+          - hydrogen_electricity_1492 - electricity_sold_1492
+          - curtailment_1492 = -705576 
 R6395: - battery_charge_1493 + battery_discharge_1493
-          - hydrogen_electricity_1493 - electricity_sold_1493 = -681024 
+          - hydrogen_electricity_1493 - electricity_sold_1493
+          - curtailment_1493 = -681024 
 R6396: - battery_charge_1494 + battery_discharge_1494
-          - hydrogen_electricity_1494 - electricity_sold_1494 = -550368 
+          - hydrogen_electricity_1494 - electricity_sold_1494
+          - curtailment_1494 = -550368 
 R6397: - battery_charge_1495 + battery_discharge_1495
-          - hydrogen_electricity_1495 - electricity_sold_1495 = -629832 
+          - hydrogen_electricity_1495 - electricity_sold_1495
+          - curtailment_1495 = -629832 
 R6398: - battery_charge_1496 + battery_discharge_1496
-          - hydrogen_electricity_1496 - electricity_sold_1496 = -700992 
+          - hydrogen_electricity_1496 - electricity_sold_1496
+          - curtailment_1496 = -700992 
 R6399: - battery_charge_1497 + battery_discharge_1497
-          - hydrogen_electricity_1497 - electricity_sold_1497 = -622464 
+          - hydrogen_electricity_1497 - electricity_sold_1497
+          - curtailment_1497 = -622464 
 R6400: - battery_charge_1498 + battery_discharge_1498
-          - hydrogen_electricity_1498 - electricity_sold_1498 = -269040 
+          - hydrogen_electricity_1498 - electricity_sold_1498
+          - curtailment_1498 = -269040 
 R6401: - battery_charge_1499 + battery_discharge_1499
-          - hydrogen_electricity_1499 - electricity_sold_1499 = -304008 
+          - hydrogen_electricity_1499 - electricity_sold_1499
+          - curtailment_1499 = -304008 
 R6402: - battery_charge_1500 + battery_discharge_1500
-          - hydrogen_electricity_1500 - electricity_sold_1500 = -402912 
+          - hydrogen_electricity_1500 - electricity_sold_1500
+          - curtailment_1500 = -402912 
 R6403: - battery_charge_1501 + battery_discharge_1501
-          - hydrogen_electricity_1501 - electricity_sold_1501 = -171528 
+          - hydrogen_electricity_1501 - electricity_sold_1501
+          - curtailment_1501 = -171528 
 R6404: - battery_charge_1502 + battery_discharge_1502
-          - hydrogen_electricity_1502 - electricity_sold_1502 = -157776 
+          - hydrogen_electricity_1502 - electricity_sold_1502
+          - curtailment_1502 = -157776 
 R6405: - battery_charge_1503 + battery_discharge_1503
-          - hydrogen_electricity_1503 - electricity_sold_1503 = -339120 
+          - hydrogen_electricity_1503 - electricity_sold_1503
+          - curtailment_1503 = -339120 
 R6406: - battery_charge_1504 + battery_discharge_1504
-          - hydrogen_electricity_1504 - electricity_sold_1504 = -287376 
+          - hydrogen_electricity_1504 - electricity_sold_1504
+          - curtailment_1504 = -287376 
 R6407: - battery_charge_1505 + battery_discharge_1505
-          - hydrogen_electricity_1505 - electricity_sold_1505 = -217296 
+          - hydrogen_electricity_1505 - electricity_sold_1505
+          - curtailment_1505 = -217296 
 R6408: - battery_charge_1506 + battery_discharge_1506
-          - hydrogen_electricity_1506 - electricity_sold_1506 = -262752 
+          - hydrogen_electricity_1506 - electricity_sold_1506
+          - curtailment_1506 = -262752 
 R6409: - battery_charge_1507 + battery_discharge_1507
-          - hydrogen_electricity_1507 - electricity_sold_1507 = -150216 
+          - hydrogen_electricity_1507 - electricity_sold_1507
+          - curtailment_1507 = -150216 
 R6410: - battery_charge_1508 + battery_discharge_1508
-          - hydrogen_electricity_1508 - electricity_sold_1508 = -247608 
+          - hydrogen_electricity_1508 - electricity_sold_1508
+          - curtailment_1508 = -247608 
 R6411: - battery_charge_1509 + battery_discharge_1509
-          - hydrogen_electricity_1509 - electricity_sold_1509 = -298632 
+          - hydrogen_electricity_1509 - electricity_sold_1509
+          - curtailment_1509 = -298632 
 R6412: - battery_charge_1510 + battery_discharge_1510
-          - hydrogen_electricity_1510 - electricity_sold_1510 = -331536 
+          - hydrogen_electricity_1510 - electricity_sold_1510
+          - curtailment_1510 = -331536 
 R6413: - battery_charge_1511 + battery_discharge_1511
-          - hydrogen_electricity_1511 - electricity_sold_1511 = -376512 
+          - hydrogen_electricity_1511 - electricity_sold_1511
+          - curtailment_1511 = -376512 
 R6414: - battery_charge_1512 + battery_discharge_1512
-          - hydrogen_electricity_1512 - electricity_sold_1512 = -673344 
+          - hydrogen_electricity_1512 - electricity_sold_1512
+          - curtailment_1512 = -673344 
 R6415: - battery_charge_1513 + battery_discharge_1513
-          - hydrogen_electricity_1513 - electricity_sold_1513 = -667464 
+          - hydrogen_electricity_1513 - electricity_sold_1513
+          - curtailment_1513 = -667464 
 R6416: - battery_charge_1514 + battery_discharge_1514
-          - hydrogen_electricity_1514 - electricity_sold_1514 = -657408 
+          - hydrogen_electricity_1514 - electricity_sold_1514
+          - curtailment_1514 = -657408 
 R6417: - battery_charge_1515 + battery_discharge_1515
-          - hydrogen_electricity_1515 - electricity_sold_1515 = -588072 
+          - hydrogen_electricity_1515 - electricity_sold_1515
+          - curtailment_1515 = -588072 
 R6418: - battery_charge_1516 + battery_discharge_1516
-          - hydrogen_electricity_1516 - electricity_sold_1516 = -588192 
+          - hydrogen_electricity_1516 - electricity_sold_1516
+          - curtailment_1516 = -588192 
 R6419: - battery_charge_1517 + battery_discharge_1517
-          - hydrogen_electricity_1517 - electricity_sold_1517 = -765648 
+          - hydrogen_electricity_1517 - electricity_sold_1517
+          - curtailment_1517 = -765648 
 R6420: - battery_charge_1518 + battery_discharge_1518
-          - hydrogen_electricity_1518 - electricity_sold_1518 = -730104 
+          - hydrogen_electricity_1518 - electricity_sold_1518
+          - curtailment_1518 = -730104 
 R6421: - battery_charge_1519 + battery_discharge_1519
-          - hydrogen_electricity_1519 - electricity_sold_1519 = -756144 
+          - hydrogen_electricity_1519 - electricity_sold_1519
+          - curtailment_1519 = -756144 
 R6422: - battery_charge_1520 + battery_discharge_1520
-          - hydrogen_electricity_1520 - electricity_sold_1520 = -680016 
+          - hydrogen_electricity_1520 - electricity_sold_1520
+          - curtailment_1520 = -680016 
 R6423: - battery_charge_1521 + battery_discharge_1521
-          - hydrogen_electricity_1521 - electricity_sold_1521 = -650448 
+          - hydrogen_electricity_1521 - electricity_sold_1521
+          - curtailment_1521 = -650448 
 R6424: - battery_charge_1522 + battery_discharge_1522
-          - hydrogen_electricity_1522 - electricity_sold_1522 = -634536 
+          - hydrogen_electricity_1522 - electricity_sold_1522
+          - curtailment_1522 = -634536 
 R6425: - battery_charge_1523 + battery_discharge_1523
-          - hydrogen_electricity_1523 - electricity_sold_1523 = -611328 
+          - hydrogen_electricity_1523 - electricity_sold_1523
+          - curtailment_1523 = -611328 
 R6426: - battery_charge_1524 + battery_discharge_1524
-          - hydrogen_electricity_1524 - electricity_sold_1524 = -705768 
+          - hydrogen_electricity_1524 - electricity_sold_1524
+          - curtailment_1524 = -705768 
 R6427: - battery_charge_1525 + battery_discharge_1525
-          - hydrogen_electricity_1525 - electricity_sold_1525 = -719520 
+          - hydrogen_electricity_1525 - electricity_sold_1525
+          - curtailment_1525 = -719520 
 R6428: - battery_charge_1526 + battery_discharge_1526
-          - hydrogen_electricity_1526 - electricity_sold_1526 = -738312 
+          - hydrogen_electricity_1526 - electricity_sold_1526
+          - curtailment_1526 = -738312 
 R6429: - battery_charge_1527 + battery_discharge_1527
-          - hydrogen_electricity_1527 - electricity_sold_1527 = -656136 
+          - hydrogen_electricity_1527 - electricity_sold_1527
+          - curtailment_1527 = -656136 
 R6430: - battery_charge_1528 + battery_discharge_1528
-          - hydrogen_electricity_1528 - electricity_sold_1528 = -641976 
+          - hydrogen_electricity_1528 - electricity_sold_1528
+          - curtailment_1528 = -641976 
 R6431: - battery_charge_1529 + battery_discharge_1529
-          - hydrogen_electricity_1529 - electricity_sold_1529 = -642240 
+          - hydrogen_electricity_1529 - electricity_sold_1529
+          - curtailment_1529 = -642240 
 R6432: - battery_charge_1530 + battery_discharge_1530
-          - hydrogen_electricity_1530 - electricity_sold_1530 = -618696 
+          - hydrogen_electricity_1530 - electricity_sold_1530
+          - curtailment_1530 = -618696 
 R6433: - battery_charge_1531 + battery_discharge_1531
-          - hydrogen_electricity_1531 - electricity_sold_1531 = -666552 
+          - hydrogen_electricity_1531 - electricity_sold_1531
+          - curtailment_1531 = -666552 
 R6434: - battery_charge_1532 + battery_discharge_1532
-          - hydrogen_electricity_1532 - electricity_sold_1532 = -601752 
+          - hydrogen_electricity_1532 - electricity_sold_1532
+          - curtailment_1532 = -601752 
 R6435: - battery_charge_1533 + battery_discharge_1533
-          - hydrogen_electricity_1533 - electricity_sold_1533 = -687768 
+          - hydrogen_electricity_1533 - electricity_sold_1533
+          - curtailment_1533 = -687768 
 R6436: - battery_charge_1534 + battery_discharge_1534
-          - hydrogen_electricity_1534 - electricity_sold_1534 = -611688 
+          - hydrogen_electricity_1534 - electricity_sold_1534
+          - curtailment_1534 = -611688 
 R6437: - battery_charge_1535 + battery_discharge_1535
-          - hydrogen_electricity_1535 - electricity_sold_1535 = -598224 
+          - hydrogen_electricity_1535 - electricity_sold_1535
+          - curtailment_1535 = -598224 
 R6438: - battery_charge_1536 + battery_discharge_1536
-          - hydrogen_electricity_1536 - electricity_sold_1536 = -540648 
+          - hydrogen_electricity_1536 - electricity_sold_1536
+          - curtailment_1536 = -540648 
 R6439: - battery_charge_1537 + battery_discharge_1537
-          - hydrogen_electricity_1537 - electricity_sold_1537 = -544248 
+          - hydrogen_electricity_1537 - electricity_sold_1537
+          - curtailment_1537 = -544248 
 R6440: - battery_charge_1538 + battery_discharge_1538
-          - hydrogen_electricity_1538 - electricity_sold_1538 = -627672 
+          - hydrogen_electricity_1538 - electricity_sold_1538
+          - curtailment_1538 = -627672 
 R6441: - battery_charge_1539 + battery_discharge_1539
-          - hydrogen_electricity_1539 - electricity_sold_1539 = -627264 
+          - hydrogen_electricity_1539 - electricity_sold_1539
+          - curtailment_1539 = -627264 
 R6442: - battery_charge_1540 + battery_discharge_1540
-          - hydrogen_electricity_1540 - electricity_sold_1540 = -638208 
+          - hydrogen_electricity_1540 - electricity_sold_1540
+          - curtailment_1540 = -638208 
 R6443: - battery_charge_1541 + battery_discharge_1541
-          - hydrogen_electricity_1541 - electricity_sold_1541 = -649104 
+          - hydrogen_electricity_1541 - electricity_sold_1541
+          - curtailment_1541 = -649104 
 R6444: - battery_charge_1542 + battery_discharge_1542
-          - hydrogen_electricity_1542 - electricity_sold_1542 = -612480 
+          - hydrogen_electricity_1542 - electricity_sold_1542
+          - curtailment_1542 = -612480 
 R6445: - battery_charge_1543 + battery_discharge_1543
-          - hydrogen_electricity_1543 - electricity_sold_1543 = -679512 
+          - hydrogen_electricity_1543 - electricity_sold_1543
+          - curtailment_1543 = -679512 
 R6446: - battery_charge_1544 + battery_discharge_1544
-          - hydrogen_electricity_1544 - electricity_sold_1544 = -587352 
+          - hydrogen_electricity_1544 - electricity_sold_1544
+          - curtailment_1544 = -587352 
 R6447: - battery_charge_1545 + battery_discharge_1545
-          - hydrogen_electricity_1545 - electricity_sold_1545 = -638808 
+          - hydrogen_electricity_1545 - electricity_sold_1545
+          - curtailment_1545 = -638808 
 R6448: - battery_charge_1546 + battery_discharge_1546
-          - hydrogen_electricity_1546 - electricity_sold_1546 = -631608 
+          - hydrogen_electricity_1546 - electricity_sold_1546
+          - curtailment_1546 = -631608 
 R6449: - battery_charge_1547 + battery_discharge_1547
-          - hydrogen_electricity_1547 - electricity_sold_1547 = -549408 
+          - hydrogen_electricity_1547 - electricity_sold_1547
+          - curtailment_1547 = -549408 
 R6450: - battery_charge_1548 + battery_discharge_1548
-          - hydrogen_electricity_1548 - electricity_sold_1548 = -549456 
+          - hydrogen_electricity_1548 - electricity_sold_1548
+          - curtailment_1548 = -549456 
 R6451: - battery_charge_1549 + battery_discharge_1549
-          - hydrogen_electricity_1549 - electricity_sold_1549 = -476352 
+          - hydrogen_electricity_1549 - electricity_sold_1549
+          - curtailment_1549 = -476352 
 R6452: - battery_charge_1550 + battery_discharge_1550
-          - hydrogen_electricity_1550 - electricity_sold_1550 = -452496 
+          - hydrogen_electricity_1550 - electricity_sold_1550
+          - curtailment_1550 = -452496 
 R6453: - battery_charge_1551 + battery_discharge_1551
-          - hydrogen_electricity_1551 - electricity_sold_1551 = -416664 
+          - hydrogen_electricity_1551 - electricity_sold_1551
+          - curtailment_1551 = -416664 
 R6454: - battery_charge_1552 + battery_discharge_1552
-          - hydrogen_electricity_1552 - electricity_sold_1552 = -406032 
+          - hydrogen_electricity_1552 - electricity_sold_1552
+          - curtailment_1552 = -406032 
 R6455: - battery_charge_1553 + battery_discharge_1553
-          - hydrogen_electricity_1553 - electricity_sold_1553 = -501264 
+          - hydrogen_electricity_1553 - electricity_sold_1553
+          - curtailment_1553 = -501264 
 R6456: - battery_charge_1554 + battery_discharge_1554
-          - hydrogen_electricity_1554 - electricity_sold_1554 = -579816 
+          - hydrogen_electricity_1554 - electricity_sold_1554
+          - curtailment_1554 = -579816 
 R6457: - battery_charge_1555 + battery_discharge_1555
-          - hydrogen_electricity_1555 - electricity_sold_1555 = -622080 
+          - hydrogen_electricity_1555 - electricity_sold_1555
+          - curtailment_1555 = -622080 
 R6458: - battery_charge_1556 + battery_discharge_1556
-          - hydrogen_electricity_1556 - electricity_sold_1556 = -632160 
+          - hydrogen_electricity_1556 - electricity_sold_1556
+          - curtailment_1556 = -632160 
 R6459: - battery_charge_1557 + battery_discharge_1557
-          - hydrogen_electricity_1557 - electricity_sold_1557 = -685968 
+          - hydrogen_electricity_1557 - electricity_sold_1557
+          - curtailment_1557 = -685968 
 R6460: - battery_charge_1558 + battery_discharge_1558
-          - hydrogen_electricity_1558 - electricity_sold_1558 = -700056 
+          - hydrogen_electricity_1558 - electricity_sold_1558
+          - curtailment_1558 = -700056 
 R6461: - battery_charge_1559 + battery_discharge_1559
-          - hydrogen_electricity_1559 - electricity_sold_1559 = -639048 
+          - hydrogen_electricity_1559 - electricity_sold_1559
+          - curtailment_1559 = -639048 
 R6462: - battery_charge_1560 + battery_discharge_1560
-          - hydrogen_electricity_1560 - electricity_sold_1560 = -675552 
+          - hydrogen_electricity_1560 - electricity_sold_1560
+          - curtailment_1560 = -675552 
 R6463: - battery_charge_1561 + battery_discharge_1561
-          - hydrogen_electricity_1561 - electricity_sold_1561 = -649848 
+          - hydrogen_electricity_1561 - electricity_sold_1561
+          - curtailment_1561 = -649848 
 R6464: - battery_charge_1562 + battery_discharge_1562
-          - hydrogen_electricity_1562 - electricity_sold_1562 = -667824 
+          - hydrogen_electricity_1562 - electricity_sold_1562
+          - curtailment_1562 = -667824 
 R6465: - battery_charge_1563 + battery_discharge_1563
-          - hydrogen_electricity_1563 - electricity_sold_1563 = -612912 
+          - hydrogen_electricity_1563 - electricity_sold_1563
+          - curtailment_1563 = -612912 
 R6466: - battery_charge_1564 + battery_discharge_1564
-          - hydrogen_electricity_1564 - electricity_sold_1564 = -617520 
+          - hydrogen_electricity_1564 - electricity_sold_1564
+          - curtailment_1564 = -617520 
 R6467: - battery_charge_1565 + battery_discharge_1565
-          - hydrogen_electricity_1565 - electricity_sold_1565 = -596064 
+          - hydrogen_electricity_1565 - electricity_sold_1565
+          - curtailment_1565 = -596064 
 R6468: - battery_charge_1566 + battery_discharge_1566
-          - hydrogen_electricity_1566 - electricity_sold_1566 = -670104 
+          - hydrogen_electricity_1566 - electricity_sold_1566
+          - curtailment_1566 = -670104 
 R6469: - battery_charge_1567 + battery_discharge_1567
-          - hydrogen_electricity_1567 - electricity_sold_1567 = -638232 
+          - hydrogen_electricity_1567 - electricity_sold_1567
+          - curtailment_1567 = -638232 
 R6470: - battery_charge_1568 + battery_discharge_1568
-          - hydrogen_electricity_1568 - electricity_sold_1568 = -637248 
+          - hydrogen_electricity_1568 - electricity_sold_1568
+          - curtailment_1568 = -637248 
 R6471: - battery_charge_1569 + battery_discharge_1569
-          - hydrogen_electricity_1569 - electricity_sold_1569 = -547488 
+          - hydrogen_electricity_1569 - electricity_sold_1569
+          - curtailment_1569 = -547488 
 R6472: - battery_charge_1570 + battery_discharge_1570
-          - hydrogen_electricity_1570 - electricity_sold_1570 = -436272 
+          - hydrogen_electricity_1570 - electricity_sold_1570
+          - curtailment_1570 = -436272 
 R6473: - battery_charge_1571 + battery_discharge_1571
-          - hydrogen_electricity_1571 - electricity_sold_1571 = -429984 
+          - hydrogen_electricity_1571 - electricity_sold_1571
+          - curtailment_1571 = -429984 
 R6474: - battery_charge_1572 + battery_discharge_1572
-          - hydrogen_electricity_1572 - electricity_sold_1572 = -451320 
+          - hydrogen_electricity_1572 - electricity_sold_1572
+          - curtailment_1572 = -451320 
 R6475: - battery_charge_1573 + battery_discharge_1573
-          - hydrogen_electricity_1573 - electricity_sold_1573 = -629808 
+          - hydrogen_electricity_1573 - electricity_sold_1573
+          - curtailment_1573 = -629808 
 R6476: - battery_charge_1574 + battery_discharge_1574
-          - hydrogen_electricity_1574 - electricity_sold_1574 = -558360 
+          - hydrogen_electricity_1574 - electricity_sold_1574
+          - curtailment_1574 = -558360 
 R6477: - battery_charge_1575 + battery_discharge_1575
-          - hydrogen_electricity_1575 - electricity_sold_1575 = -537168 
+          - hydrogen_electricity_1575 - electricity_sold_1575
+          - curtailment_1575 = -537168 
 R6478: - battery_charge_1576 + battery_discharge_1576
-          - hydrogen_electricity_1576 - electricity_sold_1576 = -600456 
+          - hydrogen_electricity_1576 - electricity_sold_1576
+          - curtailment_1576 = -600456 
 R6479: - battery_charge_1577 + battery_discharge_1577
-          - hydrogen_electricity_1577 - electricity_sold_1577 = -603048 
+          - hydrogen_electricity_1577 - electricity_sold_1577
+          - curtailment_1577 = -603048 
 R6480: - battery_charge_1578 + battery_discharge_1578
-          - hydrogen_electricity_1578 - electricity_sold_1578 = -489864 
+          - hydrogen_electricity_1578 - electricity_sold_1578
+          - curtailment_1578 = -489864 
 R6481: - battery_charge_1579 + battery_discharge_1579
-          - hydrogen_electricity_1579 - electricity_sold_1579 = -393672 
+          - hydrogen_electricity_1579 - electricity_sold_1579
+          - curtailment_1579 = -393672 
 R6482: - battery_charge_1580 + battery_discharge_1580
-          - hydrogen_electricity_1580 - electricity_sold_1580 = -474624 
+          - hydrogen_electricity_1580 - electricity_sold_1580
+          - curtailment_1580 = -474624 
 R6483: - battery_charge_1581 + battery_discharge_1581
-          - hydrogen_electricity_1581 - electricity_sold_1581 = -444840 
+          - hydrogen_electricity_1581 - electricity_sold_1581
+          - curtailment_1581 = -444840 
 R6484: - battery_charge_1582 + battery_discharge_1582
-          - hydrogen_electricity_1582 - electricity_sold_1582 = -493872 
+          - hydrogen_electricity_1582 - electricity_sold_1582
+          - curtailment_1582 = -493872 
 R6485: - battery_charge_1583 + battery_discharge_1583
-          - hydrogen_electricity_1583 - electricity_sold_1583 = -417408 
+          - hydrogen_electricity_1583 - electricity_sold_1583
+          - curtailment_1583 = -417408 
 R6486: - battery_charge_1584 + battery_discharge_1584
-          - hydrogen_electricity_1584 - electricity_sold_1584 = -477312 
+          - hydrogen_electricity_1584 - electricity_sold_1584
+          - curtailment_1584 = -477312 
 R6487: - battery_charge_1585 + battery_discharge_1585
-          - hydrogen_electricity_1585 - electricity_sold_1585 = -460824 
+          - hydrogen_electricity_1585 - electricity_sold_1585
+          - curtailment_1585 = -460824 
 R6488: - battery_charge_1586 + battery_discharge_1586
-          - hydrogen_electricity_1586 - electricity_sold_1586 = -457848 
+          - hydrogen_electricity_1586 - electricity_sold_1586
+          - curtailment_1586 = -457848 
 R6489: - battery_charge_1587 + battery_discharge_1587
-          - hydrogen_electricity_1587 - electricity_sold_1587 = -496272 
+          - hydrogen_electricity_1587 - electricity_sold_1587
+          - curtailment_1587 = -496272 
 R6490: - battery_charge_1588 + battery_discharge_1588
-          - hydrogen_electricity_1588 - electricity_sold_1588 = -545568 
+          - hydrogen_electricity_1588 - electricity_sold_1588
+          - curtailment_1588 = -545568 
 R6491: - battery_charge_1589 + battery_discharge_1589
-          - hydrogen_electricity_1589 - electricity_sold_1589 = -561096 
+          - hydrogen_electricity_1589 - electricity_sold_1589
+          - curtailment_1589 = -561096 
 R6492: - battery_charge_1590 + battery_discharge_1590
-          - hydrogen_electricity_1590 - electricity_sold_1590 = -517224 
+          - hydrogen_electricity_1590 - electricity_sold_1590
+          - curtailment_1590 = -517224 
 R6493: - battery_charge_1591 + battery_discharge_1591
-          - hydrogen_electricity_1591 - electricity_sold_1591 = -523728 
+          - hydrogen_electricity_1591 - electricity_sold_1591
+          - curtailment_1591 = -523728 
 R6494: - battery_charge_1592 + battery_discharge_1592
-          - hydrogen_electricity_1592 - electricity_sold_1592 = -414864 
+          - hydrogen_electricity_1592 - electricity_sold_1592
+          - curtailment_1592 = -414864 
 R6495: - battery_charge_1593 + battery_discharge_1593
-          - hydrogen_electricity_1593 - electricity_sold_1593 = -394368 
+          - hydrogen_electricity_1593 - electricity_sold_1593
+          - curtailment_1593 = -394368 
 R6496: - battery_charge_1594 + battery_discharge_1594
-          - hydrogen_electricity_1594 - electricity_sold_1594 = -457224 
+          - hydrogen_electricity_1594 - electricity_sold_1594
+          - curtailment_1594 = -457224 
 R6497: - battery_charge_1595 + battery_discharge_1595
-          - hydrogen_electricity_1595 - electricity_sold_1595 = -462000 
+          - hydrogen_electricity_1595 - electricity_sold_1595
+          - curtailment_1595 = -462000 
 R6498: - battery_charge_1596 + battery_discharge_1596
-          - hydrogen_electricity_1596 - electricity_sold_1596 = -524640 
+          - hydrogen_electricity_1596 - electricity_sold_1596
+          - curtailment_1596 = -524640 
 R6499: - battery_charge_1597 + battery_discharge_1597
-          - hydrogen_electricity_1597 - electricity_sold_1597 = -517200 
+          - hydrogen_electricity_1597 - electricity_sold_1597
+          - curtailment_1597 = -517200 
 R6500: - battery_charge_1598 + battery_discharge_1598
-          - hydrogen_electricity_1598 - electricity_sold_1598 = -507456 
+          - hydrogen_electricity_1598 - electricity_sold_1598
+          - curtailment_1598 = -507456 
 R6501: - battery_charge_1599 + battery_discharge_1599
-          - hydrogen_electricity_1599 - electricity_sold_1599 = -428928 
+          - hydrogen_electricity_1599 - electricity_sold_1599
+          - curtailment_1599 = -428928 
 R6502: - battery_charge_1600 + battery_discharge_1600
-          - hydrogen_electricity_1600 - electricity_sold_1600 = -397368 
+          - hydrogen_electricity_1600 - electricity_sold_1600
+          - curtailment_1600 = -397368 
 R6503: - battery_charge_1601 + battery_discharge_1601
-          - hydrogen_electricity_1601 - electricity_sold_1601 = -480864 
+          - hydrogen_electricity_1601 - electricity_sold_1601
+          - curtailment_1601 = -480864 
 R6504: - battery_charge_1602 + battery_discharge_1602
-          - hydrogen_electricity_1602 - electricity_sold_1602 = -499104 
+          - hydrogen_electricity_1602 - electricity_sold_1602
+          - curtailment_1602 = -499104 
 R6505: - battery_charge_1603 + battery_discharge_1603
-          - hydrogen_electricity_1603 - electricity_sold_1603 = -418512 
+          - hydrogen_electricity_1603 - electricity_sold_1603
+          - curtailment_1603 = -418512 
 R6506: - battery_charge_1604 + battery_discharge_1604
-          - hydrogen_electricity_1604 - electricity_sold_1604 = -428976 
+          - hydrogen_electricity_1604 - electricity_sold_1604
+          - curtailment_1604 = -428976 
 R6507: - battery_charge_1605 + battery_discharge_1605
-          - hydrogen_electricity_1605 - electricity_sold_1605 = -520752 
+          - hydrogen_electricity_1605 - electricity_sold_1605
+          - curtailment_1605 = -520752 
 R6508: - battery_charge_1606 + battery_discharge_1606
-          - hydrogen_electricity_1606 - electricity_sold_1606 = -400152 
+          - hydrogen_electricity_1606 - electricity_sold_1606
+          - curtailment_1606 = -400152 
 R6509: - battery_charge_1607 + battery_discharge_1607
-          - hydrogen_electricity_1607 - electricity_sold_1607 = -362760 
+          - hydrogen_electricity_1607 - electricity_sold_1607
+          - curtailment_1607 = -362760 
 R6510: - battery_charge_1608 + battery_discharge_1608
-          - hydrogen_electricity_1608 - electricity_sold_1608 = -405936 
+          - hydrogen_electricity_1608 - electricity_sold_1608
+          - curtailment_1608 = -405936 
 R6511: - battery_charge_1609 + battery_discharge_1609
-          - hydrogen_electricity_1609 - electricity_sold_1609 = -418272 
+          - hydrogen_electricity_1609 - electricity_sold_1609
+          - curtailment_1609 = -418272 
 R6512: - battery_charge_1610 + battery_discharge_1610
-          - hydrogen_electricity_1610 - electricity_sold_1610 = -435984 
+          - hydrogen_electricity_1610 - electricity_sold_1610
+          - curtailment_1610 = -435984 
 R6513: - battery_charge_1611 + battery_discharge_1611
-          - hydrogen_electricity_1611 - electricity_sold_1611 = -390816 
+          - hydrogen_electricity_1611 - electricity_sold_1611
+          - curtailment_1611 = -390816 
 R6514: - battery_charge_1612 + battery_discharge_1612
-          - hydrogen_electricity_1612 - electricity_sold_1612 = -375600 
+          - hydrogen_electricity_1612 - electricity_sold_1612
+          - curtailment_1612 = -375600 
 R6515: - battery_charge_1613 + battery_discharge_1613
-          - hydrogen_electricity_1613 - electricity_sold_1613 = -333864 
+          - hydrogen_electricity_1613 - electricity_sold_1613
+          - curtailment_1613 = -333864 
 R6516: - battery_charge_1614 + battery_discharge_1614
-          - hydrogen_electricity_1614 - electricity_sold_1614 = -391176 
+          - hydrogen_electricity_1614 - electricity_sold_1614
+          - curtailment_1614 = -391176 
 R6517: - battery_charge_1615 + battery_discharge_1615
-          - hydrogen_electricity_1615 - electricity_sold_1615 = -498480 
+          - hydrogen_electricity_1615 - electricity_sold_1615
+          - curtailment_1615 = -498480 
 R6518: - battery_charge_1616 + battery_discharge_1616
-          - hydrogen_electricity_1616 - electricity_sold_1616 = -391776 
+          - hydrogen_electricity_1616 - electricity_sold_1616
+          - curtailment_1616 = -391776 
 R6519: - battery_charge_1617 + battery_discharge_1617
-          - hydrogen_electricity_1617 - electricity_sold_1617 = -409632 
+          - hydrogen_electricity_1617 - electricity_sold_1617
+          - curtailment_1617 = -409632 
 R6520: - battery_charge_1618 + battery_discharge_1618
-          - hydrogen_electricity_1618 - electricity_sold_1618 = -441216 
+          - hydrogen_electricity_1618 - electricity_sold_1618
+          - curtailment_1618 = -441216 
 R6521: - battery_charge_1619 + battery_discharge_1619
-          - hydrogen_electricity_1619 - electricity_sold_1619 = -419664 
+          - hydrogen_electricity_1619 - electricity_sold_1619
+          - curtailment_1619 = -419664 
 R6522: - battery_charge_1620 + battery_discharge_1620
-          - hydrogen_electricity_1620 - electricity_sold_1620 = -395472 
+          - hydrogen_electricity_1620 - electricity_sold_1620
+          - curtailment_1620 = -395472 
 R6523: - battery_charge_1621 + battery_discharge_1621
-          - hydrogen_electricity_1621 - electricity_sold_1621 = -388440 
+          - hydrogen_electricity_1621 - electricity_sold_1621
+          - curtailment_1621 = -388440 
 R6524: - battery_charge_1622 + battery_discharge_1622
-          - hydrogen_electricity_1622 - electricity_sold_1622 = -417384 
+          - hydrogen_electricity_1622 - electricity_sold_1622
+          - curtailment_1622 = -417384 
 R6525: - battery_charge_1623 + battery_discharge_1623
-          - hydrogen_electricity_1623 - electricity_sold_1623 = -441984 
+          - hydrogen_electricity_1623 - electricity_sold_1623
+          - curtailment_1623 = -441984 
 R6526: - battery_charge_1624 + battery_discharge_1624
-          - hydrogen_electricity_1624 - electricity_sold_1624 = -523920 
+          - hydrogen_electricity_1624 - electricity_sold_1624
+          - curtailment_1624 = -523920 
 R6527: - battery_charge_1625 + battery_discharge_1625
-          - hydrogen_electricity_1625 - electricity_sold_1625 = -462480 
+          - hydrogen_electricity_1625 - electricity_sold_1625
+          - curtailment_1625 = -462480 
 R6528: - battery_charge_1626 + battery_discharge_1626
-          - hydrogen_electricity_1626 - electricity_sold_1626 = -429168 
+          - hydrogen_electricity_1626 - electricity_sold_1626
+          - curtailment_1626 = -429168 
 R6529: - battery_charge_1627 + battery_discharge_1627
-          - hydrogen_electricity_1627 - electricity_sold_1627 = -393336 
+          - hydrogen_electricity_1627 - electricity_sold_1627
+          - curtailment_1627 = -393336 
 R6530: - battery_charge_1628 + battery_discharge_1628
-          - hydrogen_electricity_1628 - electricity_sold_1628 = -364560 
+          - hydrogen_electricity_1628 - electricity_sold_1628
+          - curtailment_1628 = -364560 
 R6531: - battery_charge_1629 + battery_discharge_1629
-          - hydrogen_electricity_1629 - electricity_sold_1629 = -474792 
+          - hydrogen_electricity_1629 - electricity_sold_1629
+          - curtailment_1629 = -474792 
 R6532: - battery_charge_1630 + battery_discharge_1630
-          - hydrogen_electricity_1630 - electricity_sold_1630 = -502008 
+          - hydrogen_electricity_1630 - electricity_sold_1630
+          - curtailment_1630 = -502008 
 R6533: - battery_charge_1631 + battery_discharge_1631
-          - hydrogen_electricity_1631 - electricity_sold_1631 = -477240 
+          - hydrogen_electricity_1631 - electricity_sold_1631
+          - curtailment_1631 = -477240 
 R6534: - battery_charge_1632 + battery_discharge_1632
-          - hydrogen_electricity_1632 - electricity_sold_1632 = -513288 
+          - hydrogen_electricity_1632 - electricity_sold_1632
+          - curtailment_1632 = -513288 
 R6535: - battery_charge_1633 + battery_discharge_1633
-          - hydrogen_electricity_1633 - electricity_sold_1633 = -451776 
+          - hydrogen_electricity_1633 - electricity_sold_1633
+          - curtailment_1633 = -451776 
 R6536: - battery_charge_1634 + battery_discharge_1634
-          - hydrogen_electricity_1634 - electricity_sold_1634 = -389736 
+          - hydrogen_electricity_1634 - electricity_sold_1634
+          - curtailment_1634 = -389736 
 R6537: - battery_charge_1635 + battery_discharge_1635
-          - hydrogen_electricity_1635 - electricity_sold_1635 = -409752 
+          - hydrogen_electricity_1635 - electricity_sold_1635
+          - curtailment_1635 = -409752 
 R6538: - battery_charge_1636 + battery_discharge_1636
-          - hydrogen_electricity_1636 - electricity_sold_1636 = -505536 
+          - hydrogen_electricity_1636 - electricity_sold_1636
+          - curtailment_1636 = -505536 
 R6539: - battery_charge_1637 + battery_discharge_1637
-          - hydrogen_electricity_1637 - electricity_sold_1637 = -532584 
+          - hydrogen_electricity_1637 - electricity_sold_1637
+          - curtailment_1637 = -532584 
 R6540: - battery_charge_1638 + battery_discharge_1638
-          - hydrogen_electricity_1638 - electricity_sold_1638 = -535992 
+          - hydrogen_electricity_1638 - electricity_sold_1638
+          - curtailment_1638 = -535992 
 R6541: - battery_charge_1639 + battery_discharge_1639
-          - hydrogen_electricity_1639 - electricity_sold_1639 = -465672 
+          - hydrogen_electricity_1639 - electricity_sold_1639
+          - curtailment_1639 = -465672 
 R6542: - battery_charge_1640 + battery_discharge_1640
-          - hydrogen_electricity_1640 - electricity_sold_1640 = -454392 
+          - hydrogen_electricity_1640 - electricity_sold_1640
+          - curtailment_1640 = -454392 
 R6543: - battery_charge_1641 + battery_discharge_1641
-          - hydrogen_electricity_1641 - electricity_sold_1641 = -407712 
+          - hydrogen_electricity_1641 - electricity_sold_1641
+          - curtailment_1641 = -407712 
 R6544: - battery_charge_1642 + battery_discharge_1642
-          - hydrogen_electricity_1642 - electricity_sold_1642 = -386472 
+          - hydrogen_electricity_1642 - electricity_sold_1642
+          - curtailment_1642 = -386472 
 R6545: - battery_charge_1643 + battery_discharge_1643
-          - hydrogen_electricity_1643 - electricity_sold_1643 = -429024 
+          - hydrogen_electricity_1643 - electricity_sold_1643
+          - curtailment_1643 = -429024 
 R6546: - battery_charge_1644 + battery_discharge_1644
-          - hydrogen_electricity_1644 - electricity_sold_1644 = -460608 
+          - hydrogen_electricity_1644 - electricity_sold_1644
+          - curtailment_1644 = -460608 
 R6547: - battery_charge_1645 + battery_discharge_1645
-          - hydrogen_electricity_1645 - electricity_sold_1645 = -441840 
+          - hydrogen_electricity_1645 - electricity_sold_1645
+          - curtailment_1645 = -441840 
 R6548: - battery_charge_1646 + battery_discharge_1646
-          - hydrogen_electricity_1646 - electricity_sold_1646 = -454128 
+          - hydrogen_electricity_1646 - electricity_sold_1646
+          - curtailment_1646 = -454128 
 R6549: - battery_charge_1647 + battery_discharge_1647
-          - hydrogen_electricity_1647 - electricity_sold_1647 = -435960 
+          - hydrogen_electricity_1647 - electricity_sold_1647
+          - curtailment_1647 = -435960 
 R6550: - battery_charge_1648 + battery_discharge_1648
-          - hydrogen_electricity_1648 - electricity_sold_1648 = -365280 
+          - hydrogen_electricity_1648 - electricity_sold_1648
+          - curtailment_1648 = -365280 
 R6551: - battery_charge_1649 + battery_discharge_1649
-          - hydrogen_electricity_1649 - electricity_sold_1649 = -382416 
+          - hydrogen_electricity_1649 - electricity_sold_1649
+          - curtailment_1649 = -382416 
 R6552: - battery_charge_1650 + battery_discharge_1650
-          - hydrogen_electricity_1650 - electricity_sold_1650 = -517032 
+          - hydrogen_electricity_1650 - electricity_sold_1650
+          - curtailment_1650 = -517032 
 R6553: - battery_charge_1651 + battery_discharge_1651
-          - hydrogen_electricity_1651 - electricity_sold_1651 = -403176 
+          - hydrogen_electricity_1651 - electricity_sold_1651
+          - curtailment_1651 = -403176 
 R6554: - battery_charge_1652 + battery_discharge_1652
-          - hydrogen_electricity_1652 - electricity_sold_1652 = -419832 
+          - hydrogen_electricity_1652 - electricity_sold_1652
+          - curtailment_1652 = -419832 
 R6555: - battery_charge_1653 + battery_discharge_1653
-          - hydrogen_electricity_1653 - electricity_sold_1653 = -455856 
+          - hydrogen_electricity_1653 - electricity_sold_1653
+          - curtailment_1653 = -455856 
 R6556: - battery_charge_1654 + battery_discharge_1654
-          - hydrogen_electricity_1654 - electricity_sold_1654 = -435480 
+          - hydrogen_electricity_1654 - electricity_sold_1654
+          - curtailment_1654 = -435480 
 R6557: - battery_charge_1655 + battery_discharge_1655
-          - hydrogen_electricity_1655 - electricity_sold_1655 = -365496 
+          - hydrogen_electricity_1655 - electricity_sold_1655
+          - curtailment_1655 = -365496 
 R6558: - battery_charge_1656 + battery_discharge_1656
-          - hydrogen_electricity_1656 - electricity_sold_1656 = -364464 
+          - hydrogen_electricity_1656 - electricity_sold_1656
+          - curtailment_1656 = -364464 
 R6559: - battery_charge_1657 + battery_discharge_1657
-          - hydrogen_electricity_1657 - electricity_sold_1657 = -499656 
+          - hydrogen_electricity_1657 - electricity_sold_1657
+          - curtailment_1657 = -499656 
 R6560: - battery_charge_1658 + battery_discharge_1658
-          - hydrogen_electricity_1658 - electricity_sold_1658 = -459840 
+          - hydrogen_electricity_1658 - electricity_sold_1658
+          - curtailment_1658 = -459840 
 R6561: - battery_charge_1659 + battery_discharge_1659
-          - hydrogen_electricity_1659 - electricity_sold_1659 = -511632 
+          - hydrogen_electricity_1659 - electricity_sold_1659
+          - curtailment_1659 = -511632 
 R6562: - battery_charge_1660 + battery_discharge_1660
-          - hydrogen_electricity_1660 - electricity_sold_1660 = -489960 
+          - hydrogen_electricity_1660 - electricity_sold_1660
+          - curtailment_1660 = -489960 
 R6563: - battery_charge_1661 + battery_discharge_1661
-          - hydrogen_electricity_1661 - electricity_sold_1661 = -465528 
+          - hydrogen_electricity_1661 - electricity_sold_1661
+          - curtailment_1661 = -465528 
 R6564: - battery_charge_1662 + battery_discharge_1662
-          - hydrogen_electricity_1662 - electricity_sold_1662 = -403296 
+          - hydrogen_electricity_1662 - electricity_sold_1662
+          - curtailment_1662 = -403296 
 R6565: - battery_charge_1663 + battery_discharge_1663
-          - hydrogen_electricity_1663 - electricity_sold_1663 = -385176 
+          - hydrogen_electricity_1663 - electricity_sold_1663
+          - curtailment_1663 = -385176 
 R6566: - battery_charge_1664 + battery_discharge_1664
-          - hydrogen_electricity_1664 - electricity_sold_1664 = -444960 
+          - hydrogen_electricity_1664 - electricity_sold_1664
+          - curtailment_1664 = -444960 
 R6567: - battery_charge_1665 + battery_discharge_1665
-          - hydrogen_electricity_1665 - electricity_sold_1665 = -488064 
+          - hydrogen_electricity_1665 - electricity_sold_1665
+          - curtailment_1665 = -488064 
 R6568: - battery_charge_1666 + battery_discharge_1666
-          - hydrogen_electricity_1666 - electricity_sold_1666 = -486816 
+          - hydrogen_electricity_1666 - electricity_sold_1666
+          - curtailment_1666 = -486816 
 R6569: - battery_charge_1667 + battery_discharge_1667
-          - hydrogen_electricity_1667 - electricity_sold_1667 = -419976 
+          - hydrogen_electricity_1667 - electricity_sold_1667
+          - curtailment_1667 = -419976 
 R6570: - battery_charge_1668 + battery_discharge_1668
-          - hydrogen_electricity_1668 - electricity_sold_1668 = -464928 
+          - hydrogen_electricity_1668 - electricity_sold_1668
+          - curtailment_1668 = -464928 
 R6571: - battery_charge_1669 + battery_discharge_1669
-          - hydrogen_electricity_1669 - electricity_sold_1669 = -455208 
+          - hydrogen_electricity_1669 - electricity_sold_1669
+          - curtailment_1669 = -455208 
 R6572: - battery_charge_1670 + battery_discharge_1670
-          - hydrogen_electricity_1670 - electricity_sold_1670 = -412488 
+          - hydrogen_electricity_1670 - electricity_sold_1670
+          - curtailment_1670 = -412488 
 R6573: - battery_charge_1671 + battery_discharge_1671
-          - hydrogen_electricity_1671 - electricity_sold_1671 = -456120 
+          - hydrogen_electricity_1671 - electricity_sold_1671
+          - curtailment_1671 = -456120 
 R6574: - battery_charge_1672 + battery_discharge_1672
-          - hydrogen_electricity_1672 - electricity_sold_1672 = -515352 
+          - hydrogen_electricity_1672 - electricity_sold_1672
+          - curtailment_1672 = -515352 
 R6575: - battery_charge_1673 + battery_discharge_1673
-          - hydrogen_electricity_1673 - electricity_sold_1673 = -520800 
+          - hydrogen_electricity_1673 - electricity_sold_1673
+          - curtailment_1673 = -520800 
 R6576: - battery_charge_1674 + battery_discharge_1674
-          - hydrogen_electricity_1674 - electricity_sold_1674 = -533736 
+          - hydrogen_electricity_1674 - electricity_sold_1674
+          - curtailment_1674 = -533736 
 R6577: - battery_charge_1675 + battery_discharge_1675
-          - hydrogen_electricity_1675 - electricity_sold_1675 = -451944 
+          - hydrogen_electricity_1675 - electricity_sold_1675
+          - curtailment_1675 = -451944 
 R6578: - battery_charge_1676 + battery_discharge_1676
-          - hydrogen_electricity_1676 - electricity_sold_1676 = -411024 
+          - hydrogen_electricity_1676 - electricity_sold_1676
+          - curtailment_1676 = -411024 
 R6579: - battery_charge_1677 + battery_discharge_1677
-          - hydrogen_electricity_1677 - electricity_sold_1677 = -365496 
+          - hydrogen_electricity_1677 - electricity_sold_1677
+          - curtailment_1677 = -365496 
 R6580: - battery_charge_1678 + battery_discharge_1678
-          - hydrogen_electricity_1678 - electricity_sold_1678 = -429864 
+          - hydrogen_electricity_1678 - electricity_sold_1678
+          - curtailment_1678 = -429864 
 R6581: - battery_charge_1679 + battery_discharge_1679
-          - hydrogen_electricity_1679 - electricity_sold_1679 = -458592 
+          - hydrogen_electricity_1679 - electricity_sold_1679
+          - curtailment_1679 = -458592 
 R6582: - battery_charge_1680 + battery_discharge_1680
-          - hydrogen_electricity_1680 - electricity_sold_1680 = -409320 
+          - hydrogen_electricity_1680 - electricity_sold_1680
+          - curtailment_1680 = -409320 
 R6583: - battery_charge_1681 + battery_discharge_1681
-          - hydrogen_electricity_1681 - electricity_sold_1681 = -406632 
+          - hydrogen_electricity_1681 - electricity_sold_1681
+          - curtailment_1681 = -406632 
 R6584: - battery_charge_1682 + battery_discharge_1682
-          - hydrogen_electricity_1682 - electricity_sold_1682 = -460080 
+          - hydrogen_electricity_1682 - electricity_sold_1682
+          - curtailment_1682 = -460080 
 R6585: - battery_charge_1683 + battery_discharge_1683
-          - hydrogen_electricity_1683 - electricity_sold_1683 = -415656 
+          - hydrogen_electricity_1683 - electricity_sold_1683
+          - curtailment_1683 = -415656 
 R6586: - battery_charge_1684 + battery_discharge_1684
-          - hydrogen_electricity_1684 - electricity_sold_1684 = -408360 
+          - hydrogen_electricity_1684 - electricity_sold_1684
+          - curtailment_1684 = -408360 
 R6587: - battery_charge_1685 + battery_discharge_1685
-          - hydrogen_electricity_1685 - electricity_sold_1685 = -471024 
+          - hydrogen_electricity_1685 - electricity_sold_1685
+          - curtailment_1685 = -471024 
 R6588: - battery_charge_1686 + battery_discharge_1686
-          - hydrogen_electricity_1686 - electricity_sold_1686 = -503472 
+          - hydrogen_electricity_1686 - electricity_sold_1686
+          - curtailment_1686 = -503472 
 R6589: - battery_charge_1687 + battery_discharge_1687
-          - hydrogen_electricity_1687 - electricity_sold_1687 = -529896 
+          - hydrogen_electricity_1687 - electricity_sold_1687
+          - curtailment_1687 = -529896 
 R6590: - battery_charge_1688 + battery_discharge_1688
-          - hydrogen_electricity_1688 - electricity_sold_1688 = -426552 
+          - hydrogen_electricity_1688 - electricity_sold_1688
+          - curtailment_1688 = -426552 
 R6591: - battery_charge_1689 + battery_discharge_1689
-          - hydrogen_electricity_1689 - electricity_sold_1689 = -509784 
+          - hydrogen_electricity_1689 - electricity_sold_1689
+          - curtailment_1689 = -509784 
 R6592: - battery_charge_1690 + battery_discharge_1690
-          - hydrogen_electricity_1690 - electricity_sold_1690 = -457200 
+          - hydrogen_electricity_1690 - electricity_sold_1690
+          - curtailment_1690 = -457200 
 R6593: - battery_charge_1691 + battery_discharge_1691
-          - hydrogen_electricity_1691 - electricity_sold_1691 = -420864 
+          - hydrogen_electricity_1691 - electricity_sold_1691
+          - curtailment_1691 = -420864 
 R6594: - battery_charge_1692 + battery_discharge_1692
-          - hydrogen_electricity_1692 - electricity_sold_1692 = -438768 
+          - hydrogen_electricity_1692 - electricity_sold_1692
+          - curtailment_1692 = -438768 
 R6595: - battery_charge_1693 + battery_discharge_1693
-          - hydrogen_electricity_1693 - electricity_sold_1693 = -444576 
+          - hydrogen_electricity_1693 - electricity_sold_1693
+          - curtailment_1693 = -444576 
 R6596: - battery_charge_1694 + battery_discharge_1694
-          - hydrogen_electricity_1694 - electricity_sold_1694 = -430464 
+          - hydrogen_electricity_1694 - electricity_sold_1694
+          - curtailment_1694 = -430464 
 R6597: - battery_charge_1695 + battery_discharge_1695
-          - hydrogen_electricity_1695 - electricity_sold_1695 = -452304 
+          - hydrogen_electricity_1695 - electricity_sold_1695
+          - curtailment_1695 = -452304 
 R6598: - battery_charge_1696 + battery_discharge_1696
-          - hydrogen_electricity_1696 - electricity_sold_1696 = -441048 
+          - hydrogen_electricity_1696 - electricity_sold_1696
+          - curtailment_1696 = -441048 
 R6599: - battery_charge_1697 + battery_discharge_1697
-          - hydrogen_electricity_1697 - electricity_sold_1697 = -381504 
+          - hydrogen_electricity_1697 - electricity_sold_1697
+          - curtailment_1697 = -381504 
 R6600: - battery_charge_1698 + battery_discharge_1698
-          - hydrogen_electricity_1698 - electricity_sold_1698 = -400056 
+          - hydrogen_electricity_1698 - electricity_sold_1698
+          - curtailment_1698 = -400056 
 R6601: - battery_charge_1699 + battery_discharge_1699
-          - hydrogen_electricity_1699 - electricity_sold_1699 = -420360 
+          - hydrogen_electricity_1699 - electricity_sold_1699
+          - curtailment_1699 = -420360 
 R6602: - battery_charge_1700 + battery_discharge_1700
-          - hydrogen_electricity_1700 - electricity_sold_1700 = -491040 
+          - hydrogen_electricity_1700 - electricity_sold_1700
+          - curtailment_1700 = -491040 
 R6603: - battery_charge_1701 + battery_discharge_1701
-          - hydrogen_electricity_1701 - electricity_sold_1701 = -495216 
+          - hydrogen_electricity_1701 - electricity_sold_1701
+          - curtailment_1701 = -495216 
 R6604: - battery_charge_1702 + battery_discharge_1702
-          - hydrogen_electricity_1702 - electricity_sold_1702 = -474744 
+          - hydrogen_electricity_1702 - electricity_sold_1702
+          - curtailment_1702 = -474744 
 R6605: - battery_charge_1703 + battery_discharge_1703
-          - hydrogen_electricity_1703 - electricity_sold_1703 = -526056 
+          - hydrogen_electricity_1703 - electricity_sold_1703
+          - curtailment_1703 = -526056 
 R6606: - battery_charge_1704 + battery_discharge_1704
-          - hydrogen_electricity_1704 - electricity_sold_1704 = -363792 
+          - hydrogen_electricity_1704 - electricity_sold_1704
+          - curtailment_1704 = -363792 
 R6607: - battery_charge_1705 + battery_discharge_1705
-          - hydrogen_electricity_1705 - electricity_sold_1705 = -397368 
+          - hydrogen_electricity_1705 - electricity_sold_1705
+          - curtailment_1705 = -397368 
 R6608: - battery_charge_1706 + battery_discharge_1706
-          - hydrogen_electricity_1706 - electricity_sold_1706 = -529008 
+          - hydrogen_electricity_1706 - electricity_sold_1706
+          - curtailment_1706 = -529008 
 R6609: - battery_charge_1707 + battery_discharge_1707
-          - hydrogen_electricity_1707 - electricity_sold_1707 = -580056 
+          - hydrogen_electricity_1707 - electricity_sold_1707
+          - curtailment_1707 = -580056 
 R6610: - battery_charge_1708 + battery_discharge_1708
-          - hydrogen_electricity_1708 - electricity_sold_1708 = -585288 
+          - hydrogen_electricity_1708 - electricity_sold_1708
+          - curtailment_1708 = -585288 
 R6611: - battery_charge_1709 + battery_discharge_1709
-          - hydrogen_electricity_1709 - electricity_sold_1709 = -406080 
+          - hydrogen_electricity_1709 - electricity_sold_1709
+          - curtailment_1709 = -406080 
 R6612: - battery_charge_1710 + battery_discharge_1710
-          - hydrogen_electricity_1710 - electricity_sold_1710 = -460776 
+          - hydrogen_electricity_1710 - electricity_sold_1710
+          - curtailment_1710 = -460776 
 R6613: - battery_charge_1711 + battery_discharge_1711
-          - hydrogen_electricity_1711 - electricity_sold_1711 = -462936 
+          - hydrogen_electricity_1711 - electricity_sold_1711
+          - curtailment_1711 = -462936 
 R6614: - battery_charge_1712 + battery_discharge_1712
-          - hydrogen_electricity_1712 - electricity_sold_1712 = -389424 
+          - hydrogen_electricity_1712 - electricity_sold_1712
+          - curtailment_1712 = -389424 
 R6615: - battery_charge_1713 + battery_discharge_1713
-          - hydrogen_electricity_1713 - electricity_sold_1713 = -457632 
+          - hydrogen_electricity_1713 - electricity_sold_1713
+          - curtailment_1713 = -457632 
 R6616: - battery_charge_1714 + battery_discharge_1714
-          - hydrogen_electricity_1714 - electricity_sold_1714 = -457488 
+          - hydrogen_electricity_1714 - electricity_sold_1714
+          - curtailment_1714 = -457488 
 R6617: - battery_charge_1715 + battery_discharge_1715
-          - hydrogen_electricity_1715 - electricity_sold_1715 = -463464 
+          - hydrogen_electricity_1715 - electricity_sold_1715
+          - curtailment_1715 = -463464 
 R6618: - battery_charge_1716 + battery_discharge_1716
-          - hydrogen_electricity_1716 - electricity_sold_1716 = -513528 
+          - hydrogen_electricity_1716 - electricity_sold_1716
+          - curtailment_1716 = -513528 
 R6619: - battery_charge_1717 + battery_discharge_1717
-          - hydrogen_electricity_1717 - electricity_sold_1717 = -495552 
+          - hydrogen_electricity_1717 - electricity_sold_1717
+          - curtailment_1717 = -495552 
 R6620: - battery_charge_1718 + battery_discharge_1718
-          - hydrogen_electricity_1718 - electricity_sold_1718 = -419424 
+          - hydrogen_electricity_1718 - electricity_sold_1718
+          - curtailment_1718 = -419424 
 R6621: - battery_charge_1719 + battery_discharge_1719
-          - hydrogen_electricity_1719 - electricity_sold_1719 = -403344 
+          - hydrogen_electricity_1719 - electricity_sold_1719
+          - curtailment_1719 = -403344 
 R6622: - battery_charge_1720 + battery_discharge_1720
-          - hydrogen_electricity_1720 - electricity_sold_1720 = -530736 
+          - hydrogen_electricity_1720 - electricity_sold_1720
+          - curtailment_1720 = -530736 
 R6623: - battery_charge_1721 + battery_discharge_1721
-          - hydrogen_electricity_1721 - electricity_sold_1721 = -502848 
+          - hydrogen_electricity_1721 - electricity_sold_1721
+          - curtailment_1721 = -502848 
 R6624: - battery_charge_1722 + battery_discharge_1722
-          - hydrogen_electricity_1722 - electricity_sold_1722 = -490944 
+          - hydrogen_electricity_1722 - electricity_sold_1722
+          - curtailment_1722 = -490944 
 R6625: - battery_charge_1723 + battery_discharge_1723
-          - hydrogen_electricity_1723 - electricity_sold_1723 = -517320 
+          - hydrogen_electricity_1723 - electricity_sold_1723
+          - curtailment_1723 = -517320 
 R6626: - battery_charge_1724 + battery_discharge_1724
-          - hydrogen_electricity_1724 - electricity_sold_1724 = -450552 
+          - hydrogen_electricity_1724 - electricity_sold_1724
+          - curtailment_1724 = -450552 
 R6627: - battery_charge_1725 + battery_discharge_1725
-          - hydrogen_electricity_1725 - electricity_sold_1725 = -426048 
+          - hydrogen_electricity_1725 - electricity_sold_1725
+          - curtailment_1725 = -426048 
 R6628: - battery_charge_1726 + battery_discharge_1726
-          - hydrogen_electricity_1726 - electricity_sold_1726 = -468144 
+          - hydrogen_electricity_1726 - electricity_sold_1726
+          - curtailment_1726 = -468144 
 R6629: - battery_charge_1727 + battery_discharge_1727
-          - hydrogen_electricity_1727 - electricity_sold_1727 = -555624 
+          - hydrogen_electricity_1727 - electricity_sold_1727
+          - curtailment_1727 = -555624 
 R6630: - battery_charge_1728 + battery_discharge_1728
-          - hydrogen_electricity_1728 - electricity_sold_1728 = -498144 
+          - hydrogen_electricity_1728 - electricity_sold_1728
+          - curtailment_1728 = -498144 
 R6631: - battery_charge_1729 + battery_discharge_1729
-          - hydrogen_electricity_1729 - electricity_sold_1729 = -548592 
+          - hydrogen_electricity_1729 - electricity_sold_1729
+          - curtailment_1729 = -548592 
 R6632: - battery_charge_1730 + battery_discharge_1730
-          - hydrogen_electricity_1730 - electricity_sold_1730 = -460104 
+          - hydrogen_electricity_1730 - electricity_sold_1730
+          - curtailment_1730 = -460104 
 R6633: - battery_charge_1731 + battery_discharge_1731
-          - hydrogen_electricity_1731 - electricity_sold_1731 = -425688 
+          - hydrogen_electricity_1731 - electricity_sold_1731
+          - curtailment_1731 = -425688 
 R6634: - battery_charge_1732 + battery_discharge_1732
-          - hydrogen_electricity_1732 - electricity_sold_1732 = -444240 
+          - hydrogen_electricity_1732 - electricity_sold_1732
+          - curtailment_1732 = -444240 
 R6635: - battery_charge_1733 + battery_discharge_1733
-          - hydrogen_electricity_1733 - electricity_sold_1733 = -380400 
+          - hydrogen_electricity_1733 - electricity_sold_1733
+          - curtailment_1733 = -380400 
 R6636: - battery_charge_1734 + battery_discharge_1734
-          - hydrogen_electricity_1734 - electricity_sold_1734 = -438456 
+          - hydrogen_electricity_1734 - electricity_sold_1734
+          - curtailment_1734 = -438456 
 R6637: - battery_charge_1735 + battery_discharge_1735
-          - hydrogen_electricity_1735 - electricity_sold_1735 = -443568 
+          - hydrogen_electricity_1735 - electricity_sold_1735
+          - curtailment_1735 = -443568 
 R6638: - battery_charge_1736 + battery_discharge_1736
-          - hydrogen_electricity_1736 - electricity_sold_1736 = -478896 
+          - hydrogen_electricity_1736 - electricity_sold_1736
+          - curtailment_1736 = -478896 
 R6639: - battery_charge_1737 + battery_discharge_1737
-          - hydrogen_electricity_1737 - electricity_sold_1737 = -520248 
+          - hydrogen_electricity_1737 - electricity_sold_1737
+          - curtailment_1737 = -520248 
 R6640: - battery_charge_1738 + battery_discharge_1738
-          - hydrogen_electricity_1738 - electricity_sold_1738 = -518640 
+          - hydrogen_electricity_1738 - electricity_sold_1738
+          - curtailment_1738 = -518640 
 R6641: - battery_charge_1739 + battery_discharge_1739
-          - hydrogen_electricity_1739 - electricity_sold_1739 = -422808 
+          - hydrogen_electricity_1739 - electricity_sold_1739
+          - curtailment_1739 = -422808 
 R6642: - battery_charge_1740 + battery_discharge_1740
-          - hydrogen_electricity_1740 - electricity_sold_1740 = -377976 
+          - hydrogen_electricity_1740 - electricity_sold_1740
+          - curtailment_1740 = -377976 
 R6643: - battery_charge_1741 + battery_discharge_1741
-          - hydrogen_electricity_1741 - electricity_sold_1741 = -491136 
+          - hydrogen_electricity_1741 - electricity_sold_1741
+          - curtailment_1741 = -491136 
 R6644: - battery_charge_1742 + battery_discharge_1742
-          - hydrogen_electricity_1742 - electricity_sold_1742 = -495888 
+          - hydrogen_electricity_1742 - electricity_sold_1742
+          - curtailment_1742 = -495888 
 R6645: - battery_charge_1743 + battery_discharge_1743
-          - hydrogen_electricity_1743 - electricity_sold_1743 = -495912 
+          - hydrogen_electricity_1743 - electricity_sold_1743
+          - curtailment_1743 = -495912 
 R6646: - battery_charge_1744 + battery_discharge_1744
-          - hydrogen_electricity_1744 - electricity_sold_1744 = -485712 
+          - hydrogen_electricity_1744 - electricity_sold_1744
+          - curtailment_1744 = -485712 
 R6647: - battery_charge_1745 + battery_discharge_1745
-          - hydrogen_electricity_1745 - electricity_sold_1745 = -523656 
+          - hydrogen_electricity_1745 - electricity_sold_1745
+          - curtailment_1745 = -523656 
 R6648: - battery_charge_1746 + battery_discharge_1746
-          - hydrogen_electricity_1746 - electricity_sold_1746 = -361944 
+          - hydrogen_electricity_1746 - electricity_sold_1746
+          - curtailment_1746 = -361944 
 R6649: - battery_charge_1747 + battery_discharge_1747
-          - hydrogen_electricity_1747 - electricity_sold_1747 = -484320 
+          - hydrogen_electricity_1747 - electricity_sold_1747
+          - curtailment_1747 = -484320 
 R6650: - battery_charge_1748 + battery_discharge_1748
-          - hydrogen_electricity_1748 - electricity_sold_1748 = -632232 
+          - hydrogen_electricity_1748 - electricity_sold_1748
+          - curtailment_1748 = -632232 
 R6651: - battery_charge_1749 + battery_discharge_1749
-          - hydrogen_electricity_1749 - electricity_sold_1749 = -508032 
+          - hydrogen_electricity_1749 - electricity_sold_1749
+          - curtailment_1749 = -508032 
 R6652: - battery_charge_1750 + battery_discharge_1750
-          - hydrogen_electricity_1750 - electricity_sold_1750 = -498120 
+          - hydrogen_electricity_1750 - electricity_sold_1750
+          - curtailment_1750 = -498120 
 R6653: - battery_charge_1751 + battery_discharge_1751
-          - hydrogen_electricity_1751 - electricity_sold_1751 = -526896 
+          - hydrogen_electricity_1751 - electricity_sold_1751
+          - curtailment_1751 = -526896 
 R6654: - battery_charge_1752 + battery_discharge_1752
-          - hydrogen_electricity_1752 - electricity_sold_1752 = -543336 
+          - hydrogen_electricity_1752 - electricity_sold_1752
+          - curtailment_1752 = -543336 
 R6655: - battery_charge_1753 + battery_discharge_1753
-          - hydrogen_electricity_1753 - electricity_sold_1753 = -460200 
+          - hydrogen_electricity_1753 - electricity_sold_1753
+          - curtailment_1753 = -460200 
 R6656: - battery_charge_1754 + battery_discharge_1754
-          - hydrogen_electricity_1754 - electricity_sold_1754 = -416424 
+          - hydrogen_electricity_1754 - electricity_sold_1754
+          - curtailment_1754 = -416424 
 R6657: - battery_charge_1755 + battery_discharge_1755
-          - hydrogen_electricity_1755 - electricity_sold_1755 = -505848 
+          - hydrogen_electricity_1755 - electricity_sold_1755
+          - curtailment_1755 = -505848 
 R6658: - battery_charge_1756 + battery_discharge_1756
-          - hydrogen_electricity_1756 - electricity_sold_1756 = -542784 
+          - hydrogen_electricity_1756 - electricity_sold_1756
+          - curtailment_1756 = -542784 
 R6659: - battery_charge_1757 + battery_discharge_1757
-          - hydrogen_electricity_1757 - electricity_sold_1757 = -568560 
+          - hydrogen_electricity_1757 - electricity_sold_1757
+          - curtailment_1757 = -568560 
 R6660: - battery_charge_1758 + battery_discharge_1758
-          - hydrogen_electricity_1758 - electricity_sold_1758 = -497208 
+          - hydrogen_electricity_1758 - electricity_sold_1758
+          - curtailment_1758 = -497208 
 R6661: - battery_charge_1759 + battery_discharge_1759
-          - hydrogen_electricity_1759 - electricity_sold_1759 = -561408 
+          - hydrogen_electricity_1759 - electricity_sold_1759
+          - curtailment_1759 = -561408 
 R6662: - battery_charge_1760 + battery_discharge_1760
-          - hydrogen_electricity_1760 - electricity_sold_1760 = -462384 
+          - hydrogen_electricity_1760 - electricity_sold_1760
+          - curtailment_1760 = -462384 
 R6663: - battery_charge_1761 + battery_discharge_1761
-          - hydrogen_electricity_1761 - electricity_sold_1761 = -410904 
+          - hydrogen_electricity_1761 - electricity_sold_1761
+          - curtailment_1761 = -410904 
 R6664: - battery_charge_1762 + battery_discharge_1762
-          - hydrogen_electricity_1762 - electricity_sold_1762 = -497064 
+          - hydrogen_electricity_1762 - electricity_sold_1762
+          - curtailment_1762 = -497064 
 R6665: - battery_charge_1763 + battery_discharge_1763
-          - hydrogen_electricity_1763 - electricity_sold_1763 = -609504 
+          - hydrogen_electricity_1763 - electricity_sold_1763
+          - curtailment_1763 = -609504 
 R6666: - battery_charge_1764 + battery_discharge_1764
-          - hydrogen_electricity_1764 - electricity_sold_1764 = -597648 
+          - hydrogen_electricity_1764 - electricity_sold_1764
+          - curtailment_1764 = -597648 
 R6667: - battery_charge_1765 + battery_discharge_1765
-          - hydrogen_electricity_1765 - electricity_sold_1765 = -516768 
+          - hydrogen_electricity_1765 - electricity_sold_1765
+          - curtailment_1765 = -516768 
 R6668: - battery_charge_1766 + battery_discharge_1766
-          - hydrogen_electricity_1766 - electricity_sold_1766 = -535728 
+          - hydrogen_electricity_1766 - electricity_sold_1766
+          - curtailment_1766 = -535728 
 R6669: - battery_charge_1767 + battery_discharge_1767
-          - hydrogen_electricity_1767 - electricity_sold_1767 = -524160 
+          - hydrogen_electricity_1767 - electricity_sold_1767
+          - curtailment_1767 = -524160 
 R6670: - battery_charge_1768 + battery_discharge_1768
-          - hydrogen_electricity_1768 - electricity_sold_1768 = -536760 
+          - hydrogen_electricity_1768 - electricity_sold_1768
+          - curtailment_1768 = -536760 
 R6671: - battery_charge_1769 + battery_discharge_1769
-          - hydrogen_electricity_1769 - electricity_sold_1769 = -666528 
+          - hydrogen_electricity_1769 - electricity_sold_1769
+          - curtailment_1769 = -666528 
 R6672: - battery_charge_1770 + battery_discharge_1770
-          - hydrogen_electricity_1770 - electricity_sold_1770 = -705840 
+          - hydrogen_electricity_1770 - electricity_sold_1770
+          - curtailment_1770 = -705840 
 R6673: - battery_charge_1771 + battery_discharge_1771
-          - hydrogen_electricity_1771 - electricity_sold_1771 = -704088 
+          - hydrogen_electricity_1771 - electricity_sold_1771
+          - curtailment_1771 = -704088 
 R6674: - battery_charge_1772 + battery_discharge_1772
-          - hydrogen_electricity_1772 - electricity_sold_1772 = -637800 
+          - hydrogen_electricity_1772 - electricity_sold_1772
+          - curtailment_1772 = -637800 
 R6675: - battery_charge_1773 + battery_discharge_1773
-          - hydrogen_electricity_1773 - electricity_sold_1773 = -635160 
+          - hydrogen_electricity_1773 - electricity_sold_1773
+          - curtailment_1773 = -635160 
 R6676: - battery_charge_1774 + battery_discharge_1774
-          - hydrogen_electricity_1774 - electricity_sold_1774 = -589608 
+          - hydrogen_electricity_1774 - electricity_sold_1774
+          - curtailment_1774 = -589608 
 R6677: - battery_charge_1775 + battery_discharge_1775
-          - hydrogen_electricity_1775 - electricity_sold_1775 = -554760 
+          - hydrogen_electricity_1775 - electricity_sold_1775
+          - curtailment_1775 = -554760 
 R6678: - battery_charge_1776 + battery_discharge_1776
-          - hydrogen_electricity_1776 - electricity_sold_1776 = -548568 
+          - hydrogen_electricity_1776 - electricity_sold_1776
+          - curtailment_1776 = -548568 
 R6679: - battery_charge_1777 + battery_discharge_1777
-          - hydrogen_electricity_1777 - electricity_sold_1777 = -630216 
+          - hydrogen_electricity_1777 - electricity_sold_1777
+          - curtailment_1777 = -630216 
 R6680: - battery_charge_1778 + battery_discharge_1778
-          - hydrogen_electricity_1778 - electricity_sold_1778 = -708288 
+          - hydrogen_electricity_1778 - electricity_sold_1778
+          - curtailment_1778 = -708288 
 R6681: - battery_charge_1779 + battery_discharge_1779
-          - hydrogen_electricity_1779 - electricity_sold_1779 = -639408 
+          - hydrogen_electricity_1779 - electricity_sold_1779
+          - curtailment_1779 = -639408 
 R6682: - battery_charge_1780 + battery_discharge_1780
-          - hydrogen_electricity_1780 - electricity_sold_1780 = -643080 
+          - hydrogen_electricity_1780 - electricity_sold_1780
+          - curtailment_1780 = -643080 
 R6683: - battery_charge_1781 + battery_discharge_1781
-          - hydrogen_electricity_1781 - electricity_sold_1781 = -432216 
+          - hydrogen_electricity_1781 - electricity_sold_1781
+          - curtailment_1781 = -432216 
 R6684: - battery_charge_1782 + battery_discharge_1782
-          - hydrogen_electricity_1782 - electricity_sold_1782 = -443712 
+          - hydrogen_electricity_1782 - electricity_sold_1782
+          - curtailment_1782 = -443712 
 R6685: - battery_charge_1783 + battery_discharge_1783
-          - hydrogen_electricity_1783 - electricity_sold_1783 = -621576 
+          - hydrogen_electricity_1783 - electricity_sold_1783
+          - curtailment_1783 = -621576 
 R6686: - battery_charge_1784 + battery_discharge_1784
-          - hydrogen_electricity_1784 - electricity_sold_1784 = -576024 
+          - hydrogen_electricity_1784 - electricity_sold_1784
+          - curtailment_1784 = -576024 
 R6687: - battery_charge_1785 + battery_discharge_1785
-          - hydrogen_electricity_1785 - electricity_sold_1785 = -702192 
+          - hydrogen_electricity_1785 - electricity_sold_1785
+          - curtailment_1785 = -702192 
 R6688: - battery_charge_1786 + battery_discharge_1786
-          - hydrogen_electricity_1786 - electricity_sold_1786 = -866904 
+          - hydrogen_electricity_1786 - electricity_sold_1786
+          - curtailment_1786 = -866904 
 R6689: - battery_charge_1787 + battery_discharge_1787
-          - hydrogen_electricity_1787 - electricity_sold_1787 = -802776 
+          - hydrogen_electricity_1787 - electricity_sold_1787
+          - curtailment_1787 = -802776 
 R6690: - battery_charge_1788 + battery_discharge_1788
-          - hydrogen_electricity_1788 - electricity_sold_1788 = -695640 
+          - hydrogen_electricity_1788 - electricity_sold_1788
+          - curtailment_1788 = -695640 
 R6691: - battery_charge_1789 + battery_discharge_1789
-          - hydrogen_electricity_1789 - electricity_sold_1789 = -724200 
+          - hydrogen_electricity_1789 - electricity_sold_1789
+          - curtailment_1789 = -724200 
 R6692: - battery_charge_1790 + battery_discharge_1790
-          - hydrogen_electricity_1790 - electricity_sold_1790 = -787632 
+          - hydrogen_electricity_1790 - electricity_sold_1790
+          - curtailment_1790 = -787632 
 R6693: - battery_charge_1791 + battery_discharge_1791
-          - hydrogen_electricity_1791 - electricity_sold_1791 = -742320 
+          - hydrogen_electricity_1791 - electricity_sold_1791
+          - curtailment_1791 = -742320 
 R6694: - battery_charge_1792 + battery_discharge_1792
-          - hydrogen_electricity_1792 - electricity_sold_1792 = -791136 
+          - hydrogen_electricity_1792 - electricity_sold_1792
+          - curtailment_1792 = -791136 
 R6695: - battery_charge_1793 + battery_discharge_1793
-          - hydrogen_electricity_1793 - electricity_sold_1793 = -794520 
+          - hydrogen_electricity_1793 - electricity_sold_1793
+          - curtailment_1793 = -794520 
 R6696: - battery_charge_1794 + battery_discharge_1794
-          - hydrogen_electricity_1794 - electricity_sold_1794 = -828576 
+          - hydrogen_electricity_1794 - electricity_sold_1794
+          - curtailment_1794 = -828576 
 R6697: - battery_charge_1795 + battery_discharge_1795
-          - hydrogen_electricity_1795 - electricity_sold_1795 = -657840 
+          - hydrogen_electricity_1795 - electricity_sold_1795
+          - curtailment_1795 = -657840 
 R6698: - battery_charge_1796 + battery_discharge_1796
-          - hydrogen_electricity_1796 - electricity_sold_1796 = -659352 
+          - hydrogen_electricity_1796 - electricity_sold_1796
+          - curtailment_1796 = -659352 
 R6699: - battery_charge_1797 + battery_discharge_1797
-          - hydrogen_electricity_1797 - electricity_sold_1797 = -750600 
+          - hydrogen_electricity_1797 - electricity_sold_1797
+          - curtailment_1797 = -750600 
 R6700: - battery_charge_1798 + battery_discharge_1798
-          - hydrogen_electricity_1798 - electricity_sold_1798 = -764064 
+          - hydrogen_electricity_1798 - electricity_sold_1798
+          - curtailment_1798 = -764064 
 R6701: - battery_charge_1799 + battery_discharge_1799
-          - hydrogen_electricity_1799 - electricity_sold_1799 = -869496 
+          - hydrogen_electricity_1799 - electricity_sold_1799
+          - curtailment_1799 = -869496 
 R6702: - battery_charge_1800 + battery_discharge_1800
-          - hydrogen_electricity_1800 - electricity_sold_1800 = -547200 
+          - hydrogen_electricity_1800 - electricity_sold_1800
+          - curtailment_1800 = -547200 
 R6703: - battery_charge_1801 + battery_discharge_1801
-          - hydrogen_electricity_1801 - electricity_sold_1801 = -652224 
+          - hydrogen_electricity_1801 - electricity_sold_1801
+          - curtailment_1801 = -652224 
 R6704: - battery_charge_1802 + battery_discharge_1802
-          - hydrogen_electricity_1802 - electricity_sold_1802 = -721848 
+          - hydrogen_electricity_1802 - electricity_sold_1802
+          - curtailment_1802 = -721848 
 R6705: - battery_charge_1803 + battery_discharge_1803
-          - hydrogen_electricity_1803 - electricity_sold_1803 = -730176 
+          - hydrogen_electricity_1803 - electricity_sold_1803
+          - curtailment_1803 = -730176 
 R6706: - battery_charge_1804 + battery_discharge_1804
-          - hydrogen_electricity_1804 - electricity_sold_1804 = -755232 
+          - hydrogen_electricity_1804 - electricity_sold_1804
+          - curtailment_1804 = -755232 
 R6707: - battery_charge_1805 + battery_discharge_1805
-          - hydrogen_electricity_1805 - electricity_sold_1805 = -817968 
+          - hydrogen_electricity_1805 - electricity_sold_1805
+          - curtailment_1805 = -817968 
 R6708: - battery_charge_1806 + battery_discharge_1806
-          - hydrogen_electricity_1806 - electricity_sold_1806 = -854112 
+          - hydrogen_electricity_1806 - electricity_sold_1806
+          - curtailment_1806 = -854112 
 R6709: - battery_charge_1807 + battery_discharge_1807
-          - hydrogen_electricity_1807 - electricity_sold_1807 = -860016 
+          - hydrogen_electricity_1807 - electricity_sold_1807
+          - curtailment_1807 = -860016 
 R6710: - battery_charge_1808 + battery_discharge_1808
-          - hydrogen_electricity_1808 - electricity_sold_1808 = -854184 
+          - hydrogen_electricity_1808 - electricity_sold_1808
+          - curtailment_1808 = -854184 
 R6711: - battery_charge_1809 + battery_discharge_1809
-          - hydrogen_electricity_1809 - electricity_sold_1809 = -738456 
+          - hydrogen_electricity_1809 - electricity_sold_1809
+          - curtailment_1809 = -738456 
 R6712: - battery_charge_1810 + battery_discharge_1810
-          - hydrogen_electricity_1810 - electricity_sold_1810 = -734256 
+          - hydrogen_electricity_1810 - electricity_sold_1810
+          - curtailment_1810 = -734256 
 R6713: - battery_charge_1811 + battery_discharge_1811
-          - hydrogen_electricity_1811 - electricity_sold_1811 = -812856 
+          - hydrogen_electricity_1811 - electricity_sold_1811
+          - curtailment_1811 = -812856 
 R6714: - battery_charge_1812 + battery_discharge_1812
-          - hydrogen_electricity_1812 - electricity_sold_1812 = -817608 
+          - hydrogen_electricity_1812 - electricity_sold_1812
+          - curtailment_1812 = -817608 
 R6715: - battery_charge_1813 + battery_discharge_1813
-          - hydrogen_electricity_1813 - electricity_sold_1813 = -764352 
+          - hydrogen_electricity_1813 - electricity_sold_1813
+          - curtailment_1813 = -764352 
 R6716: - battery_charge_1814 + battery_discharge_1814
-          - hydrogen_electricity_1814 - electricity_sold_1814 = -752760 
+          - hydrogen_electricity_1814 - electricity_sold_1814
+          - curtailment_1814 = -752760 
 R6717: - battery_charge_1815 + battery_discharge_1815
-          - hydrogen_electricity_1815 - electricity_sold_1815 = -729936 
+          - hydrogen_electricity_1815 - electricity_sold_1815
+          - curtailment_1815 = -729936 
 R6718: - battery_charge_1816 + battery_discharge_1816
-          - hydrogen_electricity_1816 - electricity_sold_1816 = -742584 
+          - hydrogen_electricity_1816 - electricity_sold_1816
+          - curtailment_1816 = -742584 
 R6719: - battery_charge_1817 + battery_discharge_1817
-          - hydrogen_electricity_1817 - electricity_sold_1817 = -773064 
+          - hydrogen_electricity_1817 - electricity_sold_1817
+          - curtailment_1817 = -773064 
 R6720: - battery_charge_1818 + battery_discharge_1818
-          - hydrogen_electricity_1818 - electricity_sold_1818 = -714768 
+          - hydrogen_electricity_1818 - electricity_sold_1818
+          - curtailment_1818 = -714768 
 R6721: - battery_charge_1819 + battery_discharge_1819
-          - hydrogen_electricity_1819 - electricity_sold_1819 = -656976 
+          - hydrogen_electricity_1819 - electricity_sold_1819
+          - curtailment_1819 = -656976 
 R6722: - battery_charge_1820 + battery_discharge_1820
-          - hydrogen_electricity_1820 - electricity_sold_1820 = -582048 
+          - hydrogen_electricity_1820 - electricity_sold_1820
+          - curtailment_1820 = -582048 
 R6723: - battery_charge_1821 + battery_discharge_1821
-          - hydrogen_electricity_1821 - electricity_sold_1821 = -526416 
+          - hydrogen_electricity_1821 - electricity_sold_1821
+          - curtailment_1821 = -526416 
 R6724: - battery_charge_1822 + battery_discharge_1822
-          - hydrogen_electricity_1822 - electricity_sold_1822 = -639936 
+          - hydrogen_electricity_1822 - electricity_sold_1822
+          - curtailment_1822 = -639936 
 R6725: - battery_charge_1823 + battery_discharge_1823
-          - hydrogen_electricity_1823 - electricity_sold_1823 = -682488 
+          - hydrogen_electricity_1823 - electricity_sold_1823
+          - curtailment_1823 = -682488 
 R6726: - battery_charge_1824 + battery_discharge_1824
-          - hydrogen_electricity_1824 - electricity_sold_1824 = -686328 
+          - hydrogen_electricity_1824 - electricity_sold_1824
+          - curtailment_1824 = -686328 
 R6727: - battery_charge_1825 + battery_discharge_1825
-          - hydrogen_electricity_1825 - electricity_sold_1825 = -720600 
+          - hydrogen_electricity_1825 - electricity_sold_1825
+          - curtailment_1825 = -720600 
 R6728: - battery_charge_1826 + battery_discharge_1826
-          - hydrogen_electricity_1826 - electricity_sold_1826 = -750816 
+          - hydrogen_electricity_1826 - electricity_sold_1826
+          - curtailment_1826 = -750816 
 R6729: - battery_charge_1827 + battery_discharge_1827
-          - hydrogen_electricity_1827 - electricity_sold_1827 = -685800 
+          - hydrogen_electricity_1827 - electricity_sold_1827
+          - curtailment_1827 = -685800 
 R6730: - battery_charge_1828 + battery_discharge_1828
-          - hydrogen_electricity_1828 - electricity_sold_1828 = -721344 
+          - hydrogen_electricity_1828 - electricity_sold_1828
+          - curtailment_1828 = -721344 
 R6731: - battery_charge_1829 + battery_discharge_1829
-          - hydrogen_electricity_1829 - electricity_sold_1829 = -776976 
+          - hydrogen_electricity_1829 - electricity_sold_1829
+          - curtailment_1829 = -776976 
 R6732: - battery_charge_1830 + battery_discharge_1830
-          - hydrogen_electricity_1830 - electricity_sold_1830 = -722088 
+          - hydrogen_electricity_1830 - electricity_sold_1830
+          - curtailment_1830 = -722088 
 R6733: - battery_charge_1831 + battery_discharge_1831
-          - hydrogen_electricity_1831 - electricity_sold_1831 = -681696 
+          - hydrogen_electricity_1831 - electricity_sold_1831
+          - curtailment_1831 = -681696 
 R6734: - battery_charge_1832 + battery_discharge_1832
-          - hydrogen_electricity_1832 - electricity_sold_1832 = -805992 
+          - hydrogen_electricity_1832 - electricity_sold_1832
+          - curtailment_1832 = -805992 
 R6735: - battery_charge_1833 + battery_discharge_1833
-          - hydrogen_electricity_1833 - electricity_sold_1833 = -834024 
+          - hydrogen_electricity_1833 - electricity_sold_1833
+          - curtailment_1833 = -834024 
 R6736: - battery_charge_1834 + battery_discharge_1834
-          - hydrogen_electricity_1834 - electricity_sold_1834 = -692280 
+          - hydrogen_electricity_1834 - electricity_sold_1834
+          - curtailment_1834 = -692280 
 R6737: - battery_charge_1835 + battery_discharge_1835
-          - hydrogen_electricity_1835 - electricity_sold_1835 = -910104 
+          - hydrogen_electricity_1835 - electricity_sold_1835
+          - curtailment_1835 = -910104 
 R6738: - battery_charge_1836 + battery_discharge_1836
-          - hydrogen_electricity_1836 - electricity_sold_1836 = -831552 
+          - hydrogen_electricity_1836 - electricity_sold_1836
+          - curtailment_1836 = -831552 
 R6739: - battery_charge_1837 + battery_discharge_1837
-          - hydrogen_electricity_1837 - electricity_sold_1837 = -767520 
+          - hydrogen_electricity_1837 - electricity_sold_1837
+          - curtailment_1837 = -767520 
 R6740: - battery_charge_1838 + battery_discharge_1838
-          - hydrogen_electricity_1838 - electricity_sold_1838 = -767544 
+          - hydrogen_electricity_1838 - electricity_sold_1838
+          - curtailment_1838 = -767544 
 R6741: - battery_charge_1839 + battery_discharge_1839
-          - hydrogen_electricity_1839 - electricity_sold_1839 = -932352 
+          - hydrogen_electricity_1839 - electricity_sold_1839
+          - curtailment_1839 = -932352 
 R6742: - battery_charge_1840 + battery_discharge_1840
-          - hydrogen_electricity_1840 - electricity_sold_1840 = -880344 
+          - hydrogen_electricity_1840 - electricity_sold_1840
+          - curtailment_1840 = -880344 
 R6743: - battery_charge_1841 + battery_discharge_1841
-          - hydrogen_electricity_1841 - electricity_sold_1841 = -885480 
+          - hydrogen_electricity_1841 - electricity_sold_1841
+          - curtailment_1841 = -885480 
 R6744: - battery_charge_1842 + battery_discharge_1842
-          - hydrogen_electricity_1842 - electricity_sold_1842 = -886008 
+          - hydrogen_electricity_1842 - electricity_sold_1842
+          - curtailment_1842 = -886008 
 R6745: - battery_charge_1843 + battery_discharge_1843
-          - hydrogen_electricity_1843 - electricity_sold_1843 = -878736 
+          - hydrogen_electricity_1843 - electricity_sold_1843
+          - curtailment_1843 = -878736 
 R6746: - battery_charge_1844 + battery_discharge_1844
-          - hydrogen_electricity_1844 - electricity_sold_1844 = -818136 
+          - hydrogen_electricity_1844 - electricity_sold_1844
+          - curtailment_1844 = -818136 
 R6747: - battery_charge_1845 + battery_discharge_1845
-          - hydrogen_electricity_1845 - electricity_sold_1845 = -772608 
+          - hydrogen_electricity_1845 - electricity_sold_1845
+          - curtailment_1845 = -772608 
 R6748: - battery_charge_1846 + battery_discharge_1846
-          - hydrogen_electricity_1846 - electricity_sold_1846 = -873096 
+          - hydrogen_electricity_1846 - electricity_sold_1846
+          - curtailment_1846 = -873096 
 R6749: - battery_charge_1847 + battery_discharge_1847
-          - hydrogen_electricity_1847 - electricity_sold_1847 = -863784 
+          - hydrogen_electricity_1847 - electricity_sold_1847
+          - curtailment_1847 = -863784 
 R6750: - battery_charge_1848 + battery_discharge_1848
-          - hydrogen_electricity_1848 - electricity_sold_1848 = -816192 
+          - hydrogen_electricity_1848 - electricity_sold_1848
+          - curtailment_1848 = -816192 
 R6751: - battery_charge_1849 + battery_discharge_1849
-          - hydrogen_electricity_1849 - electricity_sold_1849 = -816744 
+          - hydrogen_electricity_1849 - electricity_sold_1849
+          - curtailment_1849 = -816744 
 R6752: - battery_charge_1850 + battery_discharge_1850
-          - hydrogen_electricity_1850 - electricity_sold_1850 = -786144 
+          - hydrogen_electricity_1850 - electricity_sold_1850
+          - curtailment_1850 = -786144 
 R6753: - battery_charge_1851 + battery_discharge_1851
-          - hydrogen_electricity_1851 - electricity_sold_1851 = -696768 
+          - hydrogen_electricity_1851 - electricity_sold_1851
+          - curtailment_1851 = -696768 
 R6754: - battery_charge_1852 + battery_discharge_1852
-          - hydrogen_electricity_1852 - electricity_sold_1852 = -707592 
+          - hydrogen_electricity_1852 - electricity_sold_1852
+          - curtailment_1852 = -707592 
 R6755: - battery_charge_1853 + battery_discharge_1853
-          - hydrogen_electricity_1853 - electricity_sold_1853 = -748272 
+          - hydrogen_electricity_1853 - electricity_sold_1853
+          - curtailment_1853 = -748272 
 R6756: - battery_charge_1854 + battery_discharge_1854
-          - hydrogen_electricity_1854 - electricity_sold_1854 = -756432 
+          - hydrogen_electricity_1854 - electricity_sold_1854
+          - curtailment_1854 = -756432 
 R6757: - battery_charge_1855 + battery_discharge_1855
-          - hydrogen_electricity_1855 - electricity_sold_1855 = -762672 
+          - hydrogen_electricity_1855 - electricity_sold_1855
+          - curtailment_1855 = -762672 
 R6758: - battery_charge_1856 + battery_discharge_1856
-          - hydrogen_electricity_1856 - electricity_sold_1856 = -792072 
+          - hydrogen_electricity_1856 - electricity_sold_1856
+          - curtailment_1856 = -792072 
 R6759: - battery_charge_1857 + battery_discharge_1857
-          - hydrogen_electricity_1857 - electricity_sold_1857 = -763056 
+          - hydrogen_electricity_1857 - electricity_sold_1857
+          - curtailment_1857 = -763056 
 R6760: - battery_charge_1858 + battery_discharge_1858
-          - hydrogen_electricity_1858 - electricity_sold_1858 = -735120 
+          - hydrogen_electricity_1858 - electricity_sold_1858
+          - curtailment_1858 = -735120 
 R6761: - battery_charge_1859 + battery_discharge_1859
-          - hydrogen_electricity_1859 - electricity_sold_1859 = -751320 
+          - hydrogen_electricity_1859 - electricity_sold_1859
+          - curtailment_1859 = -751320 
 R6762: - battery_charge_1860 + battery_discharge_1860
-          - hydrogen_electricity_1860 - electricity_sold_1860 = -889584 
+          - hydrogen_electricity_1860 - electricity_sold_1860
+          - curtailment_1860 = -889584 
 R6763: - battery_charge_1861 + battery_discharge_1861
-          - hydrogen_electricity_1861 - electricity_sold_1861 = -877296 
+          - hydrogen_electricity_1861 - electricity_sold_1861
+          - curtailment_1861 = -877296 
 R6764: - battery_charge_1862 + battery_discharge_1862
-          - hydrogen_electricity_1862 - electricity_sold_1862 = -864192 
+          - hydrogen_electricity_1862 - electricity_sold_1862
+          - curtailment_1862 = -864192 
 R6765: - battery_charge_1863 + battery_discharge_1863
-          - hydrogen_electricity_1863 - electricity_sold_1863 = -864408 
+          - hydrogen_electricity_1863 - electricity_sold_1863
+          - curtailment_1863 = -864408 
 R6766: - battery_charge_1864 + battery_discharge_1864
-          - hydrogen_electricity_1864 - electricity_sold_1864 = -783192 
+          - hydrogen_electricity_1864 - electricity_sold_1864
+          - curtailment_1864 = -783192 
 R6767: - battery_charge_1865 + battery_discharge_1865
-          - hydrogen_electricity_1865 - electricity_sold_1865 = -658728 
+          - hydrogen_electricity_1865 - electricity_sold_1865
+          - curtailment_1865 = -658728 
 R6768: - battery_charge_1866 + battery_discharge_1866
-          - hydrogen_electricity_1866 - electricity_sold_1866 = -679584 
+          - hydrogen_electricity_1866 - electricity_sold_1866
+          - curtailment_1866 = -679584 
 R6769: - battery_charge_1867 + battery_discharge_1867
-          - hydrogen_electricity_1867 - electricity_sold_1867 = -851736 
+          - hydrogen_electricity_1867 - electricity_sold_1867
+          - curtailment_1867 = -851736 
 R6770: - battery_charge_1868 + battery_discharge_1868
-          - hydrogen_electricity_1868 - electricity_sold_1868 = -839544 
+          - hydrogen_electricity_1868 - electricity_sold_1868
+          - curtailment_1868 = -839544 
 R6771: - battery_charge_1869 + battery_discharge_1869
-          - hydrogen_electricity_1869 - electricity_sold_1869 = -829632 
+          - hydrogen_electricity_1869 - electricity_sold_1869
+          - curtailment_1869 = -829632 
 R6772: - battery_charge_1870 + battery_discharge_1870
-          - hydrogen_electricity_1870 - electricity_sold_1870 = -856128 
+          - hydrogen_electricity_1870 - electricity_sold_1870
+          - curtailment_1870 = -856128 
 R6773: - battery_charge_1871 + battery_discharge_1871
-          - hydrogen_electricity_1871 - electricity_sold_1871 = -898968 
+          - hydrogen_electricity_1871 - electricity_sold_1871
+          - curtailment_1871 = -898968 
 R6774: - battery_charge_1872 + battery_discharge_1872
-          - hydrogen_electricity_1872 - electricity_sold_1872 = -760776 
+          - hydrogen_electricity_1872 - electricity_sold_1872
+          - curtailment_1872 = -760776 
 R6775: - battery_charge_1873 + battery_discharge_1873
-          - hydrogen_electricity_1873 - electricity_sold_1873 = -724272 
+          - hydrogen_electricity_1873 - electricity_sold_1873
+          - curtailment_1873 = -724272 
 R6776: - battery_charge_1874 + battery_discharge_1874
-          - hydrogen_electricity_1874 - electricity_sold_1874 = -900432 
+          - hydrogen_electricity_1874 - electricity_sold_1874
+          - curtailment_1874 = -900432 
 R6777: - battery_charge_1875 + battery_discharge_1875
-          - hydrogen_electricity_1875 - electricity_sold_1875 = -874392 
+          - hydrogen_electricity_1875 - electricity_sold_1875
+          - curtailment_1875 = -874392 
 R6778: - battery_charge_1876 + battery_discharge_1876
-          - hydrogen_electricity_1876 - electricity_sold_1876 = -828456 
+          - hydrogen_electricity_1876 - electricity_sold_1876
+          - curtailment_1876 = -828456 
 R6779: - battery_charge_1877 + battery_discharge_1877
-          - hydrogen_electricity_1877 - electricity_sold_1877 = -781872 
+          - hydrogen_electricity_1877 - electricity_sold_1877
+          - curtailment_1877 = -781872 
 R6780: - battery_charge_1878 + battery_discharge_1878
-          - hydrogen_electricity_1878 - electricity_sold_1878 = -748968 
+          - hydrogen_electricity_1878 - electricity_sold_1878
+          - curtailment_1878 = -748968 
 R6781: - battery_charge_1879 + battery_discharge_1879
-          - hydrogen_electricity_1879 - electricity_sold_1879 = -603168 
+          - hydrogen_electricity_1879 - electricity_sold_1879
+          - curtailment_1879 = -603168 
 R6782: - battery_charge_1880 + battery_discharge_1880
-          - hydrogen_electricity_1880 - electricity_sold_1880 = -740136 
+          - hydrogen_electricity_1880 - electricity_sold_1880
+          - curtailment_1880 = -740136 
 R6783: - battery_charge_1881 + battery_discharge_1881
-          - hydrogen_electricity_1881 - electricity_sold_1881 = -738048 
+          - hydrogen_electricity_1881 - electricity_sold_1881
+          - curtailment_1881 = -738048 
 R6784: - battery_charge_1882 + battery_discharge_1882
-          - hydrogen_electricity_1882 - electricity_sold_1882 = -762936 
+          - hydrogen_electricity_1882 - electricity_sold_1882
+          - curtailment_1882 = -762936 
 R6785: - battery_charge_1883 + battery_discharge_1883
-          - hydrogen_electricity_1883 - electricity_sold_1883 = -764520 
+          - hydrogen_electricity_1883 - electricity_sold_1883
+          - curtailment_1883 = -764520 
 R6786: - battery_charge_1884 + battery_discharge_1884
-          - hydrogen_electricity_1884 - electricity_sold_1884 = -856608 
+          - hydrogen_electricity_1884 - electricity_sold_1884
+          - curtailment_1884 = -856608 
 R6787: - battery_charge_1885 + battery_discharge_1885
-          - hydrogen_electricity_1885 - electricity_sold_1885 = -781584 
+          - hydrogen_electricity_1885 - electricity_sold_1885
+          - curtailment_1885 = -781584 
 R6788: - battery_charge_1886 + battery_discharge_1886
-          - hydrogen_electricity_1886 - electricity_sold_1886 = -641688 
+          - hydrogen_electricity_1886 - electricity_sold_1886
+          - curtailment_1886 = -641688 
 R6789: - battery_charge_1887 + battery_discharge_1887
-          - hydrogen_electricity_1887 - electricity_sold_1887 = -614352 
+          - hydrogen_electricity_1887 - electricity_sold_1887
+          - curtailment_1887 = -614352 
 R6790: - battery_charge_1888 + battery_discharge_1888
-          - hydrogen_electricity_1888 - electricity_sold_1888 = -725640 
+          - hydrogen_electricity_1888 - electricity_sold_1888
+          - curtailment_1888 = -725640 
 R6791: - battery_charge_1889 + battery_discharge_1889
-          - hydrogen_electricity_1889 - electricity_sold_1889 = -752040 
+          - hydrogen_electricity_1889 - electricity_sold_1889
+          - curtailment_1889 = -752040 
 R6792: - battery_charge_1890 + battery_discharge_1890
-          - hydrogen_electricity_1890 - electricity_sold_1890 = -749856 
+          - hydrogen_electricity_1890 - electricity_sold_1890
+          - curtailment_1890 = -749856 
 R6793: - battery_charge_1891 + battery_discharge_1891
-          - hydrogen_electricity_1891 - electricity_sold_1891 = -692136 
+          - hydrogen_electricity_1891 - electricity_sold_1891
+          - curtailment_1891 = -692136 
 R6794: - battery_charge_1892 + battery_discharge_1892
-          - hydrogen_electricity_1892 - electricity_sold_1892 = -681240 
+          - hydrogen_electricity_1892 - electricity_sold_1892
+          - curtailment_1892 = -681240 
 R6795: - battery_charge_1893 + battery_discharge_1893
-          - hydrogen_electricity_1893 - electricity_sold_1893 = -307224 
+          - hydrogen_electricity_1893 - electricity_sold_1893
+          - curtailment_1893 = -307224 
 R6796: - battery_charge_1894 + battery_discharge_1894
-          - hydrogen_electricity_1894 - electricity_sold_1894 = -157536 
+          - hydrogen_electricity_1894 - electricity_sold_1894
+          - curtailment_1894 = -157536 
 R6797: - battery_charge_1895 + battery_discharge_1895
-          - hydrogen_electricity_1895 - electricity_sold_1895 = -297888 
+          - hydrogen_electricity_1895 - electricity_sold_1895
+          - curtailment_1895 = -297888 
 R6798: - battery_charge_1896 + battery_discharge_1896
-          - hydrogen_electricity_1896 - electricity_sold_1896 = -311160 
+          - hydrogen_electricity_1896 - electricity_sold_1896
+          - curtailment_1896 = -311160 
 R6799: - battery_charge_1897 + battery_discharge_1897
-          - hydrogen_electricity_1897 - electricity_sold_1897 = -285384 
+          - hydrogen_electricity_1897 - electricity_sold_1897
+          - curtailment_1897 = -285384 
 R6800: - battery_charge_1898 + battery_discharge_1898
-          - hydrogen_electricity_1898 - electricity_sold_1898 = -588240 
+          - hydrogen_electricity_1898 - electricity_sold_1898
+          - curtailment_1898 = -588240 
 R6801: - battery_charge_1899 + battery_discharge_1899
-          - hydrogen_electricity_1899 - electricity_sold_1899 = -746664 
+          - hydrogen_electricity_1899 - electricity_sold_1899
+          - curtailment_1899 = -746664 
 R6802: - battery_charge_1900 + battery_discharge_1900
-          - hydrogen_electricity_1900 - electricity_sold_1900 = -615648 
+          - hydrogen_electricity_1900 - electricity_sold_1900
+          - curtailment_1900 = -615648 
 R6803: - battery_charge_1901 + battery_discharge_1901
-          - hydrogen_electricity_1901 - electricity_sold_1901 = -603936 
+          - hydrogen_electricity_1901 - electricity_sold_1901
+          - curtailment_1901 = -603936 
 R6804: - battery_charge_1902 + battery_discharge_1902
-          - hydrogen_electricity_1902 - electricity_sold_1902 = -695424 
+          - hydrogen_electricity_1902 - electricity_sold_1902
+          - curtailment_1902 = -695424 
 R6805: - battery_charge_1903 + battery_discharge_1903
-          - hydrogen_electricity_1903 - electricity_sold_1903 = -683448 
+          - hydrogen_electricity_1903 - electricity_sold_1903
+          - curtailment_1903 = -683448 
 R6806: - battery_charge_1904 + battery_discharge_1904
-          - hydrogen_electricity_1904 - electricity_sold_1904 = -678576 
+          - hydrogen_electricity_1904 - electricity_sold_1904
+          - curtailment_1904 = -678576 
 R6807: - battery_charge_1905 + battery_discharge_1905
-          - hydrogen_electricity_1905 - electricity_sold_1905 = -644616 
+          - hydrogen_electricity_1905 - electricity_sold_1905
+          - curtailment_1905 = -644616 
 R6808: - battery_charge_1906 + battery_discharge_1906
-          - hydrogen_electricity_1906 - electricity_sold_1906 = -444624 
+          - hydrogen_electricity_1906 - electricity_sold_1906
+          - curtailment_1906 = -444624 
 R6809: - battery_charge_1907 + battery_discharge_1907
-          - hydrogen_electricity_1907 - electricity_sold_1907 = -262248 
+          - hydrogen_electricity_1907 - electricity_sold_1907
+          - curtailment_1907 = -262248 
 R6810: - battery_charge_1908 + battery_discharge_1908
-          - hydrogen_electricity_1908 - electricity_sold_1908 = -158664 
+          - hydrogen_electricity_1908 - electricity_sold_1908
+          - curtailment_1908 = -158664 
 R6811: - battery_charge_1909 + battery_discharge_1909
-          - hydrogen_electricity_1909 - electricity_sold_1909 = -216720 
+          - hydrogen_electricity_1909 - electricity_sold_1909
+          - curtailment_1909 = -216720 
 R6812: - battery_charge_1910 + battery_discharge_1910
-          - hydrogen_electricity_1910 - electricity_sold_1910 = -225888 
+          - hydrogen_electricity_1910 - electricity_sold_1910
+          - curtailment_1910 = -225888 
 R6813: - battery_charge_1911 + battery_discharge_1911
-          - hydrogen_electricity_1911 - electricity_sold_1911 = -234000 
+          - hydrogen_electricity_1911 - electricity_sold_1911
+          - curtailment_1911 = -234000 
 R6814: - battery_charge_1912 + battery_discharge_1912
-          - hydrogen_electricity_1912 - electricity_sold_1912 = -367152 
+          - hydrogen_electricity_1912 - electricity_sold_1912
+          - curtailment_1912 = -367152 
 R6815: - battery_charge_1913 + battery_discharge_1913
-          - hydrogen_electricity_1913 - electricity_sold_1913 = -422736 
+          - hydrogen_electricity_1913 - electricity_sold_1913
+          - curtailment_1913 = -422736 
 R6816: - battery_charge_1914 + battery_discharge_1914
-          - hydrogen_electricity_1914 - electricity_sold_1914 = -385224 
+          - hydrogen_electricity_1914 - electricity_sold_1914
+          - curtailment_1914 = -385224 
 R6817: - battery_charge_1915 + battery_discharge_1915
-          - hydrogen_electricity_1915 - electricity_sold_1915 = -404232 
+          - hydrogen_electricity_1915 - electricity_sold_1915
+          - curtailment_1915 = -404232 
 R6818: - battery_charge_1916 + battery_discharge_1916
-          - hydrogen_electricity_1916 - electricity_sold_1916 = -160224 
+          - hydrogen_electricity_1916 - electricity_sold_1916
+          - curtailment_1916 = -160224 
 R6819: - battery_charge_1917 + battery_discharge_1917
-          - hydrogen_electricity_1917 - electricity_sold_1917 = -464616 
+          - hydrogen_electricity_1917 - electricity_sold_1917
+          - curtailment_1917 = -464616 
 R6820: - battery_charge_1918 + battery_discharge_1918
-          - hydrogen_electricity_1918 - electricity_sold_1918 = -649152 
+          - hydrogen_electricity_1918 - electricity_sold_1918
+          - curtailment_1918 = -649152 
 R6821: - battery_charge_1919 + battery_discharge_1919
-          - hydrogen_electricity_1919 - electricity_sold_1919 = -636672 
+          - hydrogen_electricity_1919 - electricity_sold_1919
+          - curtailment_1919 = -636672 
 R6822: - battery_charge_1920 + battery_discharge_1920
-          - hydrogen_electricity_1920 - electricity_sold_1920 = -632472 
+          - hydrogen_electricity_1920 - electricity_sold_1920
+          - curtailment_1920 = -632472 
 R6823: - battery_charge_1921 + battery_discharge_1921
-          - hydrogen_electricity_1921 - electricity_sold_1921 = -578016 
+          - hydrogen_electricity_1921 - electricity_sold_1921
+          - curtailment_1921 = -578016 
 R6824: - battery_charge_1922 + battery_discharge_1922
-          - hydrogen_electricity_1922 - electricity_sold_1922 = -534528 
+          - hydrogen_electricity_1922 - electricity_sold_1922
+          - curtailment_1922 = -534528 
 R6825: - battery_charge_1923 + battery_discharge_1923
-          - hydrogen_electricity_1923 - electricity_sold_1923 = -638112 
+          - hydrogen_electricity_1923 - electricity_sold_1923
+          - curtailment_1923 = -638112 
 R6826: - battery_charge_1924 + battery_discharge_1924
-          - hydrogen_electricity_1924 - electricity_sold_1924 = -653328 
+          - hydrogen_electricity_1924 - electricity_sold_1924
+          - curtailment_1924 = -653328 
 R6827: - battery_charge_1925 + battery_discharge_1925
-          - hydrogen_electricity_1925 - electricity_sold_1925 = -635328 
+          - hydrogen_electricity_1925 - electricity_sold_1925
+          - curtailment_1925 = -635328 
 R6828: - battery_charge_1926 + battery_discharge_1926
-          - hydrogen_electricity_1926 - electricity_sold_1926 = -628368 
+          - hydrogen_electricity_1926 - electricity_sold_1926
+          - curtailment_1926 = -628368 
 R6829: - battery_charge_1927 + battery_discharge_1927
-          - hydrogen_electricity_1927 - electricity_sold_1927 = -605640 
+          - hydrogen_electricity_1927 - electricity_sold_1927
+          - curtailment_1927 = -605640 
 R6830: - battery_charge_1928 + battery_discharge_1928
-          - hydrogen_electricity_1928 - electricity_sold_1928 = -509472 
+          - hydrogen_electricity_1928 - electricity_sold_1928
+          - curtailment_1928 = -509472 
 R6831: - battery_charge_1929 + battery_discharge_1929
-          - hydrogen_electricity_1929 - electricity_sold_1929 = -501792 
+          - hydrogen_electricity_1929 - electricity_sold_1929
+          - curtailment_1929 = -501792 
 R6832: - battery_charge_1930 + battery_discharge_1930
-          - hydrogen_electricity_1930 - electricity_sold_1930 = -620784 
+          - hydrogen_electricity_1930 - electricity_sold_1930
+          - curtailment_1930 = -620784 
 R6833: - battery_charge_1931 + battery_discharge_1931
-          - hydrogen_electricity_1931 - electricity_sold_1931 = -575736 
+          - hydrogen_electricity_1931 - electricity_sold_1931
+          - curtailment_1931 = -575736 
 R6834: - battery_charge_1932 + battery_discharge_1932
-          - hydrogen_electricity_1932 - electricity_sold_1932 = -700440 
+          - hydrogen_electricity_1932 - electricity_sold_1932
+          - curtailment_1932 = -700440 
 R6835: - battery_charge_1933 + battery_discharge_1933
-          - hydrogen_electricity_1933 - electricity_sold_1933 = -606984 
+          - hydrogen_electricity_1933 - electricity_sold_1933
+          - curtailment_1933 = -606984 
 R6836: - battery_charge_1934 + battery_discharge_1934
-          - hydrogen_electricity_1934 - electricity_sold_1934 = -541656 
+          - hydrogen_electricity_1934 - electricity_sold_1934
+          - curtailment_1934 = -541656 
 R6837: - battery_charge_1935 + battery_discharge_1935
-          - hydrogen_electricity_1935 - electricity_sold_1935 = -546384 
+          - hydrogen_electricity_1935 - electricity_sold_1935
+          - curtailment_1935 = -546384 
 R6838: - battery_charge_1936 + battery_discharge_1936
-          - hydrogen_electricity_1936 - electricity_sold_1936 = -479112 
+          - hydrogen_electricity_1936 - electricity_sold_1936
+          - curtailment_1936 = -479112 
 R6839: - battery_charge_1937 + battery_discharge_1937
-          - hydrogen_electricity_1937 - electricity_sold_1937 = -537312 
+          - hydrogen_electricity_1937 - electricity_sold_1937
+          - curtailment_1937 = -537312 
 R6840: - battery_charge_1938 + battery_discharge_1938
-          - hydrogen_electricity_1938 - electricity_sold_1938 = -610008 
+          - hydrogen_electricity_1938 - electricity_sold_1938
+          - curtailment_1938 = -610008 
 R6841: - battery_charge_1939 + battery_discharge_1939
-          - hydrogen_electricity_1939 - electricity_sold_1939 = -636360 
+          - hydrogen_electricity_1939 - electricity_sold_1939
+          - curtailment_1939 = -636360 
 R6842: - battery_charge_1940 + battery_discharge_1940
-          - hydrogen_electricity_1940 - electricity_sold_1940 = -622536 
+          - hydrogen_electricity_1940 - electricity_sold_1940
+          - curtailment_1940 = -622536 
 R6843: - battery_charge_1941 + battery_discharge_1941
-          - hydrogen_electricity_1941 - electricity_sold_1941 = -607968 
+          - hydrogen_electricity_1941 - electricity_sold_1941
+          - curtailment_1941 = -607968 
 R6844: - battery_charge_1942 + battery_discharge_1942
-          - hydrogen_electricity_1942 - electricity_sold_1942 = -484848 
+          - hydrogen_electricity_1942 - electricity_sold_1942
+          - curtailment_1942 = -484848 
 R6845: - battery_charge_1943 + battery_discharge_1943
-          - hydrogen_electricity_1943 - electricity_sold_1943 = -531384 
+          - hydrogen_electricity_1943 - electricity_sold_1943
+          - curtailment_1943 = -531384 
 R6846: - battery_charge_1944 + battery_discharge_1944
-          - hydrogen_electricity_1944 - electricity_sold_1944 = -593688 
+          - hydrogen_electricity_1944 - electricity_sold_1944
+          - curtailment_1944 = -593688 
 R6847: - battery_charge_1945 + battery_discharge_1945
-          - hydrogen_electricity_1945 - electricity_sold_1945 = -597168 
+          - hydrogen_electricity_1945 - electricity_sold_1945
+          - curtailment_1945 = -597168 
 R6848: - battery_charge_1946 + battery_discharge_1946
-          - hydrogen_electricity_1946 - electricity_sold_1946 = -597816 
+          - hydrogen_electricity_1946 - electricity_sold_1946
+          - curtailment_1946 = -597816 
 R6849: - battery_charge_1947 + battery_discharge_1947
-          - hydrogen_electricity_1947 - electricity_sold_1947 = -600024 
+          - hydrogen_electricity_1947 - electricity_sold_1947
+          - curtailment_1947 = -600024 
 R6850: - battery_charge_1948 + battery_discharge_1948
-          - hydrogen_electricity_1948 - electricity_sold_1948 = -570288 
+          - hydrogen_electricity_1948 - electricity_sold_1948
+          - curtailment_1948 = -570288 
 R6851: - battery_charge_1949 + battery_discharge_1949
-          - hydrogen_electricity_1949 - electricity_sold_1949 = -510480 
+          - hydrogen_electricity_1949 - electricity_sold_1949
+          - curtailment_1949 = -510480 
 R6852: - battery_charge_1950 + battery_discharge_1950
-          - hydrogen_electricity_1950 - electricity_sold_1950 = -534312 
+          - hydrogen_electricity_1950 - electricity_sold_1950
+          - curtailment_1950 = -534312 
 R6853: - battery_charge_1951 + battery_discharge_1951
-          - hydrogen_electricity_1951 - electricity_sold_1951 = -512904 
+          - hydrogen_electricity_1951 - electricity_sold_1951
+          - curtailment_1951 = -512904 
 R6854: - battery_charge_1952 + battery_discharge_1952
-          - hydrogen_electricity_1952 - electricity_sold_1952 = -574896 
+          - hydrogen_electricity_1952 - electricity_sold_1952
+          - curtailment_1952 = -574896 
 R6855: - battery_charge_1953 + battery_discharge_1953
-          - hydrogen_electricity_1953 - electricity_sold_1953 = -604776 
+          - hydrogen_electricity_1953 - electricity_sold_1953
+          - curtailment_1953 = -604776 
 R6856: - battery_charge_1954 + battery_discharge_1954
-          - hydrogen_electricity_1954 - electricity_sold_1954 = -611208 
+          - hydrogen_electricity_1954 - electricity_sold_1954
+          - curtailment_1954 = -611208 
 R6857: - battery_charge_1955 + battery_discharge_1955
-          - hydrogen_electricity_1955 - electricity_sold_1955 = -580776 
+          - hydrogen_electricity_1955 - electricity_sold_1955
+          - curtailment_1955 = -580776 
 R6858: - battery_charge_1956 + battery_discharge_1956
-          - hydrogen_electricity_1956 - electricity_sold_1956 = -507144 
+          - hydrogen_electricity_1956 - electricity_sold_1956
+          - curtailment_1956 = -507144 
 R6859: - battery_charge_1957 + battery_discharge_1957
-          - hydrogen_electricity_1957 - electricity_sold_1957 = -500376 
+          - hydrogen_electricity_1957 - electricity_sold_1957
+          - curtailment_1957 = -500376 
 R6860: - battery_charge_1958 + battery_discharge_1958
-          - hydrogen_electricity_1958 - electricity_sold_1958 = -578928 
+          - hydrogen_electricity_1958 - electricity_sold_1958
+          - curtailment_1958 = -578928 
 R6861: - battery_charge_1959 + battery_discharge_1959
-          - hydrogen_electricity_1959 - electricity_sold_1959 = -583776 
+          - hydrogen_electricity_1959 - electricity_sold_1959
+          - curtailment_1959 = -583776 
 R6862: - battery_charge_1960 + battery_discharge_1960
-          - hydrogen_electricity_1960 - electricity_sold_1960 = -590160 
+          - hydrogen_electricity_1960 - electricity_sold_1960
+          - curtailment_1960 = -590160 
 R6863: - battery_charge_1961 + battery_discharge_1961
-          - hydrogen_electricity_1961 - electricity_sold_1961 = -598680 
+          - hydrogen_electricity_1961 - electricity_sold_1961
+          - curtailment_1961 = -598680 
 R6864: - battery_charge_1962 + battery_discharge_1962
-          - hydrogen_electricity_1962 - electricity_sold_1962 = -591720 
+          - hydrogen_electricity_1962 - electricity_sold_1962
+          - curtailment_1962 = -591720 
 R6865: - battery_charge_1963 + battery_discharge_1963
-          - hydrogen_electricity_1963 - electricity_sold_1963 = -542544 
+          - hydrogen_electricity_1963 - electricity_sold_1963
+          - curtailment_1963 = -542544 
 R6866: - battery_charge_1964 + battery_discharge_1964
-          - hydrogen_electricity_1964 - electricity_sold_1964 = -525456 
+          - hydrogen_electricity_1964 - electricity_sold_1964
+          - curtailment_1964 = -525456 
 R6867: - battery_charge_1965 + battery_discharge_1965
-          - hydrogen_electricity_1965 - electricity_sold_1965 = -599400 
+          - hydrogen_electricity_1965 - electricity_sold_1965
+          - curtailment_1965 = -599400 
 R6868: - battery_charge_1966 + battery_discharge_1966
-          - hydrogen_electricity_1966 - electricity_sold_1966 = -599712 
+          - hydrogen_electricity_1966 - electricity_sold_1966
+          - curtailment_1966 = -599712 
 R6869: - battery_charge_1967 + battery_discharge_1967
-          - hydrogen_electricity_1967 - electricity_sold_1967 = -600240 
+          - hydrogen_electricity_1967 - electricity_sold_1967
+          - curtailment_1967 = -600240 
 R6870: - battery_charge_1968 + battery_discharge_1968
-          - hydrogen_electricity_1968 - electricity_sold_1968 = -590544 
+          - hydrogen_electricity_1968 - electricity_sold_1968
+          - curtailment_1968 = -590544 
 R6871: - battery_charge_1969 + battery_discharge_1969
-          - hydrogen_electricity_1969 - electricity_sold_1969 = -578400 
+          - hydrogen_electricity_1969 - electricity_sold_1969
+          - curtailment_1969 = -578400 
 R6872: - battery_charge_1970 + battery_discharge_1970
-          - hydrogen_electricity_1970 - electricity_sold_1970 = -567624 
+          - hydrogen_electricity_1970 - electricity_sold_1970
+          - curtailment_1970 = -567624 
 R6873: - battery_charge_1971 + battery_discharge_1971
-          - hydrogen_electricity_1971 - electricity_sold_1971 = -694488 
+          - hydrogen_electricity_1971 - electricity_sold_1971
+          - curtailment_1971 = -694488 
 R6874: - battery_charge_1972 + battery_discharge_1972
-          - hydrogen_electricity_1972 - electricity_sold_1972 = -683784 
+          - hydrogen_electricity_1972 - electricity_sold_1972
+          - curtailment_1972 = -683784 
 R6875: - battery_charge_1973 + battery_discharge_1973
-          - hydrogen_electricity_1973 - electricity_sold_1973 = -620400 
+          - hydrogen_electricity_1973 - electricity_sold_1973
+          - curtailment_1973 = -620400 
 R6876: - battery_charge_1974 + battery_discharge_1974
-          - hydrogen_electricity_1974 - electricity_sold_1974 = -562728 
+          - hydrogen_electricity_1974 - electricity_sold_1974
+          - curtailment_1974 = -562728 
 R6877: - battery_charge_1975 + battery_discharge_1975
-          - hydrogen_electricity_1975 - electricity_sold_1975 = -615624 
+          - hydrogen_electricity_1975 - electricity_sold_1975
+          - curtailment_1975 = -615624 
 R6878: - battery_charge_1976 + battery_discharge_1976
-          - hydrogen_electricity_1976 - electricity_sold_1976 = -586320 
+          - hydrogen_electricity_1976 - electricity_sold_1976
+          - curtailment_1976 = -586320 
 R6879: - battery_charge_1977 + battery_discharge_1977
-          - hydrogen_electricity_1977 - electricity_sold_1977 = -562920 
+          - hydrogen_electricity_1977 - electricity_sold_1977
+          - curtailment_1977 = -562920 
 R6880: - battery_charge_1978 + battery_discharge_1978
-          - hydrogen_electricity_1978 - electricity_sold_1978 = -611784 
+          - hydrogen_electricity_1978 - electricity_sold_1978
+          - curtailment_1978 = -611784 
 R6881: - battery_charge_1979 + battery_discharge_1979
-          - hydrogen_electricity_1979 - electricity_sold_1979 = -606240 
+          - hydrogen_electricity_1979 - electricity_sold_1979
+          - curtailment_1979 = -606240 
 R6882: - battery_charge_1980 + battery_discharge_1980
-          - hydrogen_electricity_1980 - electricity_sold_1980 = -723288 
+          - hydrogen_electricity_1980 - electricity_sold_1980
+          - curtailment_1980 = -723288 
 R6883: - battery_charge_1981 + battery_discharge_1981
-          - hydrogen_electricity_1981 - electricity_sold_1981 = -665328 
+          - hydrogen_electricity_1981 - electricity_sold_1981
+          - curtailment_1981 = -665328 
 R6884: - battery_charge_1982 + battery_discharge_1982
-          - hydrogen_electricity_1982 - electricity_sold_1982 = -608520 
+          - hydrogen_electricity_1982 - electricity_sold_1982
+          - curtailment_1982 = -608520 
 R6885: - battery_charge_1983 + battery_discharge_1983
-          - hydrogen_electricity_1983 - electricity_sold_1983 = -551712 
+          - hydrogen_electricity_1983 - electricity_sold_1983
+          - curtailment_1983 = -551712 
 R6886: - battery_charge_1984 + battery_discharge_1984
-          - hydrogen_electricity_1984 - electricity_sold_1984 = -480816 
+          - hydrogen_electricity_1984 - electricity_sold_1984
+          - curtailment_1984 = -480816 
 R6887: - battery_charge_1985 + battery_discharge_1985
-          - hydrogen_electricity_1985 - electricity_sold_1985 = -536832 
+          - hydrogen_electricity_1985 - electricity_sold_1985
+          - curtailment_1985 = -536832 
 R6888: - battery_charge_1986 + battery_discharge_1986
-          - hydrogen_electricity_1986 - electricity_sold_1986 = -563280 
+          - hydrogen_electricity_1986 - electricity_sold_1986
+          - curtailment_1986 = -563280 
 R6889: - battery_charge_1987 + battery_discharge_1987
-          - hydrogen_electricity_1987 - electricity_sold_1987 = -608328 
+          - hydrogen_electricity_1987 - electricity_sold_1987
+          - curtailment_1987 = -608328 
 R6890: - battery_charge_1988 + battery_discharge_1988
-          - hydrogen_electricity_1988 - electricity_sold_1988 = -594072 
+          - hydrogen_electricity_1988 - electricity_sold_1988
+          - curtailment_1988 = -594072 
 R6891: - battery_charge_1989 + battery_discharge_1989
-          - hydrogen_electricity_1989 - electricity_sold_1989 = -657768 
+          - hydrogen_electricity_1989 - electricity_sold_1989
+          - curtailment_1989 = -657768 
 R6892: - battery_charge_1990 + battery_discharge_1990
-          - hydrogen_electricity_1990 - electricity_sold_1990 = -580272 
+          - hydrogen_electricity_1990 - electricity_sold_1990
+          - curtailment_1990 = -580272 
 R6893: - battery_charge_1991 + battery_discharge_1991
-          - hydrogen_electricity_1991 - electricity_sold_1991 = -529632 
+          - hydrogen_electricity_1991 - electricity_sold_1991
+          - curtailment_1991 = -529632 
 R6894: - battery_charge_1992 + battery_discharge_1992
-          - hydrogen_electricity_1992 - electricity_sold_1992 = -523488 
+          - hydrogen_electricity_1992 - electricity_sold_1992
+          - curtailment_1992 = -523488 
 R6895: - battery_charge_1993 + battery_discharge_1993
-          - hydrogen_electricity_1993 - electricity_sold_1993 = -587352 
+          - hydrogen_electricity_1993 - electricity_sold_1993
+          - curtailment_1993 = -587352 
 R6896: - battery_charge_1994 + battery_discharge_1994
-          - hydrogen_electricity_1994 - electricity_sold_1994 = -630696 
+          - hydrogen_electricity_1994 - electricity_sold_1994
+          - curtailment_1994 = -630696 
 R6897: - battery_charge_1995 + battery_discharge_1995
-          - hydrogen_electricity_1995 - electricity_sold_1995 = -608496 
+          - hydrogen_electricity_1995 - electricity_sold_1995
+          - curtailment_1995 = -608496 
 R6898: - battery_charge_1996 + battery_discharge_1996
-          - hydrogen_electricity_1996 - electricity_sold_1996 = -601392 
+          - hydrogen_electricity_1996 - electricity_sold_1996
+          - curtailment_1996 = -601392 
 R6899: - battery_charge_1997 + battery_discharge_1997
-          - hydrogen_electricity_1997 - electricity_sold_1997 = -619536 
+          - hydrogen_electricity_1997 - electricity_sold_1997
+          - curtailment_1997 = -619536 
 R6900: - battery_charge_1998 + battery_discharge_1998
-          - hydrogen_electricity_1998 - electricity_sold_1998 = -557784 
+          - hydrogen_electricity_1998 - electricity_sold_1998
+          - curtailment_1998 = -557784 
 R6901: - battery_charge_1999 + battery_discharge_1999
-          - hydrogen_electricity_1999 - electricity_sold_1999 = -625848 
+          - hydrogen_electricity_1999 - electricity_sold_1999
+          - curtailment_1999 = -625848 
 R6902: - battery_charge_2000 + battery_discharge_2000
-          - hydrogen_electricity_2000 - electricity_sold_2000 = -709536 
+          - hydrogen_electricity_2000 - electricity_sold_2000
+          - curtailment_2000 = -709536 
 R6903: - battery_charge_2001 + battery_discharge_2001
-          - hydrogen_electricity_2001 - electricity_sold_2001 = -631584 
+          - hydrogen_electricity_2001 - electricity_sold_2001
+          - curtailment_2001 = -631584 
 R6904: - battery_charge_2002 + battery_discharge_2002
-          - hydrogen_electricity_2002 - electricity_sold_2002 = -633936 
+          - hydrogen_electricity_2002 - electricity_sold_2002
+          - curtailment_2002 = -633936 
 R6905: - battery_charge_2003 + battery_discharge_2003
-          - hydrogen_electricity_2003 - electricity_sold_2003 = -658944 
+          - hydrogen_electricity_2003 - electricity_sold_2003
+          - curtailment_2003 = -658944 
 R6906: - battery_charge_2004 + battery_discharge_2004
-          - hydrogen_electricity_2004 - electricity_sold_2004 = -658272 
+          - hydrogen_electricity_2004 - electricity_sold_2004
+          - curtailment_2004 = -658272 
 R6907: - battery_charge_2005 + battery_discharge_2005
-          - hydrogen_electricity_2005 - electricity_sold_2005 = -680952 
+          - hydrogen_electricity_2005 - electricity_sold_2005
+          - curtailment_2005 = -680952 
 R6908: - battery_charge_2006 + battery_discharge_2006
-          - hydrogen_electricity_2006 - electricity_sold_2006 = -509616 
+          - hydrogen_electricity_2006 - electricity_sold_2006
+          - curtailment_2006 = -509616 
 R6909: - battery_charge_2007 + battery_discharge_2007
-          - hydrogen_electricity_2007 - electricity_sold_2007 = -681816 
+          - hydrogen_electricity_2007 - electricity_sold_2007
+          - curtailment_2007 = -681816 
 R6910: - battery_charge_2008 + battery_discharge_2008
-          - hydrogen_electricity_2008 - electricity_sold_2008 = -678336 
+          - hydrogen_electricity_2008 - electricity_sold_2008
+          - curtailment_2008 = -678336 
 R6911: - battery_charge_2009 + battery_discharge_2009
-          - hydrogen_electricity_2009 - electricity_sold_2009 = -653664 
+          - hydrogen_electricity_2009 - electricity_sold_2009
+          - curtailment_2009 = -653664 
 R6912: - battery_charge_2010 + battery_discharge_2010
-          - hydrogen_electricity_2010 - electricity_sold_2010 = -604776 
+          - hydrogen_electricity_2010 - electricity_sold_2010
+          - curtailment_2010 = -604776 
 R6913: - battery_charge_2011 + battery_discharge_2011
-          - hydrogen_electricity_2011 - electricity_sold_2011 = -674160 
+          - hydrogen_electricity_2011 - electricity_sold_2011
+          - curtailment_2011 = -674160 
 R6914: - battery_charge_2012 + battery_discharge_2012
-          - hydrogen_electricity_2012 - electricity_sold_2012 = -617472 
+          - hydrogen_electricity_2012 - electricity_sold_2012
+          - curtailment_2012 = -617472 
 R6915: - battery_charge_2013 + battery_discharge_2013
-          - hydrogen_electricity_2013 - electricity_sold_2013 = -496248 
+          - hydrogen_electricity_2013 - electricity_sold_2013
+          - curtailment_2013 = -496248 
 R6916: - battery_charge_2014 + battery_discharge_2014
-          - hydrogen_electricity_2014 - electricity_sold_2014 = -630168 
+          - hydrogen_electricity_2014 - electricity_sold_2014
+          - curtailment_2014 = -630168 
 R6917: - battery_charge_2015 + battery_discharge_2015
-          - hydrogen_electricity_2015 - electricity_sold_2015 = -584736 
+          - hydrogen_electricity_2015 - electricity_sold_2015
+          - curtailment_2015 = -584736 
 R6918: - battery_charge_2016 + battery_discharge_2016
-          - hydrogen_electricity_2016 - electricity_sold_2016 = -590496 
+          - hydrogen_electricity_2016 - electricity_sold_2016
+          - curtailment_2016 = -590496 
 R6919: - battery_charge_2017 + battery_discharge_2017
-          - hydrogen_electricity_2017 - electricity_sold_2017 = -564552 
+          - hydrogen_electricity_2017 - electricity_sold_2017
+          - curtailment_2017 = -564552 
 R6920: - battery_charge_2018 + battery_discharge_2018
-          - hydrogen_electricity_2018 - electricity_sold_2018 = -591000 
+          - hydrogen_electricity_2018 - electricity_sold_2018
+          - curtailment_2018 = -591000 
 R6921: - battery_charge_2019 + battery_discharge_2019
-          - hydrogen_electricity_2019 - electricity_sold_2019 = -527304 
+          - hydrogen_electricity_2019 - electricity_sold_2019
+          - curtailment_2019 = -527304 
 R6922: - battery_charge_2020 + battery_discharge_2020
-          - hydrogen_electricity_2020 - electricity_sold_2020 = -520944 
+          - hydrogen_electricity_2020 - electricity_sold_2020
+          - curtailment_2020 = -520944 
 R6923: - battery_charge_2021 + battery_discharge_2021
-          - hydrogen_electricity_2021 - electricity_sold_2021 = -620208 
+          - hydrogen_electricity_2021 - electricity_sold_2021
+          - curtailment_2021 = -620208 
 R6924: - battery_charge_2022 + battery_discharge_2022
-          - hydrogen_electricity_2022 - electricity_sold_2022 = -573864 
+          - hydrogen_electricity_2022 - electricity_sold_2022
+          - curtailment_2022 = -573864 
 R6925: - battery_charge_2023 + battery_discharge_2023
-          - hydrogen_electricity_2023 - electricity_sold_2023 = -560640 
+          - hydrogen_electricity_2023 - electricity_sold_2023
+          - curtailment_2023 = -560640 
 R6926: - battery_charge_2024 + battery_discharge_2024
-          - hydrogen_electricity_2024 - electricity_sold_2024 = -586176 
+          - hydrogen_electricity_2024 - electricity_sold_2024
+          - curtailment_2024 = -586176 
 R6927: - battery_charge_2025 + battery_discharge_2025
-          - hydrogen_electricity_2025 - electricity_sold_2025 = -613296 
+          - hydrogen_electricity_2025 - electricity_sold_2025
+          - curtailment_2025 = -613296 
 R6928: - battery_charge_2026 + battery_discharge_2026
-          - hydrogen_electricity_2026 - electricity_sold_2026 = -518232 
+          - hydrogen_electricity_2026 - electricity_sold_2026
+          - curtailment_2026 = -518232 
 R6929: - battery_charge_2027 + battery_discharge_2027
-          - hydrogen_electricity_2027 - electricity_sold_2027 = -486216 
+          - hydrogen_electricity_2027 - electricity_sold_2027
+          - curtailment_2027 = -486216 
 R6930: - battery_charge_2028 + battery_discharge_2028
-          - hydrogen_electricity_2028 - electricity_sold_2028 = -549480 
+          - hydrogen_electricity_2028 - electricity_sold_2028
+          - curtailment_2028 = -549480 
 R6931: - battery_charge_2029 + battery_discharge_2029
-          - hydrogen_electricity_2029 - electricity_sold_2029 = -554088 
+          - hydrogen_electricity_2029 - electricity_sold_2029
+          - curtailment_2029 = -554088 
 R6932: - battery_charge_2030 + battery_discharge_2030
-          - hydrogen_electricity_2030 - electricity_sold_2030 = -531792 
+          - hydrogen_electricity_2030 - electricity_sold_2030
+          - curtailment_2030 = -531792 
 R6933: - battery_charge_2031 + battery_discharge_2031
-          - hydrogen_electricity_2031 - electricity_sold_2031 = -593328 
+          - hydrogen_electricity_2031 - electricity_sold_2031
+          - curtailment_2031 = -593328 
 R6934: - battery_charge_2032 + battery_discharge_2032
-          - hydrogen_electricity_2032 - electricity_sold_2032 = -576696 
+          - hydrogen_electricity_2032 - electricity_sold_2032
+          - curtailment_2032 = -576696 
 R6935: - battery_charge_2033 + battery_discharge_2033
-          - hydrogen_electricity_2033 - electricity_sold_2033 = -485616 
+          - hydrogen_electricity_2033 - electricity_sold_2033
+          - curtailment_2033 = -485616 
 R6936: - battery_charge_2034 + battery_discharge_2034
-          - hydrogen_electricity_2034 - electricity_sold_2034 = -468024 
+          - hydrogen_electricity_2034 - electricity_sold_2034
+          - curtailment_2034 = -468024 
 R6937: - battery_charge_2035 + battery_discharge_2035
-          - hydrogen_electricity_2035 - electricity_sold_2035 = -514944 
+          - hydrogen_electricity_2035 - electricity_sold_2035
+          - curtailment_2035 = -514944 
 R6938: - battery_charge_2036 + battery_discharge_2036
-          - hydrogen_electricity_2036 - electricity_sold_2036 = -510552 
+          - hydrogen_electricity_2036 - electricity_sold_2036
+          - curtailment_2036 = -510552 
 R6939: - battery_charge_2037 + battery_discharge_2037
-          - hydrogen_electricity_2037 - electricity_sold_2037 = -542088 
+          - hydrogen_electricity_2037 - electricity_sold_2037
+          - curtailment_2037 = -542088 
 R6940: - battery_charge_2038 + battery_discharge_2038
-          - hydrogen_electricity_2038 - electricity_sold_2038 = -559464 
+          - hydrogen_electricity_2038 - electricity_sold_2038
+          - curtailment_2038 = -559464 
 R6941: - battery_charge_2039 + battery_discharge_2039
-          - hydrogen_electricity_2039 - electricity_sold_2039 = -558288 
+          - hydrogen_electricity_2039 - electricity_sold_2039
+          - curtailment_2039 = -558288 
 R6942: - battery_charge_2040 + battery_discharge_2040
-          - hydrogen_electricity_2040 - electricity_sold_2040 = -468168 
+          - hydrogen_electricity_2040 - electricity_sold_2040
+          - curtailment_2040 = -468168 
 R6943: - battery_charge_2041 + battery_discharge_2041
-          - hydrogen_electricity_2041 - electricity_sold_2041 = -470376 
+          - hydrogen_electricity_2041 - electricity_sold_2041
+          - curtailment_2041 = -470376 
 R6944: - battery_charge_2042 + battery_discharge_2042
-          - hydrogen_electricity_2042 - electricity_sold_2042 = -649296 
+          - hydrogen_electricity_2042 - electricity_sold_2042
+          - curtailment_2042 = -649296 
 R6945: - battery_charge_2043 + battery_discharge_2043
-          - hydrogen_electricity_2043 - electricity_sold_2043 = -670176 
+          - hydrogen_electricity_2043 - electricity_sold_2043
+          - curtailment_2043 = -670176 
 R6946: - battery_charge_2044 + battery_discharge_2044
-          - hydrogen_electricity_2044 - electricity_sold_2044 = -542544 
+          - hydrogen_electricity_2044 - electricity_sold_2044
+          - curtailment_2044 = -542544 
 R6947: - battery_charge_2045 + battery_discharge_2045
-          - hydrogen_electricity_2045 - electricity_sold_2045 = -616824 
+          - hydrogen_electricity_2045 - electricity_sold_2045
+          - curtailment_2045 = -616824 
 R6948: - battery_charge_2046 + battery_discharge_2046
-          - hydrogen_electricity_2046 - electricity_sold_2046 = -588648 
+          - hydrogen_electricity_2046 - electricity_sold_2046
+          - curtailment_2046 = -588648 
 R6949: - battery_charge_2047 + battery_discharge_2047
-          - hydrogen_electricity_2047 - electricity_sold_2047 = -585720 
+          - hydrogen_electricity_2047 - electricity_sold_2047
+          - curtailment_2047 = -585720 
 R6950: - battery_charge_2048 + battery_discharge_2048
-          - hydrogen_electricity_2048 - electricity_sold_2048 = -464208 
+          - hydrogen_electricity_2048 - electricity_sold_2048
+          - curtailment_2048 = -464208 
 R6951: - battery_charge_2049 + battery_discharge_2049
-          - hydrogen_electricity_2049 - electricity_sold_2049 = -575712 
+          - hydrogen_electricity_2049 - electricity_sold_2049
+          - curtailment_2049 = -575712 
 R6952: - battery_charge_2050 + battery_discharge_2050
-          - hydrogen_electricity_2050 - electricity_sold_2050 = -599136 
+          - hydrogen_electricity_2050 - electricity_sold_2050
+          - curtailment_2050 = -599136 
 R6953: - battery_charge_2051 + battery_discharge_2051
-          - hydrogen_electricity_2051 - electricity_sold_2051 = -618048 
+          - hydrogen_electricity_2051 - electricity_sold_2051
+          - curtailment_2051 = -618048 
 R6954: - battery_charge_2052 + battery_discharge_2052
-          - hydrogen_electricity_2052 - electricity_sold_2052 = -613200 
+          - hydrogen_electricity_2052 - electricity_sold_2052
+          - curtailment_2052 = -613200 
 R6955: - battery_charge_2053 + battery_discharge_2053
-          - hydrogen_electricity_2053 - electricity_sold_2053 = -561576 
+          - hydrogen_electricity_2053 - electricity_sold_2053
+          - curtailment_2053 = -561576 
 R6956: - battery_charge_2054 + battery_discharge_2054
-          - hydrogen_electricity_2054 - electricity_sold_2054 = -449592 
+          - hydrogen_electricity_2054 - electricity_sold_2054
+          - curtailment_2054 = -449592 
 R6957: - battery_charge_2055 + battery_discharge_2055
-          - hydrogen_electricity_2055 - electricity_sold_2055 = -462552 
+          - hydrogen_electricity_2055 - electricity_sold_2055
+          - curtailment_2055 = -462552 
 R6958: - battery_charge_2056 + battery_discharge_2056
-          - hydrogen_electricity_2056 - electricity_sold_2056 = -565200 
+          - hydrogen_electricity_2056 - electricity_sold_2056
+          - curtailment_2056 = -565200 
 R6959: - battery_charge_2057 + battery_discharge_2057
-          - hydrogen_electricity_2057 - electricity_sold_2057 = -598272 
+          - hydrogen_electricity_2057 - electricity_sold_2057
+          - curtailment_2057 = -598272 
 R6960: - battery_charge_2058 + battery_discharge_2058
-          - hydrogen_electricity_2058 - electricity_sold_2058 = -597528 
+          - hydrogen_electricity_2058 - electricity_sold_2058
+          - curtailment_2058 = -597528 
 R6961: - battery_charge_2059 + battery_discharge_2059
-          - hydrogen_electricity_2059 - electricity_sold_2059 = -554424 
+          - hydrogen_electricity_2059 - electricity_sold_2059
+          - curtailment_2059 = -554424 
 R6962: - battery_charge_2060 + battery_discharge_2060
-          - hydrogen_electricity_2060 - electricity_sold_2060 = -519120 
+          - hydrogen_electricity_2060 - electricity_sold_2060
+          - curtailment_2060 = -519120 
 R6963: - battery_charge_2061 + battery_discharge_2061
-          - hydrogen_electricity_2061 - electricity_sold_2061 = -458232 
+          - hydrogen_electricity_2061 - electricity_sold_2061
+          - curtailment_2061 = -458232 
 R6964: - battery_charge_2062 + battery_discharge_2062
-          - hydrogen_electricity_2062 - electricity_sold_2062 = -425088 
+          - hydrogen_electricity_2062 - electricity_sold_2062
+          - curtailment_2062 = -425088 
 R6965: - battery_charge_2063 + battery_discharge_2063
-          - hydrogen_electricity_2063 - electricity_sold_2063 = -553224 
+          - hydrogen_electricity_2063 - electricity_sold_2063
+          - curtailment_2063 = -553224 
 R6966: - battery_charge_2064 + battery_discharge_2064
-          - hydrogen_electricity_2064 - electricity_sold_2064 = -585432 
+          - hydrogen_electricity_2064 - electricity_sold_2064
+          - curtailment_2064 = -585432 
 R6967: - battery_charge_2065 + battery_discharge_2065
-          - hydrogen_electricity_2065 - electricity_sold_2065 = -613728 
+          - hydrogen_electricity_2065 - electricity_sold_2065
+          - curtailment_2065 = -613728 
 R6968: - battery_charge_2066 + battery_discharge_2066
-          - hydrogen_electricity_2066 - electricity_sold_2066 = -611184 
+          - hydrogen_electricity_2066 - electricity_sold_2066
+          - curtailment_2066 = -611184 
 R6969: - battery_charge_2067 + battery_discharge_2067
-          - hydrogen_electricity_2067 - electricity_sold_2067 = -556560 
+          - hydrogen_electricity_2067 - electricity_sold_2067
+          - curtailment_2067 = -556560 
 R6970: - battery_charge_2068 + battery_discharge_2068
-          - hydrogen_electricity_2068 - electricity_sold_2068 = -559296 
+          - hydrogen_electricity_2068 - electricity_sold_2068
+          - curtailment_2068 = -559296 
 R6971: - battery_charge_2069 + battery_discharge_2069
-          - hydrogen_electricity_2069 - electricity_sold_2069 = -661344 
+          - hydrogen_electricity_2069 - electricity_sold_2069
+          - curtailment_2069 = -661344 
 R6972: - battery_charge_2070 + battery_discharge_2070
-          - hydrogen_electricity_2070 - electricity_sold_2070 = -685008 
+          - hydrogen_electricity_2070 - electricity_sold_2070
+          - curtailment_2070 = -685008 
 R6973: - battery_charge_2071 + battery_discharge_2071
-          - hydrogen_electricity_2071 - electricity_sold_2071 = -633768 
+          - hydrogen_electricity_2071 - electricity_sold_2071
+          - curtailment_2071 = -633768 
 R6974: - battery_charge_2072 + battery_discharge_2072
-          - hydrogen_electricity_2072 - electricity_sold_2072 = -604152 
+          - hydrogen_electricity_2072 - electricity_sold_2072
+          - curtailment_2072 = -604152 
 R6975: - battery_charge_2073 + battery_discharge_2073
-          - hydrogen_electricity_2073 - electricity_sold_2073 = -615504 
+          - hydrogen_electricity_2073 - electricity_sold_2073
+          - curtailment_2073 = -615504 
 R6976: - battery_charge_2074 + battery_discharge_2074
-          - hydrogen_electricity_2074 - electricity_sold_2074 = -588480 
+          - hydrogen_electricity_2074 - electricity_sold_2074
+          - curtailment_2074 = -588480 
 R6977: - battery_charge_2075 + battery_discharge_2075
-          - hydrogen_electricity_2075 - electricity_sold_2075 = -542040 
+          - hydrogen_electricity_2075 - electricity_sold_2075
+          - curtailment_2075 = -542040 
 R6978: - battery_charge_2076 + battery_discharge_2076
-          - hydrogen_electricity_2076 - electricity_sold_2076 = -612792 
+          - hydrogen_electricity_2076 - electricity_sold_2076
+          - curtailment_2076 = -612792 
 R6979: - battery_charge_2077 + battery_discharge_2077
-          - hydrogen_electricity_2077 - electricity_sold_2077 = -577896 
+          - hydrogen_electricity_2077 - electricity_sold_2077
+          - curtailment_2077 = -577896 
 R6980: - battery_charge_2078 + battery_discharge_2078
-          - hydrogen_electricity_2078 - electricity_sold_2078 = -650088 
+          - hydrogen_electricity_2078 - electricity_sold_2078
+          - curtailment_2078 = -650088 
 R6981: - battery_charge_2079 + battery_discharge_2079
-          - hydrogen_electricity_2079 - electricity_sold_2079 = -667608 
+          - hydrogen_electricity_2079 - electricity_sold_2079
+          - curtailment_2079 = -667608 
 R6982: - battery_charge_2080 + battery_discharge_2080
-          - hydrogen_electricity_2080 - electricity_sold_2080 = -685392 
+          - hydrogen_electricity_2080 - electricity_sold_2080
+          - curtailment_2080 = -685392 
 R6983: - battery_charge_2081 + battery_discharge_2081
-          - hydrogen_electricity_2081 - electricity_sold_2081 = -679104 
+          - hydrogen_electricity_2081 - electricity_sold_2081
+          - curtailment_2081 = -679104 
 R6984: - battery_charge_2082 + battery_discharge_2082
-          - hydrogen_electricity_2082 - electricity_sold_2082 = -554232 
+          - hydrogen_electricity_2082 - electricity_sold_2082
+          - curtailment_2082 = -554232 
 R6985: - battery_charge_2083 + battery_discharge_2083
-          - hydrogen_electricity_2083 - electricity_sold_2083 = -545304 
+          - hydrogen_electricity_2083 - electricity_sold_2083
+          - curtailment_2083 = -545304 
 R6986: - battery_charge_2084 + battery_discharge_2084
-          - hydrogen_electricity_2084 - electricity_sold_2084 = -675264 
+          - hydrogen_electricity_2084 - electricity_sold_2084
+          - curtailment_2084 = -675264 
 R6987: - battery_charge_2085 + battery_discharge_2085
-          - hydrogen_electricity_2085 - electricity_sold_2085 = -660648 
+          - hydrogen_electricity_2085 - electricity_sold_2085
+          - curtailment_2085 = -660648 
 R6988: - battery_charge_2086 + battery_discharge_2086
-          - hydrogen_electricity_2086 - electricity_sold_2086 = -624984 
+          - hydrogen_electricity_2086 - electricity_sold_2086
+          - curtailment_2086 = -624984 
 R6989: - battery_charge_2087 + battery_discharge_2087
-          - hydrogen_electricity_2087 - electricity_sold_2087 = -693000 
+          - hydrogen_electricity_2087 - electricity_sold_2087
+          - curtailment_2087 = -693000 
 R6990: - battery_charge_2088 + battery_discharge_2088
-          - hydrogen_electricity_2088 - electricity_sold_2088 = -622248 
+          - hydrogen_electricity_2088 - electricity_sold_2088
+          - curtailment_2088 = -622248 
 R6991: - battery_charge_2089 + battery_discharge_2089
-          - hydrogen_electricity_2089 - electricity_sold_2089 = -572568 
+          - hydrogen_electricity_2089 - electricity_sold_2089
+          - curtailment_2089 = -572568 
 R6992: - battery_charge_2090 + battery_discharge_2090
-          - hydrogen_electricity_2090 - electricity_sold_2090 = -591864 
+          - hydrogen_electricity_2090 - electricity_sold_2090
+          - curtailment_2090 = -591864 
 R6993: - battery_charge_2091 + battery_discharge_2091
-          - hydrogen_electricity_2091 - electricity_sold_2091 = -622152 
+          - hydrogen_electricity_2091 - electricity_sold_2091
+          - curtailment_2091 = -622152 
 R6994: - battery_charge_2092 + battery_discharge_2092
-          - hydrogen_electricity_2092 - electricity_sold_2092 = -634128 
+          - hydrogen_electricity_2092 - electricity_sold_2092
+          - curtailment_2092 = -634128 
 R6995: - battery_charge_2093 + battery_discharge_2093
-          - hydrogen_electricity_2093 - electricity_sold_2093 = -618984 
+          - hydrogen_electricity_2093 - electricity_sold_2093
+          - curtailment_2093 = -618984 
 R6996: - battery_charge_2094 + battery_discharge_2094
-          - hydrogen_electricity_2094 - electricity_sold_2094 = -608232 
+          - hydrogen_electricity_2094 - electricity_sold_2094
+          - curtailment_2094 = -608232 
 R6997: - battery_charge_2095 + battery_discharge_2095
-          - hydrogen_electricity_2095 - electricity_sold_2095 = -610848 
+          - hydrogen_electricity_2095 - electricity_sold_2095
+          - curtailment_2095 = -610848 
 R6998: - battery_charge_2096 + battery_discharge_2096
-          - hydrogen_electricity_2096 - electricity_sold_2096 = -596040 
+          - hydrogen_electricity_2096 - electricity_sold_2096
+          - curtailment_2096 = -596040 
 R6999: - battery_charge_2097 + battery_discharge_2097
-          - hydrogen_electricity_2097 - electricity_sold_2097 = -545496 
+          - hydrogen_electricity_2097 - electricity_sold_2097
+          - curtailment_2097 = -545496 
 R7000: - battery_charge_2098 + battery_discharge_2098
-          - hydrogen_electricity_2098 - electricity_sold_2098 = -645864 
+          - hydrogen_electricity_2098 - electricity_sold_2098
+          - curtailment_2098 = -645864 
 R7001: - battery_charge_2099 + battery_discharge_2099
-          - hydrogen_electricity_2099 - electricity_sold_2099 = -669216 
+          - hydrogen_electricity_2099 - electricity_sold_2099
+          - curtailment_2099 = -669216 
 R7002: - battery_charge_2100 + battery_discharge_2100
-          - hydrogen_electricity_2100 - electricity_sold_2100 = -678864 
+          - hydrogen_electricity_2100 - electricity_sold_2100
+          - curtailment_2100 = -678864 
 R7003: - battery_charge_2101 + battery_discharge_2101
-          - hydrogen_electricity_2101 - electricity_sold_2101 = -653592 
+          - hydrogen_electricity_2101 - electricity_sold_2101
+          - curtailment_2101 = -653592 
 R7004: - battery_charge_2102 + battery_discharge_2102
-          - hydrogen_electricity_2102 - electricity_sold_2102 = -668256 
+          - hydrogen_electricity_2102 - electricity_sold_2102
+          - curtailment_2102 = -668256 
 R7005: - battery_charge_2103 + battery_discharge_2103
-          - hydrogen_electricity_2103 - electricity_sold_2103 = -690624 
+          - hydrogen_electricity_2103 - electricity_sold_2103
+          - curtailment_2103 = -690624 
 R7006: - battery_charge_2104 + battery_discharge_2104
-          - hydrogen_electricity_2104 - electricity_sold_2104 = -652752 
+          - hydrogen_electricity_2104 - electricity_sold_2104
+          - curtailment_2104 = -652752 
 R7007: - battery_charge_2105 + battery_discharge_2105
-          - hydrogen_electricity_2105 - electricity_sold_2105 = -668928 
+          - hydrogen_electricity_2105 - electricity_sold_2105
+          - curtailment_2105 = -668928 
 R7008: - battery_charge_2106 + battery_discharge_2106
-          - hydrogen_electricity_2106 - electricity_sold_2106 = -732072 
+          - hydrogen_electricity_2106 - electricity_sold_2106
+          - curtailment_2106 = -732072 
 R7009: - battery_charge_2107 + battery_discharge_2107
-          - hydrogen_electricity_2107 - electricity_sold_2107 = -735216 
+          - hydrogen_electricity_2107 - electricity_sold_2107
+          - curtailment_2107 = -735216 
 R7010: - battery_charge_2108 + battery_discharge_2108
-          - hydrogen_electricity_2108 - electricity_sold_2108 = -658872 
+          - hydrogen_electricity_2108 - electricity_sold_2108
+          - curtailment_2108 = -658872 
 R7011: - battery_charge_2109 + battery_discharge_2109
-          - hydrogen_electricity_2109 - electricity_sold_2109 = -634632 
+          - hydrogen_electricity_2109 - electricity_sold_2109
+          - curtailment_2109 = -634632 
 R7012: - battery_charge_2110 + battery_discharge_2110
-          - hydrogen_electricity_2110 - electricity_sold_2110 = -558072 
+          - hydrogen_electricity_2110 - electricity_sold_2110
+          - curtailment_2110 = -558072 
 R7013: - battery_charge_2111 + battery_discharge_2111
-          - hydrogen_electricity_2111 - electricity_sold_2111 = -575472 
+          - hydrogen_electricity_2111 - electricity_sold_2111
+          - curtailment_2111 = -575472 
 R7014: - battery_charge_2112 + battery_discharge_2112
-          - hydrogen_electricity_2112 - electricity_sold_2112 = -709416 
+          - hydrogen_electricity_2112 - electricity_sold_2112
+          - curtailment_2112 = -709416 
 R7015: - battery_charge_2113 + battery_discharge_2113
-          - hydrogen_electricity_2113 - electricity_sold_2113 = -750264 
+          - hydrogen_electricity_2113 - electricity_sold_2113
+          - curtailment_2113 = -750264 
 R7016: - battery_charge_2114 + battery_discharge_2114
-          - hydrogen_electricity_2114 - electricity_sold_2114 = -734352 
+          - hydrogen_electricity_2114 - electricity_sold_2114
+          - curtailment_2114 = -734352 
 R7017: - battery_charge_2115 + battery_discharge_2115
-          - hydrogen_electricity_2115 - electricity_sold_2115 = -675408 
+          - hydrogen_electricity_2115 - electricity_sold_2115
+          - curtailment_2115 = -675408 
 R7018: - battery_charge_2116 + battery_discharge_2116
-          - hydrogen_electricity_2116 - electricity_sold_2116 = -656784 
+          - hydrogen_electricity_2116 - electricity_sold_2116
+          - curtailment_2116 = -656784 
 R7019: - battery_charge_2117 + battery_discharge_2117
-          - hydrogen_electricity_2117 - electricity_sold_2117 = -578160 
+          - hydrogen_electricity_2117 - electricity_sold_2117
+          - curtailment_2117 = -578160 
 R7020: - battery_charge_2118 + battery_discharge_2118
-          - hydrogen_electricity_2118 - electricity_sold_2118 = -634080 
+          - hydrogen_electricity_2118 - electricity_sold_2118
+          - curtailment_2118 = -634080 
 R7021: - battery_charge_2119 + battery_discharge_2119
-          - hydrogen_electricity_2119 - electricity_sold_2119 = -622344 
+          - hydrogen_electricity_2119 - electricity_sold_2119
+          - curtailment_2119 = -622344 
 R7022: - battery_charge_2120 + battery_discharge_2120
-          - hydrogen_electricity_2120 - electricity_sold_2120 = -605304 
+          - hydrogen_electricity_2120 - electricity_sold_2120
+          - curtailment_2120 = -605304 
 R7023: - battery_charge_2121 + battery_discharge_2121
-          - hydrogen_electricity_2121 - electricity_sold_2121 = -700968 
+          - hydrogen_electricity_2121 - electricity_sold_2121
+          - curtailment_2121 = -700968 
 R7024: - battery_charge_2122 + battery_discharge_2122
-          - hydrogen_electricity_2122 - electricity_sold_2122 = -636792 
+          - hydrogen_electricity_2122 - electricity_sold_2122
+          - curtailment_2122 = -636792 
 R7025: - battery_charge_2123 + battery_discharge_2123
-          - hydrogen_electricity_2123 - electricity_sold_2123 = -687192 
+          - hydrogen_electricity_2123 - electricity_sold_2123
+          - curtailment_2123 = -687192 
 R7026: - battery_charge_2124 + battery_discharge_2124
-          - hydrogen_electricity_2124 - electricity_sold_2124 = -710952 
+          - hydrogen_electricity_2124 - electricity_sold_2124
+          - curtailment_2124 = -710952 
 R7027: - battery_charge_2125 + battery_discharge_2125
-          - hydrogen_electricity_2125 - electricity_sold_2125 = -648912 
+          - hydrogen_electricity_2125 - electricity_sold_2125
+          - curtailment_2125 = -648912 
 R7028: - battery_charge_2126 + battery_discharge_2126
-          - hydrogen_electricity_2126 - electricity_sold_2126 = -696288 
+          - hydrogen_electricity_2126 - electricity_sold_2126
+          - curtailment_2126 = -696288 
 R7029: - battery_charge_2127 + battery_discharge_2127
-          - hydrogen_electricity_2127 - electricity_sold_2127 = -726048 
+          - hydrogen_electricity_2127 - electricity_sold_2127
+          - curtailment_2127 = -726048 
 R7030: - battery_charge_2128 + battery_discharge_2128
-          - hydrogen_electricity_2128 - electricity_sold_2128 = -713880 
+          - hydrogen_electricity_2128 - electricity_sold_2128
+          - curtailment_2128 = -713880 
 R7031: - battery_charge_2129 + battery_discharge_2129
-          - hydrogen_electricity_2129 - electricity_sold_2129 = -706032 
+          - hydrogen_electricity_2129 - electricity_sold_2129
+          - curtailment_2129 = -706032 
 R7032: - battery_charge_2130 + battery_discharge_2130
-          - hydrogen_electricity_2130 - electricity_sold_2130 = -783120 
+          - hydrogen_electricity_2130 - electricity_sold_2130
+          - curtailment_2130 = -783120 
 R7033: - battery_charge_2131 + battery_discharge_2131
-          - hydrogen_electricity_2131 - electricity_sold_2131 = -709176 
+          - hydrogen_electricity_2131 - electricity_sold_2131
+          - curtailment_2131 = -709176 
 R7034: - battery_charge_2132 + battery_discharge_2132
-          - hydrogen_electricity_2132 - electricity_sold_2132 = -680136 
+          - hydrogen_electricity_2132 - electricity_sold_2132
+          - curtailment_2132 = -680136 
 R7035: - battery_charge_2133 + battery_discharge_2133
-          - hydrogen_electricity_2133 - electricity_sold_2133 = -766320 
+          - hydrogen_electricity_2133 - electricity_sold_2133
+          - curtailment_2133 = -766320 
 R7036: - battery_charge_2134 + battery_discharge_2134
-          - hydrogen_electricity_2134 - electricity_sold_2134 = -719760 
+          - hydrogen_electricity_2134 - electricity_sold_2134
+          - curtailment_2134 = -719760 
 R7037: - battery_charge_2135 + battery_discharge_2135
-          - hydrogen_electricity_2135 - electricity_sold_2135 = -693408 
+          - hydrogen_electricity_2135 - electricity_sold_2135
+          - curtailment_2135 = -693408 
 R7038: - battery_charge_2136 + battery_discharge_2136
-          - hydrogen_electricity_2136 - electricity_sold_2136 = -693096 
+          - hydrogen_electricity_2136 - electricity_sold_2136
+          - curtailment_2136 = -693096 
 R7039: - battery_charge_2137 + battery_discharge_2137
-          - hydrogen_electricity_2137 - electricity_sold_2137 = -716568 
+          - hydrogen_electricity_2137 - electricity_sold_2137
+          - curtailment_2137 = -716568 
 R7040: - battery_charge_2138 + battery_discharge_2138
-          - hydrogen_electricity_2138 - electricity_sold_2138 = -645144 
+          - hydrogen_electricity_2138 - electricity_sold_2138
+          - curtailment_2138 = -645144 
 R7041: - battery_charge_2139 + battery_discharge_2139
-          - hydrogen_electricity_2139 - electricity_sold_2139 = -673152 
+          - hydrogen_electricity_2139 - electricity_sold_2139
+          - curtailment_2139 = -673152 
 R7042: - battery_charge_2140 + battery_discharge_2140
-          - hydrogen_electricity_2140 - electricity_sold_2140 = -742416 
+          - hydrogen_electricity_2140 - electricity_sold_2140
+          - curtailment_2140 = -742416 
 R7043: - battery_charge_2141 + battery_discharge_2141
-          - hydrogen_electricity_2141 - electricity_sold_2141 = -716832 
+          - hydrogen_electricity_2141 - electricity_sold_2141
+          - curtailment_2141 = -716832 
 R7044: - battery_charge_2142 + battery_discharge_2142
-          - hydrogen_electricity_2142 - electricity_sold_2142 = -716400 
+          - hydrogen_electricity_2142 - electricity_sold_2142
+          - curtailment_2142 = -716400 
 R7045: - battery_charge_2143 + battery_discharge_2143
-          - hydrogen_electricity_2143 - electricity_sold_2143 = -737904 
+          - hydrogen_electricity_2143 - electricity_sold_2143
+          - curtailment_2143 = -737904 
 R7046: - battery_charge_2144 + battery_discharge_2144
-          - hydrogen_electricity_2144 - electricity_sold_2144 = -785904 
+          - hydrogen_electricity_2144 - electricity_sold_2144
+          - curtailment_2144 = -785904 
 R7047: - battery_charge_2145 + battery_discharge_2145
-          - hydrogen_electricity_2145 - electricity_sold_2145 = -687744 
+          - hydrogen_electricity_2145 - electricity_sold_2145
+          - curtailment_2145 = -687744 
 R7048: - battery_charge_2146 + battery_discharge_2146
-          - hydrogen_electricity_2146 - electricity_sold_2146 = -693360 
+          - hydrogen_electricity_2146 - electricity_sold_2146
+          - curtailment_2146 = -693360 
 R7049: - battery_charge_2147 + battery_discharge_2147
-          - hydrogen_electricity_2147 - electricity_sold_2147 = -804000 
+          - hydrogen_electricity_2147 - electricity_sold_2147
+          - curtailment_2147 = -804000 
 R7050: - battery_charge_2148 + battery_discharge_2148
-          - hydrogen_electricity_2148 - electricity_sold_2148 = -830112 
+          - hydrogen_electricity_2148 - electricity_sold_2148
+          - curtailment_2148 = -830112 
 R7051: - battery_charge_2149 + battery_discharge_2149
-          - hydrogen_electricity_2149 - electricity_sold_2149 = -936984 
+          - hydrogen_electricity_2149 - electricity_sold_2149
+          - curtailment_2149 = -936984 
 R7052: - battery_charge_2150 + battery_discharge_2150
-          - hydrogen_electricity_2150 - electricity_sold_2150 = -989064 
+          - hydrogen_electricity_2150 - electricity_sold_2150
+          - curtailment_2150 = -989064 
 R7053: - battery_charge_2151 + battery_discharge_2151
-          - hydrogen_electricity_2151 - electricity_sold_2151 = -919656 
+          - hydrogen_electricity_2151 - electricity_sold_2151
+          - curtailment_2151 = -919656 
 R7054: - battery_charge_2152 + battery_discharge_2152
-          - hydrogen_electricity_2152 - electricity_sold_2152 = -742080 
+          - hydrogen_electricity_2152 - electricity_sold_2152
+          - curtailment_2152 = -742080 
 R7055: - battery_charge_2153 + battery_discharge_2153
-          - hydrogen_electricity_2153 - electricity_sold_2153 = -653112 
+          - hydrogen_electricity_2153 - electricity_sold_2153
+          - curtailment_2153 = -653112 
 R7056: - battery_charge_2154 + battery_discharge_2154
-          - hydrogen_electricity_2154 - electricity_sold_2154 = -886560 
+          - hydrogen_electricity_2154 - electricity_sold_2154
+          - curtailment_2154 = -886560 
 R7057: - battery_charge_2155 + battery_discharge_2155
-          - hydrogen_electricity_2155 - electricity_sold_2155 = -898056 
+          - hydrogen_electricity_2155 - electricity_sold_2155
+          - curtailment_2155 = -898056 
 R7058: - battery_charge_2156 + battery_discharge_2156
-          - hydrogen_electricity_2156 - electricity_sold_2156 = -968568 
+          - hydrogen_electricity_2156 - electricity_sold_2156
+          - curtailment_2156 = -968568 
 R7059: - battery_charge_2157 + battery_discharge_2157
-          - hydrogen_electricity_2157 - electricity_sold_2157 = -799128 
+          - hydrogen_electricity_2157 - electricity_sold_2157
+          - curtailment_2157 = -799128 
 R7060: - battery_charge_2158 + battery_discharge_2158
-          - hydrogen_electricity_2158 - electricity_sold_2158 = -829656 
+          - hydrogen_electricity_2158 - electricity_sold_2158
+          - curtailment_2158 = -829656 
 R7061: - battery_charge_2159 + battery_discharge_2159
-          - hydrogen_electricity_2159 - electricity_sold_2159 = -685176 
+          - hydrogen_electricity_2159 - electricity_sold_2159
+          - curtailment_2159 = -685176 
 R7062: - battery_charge_2160 + battery_discharge_2160
-          - hydrogen_electricity_2160 - electricity_sold_2160 = -708264 
+          - hydrogen_electricity_2160 - electricity_sold_2160
+          - curtailment_2160 = -708264 
 R7063: - battery_charge_2161 + battery_discharge_2161
-          - hydrogen_electricity_2161 - electricity_sold_2161 = -808200 
+          - hydrogen_electricity_2161 - electricity_sold_2161
+          - curtailment_2161 = -808200 
 R7064: - battery_charge_2162 + battery_discharge_2162
-          - hydrogen_electricity_2162 - electricity_sold_2162 = -820872 
+          - hydrogen_electricity_2162 - electricity_sold_2162
+          - curtailment_2162 = -820872 
 R7065: - battery_charge_2163 + battery_discharge_2163
-          - hydrogen_electricity_2163 - electricity_sold_2163 = -893688 
+          - hydrogen_electricity_2163 - electricity_sold_2163
+          - curtailment_2163 = -893688 
 R7066: - battery_charge_2164 + battery_discharge_2164
-          - hydrogen_electricity_2164 - electricity_sold_2164 = -871944 
+          - hydrogen_electricity_2164 - electricity_sold_2164
+          - curtailment_2164 = -871944 
 R7067: - battery_charge_2165 + battery_discharge_2165
-          - hydrogen_electricity_2165 - electricity_sold_2165 = -910704 
+          - hydrogen_electricity_2165 - electricity_sold_2165
+          - curtailment_2165 = -910704 
 R7068: - battery_charge_2166 + battery_discharge_2166
-          - hydrogen_electricity_2166 - electricity_sold_2166 = -670704 
+          - hydrogen_electricity_2166 - electricity_sold_2166
+          - curtailment_2166 = -670704 
 R7069: - battery_charge_2167 + battery_discharge_2167
-          - hydrogen_electricity_2167 - electricity_sold_2167 = -638664 
+          - hydrogen_electricity_2167 - electricity_sold_2167
+          - curtailment_2167 = -638664 
 R7070: - battery_charge_2168 + battery_discharge_2168
-          - hydrogen_electricity_2168 - electricity_sold_2168 = -701040 
+          - hydrogen_electricity_2168 - electricity_sold_2168
+          - curtailment_2168 = -701040 
 R7071: - battery_charge_2169 + battery_discharge_2169
-          - hydrogen_electricity_2169 - electricity_sold_2169 = -791400 
+          - hydrogen_electricity_2169 - electricity_sold_2169
+          - curtailment_2169 = -791400 
 R7072: - battery_charge_2170 + battery_discharge_2170
-          - hydrogen_electricity_2170 - electricity_sold_2170 = -823368 
+          - hydrogen_electricity_2170 - electricity_sold_2170
+          - curtailment_2170 = -823368 
 R7073: - battery_charge_2171 + battery_discharge_2171
-          - hydrogen_electricity_2171 - electricity_sold_2171 = -836376 
+          - hydrogen_electricity_2171 - electricity_sold_2171
+          - curtailment_2171 = -836376 
 R7074: - battery_charge_2172 + battery_discharge_2172
-          - hydrogen_electricity_2172 - electricity_sold_2172 = -814800 
+          - hydrogen_electricity_2172 - electricity_sold_2172
+          - curtailment_2172 = -814800 
 R7075: - battery_charge_2173 + battery_discharge_2173
-          - hydrogen_electricity_2173 - electricity_sold_2173 = -698088 
+          - hydrogen_electricity_2173 - electricity_sold_2173
+          - curtailment_2173 = -698088 
 R7076: - battery_charge_2174 + battery_discharge_2174
-          - hydrogen_electricity_2174 - electricity_sold_2174 = -744960 
+          - hydrogen_electricity_2174 - electricity_sold_2174
+          - curtailment_2174 = -744960 
 R7077: - battery_charge_2175 + battery_discharge_2175
-          - hydrogen_electricity_2175 - electricity_sold_2175 = -769992 
+          - hydrogen_electricity_2175 - electricity_sold_2175
+          - curtailment_2175 = -769992 
 R7078: - battery_charge_2176 + battery_discharge_2176
-          - hydrogen_electricity_2176 - electricity_sold_2176 = -796872 
+          - hydrogen_electricity_2176 - electricity_sold_2176
+          - curtailment_2176 = -796872 
 R7079: - battery_charge_2177 + battery_discharge_2177
-          - hydrogen_electricity_2177 - electricity_sold_2177 = -888264 
+          - hydrogen_electricity_2177 - electricity_sold_2177
+          - curtailment_2177 = -888264 
 R7080: - battery_charge_2178 + battery_discharge_2178
-          - hydrogen_electricity_2178 - electricity_sold_2178 = -727344 
+          - hydrogen_electricity_2178 - electricity_sold_2178
+          - curtailment_2178 = -727344 
 R7081: - battery_charge_2179 + battery_discharge_2179
-          - hydrogen_electricity_2179 - electricity_sold_2179 = -786168 
+          - hydrogen_electricity_2179 - electricity_sold_2179
+          - curtailment_2179 = -786168 
 R7082: - battery_charge_2180 + battery_discharge_2180
-          - hydrogen_electricity_2180 - electricity_sold_2180 = -682056 
+          - hydrogen_electricity_2180 - electricity_sold_2180
+          - curtailment_2180 = -682056 
 R7083: - battery_charge_2181 + battery_discharge_2181
-          - hydrogen_electricity_2181 - electricity_sold_2181 = -652512 
+          - hydrogen_electricity_2181 - electricity_sold_2181
+          - curtailment_2181 = -652512 
 R7084: - battery_charge_2182 + battery_discharge_2182
-          - hydrogen_electricity_2182 - electricity_sold_2182 = -694080 
+          - hydrogen_electricity_2182 - electricity_sold_2182
+          - curtailment_2182 = -694080 
 R7085: - battery_charge_2183 + battery_discharge_2183
-          - hydrogen_electricity_2183 - electricity_sold_2183 = -663936 
+          - hydrogen_electricity_2183 - electricity_sold_2183
+          - curtailment_2183 = -663936 
 R7086: - battery_charge_2184 + battery_discharge_2184
-          - hydrogen_electricity_2184 - electricity_sold_2184 = -631992 
+          - hydrogen_electricity_2184 - electricity_sold_2184
+          - curtailment_2184 = -631992 
 R7087: - battery_charge_2185 + battery_discharge_2185
-          - hydrogen_electricity_2185 - electricity_sold_2185 = -600792 
+          - hydrogen_electricity_2185 - electricity_sold_2185
+          - curtailment_2185 = -600792 
 R7088: - battery_charge_2186 + battery_discharge_2186
-          - hydrogen_electricity_2186 - electricity_sold_2186 = -613752 
+          - hydrogen_electricity_2186 - electricity_sold_2186
+          - curtailment_2186 = -613752 
 R7089: - battery_charge_2187 + battery_discharge_2187
-          - hydrogen_electricity_2187 - electricity_sold_2187 = -619896 
+          - hydrogen_electricity_2187 - electricity_sold_2187
+          - curtailment_2187 = -619896 
 R7090: - battery_charge_2188 + battery_discharge_2188
-          - hydrogen_electricity_2188 - electricity_sold_2188 = -599016 
+          - hydrogen_electricity_2188 - electricity_sold_2188
+          - curtailment_2188 = -599016 
 R7091: - battery_charge_2189 + battery_discharge_2189
-          - hydrogen_electricity_2189 - electricity_sold_2189 = -683784 
+          - hydrogen_electricity_2189 - electricity_sold_2189
+          - curtailment_2189 = -683784 
 R7092: - battery_charge_2190 + battery_discharge_2190
-          - hydrogen_electricity_2190 - electricity_sold_2190 = -684264 
+          - hydrogen_electricity_2190 - electricity_sold_2190
+          - curtailment_2190 = -684264 
 R7093: - battery_charge_2191 + battery_discharge_2191
-          - hydrogen_electricity_2191 - electricity_sold_2191 = -728784 
+          - hydrogen_electricity_2191 - electricity_sold_2191
+          - curtailment_2191 = -728784 
 R7094: - battery_charge_2192 + battery_discharge_2192
-          - hydrogen_electricity_2192 - electricity_sold_2192 = -737376 
+          - hydrogen_electricity_2192 - electricity_sold_2192
+          - curtailment_2192 = -737376 
 R7095: - battery_charge_2193 + battery_discharge_2193
-          - hydrogen_electricity_2193 - electricity_sold_2193 = -758280 
+          - hydrogen_electricity_2193 - electricity_sold_2193
+          - curtailment_2193 = -758280 
 R7096: - battery_charge_2194 + battery_discharge_2194
-          - hydrogen_electricity_2194 - electricity_sold_2194 = -789792 
+          - hydrogen_electricity_2194 - electricity_sold_2194
+          - curtailment_2194 = -789792 
 R7097: - battery_charge_2195 + battery_discharge_2195
-          - hydrogen_electricity_2195 - electricity_sold_2195 = -840192 
+          - hydrogen_electricity_2195 - electricity_sold_2195
+          - curtailment_2195 = -840192 
 R7098: - battery_charge_2196 + battery_discharge_2196
-          - hydrogen_electricity_2196 - electricity_sold_2196 = -1044480 
+          - hydrogen_electricity_2196 - electricity_sold_2196
+          - curtailment_2196 = -1044480 
 R7099: - battery_charge_2197 + battery_discharge_2197
-          - hydrogen_electricity_2197 - electricity_sold_2197 = -1028832 
+          - hydrogen_electricity_2197 - electricity_sold_2197
+          - curtailment_2197 = -1028832 
 R7100: - battery_charge_2198 + battery_discharge_2198
-          - hydrogen_electricity_2198 - electricity_sold_2198 = -941304 
+          - hydrogen_electricity_2198 - electricity_sold_2198
+          - curtailment_2198 = -941304 
 R7101: - battery_charge_2199 + battery_discharge_2199
-          - hydrogen_electricity_2199 - electricity_sold_2199 = -865824 
+          - hydrogen_electricity_2199 - electricity_sold_2199
+          - curtailment_2199 = -865824 
 R7102: - battery_charge_2200 + battery_discharge_2200
-          - hydrogen_electricity_2200 - electricity_sold_2200 = -803664 
+          - hydrogen_electricity_2200 - electricity_sold_2200
+          - curtailment_2200 = -803664 
 R7103: - battery_charge_2201 + battery_discharge_2201
-          - hydrogen_electricity_2201 - electricity_sold_2201 = -608952 
+          - hydrogen_electricity_2201 - electricity_sold_2201
+          - curtailment_2201 = -608952 
 R7104: - battery_charge_2202 + battery_discharge_2202
-          - hydrogen_electricity_2202 - electricity_sold_2202 = -837048 
+          - hydrogen_electricity_2202 - electricity_sold_2202
+          - curtailment_2202 = -837048 
 R7105: - battery_charge_2203 + battery_discharge_2203
-          - hydrogen_electricity_2203 - electricity_sold_2203 = -878784 
+          - hydrogen_electricity_2203 - electricity_sold_2203
+          - curtailment_2203 = -878784 
 R7106: - battery_charge_2204 + battery_discharge_2204
-          - hydrogen_electricity_2204 - electricity_sold_2204 = -809136 
+          - hydrogen_electricity_2204 - electricity_sold_2204
+          - curtailment_2204 = -809136 
 R7107: - battery_charge_2205 + battery_discharge_2205
-          - hydrogen_electricity_2205 - electricity_sold_2205 = -863136 
+          - hydrogen_electricity_2205 - electricity_sold_2205
+          - curtailment_2205 = -863136 
 R7108: - battery_charge_2206 + battery_discharge_2206
-          - hydrogen_electricity_2206 - electricity_sold_2206 = -737424 
+          - hydrogen_electricity_2206 - electricity_sold_2206
+          - curtailment_2206 = -737424 
 R7109: - battery_charge_2207 + battery_discharge_2207
-          - hydrogen_electricity_2207 - electricity_sold_2207 = -798912 
+          - hydrogen_electricity_2207 - electricity_sold_2207
+          - curtailment_2207 = -798912 
 R7110: - battery_charge_2208 + battery_discharge_2208
-          - hydrogen_electricity_2208 - electricity_sold_2208 = -709128 
+          - hydrogen_electricity_2208 - electricity_sold_2208
+          - curtailment_2208 = -709128 
 R7111: - battery_charge_2209 + battery_discharge_2209
-          - hydrogen_electricity_2209 - electricity_sold_2209 = -654408 
+          - hydrogen_electricity_2209 - electricity_sold_2209
+          - curtailment_2209 = -654408 
 R7112: - battery_charge_2210 + battery_discharge_2210
-          - hydrogen_electricity_2210 - electricity_sold_2210 = -829464 
+          - hydrogen_electricity_2210 - electricity_sold_2210
+          - curtailment_2210 = -829464 
 R7113: - battery_charge_2211 + battery_discharge_2211
-          - hydrogen_electricity_2211 - electricity_sold_2211 = -915624 
+          - hydrogen_electricity_2211 - electricity_sold_2211
+          - curtailment_2211 = -915624 
 R7114: - battery_charge_2212 + battery_discharge_2212
-          - hydrogen_electricity_2212 - electricity_sold_2212 = -806472 
+          - hydrogen_electricity_2212 - electricity_sold_2212
+          - curtailment_2212 = -806472 
 R7115: - battery_charge_2213 + battery_discharge_2213
-          - hydrogen_electricity_2213 - electricity_sold_2213 = -814608 
+          - hydrogen_electricity_2213 - electricity_sold_2213
+          - curtailment_2213 = -814608 
 R7116: - battery_charge_2214 + battery_discharge_2214
-          - hydrogen_electricity_2214 - electricity_sold_2214 = -780048 
+          - hydrogen_electricity_2214 - electricity_sold_2214
+          - curtailment_2214 = -780048 
 R7117: - battery_charge_2215 + battery_discharge_2215
-          - hydrogen_electricity_2215 - electricity_sold_2215 = -754128 
+          - hydrogen_electricity_2215 - electricity_sold_2215
+          - curtailment_2215 = -754128 
 R7118: - battery_charge_2216 + battery_discharge_2216
-          - hydrogen_electricity_2216 - electricity_sold_2216 = -775680 
+          - hydrogen_electricity_2216 - electricity_sold_2216
+          - curtailment_2216 = -775680 
 R7119: - battery_charge_2217 + battery_discharge_2217
-          - hydrogen_electricity_2217 - electricity_sold_2217 = -898776 
+          - hydrogen_electricity_2217 - electricity_sold_2217
+          - curtailment_2217 = -898776 
 R7120: - battery_charge_2218 + battery_discharge_2218
-          - hydrogen_electricity_2218 - electricity_sold_2218 = -904248 
+          - hydrogen_electricity_2218 - electricity_sold_2218
+          - curtailment_2218 = -904248 
 R7121: - battery_charge_2219 + battery_discharge_2219
-          - hydrogen_electricity_2219 - electricity_sold_2219 = -840696 
+          - hydrogen_electricity_2219 - electricity_sold_2219
+          - curtailment_2219 = -840696 
 R7122: - battery_charge_2220 + battery_discharge_2220
-          - hydrogen_electricity_2220 - electricity_sold_2220 = -907464 
+          - hydrogen_electricity_2220 - electricity_sold_2220
+          - curtailment_2220 = -907464 
 R7123: - battery_charge_2221 + battery_discharge_2221
-          - hydrogen_electricity_2221 - electricity_sold_2221 = -807936 
+          - hydrogen_electricity_2221 - electricity_sold_2221
+          - curtailment_2221 = -807936 
 R7124: - battery_charge_2222 + battery_discharge_2222
-          - hydrogen_electricity_2222 - electricity_sold_2222 = -684936 
+          - hydrogen_electricity_2222 - electricity_sold_2222
+          - curtailment_2222 = -684936 
 R7125: - battery_charge_2223 + battery_discharge_2223
-          - hydrogen_electricity_2223 - electricity_sold_2223 = -640056 
+          - hydrogen_electricity_2223 - electricity_sold_2223
+          - curtailment_2223 = -640056 
 R7126: - battery_charge_2224 + battery_discharge_2224
-          - hydrogen_electricity_2224 - electricity_sold_2224 = -775032 
+          - hydrogen_electricity_2224 - electricity_sold_2224
+          - curtailment_2224 = -775032 
 R7127: - battery_charge_2225 + battery_discharge_2225
-          - hydrogen_electricity_2225 - electricity_sold_2225 = -849936 
+          - hydrogen_electricity_2225 - electricity_sold_2225
+          - curtailment_2225 = -849936 
 R7128: - battery_charge_2226 + battery_discharge_2226
-          - hydrogen_electricity_2226 - electricity_sold_2226 = -848328 
+          - hydrogen_electricity_2226 - electricity_sold_2226
+          - curtailment_2226 = -848328 
 R7129: - battery_charge_2227 + battery_discharge_2227
-          - hydrogen_electricity_2227 - electricity_sold_2227 = -899952 
+          - hydrogen_electricity_2227 - electricity_sold_2227
+          - curtailment_2227 = -899952 
 R7130: - battery_charge_2228 + battery_discharge_2228
-          - hydrogen_electricity_2228 - electricity_sold_2228 = -888984 
+          - hydrogen_electricity_2228 - electricity_sold_2228
+          - curtailment_2228 = -888984 
 R7131: - battery_charge_2229 + battery_discharge_2229
-          - hydrogen_electricity_2229 - electricity_sold_2229 = -772848 
+          - hydrogen_electricity_2229 - electricity_sold_2229
+          - curtailment_2229 = -772848 
 R7132: - battery_charge_2230 + battery_discharge_2230
-          - hydrogen_electricity_2230 - electricity_sold_2230 = -729312 
+          - hydrogen_electricity_2230 - electricity_sold_2230
+          - curtailment_2230 = -729312 
 R7133: - battery_charge_2231 + battery_discharge_2231
-          - hydrogen_electricity_2231 - electricity_sold_2231 = -893184 
+          - hydrogen_electricity_2231 - electricity_sold_2231
+          - curtailment_2231 = -893184 
 R7134: - battery_charge_2232 + battery_discharge_2232
-          - hydrogen_electricity_2232 - electricity_sold_2232 = -898392 
+          - hydrogen_electricity_2232 - electricity_sold_2232
+          - curtailment_2232 = -898392 
 R7135: - battery_charge_2233 + battery_discharge_2233
-          - hydrogen_electricity_2233 - electricity_sold_2233 = -869400 
+          - hydrogen_electricity_2233 - electricity_sold_2233
+          - curtailment_2233 = -869400 
 R7136: - battery_charge_2234 + battery_discharge_2234
-          - hydrogen_electricity_2234 - electricity_sold_2234 = -828120 
+          - hydrogen_electricity_2234 - electricity_sold_2234
+          - curtailment_2234 = -828120 
 R7137: - battery_charge_2235 + battery_discharge_2235
-          - hydrogen_electricity_2235 - electricity_sold_2235 = -883032 
+          - hydrogen_electricity_2235 - electricity_sold_2235
+          - curtailment_2235 = -883032 
 R7138: - battery_charge_2236 + battery_discharge_2236
-          - hydrogen_electricity_2236 - electricity_sold_2236 = -811008 
+          - hydrogen_electricity_2236 - electricity_sold_2236
+          - curtailment_2236 = -811008 
 R7139: - battery_charge_2237 + battery_discharge_2237
-          - hydrogen_electricity_2237 - electricity_sold_2237 = -747720 
+          - hydrogen_electricity_2237 - electricity_sold_2237
+          - curtailment_2237 = -747720 
 R7140: - battery_charge_2238 + battery_discharge_2238
-          - hydrogen_electricity_2238 - electricity_sold_2238 = -818496 
+          - hydrogen_electricity_2238 - electricity_sold_2238
+          - curtailment_2238 = -818496 
 R7141: - battery_charge_2239 + battery_discharge_2239
-          - hydrogen_electricity_2239 - electricity_sold_2239 = -873312 
+          - hydrogen_electricity_2239 - electricity_sold_2239
+          - curtailment_2239 = -873312 
 R7142: - battery_charge_2240 + battery_discharge_2240
-          - hydrogen_electricity_2240 - electricity_sold_2240 = -903768 
+          - hydrogen_electricity_2240 - electricity_sold_2240
+          - curtailment_2240 = -903768 
 R7143: - battery_charge_2241 + battery_discharge_2241
-          - hydrogen_electricity_2241 - electricity_sold_2241 = -866592 
+          - hydrogen_electricity_2241 - electricity_sold_2241
+          - curtailment_2241 = -866592 
 R7144: - battery_charge_2242 + battery_discharge_2242
-          - hydrogen_electricity_2242 - electricity_sold_2242 = -815208 
+          - hydrogen_electricity_2242 - electricity_sold_2242
+          - curtailment_2242 = -815208 
 R7145: - battery_charge_2243 + battery_discharge_2243
-          - hydrogen_electricity_2243 - electricity_sold_2243 = -646032 
+          - hydrogen_electricity_2243 - electricity_sold_2243
+          - curtailment_2243 = -646032 
 R7146: - battery_charge_2244 + battery_discharge_2244
-          - hydrogen_electricity_2244 - electricity_sold_2244 = -698040 
+          - hydrogen_electricity_2244 - electricity_sold_2244
+          - curtailment_2244 = -698040 
 R7147: - battery_charge_2245 + battery_discharge_2245
-          - hydrogen_electricity_2245 - electricity_sold_2245 = -756624 
+          - hydrogen_electricity_2245 - electricity_sold_2245
+          - curtailment_2245 = -756624 
 R7148: - battery_charge_2246 + battery_discharge_2246
-          - hydrogen_electricity_2246 - electricity_sold_2246 = -732888 
+          - hydrogen_electricity_2246 - electricity_sold_2246
+          - curtailment_2246 = -732888 
 R7149: - battery_charge_2247 + battery_discharge_2247
-          - hydrogen_electricity_2247 - electricity_sold_2247 = -750360 
+          - hydrogen_electricity_2247 - electricity_sold_2247
+          - curtailment_2247 = -750360 
 R7150: - battery_charge_2248 + battery_discharge_2248
-          - hydrogen_electricity_2248 - electricity_sold_2248 = -721344 
+          - hydrogen_electricity_2248 - electricity_sold_2248
+          - curtailment_2248 = -721344 
 R7151: - battery_charge_2249 + battery_discharge_2249
-          - hydrogen_electricity_2249 - electricity_sold_2249 = -681888 
+          - hydrogen_electricity_2249 - electricity_sold_2249
+          - curtailment_2249 = -681888 
 R7152: - battery_charge_2250 + battery_discharge_2250
-          - hydrogen_electricity_2250 - electricity_sold_2250 = -614496 
+          - hydrogen_electricity_2250 - electricity_sold_2250
+          - curtailment_2250 = -614496 
 R7153: - battery_charge_2251 + battery_discharge_2251
-          - hydrogen_electricity_2251 - electricity_sold_2251 = -696600 
+          - hydrogen_electricity_2251 - electricity_sold_2251
+          - curtailment_2251 = -696600 
 R7154: - battery_charge_2252 + battery_discharge_2252
-          - hydrogen_electricity_2252 - electricity_sold_2252 = -767352 
+          - hydrogen_electricity_2252 - electricity_sold_2252
+          - curtailment_2252 = -767352 
 R7155: - battery_charge_2253 + battery_discharge_2253
-          - hydrogen_electricity_2253 - electricity_sold_2253 = -695688 
+          - hydrogen_electricity_2253 - electricity_sold_2253
+          - curtailment_2253 = -695688 
 R7156: - battery_charge_2254 + battery_discharge_2254
-          - hydrogen_electricity_2254 - electricity_sold_2254 = -686424 
+          - hydrogen_electricity_2254 - electricity_sold_2254
+          - curtailment_2254 = -686424 
 R7157: - battery_charge_2255 + battery_discharge_2255
-          - hydrogen_electricity_2255 - electricity_sold_2255 = -671136 
+          - hydrogen_electricity_2255 - electricity_sold_2255
+          - curtailment_2255 = -671136 
 R7158: - battery_charge_2256 + battery_discharge_2256
-          - hydrogen_electricity_2256 - electricity_sold_2256 = -701136 
+          - hydrogen_electricity_2256 - electricity_sold_2256
+          - curtailment_2256 = -701136 
 R7159: - battery_charge_2257 + battery_discharge_2257
-          - hydrogen_electricity_2257 - electricity_sold_2257 = -607920 
+          - hydrogen_electricity_2257 - electricity_sold_2257
+          - curtailment_2257 = -607920 
 R7160: - battery_charge_2258 + battery_discharge_2258
-          - hydrogen_electricity_2258 - electricity_sold_2258 = -572832 
+          - hydrogen_electricity_2258 - electricity_sold_2258
+          - curtailment_2258 = -572832 
 R7161: - battery_charge_2259 + battery_discharge_2259
-          - hydrogen_electricity_2259 - electricity_sold_2259 = -696864 
+          - hydrogen_electricity_2259 - electricity_sold_2259
+          - curtailment_2259 = -696864 
 R7162: - battery_charge_2260 + battery_discharge_2260
-          - hydrogen_electricity_2260 - electricity_sold_2260 = -742728 
+          - hydrogen_electricity_2260 - electricity_sold_2260
+          - curtailment_2260 = -742728 
 R7163: - battery_charge_2261 + battery_discharge_2261
-          - hydrogen_electricity_2261 - electricity_sold_2261 = -793488 
+          - hydrogen_electricity_2261 - electricity_sold_2261
+          - curtailment_2261 = -793488 
 R7164: - battery_charge_2262 + battery_discharge_2262
-          - hydrogen_electricity_2262 - electricity_sold_2262 = -775320 
+          - hydrogen_electricity_2262 - electricity_sold_2262
+          - curtailment_2262 = -775320 
 R7165: - battery_charge_2263 + battery_discharge_2263
-          - hydrogen_electricity_2263 - electricity_sold_2263 = -771840 
+          - hydrogen_electricity_2263 - electricity_sold_2263
+          - curtailment_2263 = -771840 
 R7166: - battery_charge_2264 + battery_discharge_2264
-          - hydrogen_electricity_2264 - electricity_sold_2264 = -616872 
+          - hydrogen_electricity_2264 - electricity_sold_2264
+          - curtailment_2264 = -616872 
 R7167: - battery_charge_2265 + battery_discharge_2265
-          - hydrogen_electricity_2265 - electricity_sold_2265 = -676392 
+          - hydrogen_electricity_2265 - electricity_sold_2265
+          - curtailment_2265 = -676392 
 R7168: - battery_charge_2266 + battery_discharge_2266
-          - hydrogen_electricity_2266 - electricity_sold_2266 = -777336 
+          - hydrogen_electricity_2266 - electricity_sold_2266
+          - curtailment_2266 = -777336 
 R7169: - battery_charge_2267 + battery_discharge_2267
-          - hydrogen_electricity_2267 - electricity_sold_2267 = -783840 
+          - hydrogen_electricity_2267 - electricity_sold_2267
+          - curtailment_2267 = -783840 
 R7170: - battery_charge_2268 + battery_discharge_2268
-          - hydrogen_electricity_2268 - electricity_sold_2268 = -631872 
+          - hydrogen_electricity_2268 - electricity_sold_2268
+          - curtailment_2268 = -631872 
 R7171: - battery_charge_2269 + battery_discharge_2269
-          - hydrogen_electricity_2269 - electricity_sold_2269 = -649392 
+          - hydrogen_electricity_2269 - electricity_sold_2269
+          - curtailment_2269 = -649392 
 R7172: - battery_charge_2270 + battery_discharge_2270
-          - hydrogen_electricity_2270 - electricity_sold_2270 = -640896 
+          - hydrogen_electricity_2270 - electricity_sold_2270
+          - curtailment_2270 = -640896 
 R7173: - battery_charge_2271 + battery_discharge_2271
-          - hydrogen_electricity_2271 - electricity_sold_2271 = -575448 
+          - hydrogen_electricity_2271 - electricity_sold_2271
+          - curtailment_2271 = -575448 
 R7174: - battery_charge_2272 + battery_discharge_2272
-          - hydrogen_electricity_2272 - electricity_sold_2272 = -546480 
+          - hydrogen_electricity_2272 - electricity_sold_2272
+          - curtailment_2272 = -546480 
 R7175: - battery_charge_2273 + battery_discharge_2273
-          - hydrogen_electricity_2273 - electricity_sold_2273 = -698688 
+          - hydrogen_electricity_2273 - electricity_sold_2273
+          - curtailment_2273 = -698688 
 R7176: - battery_charge_2274 + battery_discharge_2274
-          - hydrogen_electricity_2274 - electricity_sold_2274 = -756552 
+          - hydrogen_electricity_2274 - electricity_sold_2274
+          - curtailment_2274 = -756552 
 R7177: - battery_charge_2275 + battery_discharge_2275
-          - hydrogen_electricity_2275 - electricity_sold_2275 = -794472 
+          - hydrogen_electricity_2275 - electricity_sold_2275
+          - curtailment_2275 = -794472 
 R7178: - battery_charge_2276 + battery_discharge_2276
-          - hydrogen_electricity_2276 - electricity_sold_2276 = -689208 
+          - hydrogen_electricity_2276 - electricity_sold_2276
+          - curtailment_2276 = -689208 
 R7179: - battery_charge_2277 + battery_discharge_2277
-          - hydrogen_electricity_2277 - electricity_sold_2277 = -706200 
+          - hydrogen_electricity_2277 - electricity_sold_2277
+          - curtailment_2277 = -706200 
 R7180: - battery_charge_2278 + battery_discharge_2278
-          - hydrogen_electricity_2278 - electricity_sold_2278 = -764784 
+          - hydrogen_electricity_2278 - electricity_sold_2278
+          - curtailment_2278 = -764784 
 R7181: - battery_charge_2279 + battery_discharge_2279
-          - hydrogen_electricity_2279 - electricity_sold_2279 = -719520 
+          - hydrogen_electricity_2279 - electricity_sold_2279
+          - curtailment_2279 = -719520 
 R7182: - battery_charge_2280 + battery_discharge_2280
-          - hydrogen_electricity_2280 - electricity_sold_2280 = -753000 
+          - hydrogen_electricity_2280 - electricity_sold_2280
+          - curtailment_2280 = -753000 
 R7183: - battery_charge_2281 + battery_discharge_2281
-          - hydrogen_electricity_2281 - electricity_sold_2281 = -683928 
+          - hydrogen_electricity_2281 - electricity_sold_2281
+          - curtailment_2281 = -683928 
 R7184: - battery_charge_2282 + battery_discharge_2282
-          - hydrogen_electricity_2282 - electricity_sold_2282 = -720216 
+          - hydrogen_electricity_2282 - electricity_sold_2282
+          - curtailment_2282 = -720216 
 R7185: - battery_charge_2283 + battery_discharge_2283
-          - hydrogen_electricity_2283 - electricity_sold_2283 = -701232 
+          - hydrogen_electricity_2283 - electricity_sold_2283
+          - curtailment_2283 = -701232 
 R7186: - battery_charge_2284 + battery_discharge_2284
-          - hydrogen_electricity_2284 - electricity_sold_2284 = -712224 
+          - hydrogen_electricity_2284 - electricity_sold_2284
+          - curtailment_2284 = -712224 
 R7187: - battery_charge_2285 + battery_discharge_2285
-          - hydrogen_electricity_2285 - electricity_sold_2285 = -638640 
+          - hydrogen_electricity_2285 - electricity_sold_2285
+          - curtailment_2285 = -638640 
 R7188: - battery_charge_2286 + battery_discharge_2286
-          - hydrogen_electricity_2286 - electricity_sold_2286 = -686760 
+          - hydrogen_electricity_2286 - electricity_sold_2286
+          - curtailment_2286 = -686760 
 R7189: - battery_charge_2287 + battery_discharge_2287
-          - hydrogen_electricity_2287 - electricity_sold_2287 = -525408 
+          - hydrogen_electricity_2287 - electricity_sold_2287
+          - curtailment_2287 = -525408 
 R7190: - battery_charge_2288 + battery_discharge_2288
-          - hydrogen_electricity_2288 - electricity_sold_2288 = -671424 
+          - hydrogen_electricity_2288 - electricity_sold_2288
+          - curtailment_2288 = -671424 
 R7191: - battery_charge_2289 + battery_discharge_2289
-          - hydrogen_electricity_2289 - electricity_sold_2289 = -615000 
+          - hydrogen_electricity_2289 - electricity_sold_2289
+          - curtailment_2289 = -615000 
 R7192: - battery_charge_2290 + battery_discharge_2290
-          - hydrogen_electricity_2290 - electricity_sold_2290 = -617400 
+          - hydrogen_electricity_2290 - electricity_sold_2290
+          - curtailment_2290 = -617400 
 R7193: - battery_charge_2291 + battery_discharge_2291
-          - hydrogen_electricity_2291 - electricity_sold_2291 = -683136 
+          - hydrogen_electricity_2291 - electricity_sold_2291
+          - curtailment_2291 = -683136 
 R7194: - battery_charge_2292 + battery_discharge_2292
-          - hydrogen_electricity_2292 - electricity_sold_2292 = -787920 
+          - hydrogen_electricity_2292 - electricity_sold_2292
+          - curtailment_2292 = -787920 
 R7195: - battery_charge_2293 + battery_discharge_2293
-          - hydrogen_electricity_2293 - electricity_sold_2293 = -768936 
+          - hydrogen_electricity_2293 - electricity_sold_2293
+          - curtailment_2293 = -768936 
 R7196: - battery_charge_2294 + battery_discharge_2294
-          - hydrogen_electricity_2294 - electricity_sold_2294 = -688032 
+          - hydrogen_electricity_2294 - electricity_sold_2294
+          - curtailment_2294 = -688032 
 R7197: - battery_charge_2295 + battery_discharge_2295
-          - hydrogen_electricity_2295 - electricity_sold_2295 = -488784 
+          - hydrogen_electricity_2295 - electricity_sold_2295
+          - curtailment_2295 = -488784 
 R7198: - battery_charge_2296 + battery_discharge_2296
-          - hydrogen_electricity_2296 - electricity_sold_2296 = -796488 
+          - hydrogen_electricity_2296 - electricity_sold_2296
+          - curtailment_2296 = -796488 
 R7199: - battery_charge_2297 + battery_discharge_2297
-          - hydrogen_electricity_2297 - electricity_sold_2297 = -751848 
+          - hydrogen_electricity_2297 - electricity_sold_2297
+          - curtailment_2297 = -751848 
 R7200: - battery_charge_2298 + battery_discharge_2298
-          - hydrogen_electricity_2298 - electricity_sold_2298 = -707736 
+          - hydrogen_electricity_2298 - electricity_sold_2298
+          - curtailment_2298 = -707736 
 R7201: - battery_charge_2299 + battery_discharge_2299
-          - hydrogen_electricity_2299 - electricity_sold_2299 = -648552 
+          - hydrogen_electricity_2299 - electricity_sold_2299
+          - curtailment_2299 = -648552 
 R7202: - battery_charge_2300 + battery_discharge_2300
-          - hydrogen_electricity_2300 - electricity_sold_2300 = -538968 
+          - hydrogen_electricity_2300 - electricity_sold_2300
+          - curtailment_2300 = -538968 
 R7203: - battery_charge_2301 + battery_discharge_2301
-          - hydrogen_electricity_2301 - electricity_sold_2301 = -611256 
+          - hydrogen_electricity_2301 - electricity_sold_2301
+          - curtailment_2301 = -611256 
 R7204: - battery_charge_2302 + battery_discharge_2302
-          - hydrogen_electricity_2302 - electricity_sold_2302 = -672120 
+          - hydrogen_electricity_2302 - electricity_sold_2302
+          - curtailment_2302 = -672120 
 R7205: - battery_charge_2303 + battery_discharge_2303
-          - hydrogen_electricity_2303 - electricity_sold_2303 = -615984 
+          - hydrogen_electricity_2303 - electricity_sold_2303
+          - curtailment_2303 = -615984 
 R7206: - battery_charge_2304 + battery_discharge_2304
-          - hydrogen_electricity_2304 - electricity_sold_2304 = -558504 
+          - hydrogen_electricity_2304 - electricity_sold_2304
+          - curtailment_2304 = -558504 
 R7207: - battery_charge_2305 + battery_discharge_2305
-          - hydrogen_electricity_2305 - electricity_sold_2305 = -553536 
+          - hydrogen_electricity_2305 - electricity_sold_2305
+          - curtailment_2305 = -553536 
 R7208: - battery_charge_2306 + battery_discharge_2306
-          - hydrogen_electricity_2306 - electricity_sold_2306 = -490848 
+          - hydrogen_electricity_2306 - electricity_sold_2306
+          - curtailment_2306 = -490848 
 R7209: - battery_charge_2307 + battery_discharge_2307
-          - hydrogen_electricity_2307 - electricity_sold_2307 = -498504 
+          - hydrogen_electricity_2307 - electricity_sold_2307
+          - curtailment_2307 = -498504 
 R7210: - battery_charge_2308 + battery_discharge_2308
-          - hydrogen_electricity_2308 - electricity_sold_2308 = -575616 
+          - hydrogen_electricity_2308 - electricity_sold_2308
+          - curtailment_2308 = -575616 
 R7211: - battery_charge_2309 + battery_discharge_2309
-          - hydrogen_electricity_2309 - electricity_sold_2309 = -566496 
+          - hydrogen_electricity_2309 - electricity_sold_2309
+          - curtailment_2309 = -566496 
 R7212: - battery_charge_2310 + battery_discharge_2310
-          - hydrogen_electricity_2310 - electricity_sold_2310 = -612456 
+          - hydrogen_electricity_2310 - electricity_sold_2310
+          - curtailment_2310 = -612456 
 R7213: - battery_charge_2311 + battery_discharge_2311
-          - hydrogen_electricity_2311 - electricity_sold_2311 = -687360 
+          - hydrogen_electricity_2311 - electricity_sold_2311
+          - curtailment_2311 = -687360 
 R7214: - battery_charge_2312 + battery_discharge_2312
-          - hydrogen_electricity_2312 - electricity_sold_2312 = -549936 
+          - hydrogen_electricity_2312 - electricity_sold_2312
+          - curtailment_2312 = -549936 
 R7215: - battery_charge_2313 + battery_discharge_2313
-          - hydrogen_electricity_2313 - electricity_sold_2313 = -487368 
+          - hydrogen_electricity_2313 - electricity_sold_2313
+          - curtailment_2313 = -487368 
 R7216: - battery_charge_2314 + battery_discharge_2314
-          - hydrogen_electricity_2314 - electricity_sold_2314 = -487680 
+          - hydrogen_electricity_2314 - electricity_sold_2314
+          - curtailment_2314 = -487680 
 R7217: - battery_charge_2315 + battery_discharge_2315
-          - hydrogen_electricity_2315 - electricity_sold_2315 = -575496 
+          - hydrogen_electricity_2315 - electricity_sold_2315
+          - curtailment_2315 = -575496 
 R7218: - battery_charge_2316 + battery_discharge_2316
-          - hydrogen_electricity_2316 - electricity_sold_2316 = -648480 
+          - hydrogen_electricity_2316 - electricity_sold_2316
+          - curtailment_2316 = -648480 
 R7219: - battery_charge_2317 + battery_discharge_2317
-          - hydrogen_electricity_2317 - electricity_sold_2317 = -629232 
+          - hydrogen_electricity_2317 - electricity_sold_2317
+          - curtailment_2317 = -629232 
 R7220: - battery_charge_2318 + battery_discharge_2318
-          - hydrogen_electricity_2318 - electricity_sold_2318 = -691392 
+          - hydrogen_electricity_2318 - electricity_sold_2318
+          - curtailment_2318 = -691392 
 R7221: - battery_charge_2319 + battery_discharge_2319
-          - hydrogen_electricity_2319 - electricity_sold_2319 = -623736 
+          - hydrogen_electricity_2319 - electricity_sold_2319
+          - curtailment_2319 = -623736 
 R7222: - battery_charge_2320 + battery_discharge_2320
-          - hydrogen_electricity_2320 - electricity_sold_2320 = -494232 
+          - hydrogen_electricity_2320 - electricity_sold_2320
+          - curtailment_2320 = -494232 
 R7223: - battery_charge_2321 + battery_discharge_2321
-          - hydrogen_electricity_2321 - electricity_sold_2321 = -539424 
+          - hydrogen_electricity_2321 - electricity_sold_2321
+          - curtailment_2321 = -539424 
 R7224: - battery_charge_2322 + battery_discharge_2322
-          - hydrogen_electricity_2322 - electricity_sold_2322 = -629280 
+          - hydrogen_electricity_2322 - electricity_sold_2322
+          - curtailment_2322 = -629280 
 R7225: - battery_charge_2323 + battery_discharge_2323
-          - hydrogen_electricity_2323 - electricity_sold_2323 = -603408 
+          - hydrogen_electricity_2323 - electricity_sold_2323
+          - curtailment_2323 = -603408 
 R7226: - battery_charge_2324 + battery_discharge_2324
-          - hydrogen_electricity_2324 - electricity_sold_2324 = -583512 
+          - hydrogen_electricity_2324 - electricity_sold_2324
+          - curtailment_2324 = -583512 
 R7227: - battery_charge_2325 + battery_discharge_2325
-          - hydrogen_electricity_2325 - electricity_sold_2325 = -596280 
+          - hydrogen_electricity_2325 - electricity_sold_2325
+          - curtailment_2325 = -596280 
 R7228: - battery_charge_2326 + battery_discharge_2326
-          - hydrogen_electricity_2326 - electricity_sold_2326 = -606960 
+          - hydrogen_electricity_2326 - electricity_sold_2326
+          - curtailment_2326 = -606960 
 R7229: - battery_charge_2327 + battery_discharge_2327
-          - hydrogen_electricity_2327 - electricity_sold_2327 = -481464 
+          - hydrogen_electricity_2327 - electricity_sold_2327
+          - curtailment_2327 = -481464 
 R7230: - battery_charge_2328 + battery_discharge_2328
-          - hydrogen_electricity_2328 - electricity_sold_2328 = -486072 
+          - hydrogen_electricity_2328 - electricity_sold_2328
+          - curtailment_2328 = -486072 
 R7231: - battery_charge_2329 + battery_discharge_2329
-          - hydrogen_electricity_2329 - electricity_sold_2329 = -619752 
+          - hydrogen_electricity_2329 - electricity_sold_2329
+          - curtailment_2329 = -619752 
 R7232: - battery_charge_2330 + battery_discharge_2330
-          - hydrogen_electricity_2330 - electricity_sold_2330 = -684168 
+          - hydrogen_electricity_2330 - electricity_sold_2330
+          - curtailment_2330 = -684168 
 R7233: - battery_charge_2331 + battery_discharge_2331
-          - hydrogen_electricity_2331 - electricity_sold_2331 = -625680 
+          - hydrogen_electricity_2331 - electricity_sold_2331
+          - curtailment_2331 = -625680 
 R7234: - battery_charge_2332 + battery_discharge_2332
-          - hydrogen_electricity_2332 - electricity_sold_2332 = -601488 
+          - hydrogen_electricity_2332 - electricity_sold_2332
+          - curtailment_2332 = -601488 
 R7235: - battery_charge_2333 + battery_discharge_2333
-          - hydrogen_electricity_2333 - electricity_sold_2333 = -598896 
+          - hydrogen_electricity_2333 - electricity_sold_2333
+          - curtailment_2333 = -598896 
 R7236: - battery_charge_2334 + battery_discharge_2334
-          - hydrogen_electricity_2334 - electricity_sold_2334 = -525576 
+          - hydrogen_electricity_2334 - electricity_sold_2334
+          - curtailment_2334 = -525576 
 R7237: - battery_charge_2335 + battery_discharge_2335
-          - hydrogen_electricity_2335 - electricity_sold_2335 = -510528 
+          - hydrogen_electricity_2335 - electricity_sold_2335
+          - curtailment_2335 = -510528 
 R7238: - battery_charge_2336 + battery_discharge_2336
-          - hydrogen_electricity_2336 - electricity_sold_2336 = -552480 
+          - hydrogen_electricity_2336 - electricity_sold_2336
+          - curtailment_2336 = -552480 
 R7239: - battery_charge_2337 + battery_discharge_2337
-          - hydrogen_electricity_2337 - electricity_sold_2337 = -633744 
+          - hydrogen_electricity_2337 - electricity_sold_2337
+          - curtailment_2337 = -633744 
 R7240: - battery_charge_2338 + battery_discharge_2338
-          - hydrogen_electricity_2338 - electricity_sold_2338 = -582936 
+          - hydrogen_electricity_2338 - electricity_sold_2338
+          - curtailment_2338 = -582936 
 R7241: - battery_charge_2339 + battery_discharge_2339
-          - hydrogen_electricity_2339 - electricity_sold_2339 = -627000 
+          - hydrogen_electricity_2339 - electricity_sold_2339
+          - curtailment_2339 = -627000 
 R7242: - battery_charge_2340 + battery_discharge_2340
-          - hydrogen_electricity_2340 - electricity_sold_2340 = -597288 
+          - hydrogen_electricity_2340 - electricity_sold_2340
+          - curtailment_2340 = -597288 
 R7243: - battery_charge_2341 + battery_discharge_2341
-          - hydrogen_electricity_2341 - electricity_sold_2341 = -496872 
+          - hydrogen_electricity_2341 - electricity_sold_2341
+          - curtailment_2341 = -496872 
 R7244: - battery_charge_2342 + battery_discharge_2342
-          - hydrogen_electricity_2342 - electricity_sold_2342 = -479208 
+          - hydrogen_electricity_2342 - electricity_sold_2342
+          - curtailment_2342 = -479208 
 R7245: - battery_charge_2343 + battery_discharge_2343
-          - hydrogen_electricity_2343 - electricity_sold_2343 = -588456 
+          - hydrogen_electricity_2343 - electricity_sold_2343
+          - curtailment_2343 = -588456 
 R7246: - battery_charge_2344 + battery_discharge_2344
-          - hydrogen_electricity_2344 - electricity_sold_2344 = -578928 
+          - hydrogen_electricity_2344 - electricity_sold_2344
+          - curtailment_2344 = -578928 
 R7247: - battery_charge_2345 + battery_discharge_2345
-          - hydrogen_electricity_2345 - electricity_sold_2345 = -556968 
+          - hydrogen_electricity_2345 - electricity_sold_2345
+          - curtailment_2345 = -556968 
 R7248: - battery_charge_2346 + battery_discharge_2346
-          - hydrogen_electricity_2346 - electricity_sold_2346 = -551976 
+          - hydrogen_electricity_2346 - electricity_sold_2346
+          - curtailment_2346 = -551976 
 R7249: - battery_charge_2347 + battery_discharge_2347
-          - hydrogen_electricity_2347 - electricity_sold_2347 = -584568 
+          - hydrogen_electricity_2347 - electricity_sold_2347
+          - curtailment_2347 = -584568 
 R7250: - battery_charge_2348 + battery_discharge_2348
-          - hydrogen_electricity_2348 - electricity_sold_2348 = -516288 
+          - hydrogen_electricity_2348 - electricity_sold_2348
+          - curtailment_2348 = -516288 
 R7251: - battery_charge_2349 + battery_discharge_2349
-          - hydrogen_electricity_2349 - electricity_sold_2349 = -580152 
+          - hydrogen_electricity_2349 - electricity_sold_2349
+          - curtailment_2349 = -580152 
 R7252: - battery_charge_2350 + battery_discharge_2350
-          - hydrogen_electricity_2350 - electricity_sold_2350 = -594480 
+          - hydrogen_electricity_2350 - electricity_sold_2350
+          - curtailment_2350 = -594480 
 R7253: - battery_charge_2351 + battery_discharge_2351
-          - hydrogen_electricity_2351 - electricity_sold_2351 = -519456 
+          - hydrogen_electricity_2351 - electricity_sold_2351
+          - curtailment_2351 = -519456 
 R7254: - battery_charge_2352 + battery_discharge_2352
-          - hydrogen_electricity_2352 - electricity_sold_2352 = -590808 
+          - hydrogen_electricity_2352 - electricity_sold_2352
+          - curtailment_2352 = -590808 
 R7255: - battery_charge_2353 + battery_discharge_2353
-          - hydrogen_electricity_2353 - electricity_sold_2353 = -595512 
+          - hydrogen_electricity_2353 - electricity_sold_2353
+          - curtailment_2353 = -595512 
 R7256: - battery_charge_2354 + battery_discharge_2354
-          - hydrogen_electricity_2354 - electricity_sold_2354 = -636144 
+          - hydrogen_electricity_2354 - electricity_sold_2354
+          - curtailment_2354 = -636144 
 R7257: - battery_charge_2355 + battery_discharge_2355
-          - hydrogen_electricity_2355 - electricity_sold_2355 = -628200 
+          - hydrogen_electricity_2355 - electricity_sold_2355
+          - curtailment_2355 = -628200 
 R7258: - battery_charge_2356 + battery_discharge_2356
-          - hydrogen_electricity_2356 - electricity_sold_2356 = -477024 
+          - hydrogen_electricity_2356 - electricity_sold_2356
+          - curtailment_2356 = -477024 
 R7259: - battery_charge_2357 + battery_discharge_2357
-          - hydrogen_electricity_2357 - electricity_sold_2357 = -530856 
+          - hydrogen_electricity_2357 - electricity_sold_2357
+          - curtailment_2357 = -530856 
 R7260: - battery_charge_2358 + battery_discharge_2358
-          - hydrogen_electricity_2358 - electricity_sold_2358 = -608088 
+          - hydrogen_electricity_2358 - electricity_sold_2358
+          - curtailment_2358 = -608088 
 R7261: - battery_charge_2359 + battery_discharge_2359
-          - hydrogen_electricity_2359 - electricity_sold_2359 = -581760 
+          - hydrogen_electricity_2359 - electricity_sold_2359
+          - curtailment_2359 = -581760 
 R7262: - battery_charge_2360 + battery_discharge_2360
-          - hydrogen_electricity_2360 - electricity_sold_2360 = -619416 
+          - hydrogen_electricity_2360 - electricity_sold_2360
+          - curtailment_2360 = -619416 
 R7263: - battery_charge_2361 + battery_discharge_2361
-          - hydrogen_electricity_2361 - electricity_sold_2361 = -627816 
+          - hydrogen_electricity_2361 - electricity_sold_2361
+          - curtailment_2361 = -627816 
 R7264: - battery_charge_2362 + battery_discharge_2362
-          - hydrogen_electricity_2362 - electricity_sold_2362 = -526752 
+          - hydrogen_electricity_2362 - electricity_sold_2362
+          - curtailment_2362 = -526752 
 R7265: - battery_charge_2363 + battery_discharge_2363
-          - hydrogen_electricity_2363 - electricity_sold_2363 = -518112 
+          - hydrogen_electricity_2363 - electricity_sold_2363
+          - curtailment_2363 = -518112 
 R7266: - battery_charge_2364 + battery_discharge_2364
-          - hydrogen_electricity_2364 - electricity_sold_2364 = -667272 
+          - hydrogen_electricity_2364 - electricity_sold_2364
+          - curtailment_2364 = -667272 
 R7267: - battery_charge_2365 + battery_discharge_2365
-          - hydrogen_electricity_2365 - electricity_sold_2365 = -732912 
+          - hydrogen_electricity_2365 - electricity_sold_2365
+          - curtailment_2365 = -732912 
 R7268: - battery_charge_2366 + battery_discharge_2366
-          - hydrogen_electricity_2366 - electricity_sold_2366 = -728160 
+          - hydrogen_electricity_2366 - electricity_sold_2366
+          - curtailment_2366 = -728160 
 R7269: - battery_charge_2367 + battery_discharge_2367
-          - hydrogen_electricity_2367 - electricity_sold_2367 = -738504 
+          - hydrogen_electricity_2367 - electricity_sold_2367
+          - curtailment_2367 = -738504 
 R7270: - battery_charge_2368 + battery_discharge_2368
-          - hydrogen_electricity_2368 - electricity_sold_2368 = -746712 
+          - hydrogen_electricity_2368 - electricity_sold_2368
+          - curtailment_2368 = -746712 
 R7271: - battery_charge_2369 + battery_discharge_2369
-          - hydrogen_electricity_2369 - electricity_sold_2369 = -590712 
+          - hydrogen_electricity_2369 - electricity_sold_2369
+          - curtailment_2369 = -590712 
 R7272: - battery_charge_2370 + battery_discharge_2370
-          - hydrogen_electricity_2370 - electricity_sold_2370 = -503328 
+          - hydrogen_electricity_2370 - electricity_sold_2370
+          - curtailment_2370 = -503328 
 R7273: - battery_charge_2371 + battery_discharge_2371
-          - hydrogen_electricity_2371 - electricity_sold_2371 = -407208 
+          - hydrogen_electricity_2371 - electricity_sold_2371
+          - curtailment_2371 = -407208 
 R7274: - battery_charge_2372 + battery_discharge_2372
-          - hydrogen_electricity_2372 - electricity_sold_2372 = -153456 
+          - hydrogen_electricity_2372 - electricity_sold_2372
+          - curtailment_2372 = -153456 
 R7275: - battery_charge_2373 + battery_discharge_2373
-          - hydrogen_electricity_2373 - electricity_sold_2373 = -277464 
+          - hydrogen_electricity_2373 - electricity_sold_2373
+          - curtailment_2373 = -277464 
 R7276: - battery_charge_2374 + battery_discharge_2374
-          - hydrogen_electricity_2374 - electricity_sold_2374 = -712440 
+          - hydrogen_electricity_2374 - electricity_sold_2374
+          - curtailment_2374 = -712440 
 R7277: - battery_charge_2375 + battery_discharge_2375
-          - hydrogen_electricity_2375 - electricity_sold_2375 = -522912 
+          - hydrogen_electricity_2375 - electricity_sold_2375
+          - curtailment_2375 = -522912 
 R7278: - battery_charge_2376 + battery_discharge_2376
-          - hydrogen_electricity_2376 - electricity_sold_2376 = -568008 
+          - hydrogen_electricity_2376 - electricity_sold_2376
+          - curtailment_2376 = -568008 
 R7279: - battery_charge_2377 + battery_discharge_2377
-          - hydrogen_electricity_2377 - electricity_sold_2377 = -498432 
+          - hydrogen_electricity_2377 - electricity_sold_2377
+          - curtailment_2377 = -498432 
 R7280: - battery_charge_2378 + battery_discharge_2378
-          - hydrogen_electricity_2378 - electricity_sold_2378 = -627744 
+          - hydrogen_electricity_2378 - electricity_sold_2378
+          - curtailment_2378 = -627744 
 R7281: - battery_charge_2379 + battery_discharge_2379
-          - hydrogen_electricity_2379 - electricity_sold_2379 = -562200 
+          - hydrogen_electricity_2379 - electricity_sold_2379
+          - curtailment_2379 = -562200 
 R7282: - battery_charge_2380 + battery_discharge_2380
-          - hydrogen_electricity_2380 - electricity_sold_2380 = -621216 
+          - hydrogen_electricity_2380 - electricity_sold_2380
+          - curtailment_2380 = -621216 
 R7283: - battery_charge_2381 + battery_discharge_2381
-          - hydrogen_electricity_2381 - electricity_sold_2381 = -389328 
+          - hydrogen_electricity_2381 - electricity_sold_2381
+          - curtailment_2381 = -389328 
 R7284: - battery_charge_2382 + battery_discharge_2382
-          - hydrogen_electricity_2382 - electricity_sold_2382 = -187296 
+          - hydrogen_electricity_2382 - electricity_sold_2382
+          - curtailment_2382 = -187296 
 R7285: - battery_charge_2383 + battery_discharge_2383
-          - hydrogen_electricity_2383 - electricity_sold_2383 = -235752 
+          - hydrogen_electricity_2383 - electricity_sold_2383
+          - curtailment_2383 = -235752 
 R7286: - battery_charge_2384 + battery_discharge_2384
-          - hydrogen_electricity_2384 - electricity_sold_2384 = -321096 
+          - hydrogen_electricity_2384 - electricity_sold_2384
+          - curtailment_2384 = -321096 
 R7287: - battery_charge_2385 + battery_discharge_2385
-          - hydrogen_electricity_2385 - electricity_sold_2385 = -309144 
+          - hydrogen_electricity_2385 - electricity_sold_2385
+          - curtailment_2385 = -309144 
 R7288: - battery_charge_2386 + battery_discharge_2386
-          - hydrogen_electricity_2386 - electricity_sold_2386 = -297984 
+          - hydrogen_electricity_2386 - electricity_sold_2386
+          - curtailment_2386 = -297984 
 R7289: - battery_charge_2387 + battery_discharge_2387
-          - hydrogen_electricity_2387 - electricity_sold_2387 = -237096 
+          - hydrogen_electricity_2387 - electricity_sold_2387
+          - curtailment_2387 = -237096 
 R7290: - battery_charge_2388 + battery_discharge_2388
-          - hydrogen_electricity_2388 - electricity_sold_2388 = -198720 
+          - hydrogen_electricity_2388 - electricity_sold_2388
+          - curtailment_2388 = -198720 
 R7291: - battery_charge_2389 + battery_discharge_2389
-          - hydrogen_electricity_2389 - electricity_sold_2389 = -215088 
+          - hydrogen_electricity_2389 - electricity_sold_2389
+          - curtailment_2389 = -215088 
 R7292: - battery_charge_2390 + battery_discharge_2390
-          - hydrogen_electricity_2390 - electricity_sold_2390 = -276432 
+          - hydrogen_electricity_2390 - electricity_sold_2390
+          - curtailment_2390 = -276432 
 R7293: - battery_charge_2391 + battery_discharge_2391
-          - hydrogen_electricity_2391 - electricity_sold_2391 = -278544 
+          - hydrogen_electricity_2391 - electricity_sold_2391
+          - curtailment_2391 = -278544 
 R7294: - battery_charge_2392 + battery_discharge_2392
-          - hydrogen_electricity_2392 - electricity_sold_2392 = -199944 
+          - hydrogen_electricity_2392 - electricity_sold_2392
+          - curtailment_2392 = -199944 
 R7295: - battery_charge_2393 + battery_discharge_2393
-          - hydrogen_electricity_2393 - electricity_sold_2393 = -207048 
+          - hydrogen_electricity_2393 - electricity_sold_2393
+          - curtailment_2393 = -207048 
 R7296: - battery_charge_2394 + battery_discharge_2394
-          - hydrogen_electricity_2394 - electricity_sold_2394 = -212808 
+          - hydrogen_electricity_2394 - electricity_sold_2394
+          - curtailment_2394 = -212808 
 R7297: - battery_charge_2395 + battery_discharge_2395
-          - hydrogen_electricity_2395 - electricity_sold_2395 = -203856 
+          - hydrogen_electricity_2395 - electricity_sold_2395
+          - curtailment_2395 = -203856 
 R7298: - battery_charge_2396 + battery_discharge_2396
-          - hydrogen_electricity_2396 - electricity_sold_2396 = -269952 
+          - hydrogen_electricity_2396 - electricity_sold_2396
+          - curtailment_2396 = -269952 
 R7299: - battery_charge_2397 + battery_discharge_2397
-          - hydrogen_electricity_2397 - electricity_sold_2397 = -357000 
+          - hydrogen_electricity_2397 - electricity_sold_2397
+          - curtailment_2397 = -357000 
 R7300: - battery_charge_2398 + battery_discharge_2398
-          - hydrogen_electricity_2398 - electricity_sold_2398 = -351864 
+          - hydrogen_electricity_2398 - electricity_sold_2398
+          - curtailment_2398 = -351864 
 R7301: - battery_charge_2399 + battery_discharge_2399
-          - hydrogen_electricity_2399 - electricity_sold_2399 = -217680 
+          - hydrogen_electricity_2399 - electricity_sold_2399
+          - curtailment_2399 = -217680 
 R7302: - battery_charge_2400 + battery_discharge_2400
-          - hydrogen_electricity_2400 - electricity_sold_2400 = -238752 
+          - hydrogen_electricity_2400 - electricity_sold_2400
+          - curtailment_2400 = -238752 
 R7303: - battery_charge_2401 + battery_discharge_2401
-          - hydrogen_electricity_2401 - electricity_sold_2401 = -187152 
+          - hydrogen_electricity_2401 - electricity_sold_2401
+          - curtailment_2401 = -187152 
 R7304: - battery_charge_2402 + battery_discharge_2402
-          - hydrogen_electricity_2402 - electricity_sold_2402 = -108960 
+          - hydrogen_electricity_2402 - electricity_sold_2402
+          - curtailment_2402 = -108960 
 R7305: - battery_charge_2403 + battery_discharge_2403
-          - hydrogen_electricity_2403 - electricity_sold_2403 = -164472 
+          - hydrogen_electricity_2403 - electricity_sold_2403
+          - curtailment_2403 = -164472 
 R7306: - battery_charge_2404 + battery_discharge_2404
-          - hydrogen_electricity_2404 - electricity_sold_2404 = -228480 
+          - hydrogen_electricity_2404 - electricity_sold_2404
+          - curtailment_2404 = -228480 
 R7307: - battery_charge_2405 + battery_discharge_2405
-          - hydrogen_electricity_2405 - electricity_sold_2405 = -174336 
+          - hydrogen_electricity_2405 - electricity_sold_2405
+          - curtailment_2405 = -174336 
 R7308: - battery_charge_2406 + battery_discharge_2406
-          - hydrogen_electricity_2406 - electricity_sold_2406 = -264120 
+          - hydrogen_electricity_2406 - electricity_sold_2406
+          - curtailment_2406 = -264120 
 R7309: - battery_charge_2407 + battery_discharge_2407
-          - hydrogen_electricity_2407 - electricity_sold_2407 = -508344 
+          - hydrogen_electricity_2407 - electricity_sold_2407
+          - curtailment_2407 = -508344 
 R7310: - battery_charge_2408 + battery_discharge_2408
-          - hydrogen_electricity_2408 - electricity_sold_2408 = -669888 
+          - hydrogen_electricity_2408 - electricity_sold_2408
+          - curtailment_2408 = -669888 
 R7311: - battery_charge_2409 + battery_discharge_2409
-          - hydrogen_electricity_2409 - electricity_sold_2409 = -584568 
+          - hydrogen_electricity_2409 - electricity_sold_2409
+          - curtailment_2409 = -584568 
 R7312: - battery_charge_2410 + battery_discharge_2410
-          - hydrogen_electricity_2410 - electricity_sold_2410 = -592032 
+          - hydrogen_electricity_2410 - electricity_sold_2410
+          - curtailment_2410 = -592032 
 R7313: - battery_charge_2411 + battery_discharge_2411
-          - hydrogen_electricity_2411 - electricity_sold_2411 = -578472 
+          - hydrogen_electricity_2411 - electricity_sold_2411
+          - curtailment_2411 = -578472 
 R7314: - battery_charge_2412 + battery_discharge_2412
-          - hydrogen_electricity_2412 - electricity_sold_2412 = -531744 
+          - hydrogen_electricity_2412 - electricity_sold_2412
+          - curtailment_2412 = -531744 
 R7315: - battery_charge_2413 + battery_discharge_2413
-          - hydrogen_electricity_2413 - electricity_sold_2413 = -570672 
+          - hydrogen_electricity_2413 - electricity_sold_2413
+          - curtailment_2413 = -570672 
 R7316: - battery_charge_2414 + battery_discharge_2414
-          - hydrogen_electricity_2414 - electricity_sold_2414 = -570216 
+          - hydrogen_electricity_2414 - electricity_sold_2414
+          - curtailment_2414 = -570216 
 R7317: - battery_charge_2415 + battery_discharge_2415
-          - hydrogen_electricity_2415 - electricity_sold_2415 = -638616 
+          - hydrogen_electricity_2415 - electricity_sold_2415
+          - curtailment_2415 = -638616 
 R7318: - battery_charge_2416 + battery_discharge_2416
-          - hydrogen_electricity_2416 - electricity_sold_2416 = -613968 
+          - hydrogen_electricity_2416 - electricity_sold_2416
+          - curtailment_2416 = -613968 
 R7319: - battery_charge_2417 + battery_discharge_2417
-          - hydrogen_electricity_2417 - electricity_sold_2417 = -616776 
+          - hydrogen_electricity_2417 - electricity_sold_2417
+          - curtailment_2417 = -616776 
 R7320: - battery_charge_2418 + battery_discharge_2418
-          - hydrogen_electricity_2418 - electricity_sold_2418 = -531600 
+          - hydrogen_electricity_2418 - electricity_sold_2418
+          - curtailment_2418 = -531600 
 R7321: - battery_charge_2419 + battery_discharge_2419
-          - hydrogen_electricity_2419 - electricity_sold_2419 = -504744 
+          - hydrogen_electricity_2419 - electricity_sold_2419
+          - curtailment_2419 = -504744 
 R7322: - battery_charge_2420 + battery_discharge_2420
-          - hydrogen_electricity_2420 - electricity_sold_2420 = -618096 
+          - hydrogen_electricity_2420 - electricity_sold_2420
+          - curtailment_2420 = -618096 
 R7323: - battery_charge_2421 + battery_discharge_2421
-          - hydrogen_electricity_2421 - electricity_sold_2421 = -701208 
+          - hydrogen_electricity_2421 - electricity_sold_2421
+          - curtailment_2421 = -701208 
 R7324: - battery_charge_2422 + battery_discharge_2422
-          - hydrogen_electricity_2422 - electricity_sold_2422 = -581544 
+          - hydrogen_electricity_2422 - electricity_sold_2422
+          - curtailment_2422 = -581544 
 R7325: - battery_charge_2423 + battery_discharge_2423
-          - hydrogen_electricity_2423 - electricity_sold_2423 = -608400 
+          - hydrogen_electricity_2423 - electricity_sold_2423
+          - curtailment_2423 = -608400 
 R7326: - battery_charge_2424 + battery_discharge_2424
-          - hydrogen_electricity_2424 - electricity_sold_2424 = -578184 
+          - hydrogen_electricity_2424 - electricity_sold_2424
+          - curtailment_2424 = -578184 
 R7327: - battery_charge_2425 + battery_discharge_2425
-          - hydrogen_electricity_2425 - electricity_sold_2425 = -457800 
+          - hydrogen_electricity_2425 - electricity_sold_2425
+          - curtailment_2425 = -457800 
 R7328: - battery_charge_2426 + battery_discharge_2426
-          - hydrogen_electricity_2426 - electricity_sold_2426 = -426456 
+          - hydrogen_electricity_2426 - electricity_sold_2426
+          - curtailment_2426 = -426456 
 R7329: - battery_charge_2427 + battery_discharge_2427
-          - hydrogen_electricity_2427 - electricity_sold_2427 = -544296 
+          - hydrogen_electricity_2427 - electricity_sold_2427
+          - curtailment_2427 = -544296 
 R7330: - battery_charge_2428 + battery_discharge_2428
-          - hydrogen_electricity_2428 - electricity_sold_2428 = -624816 
+          - hydrogen_electricity_2428 - electricity_sold_2428
+          - curtailment_2428 = -624816 
 R7331: - battery_charge_2429 + battery_discharge_2429
-          - hydrogen_electricity_2429 - electricity_sold_2429 = -629424 
+          - hydrogen_electricity_2429 - electricity_sold_2429
+          - curtailment_2429 = -629424 
 R7332: - battery_charge_2430 + battery_discharge_2430
-          - hydrogen_electricity_2430 - electricity_sold_2430 = -628128 
+          - hydrogen_electricity_2430 - electricity_sold_2430
+          - curtailment_2430 = -628128 
 R7333: - battery_charge_2431 + battery_discharge_2431
-          - hydrogen_electricity_2431 - electricity_sold_2431 = -597552 
+          - hydrogen_electricity_2431 - electricity_sold_2431
+          - curtailment_2431 = -597552 
 R7334: - battery_charge_2432 + battery_discharge_2432
-          - hydrogen_electricity_2432 - electricity_sold_2432 = -529632 
+          - hydrogen_electricity_2432 - electricity_sold_2432
+          - curtailment_2432 = -529632 
 R7335: - battery_charge_2433 + battery_discharge_2433
-          - hydrogen_electricity_2433 - electricity_sold_2433 = -494736 
+          - hydrogen_electricity_2433 - electricity_sold_2433
+          - curtailment_2433 = -494736 
 R7336: - battery_charge_2434 + battery_discharge_2434
-          - hydrogen_electricity_2434 - electricity_sold_2434 = -555480 
+          - hydrogen_electricity_2434 - electricity_sold_2434
+          - curtailment_2434 = -555480 
 R7337: - battery_charge_2435 + battery_discharge_2435
-          - hydrogen_electricity_2435 - electricity_sold_2435 = -658392 
+          - hydrogen_electricity_2435 - electricity_sold_2435
+          - curtailment_2435 = -658392 
 R7338: - battery_charge_2436 + battery_discharge_2436
-          - hydrogen_electricity_2436 - electricity_sold_2436 = -674664 
+          - hydrogen_electricity_2436 - electricity_sold_2436
+          - curtailment_2436 = -674664 
 R7339: - battery_charge_2437 + battery_discharge_2437
-          - hydrogen_electricity_2437 - electricity_sold_2437 = -685248 
+          - hydrogen_electricity_2437 - electricity_sold_2437
+          - curtailment_2437 = -685248 
 R7340: - battery_charge_2438 + battery_discharge_2438
-          - hydrogen_electricity_2438 - electricity_sold_2438 = -734304 
+          - hydrogen_electricity_2438 - electricity_sold_2438
+          - curtailment_2438 = -734304 
 R7341: - battery_charge_2439 + battery_discharge_2439
-          - hydrogen_electricity_2439 - electricity_sold_2439 = -588624 
+          - hydrogen_electricity_2439 - electricity_sold_2439
+          - curtailment_2439 = -588624 
 R7342: - battery_charge_2440 + battery_discharge_2440
-          - hydrogen_electricity_2440 - electricity_sold_2440 = -611256 
+          - hydrogen_electricity_2440 - electricity_sold_2440
+          - curtailment_2440 = -611256 
 R7343: - battery_charge_2441 + battery_discharge_2441
-          - hydrogen_electricity_2441 - electricity_sold_2441 = -668736 
+          - hydrogen_electricity_2441 - electricity_sold_2441
+          - curtailment_2441 = -668736 
 R7344: - battery_charge_2442 + battery_discharge_2442
-          - hydrogen_electricity_2442 - electricity_sold_2442 = -713688 
+          - hydrogen_electricity_2442 - electricity_sold_2442
+          - curtailment_2442 = -713688 
 R7345: - battery_charge_2443 + battery_discharge_2443
-          - hydrogen_electricity_2443 - electricity_sold_2443 = -622632 
+          - hydrogen_electricity_2443 - electricity_sold_2443
+          - curtailment_2443 = -622632 
 R7346: - battery_charge_2444 + battery_discharge_2444
-          - hydrogen_electricity_2444 - electricity_sold_2444 = -651864 
+          - hydrogen_electricity_2444 - electricity_sold_2444
+          - curtailment_2444 = -651864 
 R7347: - battery_charge_2445 + battery_discharge_2445
-          - hydrogen_electricity_2445 - electricity_sold_2445 = -624336 
+          - hydrogen_electricity_2445 - electricity_sold_2445
+          - curtailment_2445 = -624336 
 R7348: - battery_charge_2446 + battery_discharge_2446
-          - hydrogen_electricity_2446 - electricity_sold_2446 = -599448 
+          - hydrogen_electricity_2446 - electricity_sold_2446
+          - curtailment_2446 = -599448 
 R7349: - battery_charge_2447 + battery_discharge_2447
-          - hydrogen_electricity_2447 - electricity_sold_2447 = -410016 
+          - hydrogen_electricity_2447 - electricity_sold_2447
+          - curtailment_2447 = -410016 
 R7350: - battery_charge_2448 + battery_discharge_2448
-          - hydrogen_electricity_2448 - electricity_sold_2448 = -664680 
+          - hydrogen_electricity_2448 - electricity_sold_2448
+          - curtailment_2448 = -664680 
 R7351: - battery_charge_2449 + battery_discharge_2449
-          - hydrogen_electricity_2449 - electricity_sold_2449 = -660504 
+          - hydrogen_electricity_2449 - electricity_sold_2449
+          - curtailment_2449 = -660504 
 R7352: - battery_charge_2450 + battery_discharge_2450
-          - hydrogen_electricity_2450 - electricity_sold_2450 = -603576 
+          - hydrogen_electricity_2450 - electricity_sold_2450
+          - curtailment_2450 = -603576 
 R7353: - battery_charge_2451 + battery_discharge_2451
-          - hydrogen_electricity_2451 - electricity_sold_2451 = -611760 
+          - hydrogen_electricity_2451 - electricity_sold_2451
+          - curtailment_2451 = -611760 
 R7354: electricity_purchase_1 + electricity_sold_1 = 713808 
 R7355: electricity_purchase_2 + electricity_sold_2 = 775824 
 R7356: electricity_purchase_3 + electricity_sold_3 = 796704 
@@ -47341,7 +47984,6 @@ R31863: - 0.2 hydrogen_installation_MW
           + 0.041666666666666664 hydrogen_electricity_2451 >= 0 
 
 Bounds
-hydrogen_installation_MW <= 594432 
 
 Binaries
 produce_hydrogen_1 produce_hydrogen_2 produce_hydrogen_3 produce_hydrogen_4 
