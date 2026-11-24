@@ -1,10 +1,12 @@
 \Written from user model (presolvestate=0x5c00e1)
 \Problem name: Tier1                                                            
-\FICO Xpress v9.9.0, Hyper, written 16:17:29, Nov 22, 2026
+\FICO Xpress v9.9.0, Hyper, written 8:10:58, Nov 24, 2026
 
 Maximize
-__OBJ___: eta - 20.000000000000426 z_0 - 20.000000000000426 z_1
- - 20.000000000000426 z_2 - 20.000000000000426 z_3 - 20.000000000000426 z_4
+__OBJ___: - 46316.53164599518 battery_installation_MW
+ - 96342.28760924432 hydrogen_installation_MW + eta - 4.000000000000014 z_0
+ - 4.000000000000014 z_1 - 4.000000000000014 z_2 - 4.000000000000014 z_3
+ - 4.000000000000014 z_4
 
 Subject To
 R1: electricity_sold_1_1 >= 518073.60000000003 
@@ -220552,8 +220554,7 @@ R159314: - 0.2 hydrogen_installation_MW
           + 0.041666666666666664 hydrogen_electricity_5_2450 >= 0 
 R159315: - 0.2 hydrogen_installation_MW
           + 0.041666666666666664 hydrogen_electricity_5_2451 >= 0 
-R159316: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
-          + 169.94633273703042 hydrogen_electricity_1_1
+R159316: 169.94633273703042 hydrogen_electricity_1_1
           + 169.94633273703042 hydrogen_electricity_1_2
           + 169.94633273703042 hydrogen_electricity_1_3
           + 169.94633273703042 hydrogen_electricity_1_4
@@ -225258,8 +225259,7 @@ R159316: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
           + 83.14 electricity_sold_1_2449
           + 77.47020833333333 electricity_sold_1_2450
           + 61.325 electricity_sold_1_2451 - eta + z_0 >= 0 
-R159317: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
-          + 169.94633273703042 hydrogen_electricity_2_1
+R159317: 169.94633273703042 hydrogen_electricity_2_1
           + 169.94633273703042 hydrogen_electricity_2_2
           + 169.94633273703042 hydrogen_electricity_2_3
           + 169.94633273703042 hydrogen_electricity_2_4
@@ -229964,8 +229964,7 @@ R159317: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
           + 83.14 electricity_sold_2_2449
           + 77.47020833333333 electricity_sold_2_2450
           + 61.325 electricity_sold_2_2451 - eta + z_1 >= 0 
-R159318: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
-          + 169.94633273703042 hydrogen_electricity_3_1
+R159318: 169.94633273703042 hydrogen_electricity_3_1
           + 169.94633273703042 hydrogen_electricity_3_2
           + 169.94633273703042 hydrogen_electricity_3_3
           + 169.94633273703042 hydrogen_electricity_3_4
@@ -234670,8 +234669,7 @@ R159318: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
           + 83.14 electricity_sold_3_2449
           + 77.47020833333333 electricity_sold_3_2450
           + 61.325 electricity_sold_3_2451 - eta + z_2 >= 0 
-R159319: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
-          + 169.94633273703042 hydrogen_electricity_4_1
+R159319: 169.94633273703042 hydrogen_electricity_4_1
           + 169.94633273703042 hydrogen_electricity_4_2
           + 169.94633273703042 hydrogen_electricity_4_3
           + 169.94633273703042 hydrogen_electricity_4_4
@@ -239376,8 +239374,7 @@ R159319: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
           + 83.14 electricity_sold_4_2449
           + 77.47020833333333 electricity_sold_4_2450
           + 61.325 electricity_sold_4_2451 - eta + z_3 >= 0 
-R159320: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
-          + 169.94633273703042 hydrogen_electricity_5_1
+R159320: 169.94633273703042 hydrogen_electricity_5_1
           + 169.94633273703042 hydrogen_electricity_5_2
           + 169.94633273703042 hydrogen_electricity_5_3
           + 169.94633273703042 hydrogen_electricity_5_4

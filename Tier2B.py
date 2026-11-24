@@ -47,6 +47,16 @@ battery_efficiency = 0.90
 # ------------------------------------
 lambda_=0.75
 alpha=0.90 
+# ------------------------------------
+# 2.1 Annualization Parameters
+# ------------------------------------
+discount_rate = 0.05
+lifetime = 15
+crf = (
+    discount_rate * (1 + discount_rate)**lifetime
+    / ((1 + discount_rate)**lifetime - 1)
+)
+
 
 max_hydrogen_cap=max(float(surplus.max()), 0)*2
 
@@ -242,6 +252,7 @@ hydrogen_capex = (
 
 total_capex = battery_capex + hydrogen_capex
 
+annualised_capex=total_capex*crf
 # Hydrogen revenue
 hydrogen_revenue = [
     xp.Sum(
@@ -265,7 +276,6 @@ electricity_profits = [
 # Expected net investment benefit
 net_investment_benefit = {
     s: (hydrogen_revenue[s] + electricity_profits[s])
-        - total_capex
     for s in range(number_scenarios)
 }
 
@@ -303,11 +313,7 @@ prob.addConstraint(
     mutual_exclusion,
     battery_charge_limit,
     battery_discharge_limit,
-#    battery_charge_limit,
-#    battery_discharge_limit,
-#    terminal_soc,
     hydrogen_capacity_limit,
-#    hydrogen_capacity_limit_big_M,
     hydrogen_capacity_lb,
     shortfall_constraint
 )
@@ -316,7 +322,7 @@ prob.addConstraint(
 # ==========================================
 
 results=[]
-for alpha in np.arange(0.75,1,0.01):
+for alpha in np.arange(0.80,0.96,0.01):
     for lambda_ in np.arange(0,1.01,0.1):
         cvar = eta - (1 / (1 - alpha)) * xp.Sum(
             scenario_probabilities * z[s]
@@ -324,14 +330,14 @@ for alpha in np.arange(0.75,1,0.01):
     )
         objective = (
             (1 - lambda_) * expected_profit
-            + lambda_ * cvar
+            + lambda_ * cvar - annualised_capex
         )
 
         prob.setObjective(
             objective,
             sense=xp.maximize
         )
-
+        print(alpha)
         prob.solve()
 
         results.append({

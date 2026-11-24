@@ -42,7 +42,6 @@ hydrogen_yield = 55.9        # kWh/kg
 battery_duration = 2         # hours
 battery_efficiency = 0.90
 
-max_hydrogen_cap=max(float(surplus.max()), 0)*2
 
 # Capacity bounds are derived from the data
 # for numerical stability, not imposed as
