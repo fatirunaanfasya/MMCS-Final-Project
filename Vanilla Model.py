@@ -32,8 +32,8 @@ deficit = np.maximum(demand - generation, 0)
 # 2. PARAMETERS
 # ==========================================
 
-battery_cost = 240374.88     # GBP/MWh, assumed
-hydrogen_cost = 20000000 / 20 # GBP/MW #AI gave us the cost for an electrolyzer and we divide it by 20 to get the price per MW
+battery_cost = 35000000/100     # GBP/MWh, assumed
+hydrogen_cost = 15000000 / 20 # GBP/MW #AI gave us the cost for an electrolyzer and we divide it by 20 to get the price per MW
 
 hydrogen_price = 9.5         # GBP/kg
 purchase_price = [abs(market_price[t])*2 for t in range(number_days)]          # GBP/MWh
@@ -757,3 +757,39 @@ if prob.attributes.solstatus == 1:
 
 else:
     print("No optimal solution available.")
+
+
+#SENSITIVITY ANALYSIS OF HYDROGEN
+results=[]
+prices=np.round(np.arange(8.5,12.4,0.1),1)
+
+for price in prices:
+    hydrogen_revenue = xp.Sum(
+        hydrogen_electricity[t] #This only works if we assume that the decision variables and the daily data provided are daily averages of the power produced (therefore, it is valid to multiply by 24 to convert to energy)
+        * 1000 / hydrogen_yield
+        * price
+        for t in range(number_days)
+    )
+
+    net_investment_benefit = (
+        hydrogen_revenue
+        + electricity_profits
+        - total_capex
+    )
+
+    prob.setObjective(
+        net_investment_benefit,
+        sense=xp.maximize
+    )
+
+    prob.solve()
+
+    results.append({
+        "Hydrogen Price":price,
+        "Net Investment Benefit":prob.getObjVal(),
+        "Battery Instalation MW":prob.getSolution(battery_installation),
+        "Hydrogen Instalation MW":prob.getSolution(hydrogen_installation)
+    })
+
+sensitivity_results=pd.DataFrame(results)
+sensitivity_results.to_excel("Hydrogen Sensitivity.xlsx")

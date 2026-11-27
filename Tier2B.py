@@ -1,6 +1,8 @@
 import xpress as xp
 import pandas as pd
 import numpy as np
+from pathlib import Path
+from itertools import product
 from ExportSolutions import export_to_excel
 
 # ==========================================
@@ -9,22 +11,71 @@ from ExportSolutions import export_to_excel
 
 prob = xp.problem(name="Tier1")
 
-raw_data_df = pd.read_excel(
-    "C:\\Users\\gonza\\Desktop\\forecast.xlsx"
-)
+# Directory containing this .py file
+script_dir = Path(__file__).resolve().parent
+#Extracting forecasted data
+electricity_prices_df = pd.read_excel(script_dir/"Data/Forecasts/electricity_prices_low_normal_high.xlsx")
+electricity_demand_df = pd.read_excel(script_dir/"Data/Forecasts/demand_scenarios_2026-2027.xlsx")
+electricity_generation_df = pd.read_excel(script_dir/"Data/Forecasts/wind_scenarios_2026_2027 forcast.xlsx")
+hydrogen_prices_df = pd.read_excel(script_dir/"Data/Forecasts/hydrogen_prices_low_normal_high.xlsx")
 
-number_days = pd.to_datetime(raw_data_df["date"]).dt.date.nunique()
-number_scenarios=raw_data_df["Scenario"].nunique()
-scenario_probabilities=1/number_scenarios
+# Dictionary containing your dataframes
+dataframes = {
+    "electricity_price": electricity_prices_df,
+    "demand": electricity_demand_df,
+    "generation": electricity_generation_df,
+    "hydrogen_price": hydrogen_prices_df
+}
+
+# Extract scenario names from each dataframe
+scenario_columns = {
+    name: [col for col in df.columns if col != "date"]
+    for name, df in dataframes.items()
+}
+
+# Generate all possible combinations
+combinations = list(product(*scenario_columns.values()))
+
+print(f"Total scenarios: {len(combinations)}")
+
+# Generate NumPy arrays
+market_price = []
+demand = []
+generation = []
+hydrogen_price = []
+
+for combination in combinations:
+
+    arrays = [
+        df[column].to_numpy()
+        for df, column in zip(dataframes.values(), combination)
+    ]
+
+    market_price.append(arrays[0])
+    demand.append(arrays[1])
+    generation.append(arrays[2])
+    hydrogen_price.append(arrays[3])
+
+# Convert to NumPy arrays
+market_price = np.array(market_price)
+demand = np.array(demand)
+generation = np.array(generation)
+hydrogen_price = np.array(hydrogen_price)
+
+
+number_scenarios = market_price.shape[0]
+number_days=market_price.shape[1]
+
+
+scenario_probabilities=[1/number_scenarios]*number_scenarios
+
+
 
 # IMPORTANT:
 # Assumption: generation and demand are daily energy (MWh).
 # If the source is daily average MW, convert to MWh first.
-
-generation = (24*raw_data_df.pivot(index="Scenario",columns="date",values="total_MW").to_numpy(dtype=float))
-demand = (24*raw_data_df.pivot(index="Scenario",columns="date",values="demand").to_numpy(dtype=float))
-
-market_price = (raw_data_df.pivot(index="Scenario",columns="date",values="avg_price_£_per_MWh_after_imputation").to_numpy(dtype=float))
+demand=24*demand
+generation=24*generation
 
 surplus = np.maximum(generation - demand, 0)
 deficit = np.maximum(demand - generation, 0)
@@ -33,10 +84,10 @@ deficit = np.maximum(demand - generation, 0)
 # 2. PARAMETERS
 # ==========================================
 
-battery_cost = 240374.88     # GBP/MWh, assumed
-hydrogen_cost = 20000000 / 20 # GBP/MW #AI gave us the cost for an electrolyzer and we divide it by 20 to get the price per MW
+unit_battery_cost = 35000000
+#unit_battery_cost = 24037488     # GBP/unit, assumed
+unit_hydrogen_cost = 15000000  # GBP/unit
 
-hydrogen_price = 9.5         # GBP/kg
 #purchase_price = [abs(market_price[t])*2 for t in range(number_days)]          # GBP/MWh
 hydrogen_yield = 55.9        # kWh/kg
 
@@ -64,22 +115,28 @@ max_hydrogen_cap=max(float(surplus.max()), 0)*2
 # for numerical stability, not imposed as
 # arbitrary investment targets.
 
-max_battery_MW = max(float(surplus.max()), 0)
+max_battery_MW = 2*max(float(surplus.max()), 0)
 max_hydrogen_MW = max(float(surplus.max()), 0)
 
 # ==========================================
 # 3. INVESTMENT DECISION VARIABLES
 # ==========================================
 
-battery_installation = prob.addVariable(
-    name="battery_installation_MW",
-    lb=0
+battery_units = prob.addVariable(
+    vartype=xp.integer,
+    lb=0,
+    name="battery_units"
 )
 
-hydrogen_installation = prob.addVariable(
-    name="hydrogen_installation_MW",
-    lb=0
+electrolizer_units = prob.addVariable(
+    vartype=xp.integer,
+    lb=0,
+    name="electrolyzer_units"
 )
+
+battery_installation_MW=50*battery_units
+
+hydrogen_installation_MW=20*electrolizer_units
 
 # ==========================================
 # 4. DAILY OPERATION VARIABLES
@@ -112,7 +169,7 @@ is_discharging = [[prob.addVariable(vartype=xp.binary, name=f"is_discharging_{s+
 
 eta = prob.addVariable(
     name="eta",
-    lb=0
+    lb=-xp.infinity
 )
 
 z = [prob.addVariable(name=f"z_{s}",lb=0) for s in range(number_scenarios)]
@@ -154,7 +211,7 @@ demand_balance=[[
 # Battery energy capacity = 2 * MW
 
 battery_energy_capacity = (
-    battery_duration * battery_installation
+    battery_duration * battery_installation_MW
 )
 
 # Initial SoC = 20%
@@ -221,7 +278,7 @@ battery_discharge_limit = [[
 #Look into hydrogen storage
 hydrogen_capacity_limit = [[
     hydrogen_electricity[s][t]/24 <=
-    hydrogen_installation
+    hydrogen_installation_MW
     for t in range(number_days)
 ]for s in range(number_scenarios)]
 
@@ -232,7 +289,7 @@ hydrogen_capacity_limit = [[
 #]
 
 hydrogen_capacity_lb=[[
-    hydrogen_electricity[s][t]/24>=0.2*hydrogen_installation#-(1-produce_hydrogen[t])*max_hydrogen_cap*0.2
+    hydrogen_electricity[s][t]/24>=0.2*hydrogen_installation_MW#-(1-produce_hydrogen[t])*max_hydrogen_cap*0.2
     for t in range(number_days)
 ]for s in range(number_scenarios)]
 
@@ -243,11 +300,11 @@ hydrogen_capacity_lb=[[
 # One-time investment costs
 
 battery_capex = (
-    battery_energy_capacity * battery_cost
+    battery_units * unit_battery_cost
 )
 
 hydrogen_capex = (
-    hydrogen_installation * hydrogen_cost
+    electrolizer_units * unit_hydrogen_cost
 )
 
 total_capex = battery_capex + hydrogen_capex
@@ -258,14 +315,14 @@ hydrogen_revenue = [
     xp.Sum(
         hydrogen_electricity[s][t]
         * 1000 / hydrogen_yield
-        * hydrogen_price
+        * hydrogen_price[s][t]
         for t in range(number_days)
     )
     for s in range(number_scenarios)
 ]
 
 # Electricity profits
-electricity_profits = [
+electricity_revenue = [
     xp.Sum(
         electricity_sold[s][t] * market_price[s][t]
         for t in range(number_days)
@@ -275,7 +332,7 @@ electricity_profits = [
 
 # Expected net investment benefit
 net_investment_benefit = {
-    s: (hydrogen_revenue[s] + electricity_profits[s])
+    s: (hydrogen_revenue[s] + electricity_revenue[s]-annualised_capex)
     for s in range(number_scenarios)
 }
 
@@ -289,7 +346,7 @@ shortfall_constraint=[
 ]
 
 expected_profit=xp.Sum(
-    scenario_probabilities*net_investment_benefit[s]
+    scenario_probabilities[s]*net_investment_benefit[s]
     for s in range(number_scenarios)
 )
 # -----------------------------
@@ -322,32 +379,38 @@ prob.addConstraint(
 # ==========================================
 
 results=[]
-for alpha in np.arange(0.80,0.96,0.01):
+alphas = np.round(np.append(np.arange(0.80, 0.96, 0.05), 0.99), 2)
+for alpha in alphas:
     for lambda_ in np.arange(0,1.01,0.1):
         cvar = eta - (1 / (1 - alpha)) * xp.Sum(
-            scenario_probabilities * z[s]
+            scenario_probabilities[s] * z[s]
             for s in range(number_scenarios)
     )
         objective = (
             (1 - lambda_) * expected_profit
-            + lambda_ * cvar - annualised_capex
+            + lambda_ * cvar
         )
 
         prob.setObjective(
             objective,
             sense=xp.maximize
         )
+        print("======================")
+        print("ITERATION DONE")
+        print("======================")
         print(alpha)
+        print(lambda_)
         prob.solve()
 
         results.append({
-            "aplha":alpha,
+            "alpha":alpha,
             "lambda": lambda_,
             "objective": prob.getObjVal(),
             "expected_profit": prob.getSolution(expected_profit),
             "cvar": prob.getSolution(cvar),
-            "Battery":prob.getSolution(battery_installation),
-            "Hydrogen":prob.getSolution(hydrogen_installation)
+            "eta":prob.getSolution(eta),
+            "Battery":prob.getSolution(battery_units),
+            "Hydrogen":prob.getSolution(electrolizer_units)
         })
 
     iterations=pd.DataFrame(results)

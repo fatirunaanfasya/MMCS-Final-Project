@@ -1,9 +1,9 @@
 \Written from user model (presolvestate=0x680061)
 \Problem name: Tier1                                                            
-\FICO Xpress v9.9.0, Hyper, written 19:59:50, Nov 20, 2026
+\FICO Xpress v9.9.0, Hyper, written 14:00:42, Nov 27, 2026
 
 Maximize
-__OBJ___: - 480749.76 battery_installation_MW - 1000000 hydrogen_installation_MW
+__OBJ___: - 700000 battery_installation_MW - 750000 hydrogen_installation_MW
  + 169.94633273703042 hydrogen_electricity_1
  + 169.94633273703042 hydrogen_electricity_2
  + 169.94633273703042 hydrogen_electricity_3
